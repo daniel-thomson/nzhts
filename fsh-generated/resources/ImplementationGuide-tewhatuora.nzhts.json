@@ -7927,6 +7927,22 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mdr-26-0"
+        },
+        "description": "FHIR CodeSystem for MedDRA LLT 26.0",
+        "exampleBoolean": false,
+        "name": "MedDRA LLT 26.0 CS"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mdr-27-0"
+        },
+        "description": "FHIR CodeSystem for MedDRA LLT 27.0",
+        "exampleBoolean": false,
+        "name": "MedDRA LLT 27.0 CS"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/meddra-code-26-0"
         },
         "description": "FHIR ValueSet for MedDRA LLT 26.0",

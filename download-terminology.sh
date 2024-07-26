@@ -41,9 +41,8 @@ for base_url in "${BASE_URLS[@]}"; do
     # Fetch and save each fullUrl response
     fetch_and_save "$full_url" "$output_file"
   done
+  rm -rf "$main_output_file"
 done
 
-# Delete the main response file
-rm -rf input/resources/CodeSystem.json
-rm -rf input/resources/ValueSet.json
+# Delete giant nzmt codeSystem
 rm -rf input/resources/nzmt.json
