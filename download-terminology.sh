@@ -1,34 +1,38 @@
 #!/bin/bash
 
-# script to download terminology resources from NZHTS. Retrieves list of 
-# each resource type from the BASE_URLS list then retrieves each resource 
-# by the fullURL and saves them to the input/resources/ directory
+# script to download terminology resources from NZHTS. Uses curl and jq 
+# as using sed, awk, etc. to parse json wasn't a good time
 
-# Base URLs
-BASE_URLS=(
+RESOURCETYPE_URLS=(
   "https://nzhts.digital.health.nz/fhir/CodeSystem/"
   "https://nzhts.digital.health.nz/fhir/ValueSet/"
-
 )
 
 # Create directory if it doesn't exist and clear its contents if it does
 mkdir -p input/resources/
 rm -rf input/resources/*
 
-# Function to make API calls and save responses
+# Function to call curl and save the response to a file
 fetch_and_save() {
   local url=$1
   local output_file=$2
   curl -s "$url" -o "$output_file"
-  echo "saving $output_file"
+  # Check file size and delete if over 5mb
+  file_size=$(stat -c%s "$output_file")
+  if [[ $file_size -gt 5242880 ]]; then
+    rm -rf "$output_file"
+    echo "deleting $output_file as file size is over 5MB (actual size is $file_size)"
+  else
+    echo "saving $output_file"
+  fi
 }
 
-# Loop through base URLs
-for base_url in "${BASE_URLS[@]}"; do
-  # Fetch the main response
+# Loop through search of each resource type to save
+for base_url in "${RESOURCETYPE_URLS[@]}"; do
+  # Fetch the list of resources
   main_response=$(curl -s "$base_url")
   
-  # Save the main response
+  # Save the response with the fullUrls to retreive
   main_output_file="input/resources/$(basename $base_url).json"
   echo "$main_response" > "$main_output_file"
   
@@ -44,5 +48,3 @@ for base_url in "${BASE_URLS[@]}"; do
   rm -rf "$main_output_file"
 done
 
-# Delete giant nzmt codeSystem
-rm -rf input/resources/nzmt.json
