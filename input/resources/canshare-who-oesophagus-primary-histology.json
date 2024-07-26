@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "canshare-who-oesophagus-primary-histology",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-07-25T17:30:01.429+12:00",
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "code": "SUBSETTED",
+        "display": "Resource encoded in summary mode"
+      }
+    ]
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-oesophagus-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-oesophagus-primary-histology"
+    }
+  ],
+  "version": "20240416",
+  "name": "canshare-who-oesophagus-primary-histology",
+  "title": "NZ WHO oesophagus primary histology",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-04-16",
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ]
+}

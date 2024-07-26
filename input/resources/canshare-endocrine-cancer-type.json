@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "canshare-endocrine-cancer-type",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-07-25T17:28:37.953+12:00",
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "code": "SUBSETTED",
+        "display": "Resource encoded in summary mode"
+      }
+    ]
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-endocrine-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-endocrine-cancer-type"
+    }
+  ],
+  "version": "20240708",
+  "name": "canshare-endocrine-cancer-type",
+  "title": "NZ cancer endocrine cancer type",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-07-08",
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ]
+}

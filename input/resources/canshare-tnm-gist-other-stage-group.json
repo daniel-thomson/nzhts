@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "canshare-tnm-gist-other-stage-group",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-07-25T17:29:51.815+12:00",
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "code": "SUBSETTED",
+        "display": "Resource encoded in summary mode"
+      }
+    ]
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-gist-other-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-gist-other-stage-group"
+    }
+  ],
+  "version": "20240318",
+  "name": "canshare-tnm-gist-other-stage-group",
+  "title": "NZ AJCC gastrointestinal stromal tumour small intestine and/or oesophageal and/or colon and/or rectum and/or mesenteric and/or peritoneal stage group ",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "6a49d287-a077-454b-90cd-14d56e0ab089",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-07-25T17:29:44.448+12:00",
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "code": "SUBSETTED",
+        "display": "Resource encoded in summary mode"
+      }
+    ]
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/air-route-of-administration",
+  "version": "0.4.0",
+  "name": "AIRRouteofAdministration",
+  "title": "AIR route of administration",
+  "status": "draft",
+  "date": "2023-05-20T00:00:00.000Z",
+  "publisher": "HISO",
+  "contact": [
+    {
+      "name": "HISO",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "Standards@health.govt.nz"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "canshare-tnm9-female-genital-cervix-uteri-cm",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-07-25T17:30:07.028+12:00",
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "code": "SUBSETTED",
+        "display": "Resource encoded in summary mode"
+      }
+    ]
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm9-female-genital-cervix-uteri-cm",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm9-female-genital-cervix-uteri-cm"
+    }
+  ],
+  "version": "20240725",
+  "name": "canshare-tnm9-female-genital-cervix-uteri-cm",
+  "title": "NZ AJCC (9th edition) female genital cervix uteri clinical M category",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-07-25",
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ]
+}
