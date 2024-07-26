@@ -174,6 +174,13 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/6b457b6d-56c9-4bd4-8a66-aebabb4050ec"
+        },
+        "exampleBoolean": false,
+        "name": "99NZREL – Relationship to Snomed"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/7cb97863-abf1-419f-8c4a-005adb789c18"
         },
         "exampleBoolean": false,
@@ -265,6 +272,13 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/Meddra-SnomedCT-ConceptMap"
+        },
+        "exampleBoolean": false,
+        "name": "MedDra to SNOMED CT Mapping"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/NZRhFCarePlanCategory"
         },
         "exampleBoolean": false,
@@ -311,6 +325,13 @@
         },
         "exampleBoolean": false,
         "name": "Oral health enrolment termination reason code"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/SnomedCT-Meddra-ConceptMap"
+        },
+        "exampleBoolean": false,
+        "name": "SNOMED CT to MedDra Mapping"
       },
       {
         "reference": {
@@ -1872,6 +1893,13 @@
         },
         "exampleBoolean": false,
         "name": "NZ systemic anti-cancer therapy toxicity discontinue reason"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/canshare-select-valueset-map"
+        },
+        "exampleBoolean": false,
+        "name": "CanShare select ValueSet ConceptMap"
       },
       {
         "reference": {
@@ -7041,6 +7069,13 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/nzmt-ctpp-mpuu"
+        },
+        "exampleBoolean": false,
+        "name": "NZMT - CTPP to MPUU Map"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nzmt-ctpp"
         },
         "exampleBoolean": false,
@@ -7076,6 +7111,13 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/nzmt-tp-mp"
+        },
+        "exampleBoolean": false,
+        "name": "NZMT - TP to MP Map"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nzmt-tp"
         },
         "exampleBoolean": false,
@@ -7087,6 +7129,13 @@
         },
         "exampleBoolean": false,
         "name": "NZMT - TPP"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/nzmt-tpuu-mp"
+        },
+        "exampleBoolean": false,
+        "name": "NZMT - TPUU to MP Map"
       },
       {
         "reference": {
@@ -7237,6 +7286,13 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/read-snomed-map"
+        },
+        "exampleBoolean": false,
+        "name": "Read v2 to SNOMED CT map"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/reason-medication-status-codes"
         },
         "exampleBoolean": false,
@@ -7318,6 +7374,27 @@
         },
         "exampleBoolean": false,
         "name": "Scope of practice"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/snomed-read-acc-map"
+        },
+        "exampleBoolean": false,
+        "name": "SNOMED CT to Read v2 ACC translation table"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/snomed-read-map"
+        },
+        "exampleBoolean": false,
+        "name": "SNOMED CT to Read v2 map"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/snomed-read-msd-map"
+        },
+        "exampleBoolean": false,
+        "name": "SNOMED CT to Read v2 MSD translation table"
       },
       {
         "reference": {

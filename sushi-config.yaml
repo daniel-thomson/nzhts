@@ -76,7 +76,10 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  CodeSystems: artifacts.html#terminology-code-systems
+  ValueSets: artifacts.html#terminology-value-sets
+  ConceptMaps: artifacts.html#terminology-concept-maps
+  All Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

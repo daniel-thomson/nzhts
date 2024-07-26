@@ -1,1 +1,1 @@
-Prototyping generating NZHTS IG from NZHTS API
+Test generating NZHTS IG from NZHTS API

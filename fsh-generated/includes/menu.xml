@@ -14,6 +14,15 @@
     <a href="index.html">Home</a>
   </li>
   <li>
-    <a href="artifacts.html">Artifacts</a>
+    <a href="artifacts.html#terminology-code-systems">CodeSystems</a>
+  </li>
+  <li>
+    <a href="artifacts.html#terminology-value-sets">ValueSets</a>
+  </li>
+  <li>
+    <a href="artifacts.html#terminology-concept-maps">ConceptMaps</a>
+  </li>
+  <li>
+    <a href="artifacts.html">All Artifacts</a>
   </li>
 </ul>

@@ -4,6 +4,7 @@
 API_URLS=(
     "https://nzhts.digital.health.nz/fhir/CodeSystem"
     "https://nzhts.digital.health.nz/fhir/ValueSet"
+    "https://nzhts.digital.health.nz/fhir/ConceptMap"
 )
 OUTPUT_DIR="./input/resources"
 
