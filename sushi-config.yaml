@@ -78,7 +78,6 @@ menu:
   Home: index.html
   CodeSystems: artifacts.html#terminology-code-systems
   ValueSets: artifacts.html#terminology-value-sets
-  ConceptMaps: artifacts.html#terminology-concept-maps
   All Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
@@ -210,3 +209,16 @@ menu:
 #   if InstanceOf references a profile:
 #
 #   setId: always # always | standalone-only
+parameters:
+  no-narrative: 
+    - CodeSystem/*
+    - ValueSet/*
+    - ConceptMap/*
+  no-validate: 
+    - CodeSystem/*
+    - ValueSet/*
+    - ConceptMap/*
+  no-check-usage:
+    - CodeSystem/*
+    - ValueSet/*
+    - ConceptMap/*

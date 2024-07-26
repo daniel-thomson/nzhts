@@ -1,26 +1,49 @@
 #!/bin/bash
 
-# Define the API endpoints and the output directory
-API_URLS=(
-    "https://nzhts.digital.health.nz/fhir/CodeSystem"
-    "https://nzhts.digital.health.nz/fhir/ValueSet"
-    "https://nzhts.digital.health.nz/fhir/ConceptMap"
+# script to download terminology resources from NZHTS. Retrieves list of 
+# each resource type from the BASE_URLS list then retrieves each resource 
+# by the fullURL and saves them to the input/resources/ directory
+
+# Base URLs
+BASE_URLS=(
+  "https://nzhts.digital.health.nz/fhir/CodeSystem/"
+  "https://nzhts.digital.health.nz/fhir/ValueSet/"
+
 )
-OUTPUT_DIR="./input/resources"
 
-# Create the output directory if it doesn't exist
-mkdir -p $OUTPUT_DIR
+# Create directory if it doesn't exist and clear its contents if it does
+mkdir -p input/resources/
+rm -rf input/resources/*
 
-# Delete the contents of the output directory if it exists
-rm -rf $OUTPUT_DIR/*
+# Function to make API calls and save responses
+fetch_and_save() {
+  local url=$1
+  local output_file=$2
+  curl -s "$url" -o "$output_file"
+  echo "saving $output_file"
+}
 
-# Fetch data from each API endpoint and process the results
-for API_URL in "${API_URLS[@]}"; do
-    response=$(curl -s $API_URL)
-    echo $response | jq -c '.entry[].resource' | while read -r resource; do
-        id=$(echo $resource | jq -r '.id')
-        echo $resource | jq '.' > "$OUTPUT_DIR/$id.json"
-    done
+# Loop through base URLs
+for base_url in "${BASE_URLS[@]}"; do
+  # Fetch the main response
+  main_response=$(curl -s "$base_url")
+  
+  # Save the main response
+  main_output_file="input/resources/$(basename $base_url).json"
+  echo "$main_response" > "$main_output_file"
+  
+  # Extract fullUrl values and loop through them
+  full_urls=$(echo "$main_response" | jq -r '.entry[].fullUrl')
+  for full_url in $full_urls; do
+    # Define output file name
+    output_file="input/resources/$(basename $full_url).json"
+    
+    # Fetch and save each fullUrl response
+    fetch_and_save "$full_url" "$output_file"
+  done
 done
 
-echo "Terminology resources saved"
+# Delete the main response file
+rm -rf input/resources/CodeSystem.json
+rm -rf input/resources/ValueSet.json
+rm -rf input/resources/nzmt.json
