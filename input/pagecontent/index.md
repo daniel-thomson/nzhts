@@ -1,7 +1,7 @@
 
 ## IG Purpose
 
-This FHIR IG contains the terminology artefacts from the [New Zealand Health Terminology service](https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/terminology-service/) so it can be included as a dependency in other Implementation guides using NZHTS mastered terminology. It is  generated from the NZHTS FHIR API.   
+This FHIR IG contains terminology artefacts from the [New Zealand Health Terminology service](https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/terminology-service/) so they can be included as a package dependency in other Implementation guides that use NZHTS mastered terminology. It is  generated from the NZHTS FHIR API.   
 
 ## Version
 
