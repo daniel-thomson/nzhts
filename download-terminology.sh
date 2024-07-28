@@ -1,14 +1,15 @@
 #!/bin/bash
 
-# script to download terminology resources from NZHTS. Uses curl and jq 
-# as using sed, awk, etc. to parse json wasn't a good time
+# download terminology resources from NZHTS. Uses jq 
+# for json parsing as sed, awk, etc don't do it well
 
 RESOURCETYPE_URLS=(
   "https://nzhts.digital.health.nz/fhir/CodeSystem/"
   "https://nzhts.digital.health.nz/fhir/ValueSet/"
+  "https://nzhts.digital.health.nz/fhir/ConceptMap/"
 )
 
-# Create directory if it doesn't exist and clear its contents if it does
+# Create directory if it doesn't exist and make sure it's empty
 mkdir -p input/resources/
 rm -rf input/resources/*
 
@@ -17,17 +18,26 @@ fetch_and_save() {
   local url=$1
   local output_file=$2
   curl -s "$url" -o "$output_file"
-  # Check file size and delete if over 5mb
+  # Check file size and delete if over 5MB
   file_size=$(stat -c%s "$output_file")
   if [[ $file_size -gt 5242880 ]]; then
     rm -rf "$output_file"
-    echo "deleting $output_file as file size is over 5MB (actual size is $file_size)"
+    echo "discarding $output_file as file size is over 5MB (actual size is $file_size)"
   else
     echo "saving $output_file"
   fi
 }
 
-# Loop through search of each resource type to save
+# Check if jq is installed and install it if it isn't
+if ! command -v jq &> /dev/null; then
+  echo "jq is not installed. Trying to install it..."
+  sudo apt update
+  sudo apt install -y jq
+else
+  echo "jq is already installed"
+fi
+
+# Loop through search result of each resource type and save each resource
 for base_url in "${RESOURCETYPE_URLS[@]}"; do
   # Fetch the list of resources
   main_response=$(curl -s "$base_url")
@@ -47,4 +57,3 @@ for base_url in "${RESOURCETYPE_URLS[@]}"; do
   done
   rm -rf "$main_output_file"
 done
-

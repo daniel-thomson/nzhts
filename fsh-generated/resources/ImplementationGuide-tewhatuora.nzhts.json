@@ -189,6 +189,13 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/6b457b6d-56c9-4bd4-8a66-aebabb4050ec"
+        },
+        "exampleBoolean": false,
+        "name": "99NZREL – Relationship to Snomed"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/7cb97863-abf1-419f-8c4a-005adb789c18"
         },
         "description": "A value set of codes for the functions performed by vaccinators.",
@@ -290,6 +297,14 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/Meddra-SnomedCT-ConceptMap"
+        },
+        "description": "A FHIR ConceptMap From Medical Dictionary for Regulatory Activities to SNOMED CT",
+        "exampleBoolean": false,
+        "name": "MedDra to SNOMED CT Mapping"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/NZRhFCarePlanCategory"
         },
         "description": "Value set to support FHIR resource for identifying the rheumatic fever care plan being provided.",
@@ -339,6 +354,14 @@
         },
         "exampleBoolean": false,
         "name": "Oral health enrolment termination reason code"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/SnomedCT-Meddra-ConceptMap"
+        },
+        "description": "A FHIR ConceptMap From SNOMED CT to Medical Dictionary for Regulatory Activities",
+        "exampleBoolean": false,
+        "name": "SNOMED CT to MedDra Mapping"
       },
       {
         "reference": {
@@ -2122,6 +2145,13 @@
         "description": "Toxicity factors that may result in the discontinuation of a systemic anti-cancer therapy (SACT) treatment.",
         "exampleBoolean": false,
         "name": "NZ systemic anti-cancer therapy toxicity discontinue reason"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/canshare-select-valueset-map"
+        },
+        "exampleBoolean": false,
+        "name": "CanShare select ValueSet ConceptMap"
       },
       {
         "reference": {
@@ -8023,6 +8053,14 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/nzmt-ctpp-mpuu"
+        },
+        "description": "Mapping of related MPUU concepts for a given CTPP",
+        "exampleBoolean": false,
+        "name": "NZMT - CTPP to MPUU Map"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nzmt-ctpp"
         },
         "exampleBoolean": false,
@@ -8059,6 +8097,14 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/nzmt-tp-mp"
+        },
+        "description": "Mapping of related MP concepts for a given TP",
+        "exampleBoolean": false,
+        "name": "NZMT - TP to MP Map"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nzmt-tp"
         },
         "exampleBoolean": false,
@@ -8070,6 +8116,14 @@
         },
         "exampleBoolean": false,
         "name": "NZMT - TPP"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/nzmt-tpuu-mp"
+        },
+        "description": "Mapping of related MP concepts for a given TPUU",
+        "exampleBoolean": false,
+        "name": "NZMT - TPUU to MP Map"
       },
       {
         "reference": {
@@ -8232,6 +8286,14 @@
       },
       {
         "reference": {
+          "reference": "ConceptMap/read-snomed-map"
+        },
+        "description": "Read v2 to SNOMED CT map",
+        "exampleBoolean": false,
+        "name": "Read v2 to SNOMED CT map"
+      },
+      {
+        "reference": {
           "reference": "ValueSet/reason-medication-status-codes"
         },
         "description": "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
@@ -8325,6 +8387,30 @@
         "description": "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.",
         "exampleBoolean": false,
         "name": "Scope of practice"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/snomed-read-acc-map"
+        },
+        "description": "SNOMED CT to Read v2 ACC translation table",
+        "exampleBoolean": false,
+        "name": "SNOMED CT to Read v2 ACC translation table"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/snomed-read-map"
+        },
+        "description": "SNOMED CT to Read v2 map",
+        "exampleBoolean": false,
+        "name": "SNOMED CT to Read v2 map"
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/snomed-read-msd-map"
+        },
+        "description": "SNOMED CT to Read v2 MSD translation table ",
+        "exampleBoolean": false,
+        "name": "SNOMED CT to Read v2 MSD translation table"
       },
       {
         "reference": {
