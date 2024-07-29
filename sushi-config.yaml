@@ -78,7 +78,6 @@ menu:
   Home: index.html
   CodeSystems: artifacts.html#terminology-code-systems
   ValueSets: artifacts.html#terminology-value-sets
-  ConceptMaps: artifacts.html#terminology-concept-maps
   All Artefacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
