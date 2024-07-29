@@ -6,7 +6,6 @@
 RESOURCETYPE_URLS=(
   "https://nzhts.digital.health.nz/fhir/CodeSystem/"
   "https://nzhts.digital.health.nz/fhir/ValueSet/"
-  "https://nzhts.digital.health.nz/fhir/ConceptMap/"
 )
 
 # Create directory if it doesn't exist and make sure it's empty
