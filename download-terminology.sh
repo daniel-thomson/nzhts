@@ -11,13 +11,13 @@ RESOURCES_TO_EXPAND_AND_SAVE=(
 
 count_param="&count=100"
 nzhts_expansion_prefix="https://nzhts.digital.health.nz/fhir/ValueSet/\$expand?url="
-BEARER_TOKEN="todo"
+BEARER_TOKEN=""
 
-# Create directory if it doesn't exist and make sure it's empty
+# Create output directory if it doesn't exist and make sure it's empty
 mkdir -p input/resources/
 rm -rf input/resources/*
 
-# Function to call curl and save the response to a file
+# Make request and save the response to a file
 fetch_and_save() {
   local url=$1
   local output_file=$2
@@ -26,7 +26,7 @@ fetch_and_save() {
   file_size=$(stat -c%s "$output_file")
   if [[ $file_size -gt 5242880 ]]; then
     rm -rf "$output_file"
-    echo "discarding $output_file as file size is over 5MB (actual size is $file_size)"
+    echo "skipping $output_file as file size is over 5MB (actual size is $file_size)"
   else
     echo "saving $output_file"
   fi
