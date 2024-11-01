@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/antiviral-eligibility-symptoms-started",
+  "expansion": {
+    "identifier": "2139c225-5be2-477a-a315-280591678605",
+    "timestamp": "2024-11-01T20:22:07+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/antiviral-eligibility-when-symptoms-started-codes|20230811"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/antiviral-eligibility-when-symptoms-started-codes",
+        "code": "not-recent",
+        "display": "More than 5 days ago if assessing for nirmaltrelvir with ritonavir; and molnupiravir, OR more than 7 days ago if assessing for remdesivir"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/antiviral-eligibility-when-symptoms-started-codes",
+        "code": "within-five-days",
+        "display": "Within the last 5 days (if considering nirmatrelvir with ritonavir or molnupiravir)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/antiviral-eligibility-when-symptoms-started-codes",
+        "code": "within-seven-days",
+        "display": "Within the last 7 days (if considering remdesivir)"
+      }
+    ]
+  },
+  "id": "antiviral-eligibility-symptoms-started"
+}

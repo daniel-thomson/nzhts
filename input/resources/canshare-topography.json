@@ -1,1 +1,647 @@
-{"resourceType":"ValueSet","id":"canshare-topography","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:50.799+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-topography","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-topography"}],"version":"20240318","name":"canshare-topography","title":"NZ cancer topography","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A body location used to describe the point of origin for a cancer type, a specimen, a procedure location, or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 253141000210105 |New Zealand cancer topography reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:28.666+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-topography"
+    }
+  ],
+  "version": "20241029",
+  "name": "canshare-topography",
+  "title": "NZ cancer topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "d6d4e674-44fa-40a8-bde3-eab51c0d5744",
+    "timestamp": "2024-11-01T20:23:23+13:00",
+    "total": 1344,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished|1"
+      },
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1304150006",
+        "display": "Epicardium"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "1340143004",
+        "display": "Intrahepatic bile duct"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "7283002",
+        "display": "Base of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "38254008",
+        "display": "Adrenal medulla structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "75061007",
+        "display": "Aortic body"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244190004",
+        "display": "Central plantar skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244083007",
+        "display": "Glabella skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "279800004",
+        "display": "Inferior epigastric lymph node group"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "9659009",
+        "display": "Infraclavicular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "127929009",
+        "display": "Left upper paratracheal (supra-aortic) mediastinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "2048000",
+        "display": "Lingual tonsil structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "10887006",
+        "display": "Mucous membrane of bronchiole"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "11522000",
+        "display": "Olfactory nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244084001",
+        "display": "Perinasal skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "91362006",
+        "display": "Rhinencephalon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "127935009",
+        "display": "Right lower paratracheal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244098009",
+        "display": "Skin of angle of jaw"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "181510006",
+        "display": "Skin of iliac fossa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "47224004",
+        "display": "Skin of posterior surface of lower leg"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244099001",
+        "display": "Skin of side of chin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244096008",
+        "display": "Skin of side of jaw"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244136007",
+        "display": "Skin over biceps"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244189008",
+        "display": "Skin over head of metatarsal bone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "37579005",
+        "display": "Skin structure between index finger and middle finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "47239003",
+        "display": "Skin structure between thumb and index finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "244137003",
+        "display": "Skin structure of anterolateral region of upper arm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "23547007",
+        "display": "Skin structure of deltoid region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "43022006",
+        "display": "Skin structure of dorsal surface of fifth toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "37314006",
+        "display": "Skin structure of dorsal surface of index finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466751000210105",
+        "display": "Skin structure of dorsal surface of web of finger between middle finger and ring finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "870718008",
+        "display": "Skin structure of dorsum of nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "2059009",
+        "display": "Skin structure of ear lobule"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466701000210109",
+        "display": "Skin structure of fingertip of little finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466711000210106",
+        "display": "Skin structure of fingertip of middle finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "68698007",
+        "display": "Skin structure of forehead"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "367578008",
+        "display": "Skin structure of hypogastric region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "89784008",
+        "display": "Skin structure of hypothenar region of palm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "5272005",
+        "display": "Skin structure of lateral portion of neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "19601002",
+        "display": "Skin structure of lateral surface of thumb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "58930001",
+        "display": "Skin structure of lateral surface of upper arm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "699915001",
+        "display": "Skin structure of lower chest wall"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "31974000",
+        "display": "Skin structure of medial surface of second toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466781000210100",
+        "display": "Skin structure of palmar surface of web of finger between index finger and middle finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466811000210102",
+        "display": "Skin structure of palmar surface of web of finger between thumb and index finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "81563004",
+        "display": "Skin structure of plantar surface of fourth toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "34016008",
+        "display": "Skin structure of plantar surface of second toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "699924005",
+        "display": "Skin structure of posterior part of heel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "41550009",
+        "display": "Skin structure of posterior surface of forearm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "113180009",
+        "display": "Skin structure of suprasternal notch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "26795005",
+        "display": "Skin structure of thenar region of palm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466731000210104",
+        "display": "Skin structure of tip of thumb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "3062004",
+        "display": "Spinal arachnoid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "245796006",
+        "display": "Structure of anterior part of alveolar process of mandible"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "82521001",
+        "display": "Structure of anterior wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "50858009",
+        "display": "Structure of anterior wall of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "395661000210103",
+        "display": "Structure of aortocaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "86682003",
+        "display": "Structure of ceruminous gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "369274003",
+        "display": "Structure of choroid plexus of fourth ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "65266007",
+        "display": "Structure of deep inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "196751009",
+        "display": "Structure of diaphragmatic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "367608002",
+        "display": "Structure of dome of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "113319005",
+        "display": "Structure of femoral nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "196587000",
+        "display": "Structure of lateral pericardial lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1285494001",
+        "display": "Structure of left hilar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "381941000210107",
+        "display": "Structure of left hilar lymph node station ten left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1285496004",
+        "display": "Structure of left interlobar lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "381961000210108",
+        "display": "Structure of left interlobar lymph node station eleven left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1285491009",
+        "display": "Structure of left lymph node of pulmonary ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1285502005",
+        "display": "Structure of left subsegmental lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "382021000210108",
+        "display": "Structure of left subsegmental lymph node station fourteen left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "16217501000119107",
+        "display": "Structure of left supraclavicular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "381811000210100",
+        "display": "Structure of left supraclavicular lymph node station one left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "381831000210107",
+        "display": "Structure of left upper paratracheal (supra-aortic) mediastinal lymph node station two left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "76878005",
+        "display": "Structure of lymph node of greater curvature of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "279784003",
+        "display": "Structure of lymph node of lesser curvature of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "24507007",
+        "display": "Structure of mesoappendix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466101000210108",
+        "display": "Structure of middle jugular level III lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466621000210106",
+        "display": "Structure of molar region alveolar process"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "31386006",
+        "display": "Structure of mucous membrane of adenoid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "770835002",
+        "display": "Structure of nail plate of little finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "770843007",
+        "display": "Structure of nail plate of second toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1849007",
+        "display": "Structure of pharyngeal recess"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "42575006",
+        "display": "Structure of pituitary fossa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "35806005",
+        "display": "Structure of postcricoid region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "395681000210106",
+        "display": "Structure of precaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "455911000210107",
+        "display": "Structure of retro pancreatic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "395691000210108",
+        "display": "Structure of retrocaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "381861000210103",
+        "display": "Structure of right lower paratracheal lymph node station station four right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1285490005",
+        "display": "Structure of right lymph node of pulmonary ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1285499006",
+        "display": "Structure of right segmental lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "381991000210103",
+        "display": "Structure of right segmental lymph node station thirteen right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "41519007",
+        "display": "Structure of sciatic nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "280824006",
+        "display": "Structure of splenic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "87948002",
+        "display": "Structure of squamocolumnar junction of uterine cervix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "455931000210100",
+        "display": "Structure of submandibular sublevel IB lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "60105000",
+        "display": "Structure of tapetum of corpus callosum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "4566004",
+        "display": "Structure of tentorium cerebelli"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "466091000210101",
+        "display": "Structure of upper jugular sublevel IIB lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "5394000",
+        "display": "Structure of uterine paracervical lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "23224007",
+        "display": "Structure of zygomatic process of maxilla"
+      }
+    ]
+  },
+  "id": "canshare-topography"
+}

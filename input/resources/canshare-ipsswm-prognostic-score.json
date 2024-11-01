@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-ipsswm-prognostic-score","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:51.467+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ipsswm-prognostic-score","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-ipsswm-prognostic-score"}],"version":"20240318","name":"canshare-ipsswm-prognostic-score","title":"NZ cancer IPSS for Waldenstrom Macroglobulinemia prognostic score","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The prognostic score for Waldenstrom Macroglobulinemia, defined using the International Scoring System for Waldenstrom Macroglobulinemia (IPSSWM).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 294961000210101 |New Zealand cancer IPSS for Waldenstrom Macroglobulinemia prognostic score reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:25.033+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ipsswm-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-ipsswm-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-ipsswm-prognostic-score",
+  "title": "NZ cancer IPSS for Waldenstrom Macroglobulinemia prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "4dee968c-778d-4215-8ec9-2e0fb0d825e3",
+    "timestamp": "2024-11-01T20:21:08+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296611000210100",
+        "display": "International Prognostic Scoring System for Waldenstrom Macroglobulinemia risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296601000210102",
+        "display": "International Prognostic Scoring System for Waldenstrom Macroglobulinemia risk group intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296591000210107",
+        "display": "International Prognostic Scoring System for Waldenstrom Macroglobulinemia risk group low"
+      }
+    ]
+  },
+  "id": "canshare-ipsswm-prognostic-score"
+}

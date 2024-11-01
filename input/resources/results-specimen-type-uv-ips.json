@@ -1,1 +1,540 @@
-{"resourceType":"ValueSet","id":"results-specimen-type-uv-ips","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:07.954+12:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  123038009 (Specimen)</li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":2,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}}],"url":"http://hl7.org/fhir/uv/ips/ValueSet/results-specimen-type-uv-ips","version":"1.1.0","name":"ResultsSpecimenTypeUvIps","title":"Results Specimen Type - IPS","status":"active","experimental":false,"date":"2022-11-22T03:32:52+00:00","publisher":"Health Level Seven International - Patient Care Work Group","contact":[{"telecom":[{"system":"url","value":"http://www.hl7.org/Special/committees/patientcare"}]}],"description":"IPS Specimen Type value set. This value set includes a set of codes from SNOMED CT that may be used to represent specimen types.","jurisdiction":[{"coding":[{"system":"http://unstats.un.org/unsd/methods/m49/m49.htm","code":"001"}]}],"immutable":false,"copyright":"The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"123038009"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:40.630+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/uv/ips/ValueSet/results-specimen-type-uv-ips",
+  "version": "1.1.0",
+  "name": "ResultsSpecimenTypeUvIps",
+  "title": "Results Specimen Type - IPS",
+  "status": "active",
+  "experimental": false,
+  "copyright": "The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org",
+  "expansion": {
+    "identifier": "357c481a-1312-4133-950d-6cdb32c9e66a",
+    "timestamp": "2024-11-01T20:24:22+13:00",
+    "total": 1800,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446302006",
+        "display": "Air specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "704243004",
+        "display": "Animal head specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16212331000119108",
+        "display": "Autoclave ampule submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "866033003",
+        "display": "Blood specimen in aerobic blood culture bottle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "866032008",
+        "display": "Blood specimen in anaerobic blood culture bottle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258585008",
+        "display": "Bone marrow trephine specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447345009",
+        "display": "Bronchial fluid specimen obtained from bronchial trap"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309102001",
+        "display": "Cartilage biopsy specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309101008",
+        "display": "Cartilage specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110956007",
+        "display": "Colonic cytologic material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15650531000119105",
+        "display": "Colorectal junction neoplasm tissue specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "433801000124107",
+        "display": "Combined nasopharyngeal and oropharyngeal swab"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16216531000119102",
+        "display": "Common bile duct specimen obtained by lavage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258599007",
+        "display": "Contact lens solution specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119338009",
+        "display": "Dentin specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "898205005",
+        "display": "Dried plasma spot specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16216211000119105",
+        "display": "Endocervical aspirate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110941003",
+        "display": "Epididymis cytologic material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309116006",
+        "display": "Excised ligament specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309485009",
+        "display": "Excised sublingual gland specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "430117006",
+        "display": "Eye region cytologic material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309118007",
+        "display": "Fascia biopsy specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446908003",
+        "display": "Fluid specimen from mucocele of lacrimal sac"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16212691000119100",
+        "display": "Gingiva biopsy specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472943005",
+        "display": "Heyer-Pudenz valve submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35321000087105",
+        "display": "Implantable defibrillator component submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119313004",
+        "display": "Implantable venous catheter submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472941007",
+        "display": "Intracranial ventricular catheter tip submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309115005",
+        "display": "Ligament biopsy specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "384744003",
+        "display": "Lymph node from sentinel lymph node dissection and axillary dissection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309181006",
+        "display": "Mastoid biopsy specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258466008",
+        "display": "Middle ear fluid specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309549006",
+        "display": "Minor salivary gland specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309180007",
+        "display": "Nasopharyngeal biopsy specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258467004",
+        "display": "Nasopharyngeal washings"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418932006",
+        "display": "Oral swab"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110931001",
+        "display": "Penis cytologic material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110959000",
+        "display": "Placenta cytologic material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122633005",
+        "display": "Polyp from stomach obtained by polypectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "473433009",
+        "display": "Protected specimen brush submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110942005",
+        "display": "Rectal cytologic material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733482006",
+        "display": "Second void urine specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122590004",
+        "display": "Serum specimen from patient"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "473432004",
+        "display": "Settle culture plate submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258505006",
+        "display": "Skin ulcer swab"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446972001",
+        "display": "Specimen from abscess obtained by aspiration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122658000",
+        "display": "Specimen from ampulla of Vater obtained by ampullectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422991009",
+        "display": "Specimen from appendix and right colon obtained by appendectomy and right hemicolectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396998007",
+        "display": "Specimen from bone marrow obtained by aspiration and biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396999004",
+        "display": "Specimen from bone marrow obtained by biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16216051000119103",
+        "display": "Specimen from branchial cleft cyst obtained by fine needle aspiration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16211531000119105",
+        "display": "Specimen from breast obtained by resection of inferior margin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16215091000119102",
+        "display": "Specimen from bronchus obtained by endobronchial biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734422004",
+        "display": "Specimen from duodenal mucosa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447358005",
+        "display": "Specimen from endometrium obtained by aspiration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447359002",
+        "display": "Specimen from esophagus obtained by aspiration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122631007",
+        "display": "Specimen from esophagus obtained by esophagogastrectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16211371000119102",
+        "display": "Specimen from joint cartilage obtained by shave excision"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122646000",
+        "display": "Specimen from large intestine obtained by abdominoperineal resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122644002",
+        "display": "Specimen from large intestine obtained by incisional biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122647009",
+        "display": "Specimen from large intestine obtained by total abdominal colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16209771000119101",
+        "display": "Specimen from left lower lobe of lung obtained by bronchoalveolar lavage procedure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733485008",
+        "display": "Specimen from lesion of perianal region obtained by scraping"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734421006",
+        "display": "Specimen from mass of mediastinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "434140003",
+        "display": "Specimen from mesentery obtained by fine needle aspiration biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441695007",
+        "display": "Specimen from parotid gland obtained by fine needle aspiration biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127461003",
+        "display": "Specimen from pleura obtained by pleurectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16209931000119102",
+        "display": "Specimen from right lower lobe of lung obtained by bronchoalveolar lavage procedure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16215251000119104",
+        "display": "Specimen from right upper lobe of lung obtained by bronchial washing procedure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16214291000119108",
+        "display": "Specimen from right upper lobe of lung obtained by endobronchial biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "432057001",
+        "display": "Specimen from seminal vesicle obtained by fine needle aspiration biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "432058006",
+        "display": "Specimen from skeletal muscle obtained by biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "431696005",
+        "display": "Specimen from spermatic cord obtained by fine needle aspiration biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122632000",
+        "display": "Specimen from stomach obtained by incisional biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441749007",
+        "display": "Specimen from submandibular gland obtained by fine needle aspiration biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396906004",
+        "display": "Specimen from thymus gland obtained by video assisted thoracoscopy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399440009",
+        "display": "Specimen from ureter obtained by nephroureterectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399467003",
+        "display": "Specimen from uvea obtained by limited exenteration of eye"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119324002",
+        "display": "Specimen of unknown material"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309077009",
+        "display": "Spleen resection specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258610001",
+        "display": "Sputum specimen obtained by sputum induction"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57731000052104",
+        "display": "Stem cell specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472890006",
+        "display": "Swab from appendix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733104004",
+        "display": "Swab from buccal mucosa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258506007",
+        "display": "Swab of drain insertion site"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "258507003",
+        "display": "Swab of line insertion site"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446842008",
+        "display": "Tissue specimen from cervical lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127460002",
+        "display": "Tissue specimen from pleura"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733103005",
+        "display": "Tissue specimen from scar"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399572009",
+        "display": "Tissue specimen from thymus gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369616003",
+        "display": "Tissue specimen obtained from gallbladder by biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122593002",
+        "display": "Tissue specimen obtained from ulcer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "712562009",
+        "display": "Twenty four hours specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "439628000",
+        "display": "Urinary collection bag submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442173007",
+        "display": "Urine specimen from nephrostomy tube"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446907008",
+        "display": "Urine specimen obtained from kidney"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "699286004",
+        "display": "Urine specimen obtained from kidney via aspiration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446277003",
+        "display": "Urine specimen obtained from nephrostomy tube after percutaneous insertion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472942000",
+        "display": "Ventriculoperitoneal shunt submitted as specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110945007",
+        "display": "Vulva cytologic material"
+      }
+    ]
+  },
+  "id": "results-specimen-type-uv-ips"
+}

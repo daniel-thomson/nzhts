@@ -1,1 +1,203 @@
-{"resourceType":"ValueSet","id":"canshare-who5-female-genital-vulva-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:31:20.713+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-female-genital-vulva-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who5-female-genital-vulva-histology"}],"version":"20240423","name":"canshare-who5-female-genital-vulva-histology","title":"NZ WHO female genital vulva histology (5th edition)","status":"active","experimental":false,"date":"2024-04-23","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for female genital cancer types (WHO Classification of Tumours, Female Genital Tumours, 5th edition - 11. Tumours of the vulva) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"(^ 300281000210103 |New Zealand WHO classification of tumours (5th edition) female genital vulva histology reference set| OR 74964007 |Other| OR 1186968006 |Malignant adenomatous neoplasm|) MINUS 1187332001 |Adenocarcinoma|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:08.548+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-female-genital-vulva-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-female-genital-vulva-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-female-genital-vulva-histology",
+  "title": "NZ WHO female genital vulva histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "5ff8c23e-5aee-4f48-9385-b5b40d5fb224",
+    "timestamp": "2024-11-01T20:21:39+13:00",
+    "total": 32,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25190001",
+        "display": "Adenocarcinoma, intestinal type"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11671000",
+        "display": "Adenoid cystic carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40293003",
+        "display": "Adenomyoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "59367005",
+        "display": "Adenosquamous carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1338007",
+        "display": "Basal cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1187227004",
+        "display": "Benign adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "69131000146100",
+        "display": "Benign chondroid syringoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156873009",
+        "display": "Benign fibroadenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16566002",
+        "display": "Benign phyllodes tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71232009",
+        "display": "Borderline phyllodes tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19672005",
+        "display": "Condyloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367643001",
+        "display": "Cyst"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "816198009",
+        "display": "Differentiated intraepithelial neoplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74409009",
+        "display": "Endodermal sinus tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9618003",
+        "display": "Epithelial-myoepithelial carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "22725004",
+        "display": "High-grade squamous intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783213006",
+        "display": "Human papillomavirus negative squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783212001",
+        "display": "Human papillomavirus positive squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112662005",
+        "display": "Low-grade squamous intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186968006",
+        "display": "Malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "713582000",
+        "display": "Malignant germ cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "87913009",
+        "display": "Malignant phyllodes tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295071000210107",
+        "display": "Myoepithelial malignant epithelial neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71447003",
+        "display": "Paget's disease, extramammary (except Paget's disease of bone)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89791006",
+        "display": "Papillary hidradenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285101000210103",
+        "display": "Phyllodes tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703078002",
+        "display": "Poorly differentiated carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25499005",
+        "display": "Seborrhoeic keratosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162767002",
+        "display": "Squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32272007",
+        "display": "Sweat gland adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286768001",
+        "display": "Well-differentiated neuroendocrine tumour"
+      }
+    ]
+  },
+  "id": "canshare-who5-female-genital-vulva-histology"
+}

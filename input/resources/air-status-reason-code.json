@@ -1,0 +1,225 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:48.848+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/air-status-reason-code",
+  "version": "0.4.0",
+  "name": "AIRStatusReasonCode",
+  "title": "AIR status reason code",
+  "status": "draft",
+  "expansion": {
+    "identifier": "ec5eac2b-a88a-448b-baba-2fe25ce0ae07",
+    "timestamp": "2024-11-01T20:24:35+13:00",
+    "total": 31,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20230401"
+      },
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/air-legacy-code|0.4.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "127785005",
+        "display": "Active or passive immunization"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "201571000210103",
+        "display": "History of vaccination given in another country"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "171277005",
+        "display": "Sensitivity contraindicated - immunization"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "201581000210101",
+        "display": "Alternate vaccination given"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "266758009",
+        "display": "Immunization contraindicated"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "90311000119107",
+        "display": "Vaccination declined by caregiver"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "591000119102",
+        "display": "Vaccine declined by patient"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "168276008",
+        "display": "Serology positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "702370009",
+        "display": "Patient unsuitable for procedure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "310376006",
+        "display": "Immunization consent not given"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20230401",
+        "code": "445672005",
+        "display": "Duplicate report"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "AEFIOT",
+        "display": "Other AFEI or concern"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "AEFISA",
+        "display": "Serious and/or Severe AEFI - other - indicating contraindication"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "AEFISO",
+        "display": "Serious and/or Severe AEFI - indicating caution"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "AEFISX",
+        "display": "Serious and/or Severe AEFI anaphylax is indication contradiction"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "ALTGIVN",
+        "display": "Alternate given"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "CIS",
+        "display": "Change in Schedule"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "CPI",
+        "display": "Provider Instruction"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "DMC",
+        "display": "Permanent contraindication"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "DPC",
+        "display": "Choice - parental/guardian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "DIC",
+        "display": "Choice by Individual"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "DNI",
+        "display": "Natural immunity confirmed by documented serology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "GIVNOS",
+        "display": "Given Overseas"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "NTP",
+        "display": "Unprotected"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "P",
+        "display": "Protection"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "PDS",
+        "display": "Parent Declined"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "RESCHO",
+        "display": "Parental/individual choice to reschedule"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "RESREF",
+        "display": "Referred elsewhere for immunisation eg specialist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "RESTC",
+        "display": "Temporary contraindication"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/air-legacy-code",
+        "version": "0.4.0",
+        "code": "IND",
+        "display": "Indeterminable"
+      }
+    ]
+  },
+  "id": "air-status-reason-code"
+}

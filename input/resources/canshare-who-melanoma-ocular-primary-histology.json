@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:30.524+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-melanoma-ocular-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-melanoma-ocular-primary-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-melanoma-ocular-primary-histology",
+  "title": "NZ WHO classification of ocular melanoma primary histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "bffc0cb0-5daf-4a8c-8895-c5db2ea38212",
+    "timestamp": "2024-11-01T20:25:11+13:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70594002",
+        "display": "Amelanotic melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398641000210108",
+        "display": "Conjunctival melanocytic intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476301000210100",
+        "display": "Conjunctival melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476351000210104",
+        "display": "Epithelioid cell uveal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476341000210102",
+        "display": "Mixed epithelioid and/or spindle cell conjunctival melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476331000210105",
+        "display": "Mixed epithelioid and/or spindle cell uveal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2142002",
+        "display": "Nodular melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476321000210108",
+        "display": "Spindle cell uveal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466381000210101",
+        "display": "Uveal melanoma"
+      }
+    ]
+  },
+  "id": "canshare-who-melanoma-ocular-primary-histology"
+}

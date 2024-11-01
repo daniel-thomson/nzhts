@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:25.011+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-colorectal-perforation",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-colorectal-perforation"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-colorectal-perforation",
+  "title": "NZ colorectal perforation present",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "2fce7731-27f2-4945-a17b-d01954d0897f",
+    "timestamp": "2024-11-01T20:24:47+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340851000210101",
+        "display": "Not identified"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476801000210106",
+        "display": "Perforation of cecum and/or colon and/or rectum"
+      }
+    ]
+  },
+  "id": "canshare-colorectal-perforation"
+}

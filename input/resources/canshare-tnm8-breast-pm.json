@@ -1,1 +1,48 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-breast-pm","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:31:24.003+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-breast-pm","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-breast-pm"}],"version":"20240725","name":"canshare-tnm8-breast-pm","title":"NZ AJCC (8th edition) breast pathological M category","status":"active","experimental":false,"date":"2024-07-25","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A pathological distant metastasis stage (pM) of a breast tumour, using the AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"1229916009 |pM1|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:12.049+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-breast-pm",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-breast-pm"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-breast-pm",
+  "title": "NZ AJCC (8th edition) breast pathological M category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "a155fb92-8c8c-412d-8fac-ed9d8f5050d7",
+    "timestamp": "2024-11-01T20:21:33+13:00",
+    "total": 1,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229916009",
+        "display": "pM1"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-breast-pm"
+}

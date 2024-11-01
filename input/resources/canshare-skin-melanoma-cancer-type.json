@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-skin-melanoma-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:19.031+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-skin-melanoma-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-skin-melanoma-cancer-type"}],"version":"20240707","name":"canshare-skin-melanoma-cancer-type","title":"NZ cancer skin and/or melanoma cancer type","status":"active","experimental":false,"date":"2024-07-07","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of the primary skin and/or melanoma solid cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^302681000210101 |New Zealand cancer skin and melanoma cancer type reference set| MINUS (94047004 |Skin primary|)"}]},{"system":"http://snomed.info/sct","concept":[{"code":"94047004","display":"Other skin primary"},{"code":"298931000210104","display":"Squamous cell carcinoma of skin primary"},{"code":"402536001","display":"Basal cell carcinoma of skin primary"},{"code":"298921000210101","display":"Merkel cell carcinoma of skin primary"},{"code":"1268881002","display":"Melanoma of skin primary"},{"code":"1197332003","display":"Melanoma CNS primary"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"448111000210100","display":"Other Non-cutaneous melanoma primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:04.876+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-skin-melanoma-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-skin-melanoma-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-skin-melanoma-cancer-type",
+  "title": "NZ cancer skin and melanoma cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "0ca02b61-99e1-4ccb-8ea4-19e6cf2013c9",
+    "timestamp": "2024-11-01T20:23:04+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448111000210100",
+        "display": "Other non-cutaneous melanoma primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94047004",
+        "display": "Other skin primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "402536001",
+        "display": "Basal cell carcinoma - primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1197332003",
+        "display": "Primary malignant melanoma of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298951000210105",
+        "display": "Primary malignant melanoma of eye"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298941000210107",
+        "display": "Primary malignant melanoma of mucous membrane"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1268881002",
+        "display": "Primary malignant melanoma of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298921000210101",
+        "display": "Primary Merkel cell carcinoma of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298931000210104",
+        "display": "Primary squamous cell carcinoma of skin"
+      }
+    ]
+  },
+  "id": "canshare-skin-melanoma-cancer-type"
+}

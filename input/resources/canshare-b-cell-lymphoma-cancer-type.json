@@ -1,1 +1,41 @@
-{"resourceType":"ValueSet","id":"canshare-b-cell-lymphoma-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:51.160+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoma-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-b-cell-lymphoma-cancer-type"}],"version":"20240517","name":"canshare-b-cell-lymphoma-cancer-type","title":"NZ cancer B cell lymphoma cancer type","status":"retired","experimental":false,"date":"2024-05-17","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of B cell lymphoma haematologic cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"372087000 |Primary malignant neoplasm (disorder)| MINUS 372087000 |Primary malignant neoplasm (disorder)|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:55.114+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoma-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-b-cell-lymphoma-cancer-type"
+    }
+  ],
+  "version": "20240517",
+  "name": "canshare-b-cell-lymphoma-cancer-type",
+  "title": "NZ cancer B cell lymphoma cancer type",
+  "status": "retired",
+  "experimental": false,
+  "expansion": {
+    "identifier": "244c2e0b-fd08-4da8-8173-fc0142bcb025",
+    "timestamp": "2024-11-01T20:22:18+13:00",
+    "total": 0,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ]
+  },
+  "id": "canshare-b-cell-lymphoma-cancer-type"
+}

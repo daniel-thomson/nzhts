@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:18.532+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-endo-neuroendo-parathyroid-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-endo-neuroendo-parathyroid-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-endo-neuroendo-parathyroid-histology",
+  "title": "NZ WHO endocrine and neuroendocrine parathyroid gland histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "23b6e6f7-fd56-4a42-b4a8-a523238a3451",
+    "timestamp": "2024-11-01T20:22:08+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381681000210105",
+        "display": "Parathyroid atypical adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295311000210100",
+        "display": "Parathyroid benign adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381671000210108",
+        "display": "Parathyroid lipoadenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295321000210105",
+        "display": "Parathyroid malignant epithelial neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381661000210102",
+        "display": "Parathyroid multifocal glandular hyperplasia"
+      }
+    ]
+  },
+  "id": "canshare-who5-endo-neuroendo-parathyroid-histology"
+}

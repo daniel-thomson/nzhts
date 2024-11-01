@@ -1,0 +1,142 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:10.604+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/air-disease-covered-code",
+  "version": "0.4.0",
+  "name": "AIRDiseaseCoveredCode",
+  "title": "AIR diseases covered code",
+  "status": "draft",
+  "expansion": {
+    "identifier": "86f6b1f5-e1ad-4bbb-a1a6-00bb7faa3f11",
+    "timestamp": "2024-11-01T20:24:11+13:00",
+    "total": 19,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20230401"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "840539006",
+        "display": "COVID-19"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://ontoserver.csiro.au/profiles/expansion",
+            "extension": [
+              {
+                "url": "inactive",
+                "valueBoolean": true
+              }
+            ]
+          }
+        ],
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "397428000",
+        "display": "Diphtheria"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91428005",
+        "display": "Haemophilus influenzae infection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40468003",
+        "display": "Viral hepatitis, type A"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66071002",
+        "display": "Type B viral hepatitis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "240532009",
+        "display": "Human papilloma virus infection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6142004",
+        "display": "Influenza"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14189004",
+        "display": "Measles"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23511006",
+        "display": "Meningococcal infectious disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36989005",
+        "display": "Mumps"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27836007",
+        "display": "Pertussis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16814004",
+        "display": "Pneumococcal infectious disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398102009",
+        "display": "Acute poliomyelitis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18624000",
+        "display": "Disease due to Rotavirus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36653000",
+        "display": "Rubella"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76902006",
+        "display": "Tetanus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56717001",
+        "display": "Tuberculosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38907003",
+        "display": "Varicella"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4740000",
+        "display": "Herpes zoster"
+      }
+    ]
+  },
+  "id": "air-disease-covered-code"
+}

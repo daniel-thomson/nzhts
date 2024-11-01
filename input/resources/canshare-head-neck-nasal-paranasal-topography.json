@@ -1,0 +1,113 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:16.549+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-head-neck-nasal-paranasal-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-head-neck-nasal-paranasal-topography"
+    }
+  ],
+  "version": "20240809",
+  "name": "canshare-head-neck-nasal-paranasal-topography",
+  "title": "NZ cancer head and neck nasal cavity and paranasal sinus topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "5f689d2c-5c4e-4a1c-9144-06f063f077b1",
+    "timestamp": "2024-11-01T20:24:29+13:00",
+    "total": 14,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54215007",
+        "display": "Ethmoid sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55060009",
+        "display": "Frontal sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4906008",
+        "display": "Mastoid antrum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15924003",
+        "display": "Maxillary sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16178009",
+        "display": "Nasal cartilage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279549004",
+        "display": "Nasal cavity structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68426009",
+        "display": "Nasal septum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2095001",
+        "display": "Nasal sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46607005",
+        "display": "Nasal turbinate structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24999009",
+        "display": "Sphenoid sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1797002",
+        "display": "Structure of anterior naris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34508005",
+        "display": "Structure of mucous membrane of nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91207004",
+        "display": "Structure of pharyngotympanic tube"
+      }
+    ]
+  },
+  "id": "canshare-head-neck-nasal-paranasal-topography"
+}

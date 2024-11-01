@@ -1,0 +1,543 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:16.632+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-soft-tissue-head-neck-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-soft-tissue-head-neck-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-soft-tissue-head-neck-topography",
+  "title": "NZ cancer soft tissue head and neck topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "f0025ead-a828-41b0-8be3-1f4543669192",
+    "timestamp": "2024-11-01T20:22:24+13:00",
+    "total": 153,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80622005",
+        "display": "Abducens nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15119000",
+        "display": "Accessory nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55940004",
+        "display": "Adenoidal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77578007",
+        "display": "Arytenoid cartilage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11691007",
+        "display": "Auricular cartilage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "69105007",
+        "display": "Carotid artery structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51345006",
+        "display": "Carotid body structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60075002",
+        "display": "Cervical oesophagus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72260008",
+        "display": "Cervical plexus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83299001",
+        "display": "Commissure of lips"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "61563008",
+        "display": "Epiglottis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56052001",
+        "display": "Facial nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21161002",
+        "display": "Glossopharyngeal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90228003",
+        "display": "Hard palate structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37899009",
+        "display": "Hypoglossal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89718004",
+        "display": "Hypophyseal diverticulum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "181381004",
+        "display": "Jugular body"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245783005",
+        "display": "Junction of hard and soft palate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2048000",
+        "display": "Lingual tonsil structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "79368004",
+        "display": "Masseter muscle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15924003",
+        "display": "Maxillary sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16178009",
+        "display": "Nasal cartilage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71836000",
+        "display": "Nasopharyngeal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33539000",
+        "display": "Nasopharyngeal wall structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56193007",
+        "display": "Oculomotor nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11522000",
+        "display": "Olfactory nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74262004",
+        "display": "Oral cavity structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21294006",
+        "display": "Palatine arch structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33805007",
+        "display": "Paraganglia structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "111002",
+        "display": "Parathyroid structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8711009",
+        "display": "Periodontal tissues structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55609009",
+        "display": "Pharyngeal wall structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45793000",
+        "display": "Pineal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56329008",
+        "display": "Pituitary structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88089004",
+        "display": "Skin structure of lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66934001",
+        "display": "Skin structure of lower lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16251004",
+        "display": "Skin structure of upper lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52131005",
+        "display": "Structure of anterior floor of mouth"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1797002",
+        "display": "Structure of anterior naris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67298002",
+        "display": "Structure of anterior surface of epiglottis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82521001",
+        "display": "Structure of anterior wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296729005",
+        "display": "Structure of autonomic nervous system of head and/or neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "61344008",
+        "display": "Structure of body of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57760000",
+        "display": "Structure of coccygeal glomus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72691007",
+        "display": "Structure of commissure of larynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "86394004",
+        "display": "Structure of craniopharyngeal duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35779009",
+        "display": "Structure of cuneiform cartilage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77711009",
+        "display": "Structure of dorsum of anterior tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "769111002",
+        "display": "Structure of extrinsic muscle of larynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45825006",
+        "display": "Structure of frenulum labii superioris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1159005",
+        "display": "Structure of frenulum linguae"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57131003",
+        "display": "Structure of gum of mandible"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23114008",
+        "display": "Structure of gum of maxilla"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36088004",
+        "display": "Structure of hypopharyngeal aspect of aryepiglottic fold"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422005",
+        "display": "Structure of inferior surface of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1617005",
+        "display": "Structure of intrinsic larynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23263000",
+        "display": "Structure of junctional zone of base of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "102294004",
+        "display": "Structure of laryngeal aspect of aryepiglottic fold"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28803009",
+        "display": "Structure of lateral floor of mouth"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41881006",
+        "display": "Structure of lateral margin of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70988003",
+        "display": "Structure of lateral wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34508005",
+        "display": "Structure of mucous membrane of nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18444004",
+        "display": "Structure of mucous membrane of upper lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76786004",
+        "display": "Structure of nasopharyngeal surface of soft palate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90769006",
+        "display": "Structure of paraaortic body"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1849007",
+        "display": "Structure of pharyngeal recess"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91207004",
+        "display": "Structure of pharyngotympanic tube"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42575006",
+        "display": "Structure of pituitary fossa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35806005",
+        "display": "Structure of postcricoid region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7835005",
+        "display": "Structure of posterior margin of nasal septum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28567000",
+        "display": "Structure of posterior wall of hypopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30157008",
+        "display": "Structure of posterior wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12999009",
+        "display": "Structure of posterior wall of oropharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85816001",
+        "display": "Structure of retromolar area of mouth"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47975008",
+        "display": "Structure of root of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788535004",
+        "display": "Structure of spinal accessory nerve proper"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20409001",
+        "display": "Structure of superior wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42278009",
+        "display": "Structure of thyroglossal duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73041003",
+        "display": "Structure of tip of tongue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1240400004",
+        "display": "Structure of tooth socket"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77459005",
+        "display": "Structure of upper alveolar ridge mucosa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42275007",
+        "display": "Structure of vallecula of epiglottis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74761005",
+        "display": "Structure of ventricular fold of larynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128251006",
+        "display": "Structure of vermilion border of lower lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128250007",
+        "display": "Structure of vermilion border of upper lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119254005",
+        "display": "Subglottis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88481005",
+        "display": "Sublingual gland structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385296007",
+        "display": "Submandibular salivary gland structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119255006",
+        "display": "Supraglottis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52940008",
+        "display": "Thyroid cartilage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32163006",
+        "display": "Tonsillar fossa structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27612005",
+        "display": "Trigeminal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "39322007",
+        "display": "Trochlear nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51837005",
+        "display": "Tympanic cavity structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11681001",
+        "display": "Upper lip structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26140008",
+        "display": "Uvula palatina structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88882009",
+        "display": "Vagus nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8598002",
+        "display": "Vestibulocochlear nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46105003",
+        "display": "Vocal cord structure"
+      }
+    ]
+  },
+  "id": "canshare-soft-tissue-head-neck-topography"
+}

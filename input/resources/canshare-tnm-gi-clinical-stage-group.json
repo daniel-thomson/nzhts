@@ -1,0 +1,123 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:40.213+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-gi-clinical-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-gi-clinical-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-gi-clinical-stage-group",
+  "title": "NZ AJCC gastrointestinal clinical stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "23bd72c0-ee90-4391-9e0a-a35605a47bdb",
+    "timestamp": "2024-11-01T20:24:58+13:00",
+    "total": 16,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222605001",
+        "display": "0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222723001",
+        "display": "I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222724007",
+        "display": "IA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222728005",
+        "display": "IB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222765007",
+        "display": "II"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222766008",
+        "display": "IIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222769001",
+        "display": "IIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222770000",
+        "display": "IIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222801008",
+        "display": "III"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222806003",
+        "display": "IIIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222837003",
+        "display": "IV"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222838008",
+        "display": "IVA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222841004",
+        "display": "IVB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222842006",
+        "display": "IVC"
+      }
+    ]
+  },
+  "id": "canshare-tnm-gi-clinical-stage-group"
+}

@@ -1,0 +1,78 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:57.913+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-ectopic-thyroid-parathyroid-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-thoracic-ectopic-thyroid-parathyroid-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-thoracic-ectopic-thyroid-parathyroid-histology",
+  "title": "NZ WHO thoracic ectopic tumour of thyroid and parathyroid origin histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "2373fb56-368c-44bb-a60a-e58b9e48039e",
+    "timestamp": "2024-11-01T20:24:16+13:00",
+    "total": 7,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5257006",
+        "display": "Follicular adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55021007",
+        "display": "Follicular adenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1332275004",
+        "display": "Medullary thyroid carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1336196002",
+        "display": "Papillary thyroid carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295311000210100",
+        "display": "Parathyroid benign adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295321000210105",
+        "display": "Parathyroid malignant epithelial neoplasm"
+      }
+    ]
+  },
+  "id": "canshare-who-thoracic-ectopic-thyroid-parathyroid-histology"
+}

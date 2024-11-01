@@ -1,1 +1,108 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-rpm","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:56.785+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-rpm","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-rpm"}],"version":"20240318","name":"canshare-tnm-rpm","title":"NZ AJCC recurrence or retreatment pathological M category (rpM)","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A recurrence or retreatment pathological distant metastasis stage (pM), using the AJCC cancer staging manual.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 333391000210107 |New Zealand AJCC recurrence or retreatment pathological M (rpM) category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:52.364+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-rpm",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-rpm"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-rpm",
+  "title": "NZ AJCC recurrence or retreatment pathological M category (rpM)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "36cd68a7-e693-4d01-afbd-5e88a5d616a6",
+    "timestamp": "2024-11-01T20:22:22+13:00",
+    "total": 13,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279954007",
+        "display": "rpM1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279955008",
+        "display": "rpM1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279956009",
+        "display": "rpM1a(0)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279957000",
+        "display": "rpM1a(1)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279958005",
+        "display": "rpM1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279959002",
+        "display": "rpM1b(0)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279960007",
+        "display": "rpM1b(1)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279961006",
+        "display": "rpM1c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279962004",
+        "display": "rpM1c(0)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279963009",
+        "display": "rpM1c(1)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279964003",
+        "display": "rpM1d"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279965002",
+        "display": "rpM1d(0)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279966001",
+        "display": "rpM1d(1)"
+      }
+    ]
+  },
+  "id": "canshare-tnm-rpm"
+}

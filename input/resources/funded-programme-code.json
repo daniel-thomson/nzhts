@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code",
+  "expansion": {
+    "identifier": "ccd7d659-8d0c-45c0-8d99-c491abfef829",
+    "timestamp": "2024-11-01T20:23:14+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/funded-programme-code|1.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/funded-programme-code",
+        "code": "DENTAL_CHILD",
+        "display": "Dental Care - Children up to age 13"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/funded-programme-code",
+        "code": "DENTAL_ADULT_EMERGENCY",
+        "display": "Dental Care – Adult Emergency"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/funded-programme-code",
+        "code": "ENROLLING_GP_PRACTICE",
+        "display": "General Practice Enrollment"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/funded-programme-code",
+        "code": "OTHER",
+        "display": "Some other funded programme not otherwise defined"
+      }
+    ]
+  },
+  "id": "funded-programme-code"
+}

@@ -1,1 +1,535 @@
-{"resourceType":"ValueSet","id":"nzmt-mpp","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:56.261+12:00"},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZMT - MPP</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-mpp</tt></div>"},"url":"https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-mpp","version":"20240416","name":"NZMT___MPP","title":"NZMT - MPP","status":"draft","compose":{"include":[{"system":"http://nzmt.org.nz","filter":[{"property":"nzmtType","op":"=","value":"mpp"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:53.883+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-mpp",
+  "version": "20240416",
+  "name": "NZMT___MPP",
+  "title": "NZMT - MPP",
+  "status": "draft",
+  "expansion": {
+    "identifier": "06689570-fa9c-403a-b7c7-7eb8cd0b6719",
+    "timestamp": "2024-11-01T20:23:43+13:00",
+    "total": 14321,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://nzmt.org.nz|20241015"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47221361000116107",
+        "display": "8 mm x 29 gauge steel needle [10 needles] (&) insulin delivery 80 cm line [10 lines], 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47024001000116102",
+        "display": "abiraterone acetate 125 mg tablet, 120"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44000051000116107",
+        "display": "albumin human 20% (2 g/10 mL) injection: intravenous infusion, 1 x 10 mL bottle"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "26656141000116102",
+        "display": "aluminium sulfate 20% (200 mg/g) gel, 25 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44144491000116100",
+        "display": "amlodipine 10 mg tablet, 250"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44371761000116105",
+        "display": "aprotinin 3000 KI units/mL + calcium chloride dihydrate 5.88 mg/mL (calcium 40 micromoles/mL) + factor XIII 1.2 international units/mL + human fibrinogen 72 mg/mL + thrombin-human 4 international units/mL solution, 10 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46716441000116107",
+        "display": "azithromycin 500 mg injection: powder for, 10 x 500 mg vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46025841000116107",
+        "display": "barium sulfate 96% (960 mg/g) oral liquid: powder for, 10 kg"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44722611000116107",
+        "display": "betahistine dihydrochloride 8 mg tablet, 20"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47854291000116103",
+        "display": "bosutinib 400 mg tablet, 28"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47051711000116100",
+        "display": "budesonide 80 microgram/actuation + formoterol fumarate dihydrate 2.25 microgram/actuation inhalation: pressurised, 120 actuations"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31273031000116104",
+        "display": "calcium chloride dihydrate 1.1028 g/6000 mL (7.5 mmol/6000 mL calcium) + glucose anhydrous 1.5% (90 g/6000 mL) + lactate sodium 23.55 g/6000 mL + magnesium chloride hexahydrate 610.27 mg/6000 mL + sodium chloride 34.716 g/6000 mL solution: peritoneal dialysis, 1 x 6000 mL bag"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20050101000116104",
+        "display": "calcium chloride dihydrate 368 mg/2000 mL (2.50 mmol/2000 mL calcium) + glucose anhydrous 1.36% (27.2 g/2000 mL) + lactate sodium 3.36 g/2000 mL + magnesium chloride hexahydrate 102 mg/2000 mL + sodium bicarbonate 4.2 g/2000 mL + sodium chloride 10.76 g/2000 mL solution: peritoneal dialysis, 2 x 2000 mL bags"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45397821000116100",
+        "display": "calcium chloride dihydrate 450 mg/2500 mL (calcium 3.06 mmol/2500 mL) + glucose monohydrate 4.25% (106.25 g/2500 mL) + lactate sodium 11.2 g/2500 mL + magnesium chloride hexahydrate 125 mg/2500 mL + sodium chloride 13.45 g/2500 mL solution: peritoneal dialysis, 1 x 2500 mL bag"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45301371000116100",
+        "display": "calcium chloride dihydrate 919 mg/5000 mL (6.25 mmol/5000 mL calcium) + glucose anhydrous 2.27% (113.5 g/5000 mL) + lactate sodium 19.625 g/5000 mL + magnesium chloride hexahydrate 508.5 mg/5000 mL + sodium chloride 28.93 g/5000 mL solution: peritoneal dialysis, 1 x 5000 mL bag"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44008221000116109",
+        "display": "candesartan cilexetil 4 mg tablet, 100"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46859111000116102",
+        "display": "cannabidiol 25 mg/mL oral liquid, 25 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45033341000116102",
+        "display": "carbon dioxide 5% (0.05 mL/mL) + oxygen 95% (0.95 mL/mL) gas, 46.6 L"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10116561000116107",
+        "display": "cefoxitin 1 g injection: powder for, 5 x 1 g vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10647721000116101",
+        "display": "cinacalcet 60 mg tablet, 28"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46538191000116102",
+        "display": "clobazam 10 mg/5 mL oral liquid, 250 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "43910141000116101",
+        "display": "clobetasone butyrate 0.05% (500 microgram/g) cream, 5 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10297161000116100",
+        "display": "dalteparin sodium 10 000 anti-Xa international units/mL injection, 10 x 1mL syringes"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20041041000116105",
+        "display": "deferiprone 500 mg tablet, 100"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46136171000116106",
+        "display": "denosumab 120 mg/1.7 mL injection, 1 x 1.7 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "43911631000116106",
+        "display": "dextran-70 0.1% (1 mg/mL) + hypromellose 0.3% (3 mg/mL) eye drops, 3 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20076961000116102",
+        "display": "dextromethorphan hydrobromide monohydrate 30 mg/10 mL oral liquid, 200 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47723841000116107",
+        "display": "doxycycline 40 mg capsule: modified release, 56"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44388571000116107",
+        "display": "eltrombopag 50 mg tablet, 14"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48306671000116109",
+        "display": "emapalumab 50 mg/10 mL injection, 1 x 10 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47337131000116100",
+        "display": "empagliflozin 12.5 mg + metformin hydrochloride 1000 mg tablet, 14"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10674231000116103",
+        "display": "erlotinib 100 mg tablet, 30"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10102601000116109",
+        "display": "esmolol hydrochloride 2.5 g/10 mL injection: concentrated, 4 x 10 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44090591000116109",
+        "display": "famciclovir 250 mg tablet, 28"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10275521000116101",
+        "display": "fennel oil, 100 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45114871000116102",
+        "display": "fentanyl 100 microgram/hour (16.8 mg/patch) patch, 3"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20045751000116107",
+        "display": "fexofenadine hydrochloride 60 mg tablet, 10"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47553471000116104",
+        "display": "fluoxetine 20 mg tablet: dispersible, 28"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10388581000116105",
+        "display": "furosemide 10 mg/mL oral liquid, 30 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44414831000116105",
+        "display": "furosemide 50 mg/5 mL injection, 25 x 5 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46655551000116104",
+        "display": "gonadorelin 100 microgram/mL injection, 10 x 1 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10336741000116100",
+        "display": "hepatitis B virus surface antigen vaccine 10 microgram/mL injection, 1 x 1 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46428031000116105",
+        "display": "house dust mite American allergen extract 6 SQ-HDM + house dust mite European allergen extract 6 SQ-HDM tablet: sublingual, 10"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10345071000116100",
+        "display": "hydrogen peroxide 50% (500 mg/mL) solution, 2 L"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31099921000116100",
+        "display": "hydroxyethyl starch-130/0.4 6% (15 g/ 250 mL) + acetate sodium trihydrate 0.463% (8.5 mmol/250 mL, 1.158 g/250 mL) + magnesium chloride hexahydrate 0.03% (0.37 mmol/250 mL, 75 mg/250 mL) + potassium chloride 0.03% (potassium 1 mmol/250 mL, 75 mg/250 mL) + sodium chloride 0.602% (25.8 mmol/250 mL, 1.505 g/250 mL) injection: intravenous infusion, 20 x 250 mL bags"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46196781000116103",
+        "display": "hypochlorous acid + sodium chloride + sodium hypochlorite gel, 120 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10356361000116102",
+        "display": "hypromellose 0.5% (5 mg/mL) eye drops, 15 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47750091000116102",
+        "display": "ibuprofen 200 mg/5 mL oral liquid, 75 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46996551000116102",
+        "display": "ibuprofen 400 mg tablet, 4"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10026551000116107",
+        "display": "imiquimod 5% (12.5 mg/250 mg) cream, 12 x 250 mg sachets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "43913661000116104",
+        "display": "indapamide hemihydrate 1.5 mg tablet: modified release, 30"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10499081000116103",
+        "display": "ioversol 22.2 g/30 mL (equivalent to 10.5 g/30 mL iodine) injection, 25 x 30 mL vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10482811000116108",
+        "display": "ketoconazole 2% (20 mg/g) shampoo, 6 x 6 mL sachets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10361481000116104",
+        "display": "ketoprofen 200 mg capsule: modified release, 100"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44104571000116109",
+        "display": "ketotifen 0.025% (250 microgram/mL) eye drops, 2.5 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44953511000116107",
+        "display": "levocetirizine hydrochloride 5 mg tablet, 28"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47700591000116100",
+        "display": "levothyroxine sodium 125 microgram tablet, 100"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46096751000116104",
+        "display": "lidocaine hydrochloride anhydrous 1% (200 mg/20 mL) + adrenaline 1 in 100 000 (200 microgram/20 mL) injection, 5 x 20 mL vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46496601000116102",
+        "display": "lidocaine hydrochloride anhydrous 2% (36 mg/1.8 mL) + adrenaline 1 in 80 000 (22.5 microgram/1.8 mL) injection, 50 x 1.8 mL cartridges"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10149561000116108",
+        "display": "magnesium chloride 3.25 g/20 mL (magnesium 16 mmol/20 mL) + potassium chloride 1.19 g/20 mL (potassium 16 mmol/20 mL) + procaine hydrochloride 272.8 mg/20 mL injection: concentrated, 5 x 20 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44916651000116109",
+        "display": "medium-chain triglyceride supplement: fat 50 g/100 mL oral liquid, 1 x 250 mL bottle"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46364821000116105",
+        "display": "meningococcal group A (Neisseria meningitidis) polysaccharide 50 microgram + meningococcal group C (Neisseria meningitidis) polysaccharide 50 microgram + meningococcal group W (Neisseria meningitidis) polysaccharide 50 microgram + meningococcal group Y (Neisseria meningitidis) polysaccharide 50 microgram vaccine injection: powder for [1 x 200 microgram vial] (&) inert substance diluent [1 x 0.6 mL vial], 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46017051000116102",
+        "display": "metformin hydrochloride 1000 mg tablet, 20"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10401531000116109",
+        "display": "metoprolol tartrate 100 mg tablet, 100"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10442911000116108",
+        "display": "mivacurium chloride 20 mg/10 mL injection, 5 x 10 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44064891000116104",
+        "display": "modafinil 100 mg tablet, 10"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10457821000116106",
+        "display": "naproxen 500 mg tablet, 500"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31145701000116108",
+        "display": "normal immunoglobulin, human 16% (320 mg/2 mL) injection, 1 x 2 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44782631000116109",
+        "display": "oatmeal colloidal 100% (1 g/g) powder, 8 x 42 g sachets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47764261000116100",
+        "display": "omeprazole 10 mg capsule: modified release, 10"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48373511000116100",
+        "display": "oxaliplatin (ECP) 1 mg injection"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48339511000116101",
+        "display": "oxybuprocaine hydrochloride 0.4% (4 mg/mL) eye drops, 10 x 10 mL bottles"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46068471000116100",
+        "display": "oxygen 99.5% (0.995 mL/mL) gas, 10 L"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48096261000116102",
+        "display": "paracetamol 500 mg + phenylephrine hydrochloride 5 mg [20 tablets] (&) guaifenesin 100 mg/5 mL oral liquid [150 mL], 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46701951000116105",
+        "display": "paracetamol 500 mg + phenylephrine hydrochloride 5 mg tablet [48 tablets] (&) paracetamol 500 mg + phenylephrine hydrochloride 5 mg + chlorphenamine maleate 2 mg tablet [24 tablets], 72"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10642321000116100",
+        "display": "pegvisomant 10 mg injection: powder for [30 x 10 mg vials] (&) inert substance diluent [30 x 1 mL vials], 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20054031000116104",
+        "display": "phenol 5% (250 mg/5 mL) in almond oil injection, 5 x 5 mL vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46489971000116109",
+        "display": "pravastatin sodium 10 mg tablet, 90"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10183191000116101",
+        "display": "prilocaine hydrochloride 1% (50 mg/5 mL) injection, 10 x 5 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44223681000116103",
+        "display": "quetiapine 25 mg tablet, 56"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44716141000116108",
+        "display": "ranitidine 150 mg tablet, 7"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45399971000116103",
+        "display": "ranolazine 375 mg tablet: modified release, 60"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47782661000116108",
+        "display": "relugolix 40 mg + estradiol 1 mg + norethisterone acetate 500 microgram tablet, 84 [3 x 28 tablets]"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47652371000116107",
+        "display": "renal low electrolyte oral feed 2 kcal/mL: protein 9.1 g/100 mL + carbohydrate 19 g/100 mL + fat 10 g/100 mL oral liquid, 4 x 200 mL bottles"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44235541000116107",
+        "display": "rimexolone 1% (10 mg/mL) eye drops, 5 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44057431000116100",
+        "display": "ropivacaine hydrochloride 0.5% (100 mg/20 mL) injection, 5 x 20 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47044131000116107",
+        "display": "rufinamide 100 mg tablet, 60"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10644191000116106",
+        "display": "spironolactone 5 mg/mL oral liquid, 25 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47732741000116105",
+        "display": "sugammadex 500 mg/5 mL injection, 1 x 5 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10630941000116108",
+        "display": "sulfadiazine silver powder, 25 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44412621000116102",
+        "display": "temozolomide 100 mg capsule, 20"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46892521000116104",
+        "display": "testosterone 50 mg/5 g gel, 30 x 5 g sachets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10490521000116104",
+        "display": "theophylline 500 mg tablet: modified release, 100"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10680451000116106",
+        "display": "timolol 0.25% (500 microgram/0.2 mL) eye drops, 10 x 0.2 mL unit doses"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10713041000116103",
+        "display": "tramadol hydrochloride 150 mg tablet: modified release, 10"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "26655091000116101",
+        "display": "trolamine laurilsulfate liquid, 500 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10690781000116105",
+        "display": "troponin T indicator blood diagnostic test: strip, 10 strips"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48215131000116104",
+        "display": "tyrosine 1 g/g powder, 100 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46316761000116104",
+        "display": "water for injections injection: intravenous infusion, 12 x 1000 mL bags"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44301231000116104",
+        "display": "ziprasidone 20 mg capsule, 100"
+      }
+    ]
+  },
+  "id": "nzmt-mpp"
+}

@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:35.370+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-mo-gynaecological-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-mo-gynaecological-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-mo-gynaecological-cancer-type",
+  "title": "NZ cancer medical oncology gynaecological cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e8d7cc5e-2ff5-4290-8baf-ebbba65d9bd1",
+    "timestamp": "2024-11-01T20:23:06+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297911000210105",
+        "display": "Other gynaecological primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476481000210100",
+        "display": "Primary malignant neoplasm of body of uterus and/or uterine ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371987000",
+        "display": "Primary malignant neoplasm of fallopian tube"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "350771000210102",
+        "display": "Primary malignant neoplasm of gestational trophoblastic disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93934004",
+        "display": "Primary malignant neoplasm of ovary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372016004",
+        "display": "Primary malignant neoplasm of the peritoneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372024009",
+        "display": "Primary malignant neoplasm of uterine cervix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372025005",
+        "display": "Primary malignant neoplasm of vagina"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94143002",
+        "display": "Primary malignant neoplasm of vulva"
+      }
+    ]
+  },
+  "id": "canshare-mo-gynaecological-cancer-type"
+}

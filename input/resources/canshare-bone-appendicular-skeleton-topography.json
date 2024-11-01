@@ -1,0 +1,268 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:42.952+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-bone-appendicular-skeleton-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-bone-appendicular-skeleton-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-bone-appendicular-skeleton-topography",
+  "title": "NZ cancer bone appendicular skeleton topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "df37c880-5caf-4388-96fc-8435a1a12c30",
+    "timestamp": "2024-11-01T20:25:28+13:00",
+    "total": 45,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85856004",
+        "display": "Acromioclavicular joint structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70258002",
+        "display": "Ankle joint structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33696004",
+        "display": "Bone structure of ankle joint region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80144004",
+        "display": "Bone structure of calcaneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83936004",
+        "display": "Bone structure of carpus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "48566001",
+        "display": "Bone structure of extremity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71341001",
+        "display": "Bone structure of femur"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "87342007",
+        "display": "Bone structure of fibula"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "84167007",
+        "display": "Bone structure of foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24097009",
+        "display": "Bone structure of hand"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85050009",
+        "display": "Bone structure of humerus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64234005",
+        "display": "Bone structure of patella"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "282823009",
+        "display": "Bone structure of phalanx of finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89534004",
+        "display": "Bone structure of phalanx of foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73696005",
+        "display": "Bone structure of phalanx of hand"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2550002",
+        "display": "Bone structure of phalanx of thumb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62413002",
+        "display": "Bone structure of radius"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "79601000",
+        "display": "Bone structure of scapula"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "108371006",
+        "display": "Bone structure of tarsus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12611008",
+        "display": "Bone structure of tibia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23416004",
+        "display": "Bone structure of ulna"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371195002",
+        "display": "Bone structure of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1148421004",
+        "display": "Bone structure of wrist region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16953009",
+        "display": "Elbow joint structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85537004",
+        "display": "Glenohumeral joint structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312683002",
+        "display": "Joint structure of limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4527007",
+        "display": "Joint structure of lower extremity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "896816002",
+        "display": "Joint structure of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49076000",
+        "display": "Knee joint structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "43653007",
+        "display": "Knee meniscus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36455000",
+        "display": "Metacarpal bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53884002",
+        "display": "Metatarsal bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26444007",
+        "display": "Shoulder girdle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163182007",
+        "display": "Structure of articular cartilage of limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "299701004",
+        "display": "Structure of bone of forearm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26552008",
+        "display": "Structure of joint of foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40238009",
+        "display": "Structure of joint of hand"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400143008",
+        "display": "Structure of long bone of lower limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400194001",
+        "display": "Structure of long bone of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18930002",
+        "display": "Structure of phalanx of great toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "711201002",
+        "display": "Structure of phalanx of lesser toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "712523000",
+        "display": "Structure of short bone of lower limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "712522005",
+        "display": "Structure of short bone of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74670003",
+        "display": "Wrist joint structure"
+      }
+    ]
+  },
+  "id": "canshare-bone-appendicular-skeleton-topography"
+}

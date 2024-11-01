@@ -1,0 +1,258 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:33.457+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-soft-tissue-extremity-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-soft-tissue-extremity-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-soft-tissue-extremity-topography",
+  "title": "NZ cancer soft tissue extremity topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "b67473bb-e828-4837-9f64-1d184787622c",
+    "timestamp": "2024-11-01T20:21:25+13:00",
+    "total": 43,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16225001",
+        "display": "Biceps brachii muscle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89241006",
+        "display": "Biceps femoris muscle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36582005",
+        "display": "Brachial plexus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35616000",
+        "display": "Gastrocnemius muscle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21203009",
+        "display": "Palmar aponeurosis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244476009",
+        "display": "Peripheral nerve of lower limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314738007",
+        "display": "Peripheral nerve structure of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "220023008",
+        "display": "Plantar fascia structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "384971008",
+        "display": "Soft tissue structure of ankle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296687000",
+        "display": "Structure of autonomic nervous system of lower limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296693008",
+        "display": "Structure of autonomic nervous system of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75915005",
+        "display": "Structure of brachialis muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "44202005",
+        "display": "Structure of coracobrachialis muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35259002",
+        "display": "Structure of deltoid muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7657000",
+        "display": "Structure of femoral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113319005",
+        "display": "Structure of femoral nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38464002",
+        "display": "Structure of median nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60272005",
+        "display": "Structure of obturator nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21989003",
+        "display": "Structure of quadriceps femoris muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45631007",
+        "display": "Structure of radial artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8079007",
+        "display": "Structure of radial nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41519007",
+        "display": "Structure of sciatic nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "725630005",
+        "display": "Structure of soft tissue of elbow region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "725395007",
+        "display": "Structure of soft tissue of finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "725401007",
+        "display": "Structure of soft tissue of foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "782567006",
+        "display": "Structure of soft tissue of forearm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "763687003",
+        "display": "Structure of soft tissue of hand"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186645004",
+        "display": "Structure of soft tissue of heel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736308001",
+        "display": "Structure of soft tissue of knee region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "787468006",
+        "display": "Structure of soft tissue of lower leg"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "95939006",
+        "display": "Structure of soft tissue of shoulder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "787469003",
+        "display": "Structure of soft tissue of thigh"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1263470009",
+        "display": "Structure of soft tissue of thumb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "725397004",
+        "display": "Structure of soft tissue of toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "787470002",
+        "display": "Structure of soft tissue of upper arm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736325004",
+        "display": "Structure of soft tissue of wrist region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75490006",
+        "display": "Structure of soft tissue within upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "95940008",
+        "display": "Structure of soft tissues of hip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67328008",
+        "display": "Structure of soft tissues of lower limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "44984001",
+        "display": "Structure of ulnar artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "58696008",
+        "display": "Structure of ulnar nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40284004",
+        "display": "Triceps brachii muscle structure"
+      }
+    ]
+  },
+  "id": "canshare-soft-tissue-extremity-topography"
+}

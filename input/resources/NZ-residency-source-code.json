@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[67b5ec01-a938-4854-95da-046a8e3dcae7]: A usable code system with URL https://standards.digital.health.nz/ns/information-source-code|2.0-ballot could not be resolved."
+    }
+  ],
+  "id": "NZ-residency-source-code"
+}

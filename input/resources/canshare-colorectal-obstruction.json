@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:26.842+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-colorectal-obstruction",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-colorectal-obstruction"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-colorectal-obstruction",
+  "title": "NZ colorectal obstruction present",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "4d47adc4-a304-46f3-a12a-5f45f94cf80c",
+    "timestamp": "2024-11-01T20:25:32+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340851000210101",
+        "display": "Not identified"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476811000210108",
+        "display": "Obstruction of cecum and/or colon and/or rectum"
+      }
+    ]
+  },
+  "id": "canshare-colorectal-obstruction"
+}

@@ -1,1 +1,103 @@
-{"resourceType":"ValueSet","id":"canshare-solid-cancer-stream","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:27.028+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-solid-cancer-stream","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-solid-cancer-stream"}],"version":"20240707","name":"canshare-solid-cancer-stream","title":"NZ cancer solid tumour stream","status":"active","experimental":false,"date":"2024-07-07","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The category of the primary solid cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"(^302481000210103 |New Zealand cancer solid tumour stream reference set| MINUS (371986009 |Eye primary| OR 297931000210103 |Endocrine and/or neuroendocrine primary| OR 298141000210109 |Soft tissue and/or bone|))"}]},{"system":"http://snomed.info/sct","concept":[{"code":"297931000210103","display":"Endocrine and neuroendocrine primary"},{"code":"298141000210109","display":"Soft tissue and bone primary"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"390881000210102","display":"Eye and orbit primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:07.392+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-solid-cancer-stream",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-solid-cancer-stream"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-solid-cancer-stream",
+  "title": "NZ cancer solid tumour stream",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "016aace6-9b0d-493e-a4f8-e4af8adc9a34",
+    "timestamp": "2024-11-01T20:24:42+13:00",
+    "total": 12,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298151000210107",
+        "display": "Primary malignant melanoma and/or malignant neoplasm of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298141000210109",
+        "display": "Primary malignant neoplasm of bone and/or soft tissue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372137005",
+        "display": "Primary malignant neoplasm of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93744007",
+        "display": "Primary malignant neoplasm of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297901000210108",
+        "display": "Primary malignant neoplasm of digestive system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297931000210103",
+        "display": "Primary malignant neoplasm of endocrine system and/or neuroendocrine neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390881000210102",
+        "display": "Primary malignant neoplasm of eye and/or orbit"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297911000210105",
+        "display": "Primary malignant neoplasm of female genital"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297921000210100",
+        "display": "Primary malignant neoplasm of head and/or neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298271000210105",
+        "display": "Primary malignant neoplasm of male genitourinary system and/or urinary system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298161000210105",
+        "display": "Primary malignant neoplasm of thorax"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "310504009",
+        "display": "Primary malignant neoplasm of unknown site"
+      }
+    ]
+  },
+  "id": "canshare-solid-cancer-stream"
+}

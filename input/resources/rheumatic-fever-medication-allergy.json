@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:04.408+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/rheumatic-fever-medication-allergy",
+  "version": "20231009",
+  "name": "RheumaticFeverMedicationAllergy",
+  "title": "Rheumatic fever medication allergy",
+  "status": "draft",
+  "expansion": {
+    "identifier": "72686e5f-6853-4c67-add9-bb0bf1b21ed6",
+    "timestamp": "2024-11-01T20:22:34+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20231001"
+      },
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/temporary-rheumatic-fever-codes|20231009"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "294497009",
+        "display": "Allergy to phenoxymethylpenicillin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "91931000",
+        "display": "Allergy to erythromycin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "293722000",
+        "display": "Allergy to lidocaine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "294881007",
+        "display": "Allergy to warfarin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "1003755004",
+        "display": "Latex allergy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "417930000",
+        "display": "Allergy to adhesive agent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20231001",
+        "code": "419511003",
+        "display": "Propensity to adverse reactions to drug"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/temporary-rheumatic-fever-codes",
+        "version": "20231009",
+        "code": "332571000210107",
+        "display": "Allergy to benzathine penicillin"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/temporary-rheumatic-fever-codes",
+        "version": "20231009",
+        "code": "332581000210109",
+        "display": "Allergy to pharmaceutical excipient"
+      }
+    ]
+  },
+  "id": "rheumatic-fever-medication-allergy"
+}

@@ -1,1 +1,63 @@
-{"resourceType":"ValueSet","id":"canshare-cns-status-prognostic-score","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:45.703+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cns-status-prognostic-score","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-cns-status-prognostic-score"}],"version":"20240318","name":"canshare-cns-status-prognostic-score","title":"NZ cancer CNS status in acute lymphoblastic leukaemia lymphoma prognostic score","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The prognostic score for reporting status in acute lymphoblastic lymphoma, defined using the central nervous system (CNS) prognostic scoring system.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 294831000210102 |New Zealand cancer CNS status in acute lymphoblastic leukaemia lymphoma prognostic score reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:36.439+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cns-status-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-cns-status-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-cns-status-prognostic-score",
+  "title": "NZ cancer CNS status in acute lymphoblastic leukaemia lymphoma prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "1fa04e0c-0e7b-4efa-992f-54b3e60d593e",
+    "timestamp": "2024-11-01T20:22:38+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295871000210101",
+        "display": "Central nervous system status 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296041000210109",
+        "display": "Central nervous system status 2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296051000210107",
+        "display": "Central nervous system status 3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296061000210105",
+        "display": "Central nervous system status not available"
+      }
+    ]
+  },
+  "id": "canshare-cns-status-prognostic-score"
+}

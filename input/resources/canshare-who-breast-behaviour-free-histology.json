@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:39.731+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-breast-behaviour-free-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-breast-behaviour-free-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-breast-behaviour-free-histology",
+  "title": "NZ WHO breast behaviour free histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "7d8f2e08-443f-4f2e-8371-7fd0b85116b2",
+    "timestamp": "2024-11-01T20:25:29+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301541000210103",
+        "display": "Epithelial-myoepithelial tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "115230008",
+        "display": "Fibroepithelial neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301571000210108",
+        "display": "Mesenchymal neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1269006002",
+        "display": "Noninvasive premalignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285101000210103",
+        "display": "Phyllodes tumour"
+      }
+    ]
+  },
+  "id": "canshare-who-breast-behaviour-free-histology"
+}

@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:28.809+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gep-net-anus-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-gep-net-anus-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-gep-net-anus-topography",
+  "title": "NZ cancer gastroenteropancreatic neuroendocrine tumour anal topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "4491a83d-f6a6-45b5-bca1-1ec12041986b",
+    "timestamp": "2024-11-01T20:24:57+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34381000",
+        "display": "Anal canal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53505006",
+        "display": "Anal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "263711007",
+        "display": "Cloacogenic zone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21308002",
+        "display": "Skin structure of perianal area"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41178004",
+        "display": "Structure of sphincter ani muscle"
+      }
+    ]
+  },
+  "id": "canshare-gep-net-anus-topography"
+}

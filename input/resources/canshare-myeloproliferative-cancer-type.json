@@ -1,1 +1,83 @@
-{"resourceType":"ValueSet","id":"canshare-myeloproliferative-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:26.444+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-myeloproliferative-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-myeloproliferative-cancer-type"}],"version":"20240416","name":"canshare-myeloproliferative-cancer-type","title":"NZ cancer myeloproliferative cancer type","status":"active","experimental":false,"date":"2024-04-16","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of myeloproliferative haematologic cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 302751000210103 |New Zealand cancer myeloproliferative cancer type reference set| MINUS 109993000 |Myeloproliferative neoplasm|"}]},{"system":"http://snomed.info/sct","concept":[{"code":"109993000","display":"Other myeloproliferative neoplasm (MPN)"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:53.101+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-myeloproliferative-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-myeloproliferative-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-myeloproliferative-cancer-type",
+  "title": "NZ cancer myeloproliferative cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "b65925e5-8320-4588-bcce-9852b640eaa6",
+    "timestamp": "2024-11-01T20:23:02+13:00",
+    "total": 8,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109993000",
+        "display": "Other myeloproliferative neoplasm (MPN)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188733003",
+        "display": "Chronic eosinophilic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92818009",
+        "display": "Chronic myeloid leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188734009",
+        "display": "Chronic neutrophilic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109994006",
+        "display": "Essential thrombocythaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445227008",
+        "display": "Juvenile myelomonocytic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109992005",
+        "display": "Polycythaemia vera (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307651005",
+        "display": "Primary myelofibrosis"
+      }
+    ]
+  },
+  "id": "canshare-myeloproliferative-cancer-type"
+}

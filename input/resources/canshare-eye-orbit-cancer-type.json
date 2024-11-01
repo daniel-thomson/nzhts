@@ -1,1 +1,93 @@
-{"resourceType":"ValueSet","id":"canshare-eye-orbit-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:09.796+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-eye-orbit-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-eye-orbit-cancer-type"}],"version":"20240625","name":"canshare-eye-orbit-cancer-type","title":"NZ cancer eye and/or orbit cancer type","status":"active","experimental":false,"date":"2024-06-25","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of primary eye and/or orbit solid cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"372087000 |Primary malignant neoplasm (disorder)| MINUS 372087000 |Primary malignant neoplasm (disorder)|"}]},{"system":"http://snomed.info/sct","concept":[{"code":"93764002","display":"Conjunctiva primary"},{"code":"93987004","display":"Retina primary"},{"code":"94128004","display":"Uveal tract primary"},{"code":"93998003","display":"Sclera primary"},{"code":"93931007","display":"Optic nerve primary"},{"code":"371993008","display":"Lacrimal gland primary"},{"code":"423195009","display":"Lacrimal drainage system primary"},{"code":"93932000","display":"Orbit primary"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"390901000210104","display":"Eyelid primary"},{"code":"390881000210102","display":"Other eye and orbit primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:26.728+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-eye-orbit-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-eye-orbit-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-eye-orbit-cancer-type",
+  "title": "NZ cancer eye and orbit cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "26cb3cac-663d-4a40-8349-28944e1f8fa9",
+    "timestamp": "2024-11-01T20:24:35+13:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390881000210102",
+        "display": "Other eye and orbit primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93764002",
+        "display": "Primary malignant neoplasm of conjunctiva of eye"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390901000210104",
+        "display": "Primary malignant neoplasm of eyelid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "423195009",
+        "display": "Primary malignant neoplasm of lacrimal drainage system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371993008",
+        "display": "Primary malignant neoplasm of lacrimal gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93931007",
+        "display": "Primary malignant neoplasm of optic nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93932000",
+        "display": "Primary malignant neoplasm of orbit"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93987004",
+        "display": "Primary malignant neoplasm of retina"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93998003",
+        "display": "Primary malignant neoplasm of sclera of eye"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94128004",
+        "display": "Primary malignant neoplasm of uveal tract of eye"
+      }
+    ]
+  },
+  "id": "canshare-eye-orbit-cancer-type"
+}

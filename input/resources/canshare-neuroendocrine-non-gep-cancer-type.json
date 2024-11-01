@@ -1,1 +1,98 @@
-{"resourceType":"ValueSet","id":"canshare-neuroendocrine-non-gep-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:53.130+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-neuroendocrine-non-gep-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-neuroendocrine-non-gep-cancer-type"}],"version":"20240719","name":"canshare-neuroendocrine-non-gep-cancer-type","title":"NZ cancer neuroendocrine non GEP cancer type","status":"active","experimental":false,"date":"2024-07-19","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of the primary neuroendocrine tumour non-gastroenteropancreatic (non-GEP) solid cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"(^ 302901000210102 |New Zealand cancer neuroendocrine non-GEP cancer type reference set| MINUS ^ 302901000210102 |New Zealand cancer neuroendocrine non-GEP cancer type reference set|)"}]},{"system":"http://snomed.info/sct","concept":[{"code":"1290021005","display":"Lung neuroendocrine tumor (NET) primary"},{"code":"1287197000","display":"Thymus neuroendocrine tumour (NET) primary"},{"code":"298921000210101","display":"Merkel cell carcinoma of skin primary"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"390821000210103","display":"Urinary system neuroendocrine tumour (NET) primary"},{"code":"390831000210101","display":"Male genital neuroendocrine tumour (NET) primary"},{"code":"390841000210109","display":"Gynaecological neuroendocrine tumour (NET) primary"},{"code":"390851000210107","display":"Breast neuroendocrine tumour (NET) primary"},{"code":"390861000210105","display":"Head and neck neuroendocrine tumour (NET) primary"},{"code":"390991000210105","display":"Pituitary neuroendocrine tumour (PitNET) primary"},{"code":"390871000210104","display":"CNS neuroendocrine tumour (NET) primary"},{"code":"382561000210109","display":"Other neuroendocrine tumour non-gastroenteropancreatic (non-GEP NET) primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:28.895+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-neuroendocrine-non-gep-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-neuroendocrine-non-gep-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-neuroendocrine-non-gep-cancer-type",
+  "title": "NZ cancer neuroendocrine non GEP cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "bd75d913-47c8-4110-b69f-da24c8db42b0",
+    "timestamp": "2024-11-01T20:23:01+13:00",
+    "total": 11,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382561000210109",
+        "display": "Other neuroendocrine tumour non-gastroenteropancreatic (non-GEP NET) primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390841000210109",
+        "display": "Primary female genital well-differentiated neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390831000210101",
+        "display": "Primary male genital well-differentiated neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298921000210101",
+        "display": "Primary Merkel cell carcinoma of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390851000210107",
+        "display": "Primary well-differentiated neuroendocrine tumour of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390871000210104",
+        "display": "Primary well-differentiated neuroendocrine tumour of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390861000210105",
+        "display": "Primary well-differentiated neuroendocrine tumour of head and/or neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290021005",
+        "display": "Primary well-differentiated neuroendocrine tumour of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390991000210105",
+        "display": "Primary well-differentiated neuroendocrine tumour of pituitary gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1287197000",
+        "display": "Primary well-differentiated neuroendocrine tumour of thymus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390821000210103",
+        "display": "Primary well-differentiated neuroendocrine tumour of urinary system"
+      }
+    ]
+  },
+  "id": "canshare-neuroendocrine-non-gep-cancer-type"
+}

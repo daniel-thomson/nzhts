@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:14.361+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-haematology-myeloma-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-haematology-myeloma-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-haematology-myeloma-histology",
+  "title": "NZ WHO haematolymphoid myeloma histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "faefcd3c-b9b6-4cee-bd49-f590580bc0a5",
+    "timestamp": "2024-11-01T20:21:13+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419841000210109",
+        "display": "Non-secretory multiple myeloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128922003",
+        "display": "Plasma cell leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162576007",
+        "display": "Plasma cell myeloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419831000210101",
+        "display": "Smouldering multiple myeloma"
+      }
+    ]
+  },
+  "id": "canshare-who5-haematology-myeloma-histology"
+}

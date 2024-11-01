@@ -1,0 +1,133 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:18.714+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-head-neck-oral-cavity-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-head-neck-oral-cavity-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-head-neck-oral-cavity-histology",
+  "title": "NZ WHO classification of tumours head and neck oral cavity and mobile tongue histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "475a9adf-0fbf-4f5f-b604-2179cec3cce6",
+    "timestamp": "2024-11-01T20:24:17+13:00",
+    "total": 18,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1336225003",
+        "display": "Benign granular cell tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397451000210109",
+        "display": "Carcinoma cuniculatum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397461000210107",
+        "display": "Congenital granular cell epulis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397471000210101",
+        "display": "Ectomesenchymal chondromyxoid tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13238004",
+        "display": "Granular cell tumour, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "22725004",
+        "display": "High-grade squamous intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112662005",
+        "display": "Low-grade squamous intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466601000210103",
+        "display": "Malignant melanotic neuroectodermal tumour of infancy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466611000210101",
+        "display": "Melanotic neuroectodermal tumour of infancy of uncertain behaviour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397381000210108",
+        "display": "Multifocal epithelial hyperplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397351000210103",
+        "display": "Necrotising sialometaplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397391000210105",
+        "display": "Oral melanoacanthoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397441000210106",
+        "display": "Oral squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397401000210108",
+        "display": "Proliferative verrucous leukoplakia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63451008",
+        "display": "Squamous cell papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112675005",
+        "display": "Submucous fibrosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89906000",
+        "display": "Verrucous carcinoma"
+      }
+    ]
+  },
+  "id": "canshare-who-head-neck-oral-cavity-histology"
+}

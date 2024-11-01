@@ -1,0 +1,98 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:18.440+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-cn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-breast-cn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-breast-cn",
+  "title": "NZ AJCC breast clinical N category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "ba0b9f32-da15-4754-b663-6b28a3246d03",
+    "timestamp": "2024-11-01T20:23:25+13:00",
+    "total": 11,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229967007",
+        "display": "cN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229973008",
+        "display": "cN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229974002",
+        "display": "cN1mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229978004",
+        "display": "cN2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229981009",
+        "display": "cN2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229982002",
+        "display": "cN2b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229984001",
+        "display": "cN3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229985000",
+        "display": "cN3a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229986004",
+        "display": "cN3b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229987008",
+        "display": "cN3c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229966003",
+        "display": "cNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm-breast-cn"
+}

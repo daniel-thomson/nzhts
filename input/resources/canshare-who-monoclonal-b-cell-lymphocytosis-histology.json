@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:14.159+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-monoclonal-b-cell-lymphocytosis-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-monoclonal-b-cell-lymphocytosis-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-monoclonal-b-cell-lymphocytosis-histology",
+  "title": "NZ WHO haematolymphoid monoclonal B cell lymphocytosis histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "1f5b3b79-e7f1-492b-b8d9-b88f167599ae",
+    "timestamp": "2024-11-01T20:25:43+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789739001",
+        "display": "Monoclonal B-cell lymphocytosis chronic lymphocytic leukaemia-type"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398311000210101",
+        "display": "Monoclonal B-cell lymphocytosis chronic lymphocytic leukemia-type low abnormal lymphocyte count"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789743002",
+        "display": "Monoclonal B-cell lymphocytosis non-chronic lymphocytic leukaemia type"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      }
+    ]
+  },
+  "id": "canshare-who-monoclonal-b-cell-lymphocytosis-histology"
+}

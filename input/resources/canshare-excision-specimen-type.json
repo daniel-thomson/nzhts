@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:11.947+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-excision-specimen-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-excision-specimen-type"
+    }
+  ],
+  "version": "20241023",
+  "name": "canshare-excision-specimen-type",
+  "title": "NZ cancer excision specimen type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "3b2fbafe-e590-4288-8406-b5e818cfce42",
+    "timestamp": "2024-11-01T20:21:18+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished|1"
+      },
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "496231000210108",
+        "display": "Entire cervix specimen from hysterectomy"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "496211000210101",
+        "display": "Part of cervix specimen from hysterectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "408654003",
+        "display": "Specimen obtained by amputation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "397436009",
+        "display": "Specimen obtained by lymphadenectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "382481000210102",
+        "display": "Tissue specimen from distal doughnut of colon obtained by excision"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "1173996004",
+        "display": "Tissue specimen from polyp obtained by excision"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "382471000210104",
+        "display": "Tissue specimen from proximal doughnut of colon obtained by excision"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109/version/20241001",
+        "code": "439479000",
+        "display": "Tissue specimen obtained by excision"
+      }
+    ]
+  },
+  "id": "canshare-excision-specimen-type"
+}

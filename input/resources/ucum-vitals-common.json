@@ -1,1 +1,106 @@
-{"resourceType":"ValueSet","id":"ucum-vitals-common","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:45.950+12:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/valueset-extensible","valueBoolean":true},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"oo"}],"url":"http://hl7.org/fhir/ValueSet/ucum-vitals-common","identifier":[{"system":"urn:ietf:rfc:3986","value":"urn:oid:2.16.840.1.113883.4.642.3.955"}],"version":"4.0.1","name":"VitalSignsUnits","title":"Vital Signs Units","status":"draft","experimental":false,"date":"2019-11-01T09:29:23+11:00","publisher":"FHIR Project","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"},{"system":"email","value":"fhir@lists.hl7.org"}]}],"description":"Common UCUM units for recording Vital Signs","copyright":"UCUM is Copyright © 1999-2013 Regenstrief Institute, Inc. and The UCUM Organization, Indianapolis, IN. All rights reserved. See http://unitsofmeasure.org/trac//wiki/TermsOfUse for details","compose":{"include":[{"system":"http://unitsofmeasure.org","concept":[{"code":"%","display":"percent"},{"code":"cm","display":"centimeter"},{"code":"[in_i]","display":"inch (international)"},{"code":"kg","display":"kilogram"},{"code":"g","display":"gram"},{"code":"[lb_av]","display":"pound (US and British)"},{"code":"Cel","display":"degree Celsius"},{"code":"[degF]","display":"degree Fahrenheit"},{"code":"mm[Hg]","display":"millimeter of mercury"},{"code":"/min","display":"per minute"},{"code":"kg/m2","display":"kilogram / (meter ^ 2)"},{"code":"m2","display":"square meter"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:58.471+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/ValueSet/ucum-vitals-common",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.4.642.3.955"
+    }
+  ],
+  "version": "4.0.1",
+  "name": "VitalSignsUnits",
+  "title": "Vital Signs Units",
+  "status": "draft",
+  "experimental": false,
+  "copyright": "UCUM is Copyright © 1999-2013 Regenstrief Institute, Inc. and The UCUM Organization, Indianapolis, IN. All rights reserved. See http://unitsofmeasure.org/trac//wiki/TermsOfUse for details",
+  "expansion": {
+    "identifier": "a0c66ad7-b454-47c6-ae64-e767afe54206",
+    "timestamp": "2024-11-01T20:24:24+13:00",
+    "total": 12,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://unitsofmeasure.org|2.2"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "%",
+        "display": "percent"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "cm",
+        "display": "centimeter"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "[in_i]",
+        "display": "inch (international)"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "kg",
+        "display": "kilogram"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "g",
+        "display": "gram"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "[lb_av]",
+        "display": "pound (US and British)"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel",
+        "display": "degree Celsius"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "[degF]",
+        "display": "degree Fahrenheit"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]",
+        "display": "millimeter of mercury"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "/min",
+        "display": "per minute"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2",
+        "display": "kilogram / (meter ^ 2)"
+      },
+      {
+        "system": "http://unitsofmeasure.org",
+        "code": "m2",
+        "display": "square meter"
+      }
+    ]
+  },
+  "id": "ucum-vitals-common"
+}

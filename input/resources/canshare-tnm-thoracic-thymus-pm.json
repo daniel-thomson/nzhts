@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-thoracic-thymus-pm","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:43.980+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-thoracic-thymus-pm","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-thoracic-thymus-pm"}],"version":"20240318","name":"canshare-tnm-thoracic-thymus-pm","title":"NZ AJCC thoracic thymus pathological M category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A pathological distant metastasis stage (pM) of a thymus tumour, using the AJCC cancer staging manual (latest edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^297521000210107 |New Zealand AJCC 8th edition thoracic thymus pathological M category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:21.480+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-thoracic-thymus-pm",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-thoracic-thymus-pm"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-thoracic-thymus-pm",
+  "title": "NZ AJCC thoracic thymus pathological M category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "934d61e1-bb43-438e-95ca-fdbc7e5d2f3a",
+    "timestamp": "2024-11-01T20:23:55+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229916009",
+        "display": "pM1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229917000",
+        "display": "pM1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229920008",
+        "display": "pM1b"
+      }
+    ]
+  },
+  "id": "canshare-tnm-thoracic-thymus-pm"
+}

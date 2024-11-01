@@ -1,0 +1,228 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:22.494+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-eyelid-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-eyelid-primary-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-eyelid-primary-histology",
+  "title": "NZ WHO eyelid primary histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "a5014723-a492-4fe8-98c4-82dc79eed0d0",
+    "timestamp": "2024-11-01T20:21:40+13:00",
+    "total": 37,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11671000",
+        "display": "Adenoid cystic carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88195001",
+        "display": "Alveolar soft part sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "863926008",
+        "display": "Angiosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116063003",
+        "display": "Atypical lipomatous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1338007",
+        "display": "Basal cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398661000210109",
+        "display": "Cutaneous melanoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76594008",
+        "display": "Dermatofibrosarcoma protuberans"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128750008",
+        "display": "Ectomesenchymoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54124005",
+        "display": "Epithelioid haemangioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "59238007",
+        "display": "Epithelioid sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76909002",
+        "display": "Ewing's sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57500000",
+        "display": "Giant cell tumour of bone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476111000210100",
+        "display": "Glomus tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293211005",
+        "display": "Glomus tumour of uncertain malignant potential"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476431000210104",
+        "display": "Granular cell tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "81201000",
+        "display": "Haemangioblastoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "61217001",
+        "display": "Hutchinson's melanotic freckle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290860006",
+        "display": "Inflammatory myofibroblastic tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163022006",
+        "display": "Leiomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "115227001",
+        "display": "Lipomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398681000210101",
+        "display": "Low cumulative sun damage melanoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703694005",
+        "display": "Low grade central osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1187092008",
+        "display": "Malignant keratoacanthoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162635006",
+        "display": "Malignant melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5052009",
+        "display": "Merkel cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56565002",
+        "display": "Mesenchymal chondrosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "115242003",
+        "display": "Nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55333008",
+        "display": "Osteoblastoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163405004",
+        "display": "Osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "388601000",
+        "display": "Perivascular epithelioid cell tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30924005",
+        "display": "Rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54734006",
+        "display": "Sebaceous adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64000002",
+        "display": "Skin appendage carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128736003",
+        "display": "Solitary fibrous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162767002",
+        "display": "Squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63211008",
+        "display": "Synovial sarcoma"
+      }
+    ]
+  },
+  "id": "canshare-who-eyelid-primary-histology"
+}

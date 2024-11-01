@@ -1,1 +1,73 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:27:15.493+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn"}],"version":"20240318","name":"canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn","title":"NZ AJCC (8th edition) female genital ovary and/or fallopian tube and/or primary peritoneal carcinoma pathological N category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A pathological regional lymph node stage (pN) of a ovary, falliopian and/or primary peritoneal carcinoma, using the AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 331241000210105 |New Zealand AJCC 8th edition female genital ovary and/or fallopian tube and/or primary peritoneal carcinoma pathological N category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:23.351+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn",
+  "title": "NZ AJCC (8th edition) female genital ovary and fallopian tube and primary peritoneal carcinoma pathological N category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "75eecc5b-3c59-4c55-89dc-4b0b6a31d113",
+    "timestamp": "2024-11-01T20:22:46+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229947003",
+        "display": "pN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229949000",
+        "display": "pN0(i+)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229951001",
+        "display": "pN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229954009",
+        "display": "pN1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229955005",
+        "display": "pN1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229945006",
+        "display": "pNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-female-genital-ovary-fallopian-peritoneal-pn"
+}

@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-tnm9-female-genital-cervix-uteri-pn","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:07.160+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm9-female-genital-cervix-uteri-pn","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm9-female-genital-cervix-uteri-pn"}],"version":"20240318","name":"canshare-tnm9-female-genital-cervix-uteri-pn","title":"NZ AJCC (9th edition) female genital cervix uteri pathological N category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A pathological regional lymph node stage (pN) of a cervix uteri tumour, using the AJCC cancer staging manual (9th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 331691000210103 |New Zealand AJCC 9th edition female genital cervix uteri pathological N category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:12.175+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm9-female-genital-cervix-uteri-pn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm9-female-genital-cervix-uteri-pn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm9-female-genital-cervix-uteri-pn",
+  "title": "NZ AJCC (9th edition) female genital cervix uteri pathological N category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6d65a05e-a53d-420a-9d3a-7bc9f3f6c263",
+    "timestamp": "2024-11-01T20:22:20+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229947003",
+        "display": "pN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229949000",
+        "display": "pN0(i+)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229951001",
+        "display": "pN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229954009",
+        "display": "pN1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229952008",
+        "display": "pN1mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229957002",
+        "display": "pN2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229959004",
+        "display": "pN2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229958007",
+        "display": "pN2mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229945006",
+        "display": "pNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm9-female-genital-cervix-uteri-pn"
+}

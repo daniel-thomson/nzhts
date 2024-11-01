@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-who-female-genital-uterine-ligament-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:27:15.369+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-female-genital-uterine-ligament-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who-female-genital-uterine-ligament-histology"}],"version":"20240318","name":"canshare-who-female-genital-uterine-ligament-histology","title":"NZ WHO female genital uterine ligament histology","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for female genital cancer types (WHO Classification of Tumours, Female Genital Tumours, latest edition - 6. Tumours of the broad ligament and other uterine ligaments) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^300231000210102 |New Zealand World Health Organization classification of tumors 5th edition female genital uterine ligament histology reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:29.181+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-female-genital-uterine-ligament-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-female-genital-uterine-ligament-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-female-genital-uterine-ligament-histology",
+  "title": "NZ WHO female genital uterine ligament histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "682dad89-21cb-40da-8076-63e7f2c5c890",
+    "timestamp": "2024-11-01T20:21:38+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40293003",
+        "display": "Adenomyoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31470003",
+        "display": "Adenosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "299751000210100",
+        "display": "Adrenal rest"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186904005",
+        "display": "Ependymoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162890002",
+        "display": "Leiomyoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163022006",
+        "display": "Leiomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32140001",
+        "display": "Papillary cystadenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "817967001",
+        "display": "Wolffian tumour of uncertain behaviour"
+      }
+    ]
+  },
+  "id": "canshare-who-female-genital-uterine-ligament-histology"
+}

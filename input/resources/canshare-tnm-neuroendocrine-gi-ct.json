@@ -1,1 +1,83 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-neuroendocrine-gi-ct","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:59.401+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-neuroendocrine-gi-ct","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-neuroendocrine-gi-ct"}],"version":"20240318","name":"canshare-tnm-neuroendocrine-gi-ct","title":"NZ AJCC neuroendocrine gastrointestinal clinical T category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A clinical tumour stage (cT) of a neuroendocrine gastrointestional tumour before initiation of treatment, using the AJCC cancer staging manual (latest edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^332871000210109 |New Zealand American Joint Committee on Cancer 8th edition neuroendocrine gastrointestinal clinical T category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:48.145+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-neuroendocrine-gi-ct",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-neuroendocrine-gi-ct"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-neuroendocrine-gi-ct",
+  "title": "NZ AJCC neuroendocrine gastrointestinal clinical T category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "03ddf663-a10b-4615-8f78-7fd337973bd7",
+    "timestamp": "2024-11-01T20:22:26+13:00",
+    "total": 8,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228882005",
+        "display": "cT0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228889001",
+        "display": "cT1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228892002",
+        "display": "cT1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228895000",
+        "display": "cT1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228929004",
+        "display": "cT2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228938002",
+        "display": "cT3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228944003",
+        "display": "cT4"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222604002",
+        "display": "cTX"
+      }
+    ]
+  },
+  "id": "canshare-tnm-neuroendocrine-gi-ct"
+}

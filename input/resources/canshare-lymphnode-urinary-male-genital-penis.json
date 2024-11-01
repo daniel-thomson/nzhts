@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:05.561+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-urinary-male-genital-penis",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lymphnode-urinary-male-genital-penis"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lymphnode-urinary-male-genital-penis",
+  "title": "NZ cancer urinary and male genital penis lymph node",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "71dc7515-726b-48f3-a54e-da70076d81f2",
+    "timestamp": "2024-11-01T20:21:03+13:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8928004",
+        "display": "Inguinal lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245357003",
+        "display": "Internal iliac node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54268001",
+        "display": "Pelvic lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "65266007",
+        "display": "Structure of deep inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "65349008",
+        "display": "Structure of external iliac lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36086000",
+        "display": "Structure of obturator lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91394001",
+        "display": "Structure of retroperitoneal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113340006",
+        "display": "Structure of superficial inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245371006",
+        "display": "Superomedial superficial inguinal node"
+      }
+    ]
+  },
+  "id": "canshare-lymphnode-urinary-male-genital-penis"
+}

@@ -1,0 +1,208 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:01.640+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-procedure-specimen-gi",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-cancer-procedure-specimen-gi"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-cancer-procedure-specimen-gi",
+  "title": "NZ cancer gastrointestinal specimen collection procedure",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "f8b7186e-c0f2-49ee-8534-44e578eb1d68",
+    "timestamp": "2024-11-01T20:25:09+13:00",
+    "total": 33,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "265414003",
+        "display": "Abdominoperineal resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4558008",
+        "display": "Anterior resection of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "173170008",
+        "display": "Bilobectomy of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "86273004",
+        "display": "Biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10381000132106",
+        "display": "EMR (endoscopic mucosal resection) of gastrointestinal tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "870423007",
+        "display": "Endoscopic full thickness resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10391000132108",
+        "display": "Endoscopic submucosal dissection of gastrointestinal tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174059005",
+        "display": "Excision of colon and rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351311000210101",
+        "display": "Excision of Couinaud hepatic segment I and Couinaud hepatic segment II and Couinaud hepatic segment III and Couinaud hepatic segment IV and Couinaud hepatic segment V and Couinaud hepatic segment VIII only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351291000210102",
+        "display": "Excision of Couinaud hepatic segment II and Couinaud hepatic segment III and Couinaud hepatic segment IV and Couinaud hepatic segment V only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351301000210103",
+        "display": "Excision of Couinaud hepatic segment II and Couinaud hepatic segment III only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351331000210108",
+        "display": "Excision of Couinaud hepatic segment IV and Couinaud hepatic segment V and Couinaud hepatic segment VI and Couinaud hepatic segment VII and Couinaud hepatic segment VIII only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351321000210106",
+        "display": "Excision of Couinaud hepatic segment V and Couinaud hepatic segment VI and Couinaud hepatic segment VII and Couinaud hepatic segment VIII only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1264200003",
+        "display": "Excision of lesion of rectum by TAMIS (transanal minimal invasive surgery)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1263735008",
+        "display": "Excision of rectum by TEM (transanal endoscopic microsurgery)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174071004",
+        "display": "Extended right hemicolectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400988008",
+        "display": "High anterior resection of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82619000",
+        "display": "Left colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "125571002",
+        "display": "Lobectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314592008",
+        "display": "Low anterior resection of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "43075005",
+        "display": "Partial resection of colon"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82035006",
+        "display": "Resection of polyp"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174430004",
+        "display": "Resection of segment of liver"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359571009",
+        "display": "Right colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "84604002",
+        "display": "Sigmoid colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26390003",
+        "display": "Total colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17203000",
+        "display": "Total hepatectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49795001",
+        "display": "Total pneumonectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26925005",
+        "display": "Transverse colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351261000210107",
+        "display": "Ultra low anterior resection of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "232632009",
+        "display": "Wedge excision of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174431000",
+        "display": "Wedge resection of liver"
+      }
+    ]
+  },
+  "id": "canshare-cancer-procedure-specimen-gi"
+}

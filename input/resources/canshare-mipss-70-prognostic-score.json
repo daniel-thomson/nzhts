@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:20.286+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-mipss-70-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-mipss-70-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-mipss-70-prognostic-score",
+  "title": "NZ cancer MIPSS 70 myelofibrosis prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "d779bf37-47c0-45cc-8a82-f7dbd79c3ac6",
+    "timestamp": "2024-11-01T20:25:48+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371081000210107",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy for myelofibrosis risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371071000210105",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy for myelofibrosis risk group intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371061000210104",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy for myelofibrosis risk group low"
+      }
+    ]
+  },
+  "id": "canshare-mipss-70-prognostic-score"
+}

@@ -1,1 +1,639 @@
-{"resourceType":"ValueSet","id":"healthnz-language-value-set","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:07.464+12:00"},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Health NZ language Value Set</h2><tt>https://nzhts.digital.health.nz/ValueSet/healthnz-language-value-set</tt><p>ISO 639-2 language codes plus NZ sign language from ISO 639-3</p></div>"},"url":"https://nzhts.digital.health.nz/ValueSet/healthnz-language-value-set","version":"20240712","name":"HealthNZ_language_Value_Set","title":"Health NZ language Value Set","status":"draft","contact":[{"telecom":[{"system":"email"}]}],"description":"ISO 639-2 language codes plus NZ sign language from ISO 639-3","compose":{"include":[{"system":"http://terminology.hl7.org/CodeSystem/iso639-3","version":"20230123","concept":[{"code":"nzs","display":"New Zealand Sign Language"},{"code":"yue","display":"Cantonese"},{"code":"cmn","display":"Mandarin Chinese"}]},{"system":"http://terminology.hl7.org/CodeSystem/iso639-2","version":"20240712"}],"exclude":[{"system":"http://terminology.hl7.org/CodeSystem/iso639-2","version":"20240712","concept":[{"code":"mul","display":"Multiple languages"},{"code":"mis","display":"Uncoded languages"},{"code":"und","display":"Undetermined"},{"code":"zxx","display":"No linguistic content, Not applicable"},{"code":"chb","display":"Chibcha"},{"code":"chg","display":"Chagatai"},{"code":"cop","display":"Coptic"},{"code":"lui","display":"Luiseno"},{"code":"sam","display":"Samaritan Aramaic"},{"code":"akk","display":"Akkadian"},{"code":"ang","display":"Old English (ca. 450-1100)"},{"code":"arc","display":"Imperial Aramaic (700-300 BCE), Official Aramaic (700-300 BCE)"},{"code":"ave","display":"Avestan"},{"code":"chu","display":"Church Slavic, Church Slavonic, Old Bulgarian, Old Church Slavonic, Old Slavonic"},{"code":"dum","display":"Middle Dutch (ca. 1050-1350)"},{"code":"egy","display":"Egyptian (Ancient)"},{"code":"elx","display":"Elamite"},{"code":"enm","display":"Middle English (1100-1500)"},{"code":"frm","display":"Middle French (ca. 1400-1600)"},{"code":"fro","display":"Old French (842-ca. 1400)"},{"code":"gez","display":"Geez"},{"code":"gmh","display":"Middle High German (ca. 1050-1500)"},{"code":"goh","display":"Old High German (ca. 750-1050)"},{"code":"got","display":"Gothic"},{"code":"grc","display":"Ancient Greek (to 1453)"},{"code":"hit","display":"Hittite"},{"code":"kaw","display":"Kawi"},{"code":"kho","display":"Khotanese, Sakan"},{"code":"lat","display":"Latin"},{"code":"mga","display":"Middle Irish (900-1200)"},{"code":"non","display":"Old Norse"},{"code":"nwc","display":"Classical Nepal Bhasa, Classical Newari, Old Newari"},{"code":"ota","display":"Ottoman Turkish (1500-1928)"},{"code":"pal","display":"Pahlavi"},{"code":"peo","display":"Old Persian (ca. 600-400 B.C.)"},{"code":"phn","display":"Phoenician"},{"code":"pli","display":"Pali"},{"code":"pro","display":"Old Occitan (to 1500), Old Provençal (to 1500)"},{"code":"san","display":"Sanskrit"},{"code":"sga","display":"Old Irish (to 900)"},{"code":"sog","display":"Sogdian"},{"code":"sux","display":"Sumerian"},{"code":"syc","display":"Classical Syriac"},{"code":"uga","display":"Ugaritic"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:08.779+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/healthnz-language-value-set",
+  "version": "20240712",
+  "name": "HealthNZ_language_Value_Set",
+  "title": "Health NZ language Value Set",
+  "status": "draft",
+  "expansion": {
+    "identifier": "22b21438-6be4-41b0-b646-8c64fe1f545c",
+    "timestamp": "2024-11-01T20:24:02+13:00",
+    "total": 445,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://terminology.hl7.org/CodeSystem/iso639-2|20240712"
+      },
+      {
+        "name": "version",
+        "valueUri": "http://terminology.hl7.org/CodeSystem/iso639-3|20230123"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-3",
+        "version": "20230123",
+        "code": "nzs",
+        "display": "New Zealand Sign Language"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-3",
+        "version": "20230123",
+        "code": "yue",
+        "display": "Cantonese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-3",
+        "version": "20230123",
+        "code": "cmn",
+        "display": "Mandarin Chinese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "rup",
+        "display": "Aromanian, Arumanian, Macedo-Romanian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "asm",
+        "display": "Assamese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ast",
+        "display": "Asturian, Asturleonese, Bable, Leonese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ath",
+        "display": "Athapascan languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "aus",
+        "display": "Australian languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ava",
+        "display": "Avaric"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "awa",
+        "display": "Awadhi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "aym",
+        "display": "Aymara"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "aze",
+        "display": "Azerbaijani"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ban",
+        "display": "Balinese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "bam",
+        "display": "Bambara"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "byn",
+        "display": "Bilin, Blin"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "bug",
+        "display": "Buginese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "bul",
+        "display": "Bulgarian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "khm",
+        "display": "Central Khmer, Khmer"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nya",
+        "display": "Chewa, Chichewa, Nyanja"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "zho",
+        "display": "Chinese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "zha",
+        "display": "Chuang, Zhuang"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "dyu",
+        "display": "Dyula"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "dzo",
+        "display": "Dzongkha"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "fan",
+        "display": "Fang (Equatorial Guinea)"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "fat",
+        "display": "Fanti"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "fao",
+        "display": "Faroese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "gaa",
+        "display": "Ga"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lug",
+        "display": "Ganda"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "gay",
+        "display": "Gayo"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "gba",
+        "display": "Gbaya (Central African Republic)"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "gem",
+        "display": "Germanic languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "kik",
+        "display": "Gikuyu, Kikuyu"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "hai",
+        "display": "Haida"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "hat",
+        "display": "Haitian, Haitian Creole"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "hau",
+        "display": "Hausa"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "haw",
+        "display": "Hawaiian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "heb",
+        "display": "Hebrew"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "her",
+        "display": "Herero"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ido",
+        "display": "Ido"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ibo",
+        "display": "Igbo"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ijo",
+        "display": "Ijo languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "xal",
+        "display": "Kalmyk, Oirat"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "kha",
+        "display": "Khasi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "khi",
+        "display": "Khoisan languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "kmb",
+        "display": "Kimbundu"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "kin",
+        "display": "Kinyarwanda"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "kir",
+        "display": "Kirghiz, Kyrgyz"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lim",
+        "display": "Limburgan, Limburger, Limburgish"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lin",
+        "display": "Lingala"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lit",
+        "display": "Lithuanian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "loz",
+        "display": "Lozi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lub",
+        "display": "Luba-Katanga"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lua",
+        "display": "Luba-Lulua"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mkd",
+        "display": "Macedonian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mlg",
+        "display": "Malagasy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mlt",
+        "display": "Maltese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mnc",
+        "display": "Manchu"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mni",
+        "display": "Manipuri"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mno",
+        "display": "Manobo languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mri",
+        "display": "Maori"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mwl",
+        "display": "Mirandese"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "moh",
+        "display": "Mohawk"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mkh",
+        "display": "Mon-Khmer languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "lol",
+        "display": "Mongo"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mon",
+        "display": "Mongolian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "mos",
+        "display": "Mossi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nqo",
+        "display": "N'Ko"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nog",
+        "display": "Nogai"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nso",
+        "display": "Northern Sotho, Pedi, Sepedi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nor",
+        "display": "Norwegian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nob",
+        "display": "Norwegian Bokmål"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nno",
+        "display": "Norwegian Nynorsk"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "iii",
+        "display": "Nuosu, Sichuan Yi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nym",
+        "display": "Nyamwezi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "nyn",
+        "display": "Nyankole"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "ori",
+        "display": "Oriya (macrolanguage)"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "orm",
+        "display": "Oromo"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "osa",
+        "display": "Osage"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "oss",
+        "display": "Ossetian, Ossetic"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "oto",
+        "display": "Otomian languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "pus",
+        "display": "Pashto, Pushto"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "fas",
+        "display": "Persian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "pra",
+        "display": "Prakrit languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "que",
+        "display": "Quechua"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "run",
+        "display": "Rundi"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "rus",
+        "display": "Russian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "wen",
+        "display": "Sorbian languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "zgh",
+        "display": "Standard Moroccan Tamazight"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "swa",
+        "display": "Swahili (macrolanguage)"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "swe",
+        "display": "Swedish"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "syr",
+        "display": "Syriac"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "tyv",
+        "display": "Tuvinian"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "vai",
+        "display": "Vai"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "wak",
+        "display": "Wakashan languages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "war",
+        "display": "Waray (Philippines)"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "was",
+        "display": "Washo"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "cym",
+        "display": "Welsh"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "wal",
+        "display": "Wolaitta, Wolaytta"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "yid",
+        "display": "Yiddish"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso639-2",
+        "version": "20240712",
+        "code": "zen",
+        "display": "Zenaga"
+      }
+    ]
+  },
+  "id": "healthnz-language-value-set"
+}

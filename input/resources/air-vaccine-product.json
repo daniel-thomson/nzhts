@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[b8e121fd-6821-4496-80bf-64009a488564]: A usable code system with URL http://hl7.org/fhir/sid/cvx|3.0.1 could not be resolved."
+    }
+  ],
+  "id": "air-vaccine-product"
+}

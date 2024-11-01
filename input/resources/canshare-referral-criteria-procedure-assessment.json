@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:24.341+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-referral-criteria-procedure-assessment",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-referral-criteria-procedure-assessment"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-referral-criteria-procedure-assessment",
+  "title": "NZ cancer procedure referral criteria assessment",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e1f27702-9ad2-4304-8a1a-5d0425e36269",
+    "timestamp": "2024-11-01T20:24:19+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381211000210101",
+        "display": "New Zealand Ministry of Health six week category referral criteria for outpatient colonoscopy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381201000210103",
+        "display": "New Zealand Ministry of Health two week category referral criteria for outpatient colonoscopy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      }
+    ]
+  },
+  "id": "canshare-referral-criteria-procedure-assessment"
+}

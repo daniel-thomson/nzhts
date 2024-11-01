@@ -1,1 +1,133 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-rcn","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:58.041+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-rcn","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-rcn"}],"version":"20240318","name":"canshare-tnm-rcn","title":"NZ AJCC recurrence or retreatment clinical N category (rcN)","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A recurrence or retreatment clinical regional lymph node stage (rcN) before initiation of treatment, using the AJCC cancer staging manual.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 333361000210102 |New Zealand AJCC recurrence or retreatment clinical N (rcN) category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:14.681+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-rcn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-rcn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-rcn",
+  "title": "NZ AJCC recurrence or retreatment clinical N category (rcN)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "0a36ee4a-c701-4dd0-932b-2dc0df4f567f",
+    "timestamp": "2024-11-01T20:23:33+13:00",
+    "total": 18,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279801005",
+        "display": "rcN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279802003",
+        "display": "rcN0(i+)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279820007",
+        "display": "rcN0a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279821006",
+        "display": "rcN0b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279803008",
+        "display": "rcN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279805001",
+        "display": "rcN1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279806000",
+        "display": "rcN1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279807009",
+        "display": "rcN1c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279804002",
+        "display": "rcN1mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279808004",
+        "display": "rcN2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279813000",
+        "display": "rcN2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279814006",
+        "display": "rcN2b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279815007",
+        "display": "rcN2c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279816008",
+        "display": "rcN3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279817004",
+        "display": "rcN3a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279818009",
+        "display": "rcN3b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279819001",
+        "display": "rcN3c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279800006",
+        "display": "rcNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm-rcn"
+}

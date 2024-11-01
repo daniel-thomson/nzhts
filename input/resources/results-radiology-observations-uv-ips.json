@@ -1,1 +1,571 @@
-{"resourceType":"ValueSet","id":"results-radiology-observations-uv-ips","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:20.168+12:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> where CLASS  =  RAD</li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":2,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}}],"url":"http://hl7.org/fhir/uv/ips/ValueSet/results-radiology-observations-uv-ips","identifier":[{"use":"official","system":"http://art-decor.org/ns/oids/vs","value":"2.16.840.1.113883.11.22.40"}],"version":"1.1.0","name":"ResultsRadiologyObservationUvIps","title":"Results Radiology Observation - IPS","status":"active","experimental":false,"date":"2022-11-22T03:32:52+00:00","publisher":"Health Level Seven International - Patient Care Work Group","contact":[{"telecom":[{"system":"url","value":"http://www.hl7.org/Special/committees/patientcare"}]}],"description":"\n Value Set Definition: \n LOINC {CLASS in {RAD}}\n\n\n\n","jurisdiction":[{"coding":[{"system":"http://unstats.un.org/unsd/methods/m49/m49.htm","code":"001"}]}],"immutable":false,"copyright":"This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc","compose":{"include":[{"system":"http://loinc.org","filter":[{"property":"CLASS","op":"=","value":"RAD"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:50.609+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/uv/ips/ValueSet/results-radiology-observations-uv-ips",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://art-decor.org/ns/oids/vs",
+      "value": "2.16.840.1.113883.11.22.40"
+    }
+  ],
+  "version": "1.1.0",
+  "name": "ResultsRadiologyObservationUvIps",
+  "title": "Results Radiology Observation - IPS",
+  "status": "active",
+  "experimental": false,
+  "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "expansion": {
+    "identifier": "927f2136-26ee-4a9f-90a3-297ce2843a0d",
+    "timestamp": "2024-11-01T20:21:31+13:00",
+    "total": 7292,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://loinc.org|2.78"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "code": "26319-4",
+        "display": "CT Guidance for injection of Sacroiliac joint - bilateral"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "30579-7",
+        "display": "CT Guidance for injection of Spine facet joint"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "78973-5",
+        "display": "CT scanogram Lower extremity - bilateral for leg measurement WO contrast"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://ontoserver.csiro.au/profiles/expansion",
+            "extension": [
+              {
+                "url": "inactive",
+                "valueBoolean": true
+              }
+            ]
+          }
+        ],
+        "system": "http://loinc.org",
+        "inactive": true,
+        "code": "24746-0",
+        "display": "Deprecated Head Sagittal Sinus MR"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://ontoserver.csiro.au/profiles/expansion",
+            "extension": [
+              {
+                "url": "inactive",
+                "valueBoolean": true
+              }
+            ]
+          }
+        ],
+        "system": "http://loinc.org",
+        "inactive": true,
+        "code": "24747-8",
+        "display": "Deprecated Head Sagittal Sinus MR angiogram W contrast IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105166-3",
+        "display": "Functional MR Brain WO contrast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87027-9",
+        "display": "Guidance for biopsy of Chest Pleura"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87020-4",
+        "display": "Guidance for embolization of Artery"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87021-2",
+        "display": "Guidance for embolization of Vein"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87022-0",
+        "display": "Guidance for embolization of Vessels"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87023-8",
+        "display": "Guidance for exchange of drainage catheter for abscess"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87169-9",
+        "display": "Guidance for initial mechanical thrombectomy of Artery"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87166-5",
+        "display": "Guidance for percutaneous transluminal angioplasty of Vein"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87165-7",
+        "display": "Guidance for placement of endograft in Iliac artery"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87163-2",
+        "display": "Guidance for placement of endovascular device in Vein"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87162-4",
+        "display": "Guidance for placement of needle"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87164-0",
+        "display": "Guidance for secondary mechanical thrombectomy of Artery"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87167-3",
+        "display": "Guidance for transcatheter biopsy"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "87168-1",
+        "display": "Guidance for transcatheter placement of stent"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37006-4",
+        "display": "MG Breast - bilateral MLO"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "38071-7",
+        "display": "MG Breast - bilateral Views for implant"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37005-6",
+        "display": "MG Breast - left Magnification"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "38072-5",
+        "display": "MG Breast - left Views for implant"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24605-8",
+        "display": "MG Breast Diagnostic"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24604-1",
+        "display": "MG Breast Diagnostic Limited Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "38070-9",
+        "display": "MG Breast Views for implant"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24602-5",
+        "display": "MG Guidance for biopsy of Breast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "26317-8",
+        "display": "MG Guidance for needle localization of mass of Breast - right"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24609-0",
+        "display": "MG Guidance for percutaneous biopsy.core needle of Breast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24603-3",
+        "display": "MG stereo Guidance for biopsy of Breast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105164-8",
+        "display": "MR Brain during surgery W and WO contrast IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105165-5",
+        "display": "MR Guidance for biopsy of Breast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24748-6",
+        "display": "MR Heart"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105169-7",
+        "display": "MR Heart cine for function W contrast IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105168-9",
+        "display": "MR Heart cine for function WO and W contrast IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105167-1",
+        "display": "MR Heart cine for function WO contrast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "105162-2",
+        "display": "MR Upper extremity joint - bilateral WO and W contrast IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39643-2",
+        "display": "NM Brain veins Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39642-4",
+        "display": "NM Brain Views W Tc-99m glucoheptonate IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39646-5",
+        "display": "NM Breast Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "69074-3",
+        "display": "RF Guidance for biopsy of Pelvis"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "69078-4",
+        "display": "RF Guidance for drainage and placement of drainage catheter of Chest"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "69076-8",
+        "display": "RF guidance for percutaneous biopsy of Bone"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "26067-9",
+        "display": "RF Salivary gland - bilateral Views W contrast intra salivary duct"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "26068-7",
+        "display": "RF Salivary gland - left Views W contrast intra salivary duct"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "26069-5",
+        "display": "RF Salivary gland - right Views W contrast intra salivary duct"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "30828-8",
+        "display": "RFA Brachial artery Views W contrast IA"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "69077-6",
+        "display": "RFA Brachiocephalic artery Views W contrast IA"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "43761-6",
+        "display": "RFA Guidance for thrombectomy of Vein - bilateral-- W contrast IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39640-8",
+        "display": "SPECT Brain W Tc-99m DTPA IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39641-6",
+        "display": "SPECT Brain W Tc-99m glucoheptonate IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "44151-9",
+        "display": "SPECT Heart W Tc-99m Sestamibi IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39647-3",
+        "display": "SPECT Heart W Tc-99m Tetrofosmin IV"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24601-7",
+        "display": "US Breast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "44156-8",
+        "display": "US Guidance for ablation of tissue of Kidney"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "44155-0",
+        "display": "US Guidance for ablation of tissue of Liver"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "44159-2",
+        "display": "US Guidance for fine needle aspiration of Kidney"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "44158-4",
+        "display": "US Guidance for fine needle aspiration of Liver"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "44157-6",
+        "display": "US Guidance for fine needle aspiration of Pancreas"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "43760-8",
+        "display": "US Guidance for localization of Breast - right"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24600-9",
+        "display": "US Guidance for needle localization of Breast"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "26318-6",
+        "display": "US Guidance for needle localization of Breast - right"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39500-4",
+        "display": "US.doppler Upper extremity artery - left"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36751-6",
+        "display": "XR and RF Chest PA and Lateral and Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37007-2",
+        "display": "XR Ankle Mortise"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37008-0",
+        "display": "XR Chest Left oblique"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36750-8",
+        "display": "XR Chest PA and AP lateral-decubitus"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37146-8",
+        "display": "XR Chest PA and Lateral and Left oblique"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "69079-2",
+        "display": "XR Clavicle 45 degree cephalic angle"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "103309-1",
+        "display": "XR Finger fourth - right GE 2 Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36752-4",
+        "display": "XR Hand - bilateral PA and Lateral"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36753-2",
+        "display": "XR Hand - left PA and Lateral"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37000-7",
+        "display": "XR Knee - left Lateral W extension"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37002-3",
+        "display": "XR Knee - left Lateral W standing"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39390-0",
+        "display": "XR Knee - right Views and Oblique"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39391-8",
+        "display": "XR Knee - right Views and Sunrise"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37004-9",
+        "display": "XR Knee Laurin"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37003-1",
+        "display": "XR Lumbar spine Lateral W standing"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36754-0",
+        "display": "XR Mandible PA and Lateral"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37148-4",
+        "display": "XR Mandible PA and Lateral and Oblique and Towne"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36893-6",
+        "display": "XR Mastoid Limited Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "42441-6",
+        "display": "XR Neck Magnification"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "37149-2",
+        "display": "XR Patella - left PA and Lateral and Sunrise"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "24745-2",
+        "display": "XR Petrous part of temporal bone Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "38073-3",
+        "display": "XR Ribs anterior - bilateral Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "38074-1",
+        "display": "XR Ribs anterior - left Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "98363-5",
+        "display": "XR Sacroiliac joint - left AP and Oblique"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "98364-3",
+        "display": "XR Sacroiliac joint - right AP and Oblique"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "103450-3",
+        "display": "XR Shoulder - bilateral 5 Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39393-4",
+        "display": "XR Shoulder - right 3 Views and Axillary"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "79369-5",
+        "display": "XR Shoulder - right GE 2 Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "39392-6",
+        "display": "XR Shoulder - right Internal rotation and External rotation and Axillary"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28564-3",
+        "display": "XR Skull Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "42442-4",
+        "display": "XR Spine Lateral W standing"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "42443-2",
+        "display": "XR Thoracic spine 3 Views W standing"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "98365-0",
+        "display": "XR Thoracic spine Single view W extension"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "98366-8",
+        "display": "XR Thoracic spine Single view W flexion"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "98361-9",
+        "display": "XR Thumb - left Radial deviation"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "36894-4",
+        "display": "XR Tibia and Fibula Oblique Views"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "103451-1",
+        "display": "XR Wrist - left and Hand - left GE 3 Views"
+      }
+    ]
+  },
+  "id": "results-radiology-observations-uv-ips"
+}

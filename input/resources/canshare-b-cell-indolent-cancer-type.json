@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:10.978+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-indolent-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-b-cell-indolent-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-b-cell-indolent-cancer-type",
+  "title": "NZ cancer indolent B cell lymphoma cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "46cce065-7f44-42b1-a242-694ab06dcb20",
+    "timestamp": "2024-11-01T20:23:19+13:00",
+    "total": 8,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351651000210106",
+        "display": "Other indolent B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351691000210104",
+        "display": "Chronic lymphocytic leukemia and/or small lymphocytic lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "308121000",
+        "display": "Follicular lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "118613001",
+        "display": "Hairy cell leukaemia (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307623001",
+        "display": "Malignant lymphoma - lymphoplasmacytic"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443487006",
+        "display": "Mantle cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447100004",
+        "display": "Marginal zone lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "717780007",
+        "display": "Monoclonal B-cell lymphocytosis"
+      }
+    ]
+  },
+  "id": "canshare-b-cell-indolent-cancer-type"
+}

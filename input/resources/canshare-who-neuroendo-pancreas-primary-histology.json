@@ -1,0 +1,233 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:20.103+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-neuroendo-pancreas-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-neuroendo-pancreas-primary-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-neuroendo-pancreas-primary-histology",
+  "title": "NZ WHO neuroendocrine pancreas primary histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "430928b8-1355-4601-80a4-e011d41405e1",
+    "timestamp": "2024-11-01T20:21:29+13:00",
+    "total": 38,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63449009",
+        "display": "Alveolar rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "863926008",
+        "display": "Angiosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156971005",
+        "display": "Choriocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28047004",
+        "display": "Embryonal carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14269005",
+        "display": "Embryonal rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74409009",
+        "display": "Endodermal sinus tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19756007",
+        "display": "Gastrinoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28307001",
+        "display": "Germinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703603008",
+        "display": "Glomangiomatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293211005",
+        "display": "Glomus tumour of uncertain malignant potential"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128908003",
+        "display": "Glomus tumour, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66515009",
+        "display": "Glucagonoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381761000210106",
+        "display": "Gonadotropin-producing neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13238004",
+        "display": "Granular cell tumour, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381751000210108",
+        "display": "Growth hormone producing neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20955008",
+        "display": "Insulinoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163022006",
+        "display": "Leiomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302421000210104",
+        "display": "Malignant adrenocorticotropic hormone secreting tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "827161000",
+        "display": "Malignant immature teratoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19897006",
+        "display": "Malignant peripheral nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302431000210102",
+        "display": "Malignant serotonin secreting tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1292991006",
+        "display": "Malignant solitary fibrous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295271000210100",
+        "display": "Malignant teratoma with somatic-type malignancy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396891002",
+        "display": "Mixed acinar-endocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32844007",
+        "display": "Mixed germ cell tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302151000210104",
+        "display": "Mixed neuroendocrine non-neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286767006",
+        "display": "Neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361591000210108",
+        "display": "Pancreatic neuroendocrine tumour, nonfunctioning"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77455004",
+        "display": "Pleomorphic rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30924005",
+        "display": "Rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74364000",
+        "display": "Small cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128736003",
+        "display": "Solitary fibrous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128643000",
+        "display": "Somatostatinoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301441000210102",
+        "display": "Spindle cell and/or sclerosing rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18854008",
+        "display": "Struma ovarii, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31131002",
+        "display": "Vipoma, malignant"
+      }
+    ]
+  },
+  "id": "canshare-who-neuroendo-pancreas-primary-histology"
+}

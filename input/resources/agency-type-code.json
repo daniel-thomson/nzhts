@@ -1,0 +1,67 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/agency-type-code",
+  "expansion": {
+    "identifier": "7527a042-82e0-4ec2-b90a-4a54f57b1049",
+    "timestamp": "2024-11-01T20:25:38+13:00",
+    "total": 8,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/agency-type-code|20221115"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "11",
+        "display": "Cancer Screening Programme"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "13",
+        "display": "Charitable trust or incorporated society"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "2",
+        "display": "Community Trust"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "1",
+        "display": "District Health Board"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "9",
+        "display": "Health Centres"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "14",
+        "display": "Other non-governmental agency"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "12",
+        "display": "Other publicly funded agency"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/agency-type-code",
+        "code": "10",
+        "display": "Private Health Group"
+      }
+    ]
+  },
+  "id": "agency-type-code"
+}

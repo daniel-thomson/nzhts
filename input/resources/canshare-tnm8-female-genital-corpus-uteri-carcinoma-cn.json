@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:55.053+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn"}],"version":"20240318","name":"canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn","title":"NZ AJCC (8th edition) female genital corpus uteri carcinoma and/or carcinosarcoma clinical N category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A clinical regional lymph node stage (cN) of a corpus uteri carcinoma and/or carcinosarcoma before initiation of treatment, using the AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 331161000210100 |New Zealand AJCC 8th edition female genital corpus uteri carcinoma and/or carcinosarcoma clinical N category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:13.127+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn",
+  "title": "NZ AJCC (8th edition) female genital corpus uteri carcinoma and carcinosarcoma clinical N category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "64ed5014-10d4-444f-915e-92cd030c6bb6",
+    "timestamp": "2024-11-01T20:22:37+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229967007",
+        "display": "cN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229971005",
+        "display": "cN0(i+)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229973008",
+        "display": "cN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229975001",
+        "display": "cN1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229974002",
+        "display": "cN1mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229978004",
+        "display": "cN2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229981009",
+        "display": "cN2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229980005",
+        "display": "cN2mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229966003",
+        "display": "cNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-female-genital-corpus-uteri-carcinoma-cn"
+}

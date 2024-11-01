@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:19.195+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lugano-lymphoma-stage",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lugano-lymphoma-stage"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lugano-lymphoma-stage",
+  "title": "NZ cancer Lugano staging classification for lymphoma",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "96cd03c1-dc34-4bcf-8fcd-c1f8753258c5",
+    "timestamp": "2024-11-01T20:25:49+13:00",
+    "total": 8,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370841000210103",
+        "display": "Lugano classification for lymphoma stage I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370851000210100",
+        "display": "Lugano classification for lymphoma stage IE"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370861000210102",
+        "display": "Lugano classification for lymphoma stage II"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370871000210108",
+        "display": "Lugano classification for lymphoma stage IIE"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370881000210105",
+        "display": "Lugano classification for lymphoma stage III"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370891000210107",
+        "display": "Lugano classification for lymphoma stage III(1)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370901000210108",
+        "display": "Lugano classification for lymphoma stage III(2)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370911000210105",
+        "display": "Lugano classification for lymphoma stage IV"
+      }
+    ]
+  },
+  "id": "canshare-lugano-lymphoma-stage"
+}

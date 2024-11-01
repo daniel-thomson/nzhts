@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:07.093+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gi-lower-other-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-gi-lower-other-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-gi-lower-other-topography",
+  "title": "NZ cancer other lower gastrointestinal topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "ea2ce643-d2be-44dd-84bd-13edb3970f18",
+    "timestamp": "2024-11-01T20:24:42+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "818983003",
+        "display": "Abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "281088000",
+        "display": "Anorectal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49596003",
+        "display": "Digestive organ structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113276009",
+        "display": "Intestinal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "819000006",
+        "display": "Peripheral nerve of abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "818997006",
+        "display": "Soft tissue of abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296722001",
+        "display": "Structure of autonomic nervous system of abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15425007",
+        "display": "Structure of serous membrane of peritoneum"
+      }
+    ]
+  },
+  "id": "canshare-gi-lower-other-topography"
+}

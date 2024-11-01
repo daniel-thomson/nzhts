@@ -1,1 +1,123 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-gi-clinical-stage-group","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:45.102+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-gi-clinical-stage-group","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-gi-clinical-stage-group"}],"version":"20240318","name":"canshare-tnm8-gi-clinical-stage-group","title":"NZ AJCC (8th edition) gastrointestinal clinical stage group","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The clinical stage group that describe how far a gastrointestinal cancer has grown and spread, using AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 351201000210108 |New Zealand AJCC 8th edition gastrointestinal clinical stage group reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:26.902+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-gi-clinical-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-gi-clinical-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-gi-clinical-stage-group",
+  "title": "NZ AJCC (8th edition) gastrointestinal clinical stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "8d34410b-e588-46fb-be7f-754ed164def4",
+    "timestamp": "2024-11-01T20:25:18+13:00",
+    "total": 16,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222605001",
+        "display": "0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222723001",
+        "display": "I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222724007",
+        "display": "IA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222728005",
+        "display": "IB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222765007",
+        "display": "II"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222766008",
+        "display": "IIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222769001",
+        "display": "IIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222770000",
+        "display": "IIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222801008",
+        "display": "III"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222806003",
+        "display": "IIIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222837003",
+        "display": "IV"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222838008",
+        "display": "IVA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222841004",
+        "display": "IVB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222842006",
+        "display": "IVC"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-gi-clinical-stage-group"
+}

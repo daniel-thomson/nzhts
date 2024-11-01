@@ -1,0 +1,118 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:49.279+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-neuroendo-non-endo-organ-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-neuroendo-non-endo-organ-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-neuroendo-non-endo-organ-histology",
+  "title": "NZ WHO neuroendocrine neoplasm non neuroendocrine organ histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "042f4620-d1fb-48cf-b7b3-7679857eaefb",
+    "timestamp": "2024-11-01T20:25:40+13:00",
+    "total": 15,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381781000210103",
+        "display": "Cauda equina neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448546006",
+        "display": "Combined large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21326004",
+        "display": "Combined small cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381771000210100",
+        "display": "Composite gangliocytoma and neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "391321000210104",
+        "display": "Composite ganglioneuroma and neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5052009",
+        "display": "Merkel cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "785766008",
+        "display": "Mixed neuroendocrine-non neuroendocrine neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733844008",
+        "display": "Neuroendocrine type combined small cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74364000",
+        "display": "Small cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286768001",
+        "display": "Well-differentiated neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286769009",
+        "display": "Well-differentiated neuroendocrine tumour grade 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286770005",
+        "display": "Well-differentiated neuroendocrine tumour grade 2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286772002",
+        "display": "Well-differentiated neuroendocrine tumour grade 3"
+      }
+    ]
+  },
+  "id": "canshare-who-neuroendo-non-endo-organ-histology"
+}

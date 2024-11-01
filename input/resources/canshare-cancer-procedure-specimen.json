@@ -1,0 +1,543 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:08.033+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-procedure-specimen",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-cancer-procedure-specimen"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-cancer-procedure-specimen",
+  "title": "NZ cancer specimen collection procedure",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "fb804e31-f441-4c18-b0d1-f2c395c3dd79",
+    "timestamp": "2024-11-01T20:22:23+13:00",
+    "total": 174,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "173170008",
+        "display": "Bilobectomy of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "430213002",
+        "display": "Biopsy of skeletal muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "172086006",
+        "display": "Breast cavity shavings"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6148000",
+        "display": "Chondrectomy of semilunar cartilage of knee"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392018007",
+        "display": "Cold knife cone biopsy of cervix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13358001",
+        "display": "Complete parotidectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "303636000",
+        "display": "Conjunctival biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89877009",
+        "display": "Core needle biopsy of intra-abdominal mass"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40013009",
+        "display": "Core needle biopsy of prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "236880008",
+        "display": "Curettage of uterus and endometrial sampling"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447308003",
+        "display": "Cystourethrectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25662004",
+        "display": "Elliptical excision of skin lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10381000132106",
+        "display": "EMR (endoscopic mucosal resection) of gastrointestinal tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "387829002",
+        "display": "Endomyocardial biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446445003",
+        "display": "Endoscopic excision of prostate using holmium laser"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "870423007",
+        "display": "Endoscopic full thickness resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "236883005",
+        "display": "Evacuation of retained product of conception"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351271000210101",
+        "display": "Excision and repair of heart valve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119288004",
+        "display": "Excision of ampulla of Vater"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351311000210101",
+        "display": "Excision of Couinaud hepatic segment I and Couinaud hepatic segment II and Couinaud hepatic segment III and Couinaud hepatic segment IV and Couinaud hepatic segment V and Couinaud hepatic segment VIII only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351291000210102",
+        "display": "Excision of Couinaud hepatic segment II and Couinaud hepatic segment III and Couinaud hepatic segment IV and Couinaud hepatic segment V only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351301000210103",
+        "display": "Excision of Couinaud hepatic segment II and Couinaud hepatic segment III only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351331000210108",
+        "display": "Excision of Couinaud hepatic segment IV and Couinaud hepatic segment V and Couinaud hepatic segment VI and Couinaud hepatic segment VII and Couinaud hepatic segment VIII only"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "86730009",
+        "display": "Excision of lesion of heart"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1264200003",
+        "display": "Excision of lesion of rectum by TAMIS (transanal minimal invasive surgery)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367477001",
+        "display": "Excision of mandible"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351341000210100",
+        "display": "Excision of minor salivary gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1263735008",
+        "display": "Excision of rectum by TEM (transanal endoscopic microsurgery)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397896001",
+        "display": "Exenteration of orbit"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "234245003",
+        "display": "Extended radical neck dissection of cervical lymph nodes"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174071004",
+        "display": "Extended right hemicolectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16564004",
+        "display": "Hartmann operation, rectal resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85124008",
+        "display": "Hemiglossectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "276190007",
+        "display": "Ileocolic resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70871006",
+        "display": "Incisional biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77543007",
+        "display": "Ligation of fallopian tube"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "176761007",
+        "display": "LLETZ - Large loop excision of transformation zone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302338000",
+        "display": "Lobectomy of thyroid gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36899001",
+        "display": "Loop electrosurgical excision procedure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "282435000",
+        "display": "Maxillectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "237400005",
+        "display": "Microdochectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45900003",
+        "display": "Oesophagectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119283008",
+        "display": "Open biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351281000210104",
+        "display": "Open incisional biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116241004",
+        "display": "Pancreaticoduodenectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53304009",
+        "display": "Parathyroidectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33756006",
+        "display": "Partial adrenalectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8189008",
+        "display": "Partial amputation of penis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54357003",
+        "display": "Partial excision of small intestine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52224004",
+        "display": "Pelvic exenteration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351351000210102",
+        "display": "Percutaneous core needle biopsy using radiologic guidance"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "713285002",
+        "display": "Prophylactic oophorectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "87697008",
+        "display": "Punch biopsy of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351721000210107",
+        "display": "Punch excision"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116242006",
+        "display": "Pylorus-sparing pancreaticoduodenectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359708002",
+        "display": "Radical amputation of penis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64063003",
+        "display": "Radical cystectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "81232004",
+        "display": "Radical cystoprostatectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116033007",
+        "display": "Radical nephrectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396692006",
+        "display": "Radical orchiectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351711000210102",
+        "display": "Removal of placenta from body of uterus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82035006",
+        "display": "Resection of polyp"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62402000",
+        "display": "Revision of total hip replacement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359571009",
+        "display": "Right colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "234246002",
+        "display": "Selective neck dissection of cervical lymph nodes"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396487001",
+        "display": "Sentinel lymph node biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302390009",
+        "display": "Shave excision of skin lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "261563006",
+        "display": "Sleeve pulmonary artery resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "87604009",
+        "display": "Sleeve resection of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70183006",
+        "display": "Subcutaneous mastectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "287847009",
+        "display": "Subtotal pancreatectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "275006003",
+        "display": "Superficial parotidectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72821000",
+        "display": "Temporal artery biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116144002",
+        "display": "Total abdominal hysterectomy with bilateral salpingo-oophorectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367531007",
+        "display": "Total adrenalectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174494006",
+        "display": "Total cholecystectomy and excision of surrounding tissue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26390003",
+        "display": "Total colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26452005",
+        "display": "Total gastrectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17203000",
+        "display": "Total hepatectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9524002",
+        "display": "Total pancreatectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49795001",
+        "display": "Total pneumonectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52734007",
+        "display": "Total replacement of hip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24443003",
+        "display": "Total thyroidectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "430799001",
+        "display": "Transjugular biopsy of liver"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "265593007",
+        "display": "Transperineal needle biopsy of prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351781000210108",
+        "display": "Transrectal needle biopsy of prostate using ultrasound guidance"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351731000210109",
+        "display": "Transthoracic needle biopsy using core biopsy needle device"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "386792000",
+        "display": "Transurethral excision of neoplasm of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90199006",
+        "display": "Transurethral prostatectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26925005",
+        "display": "Transverse colectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351261000210107",
+        "display": "Ultra low anterior resection of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "108039008",
+        "display": "Urethra excision"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351751000210103",
+        "display": "Vacuum assisted core needle biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351761000210100",
+        "display": "Vacuum assisted excision biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "22523008",
+        "display": "Vasectomy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "232632009",
+        "display": "Wedge excision of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20418004",
+        "display": "Wedge resection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116174005",
+        "display": "Wedge resection biopsy of ovary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "174431000",
+        "display": "Wedge resection of liver"
+      }
+    ]
+  },
+  "id": "canshare-cancer-procedure-specimen"
+}

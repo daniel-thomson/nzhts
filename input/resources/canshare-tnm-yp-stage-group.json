@@ -1,1 +1,203 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-yp-stage-group","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:31:17.099+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-yp-stage-group","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-yp-stage-group"}],"version":"20240318","name":"canshare-tnm-yp-stage-group","title":"NZ AJCC post therapy (neoadjuvant) pathological stage group","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The post therapy or post neoadjuvant pathological stage groups that describe how far a cancer has grown and spread using information obtained from pathological examination of tissue samples, using AJCC cancer staging manual.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 340821000210105 |New Zealand AJCC post therapy (neoadjuvant) pathological stage group reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:26.343+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-yp-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-yp-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-yp-stage-group",
+  "title": "NZ AJCC post therapy (neoadjuvant) pathological stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "8927ec43-7ec5-49c9-8738-17bfc39f0cb8",
+    "timestamp": "2024-11-01T20:22:48+13:00",
+    "total": 32,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222605001",
+        "display": "0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222721004",
+        "display": "0a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222722006",
+        "display": "0is"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222723001",
+        "display": "I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222724007",
+        "display": "IA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222725008",
+        "display": "IA1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222726009",
+        "display": "IA2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222727000",
+        "display": "IA3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222728005",
+        "display": "IB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222729002",
+        "display": "IB1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222730007",
+        "display": "IB2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222731006",
+        "display": "IC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222765007",
+        "display": "II"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222766008",
+        "display": "IIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222767004",
+        "display": "IIA1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222768009",
+        "display": "IIA2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222769001",
+        "display": "IIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222770000",
+        "display": "IIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222801008",
+        "display": "III"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222803006",
+        "display": "IIIA1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222804000",
+        "display": "IIIA2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222806003",
+        "display": "IIIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222807007",
+        "display": "IIIC1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222809005",
+        "display": "IIIC2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222811001",
+        "display": "IIID"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222733009",
+        "display": "IS"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222837003",
+        "display": "IV"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222838008",
+        "display": "IVA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222841004",
+        "display": "IVB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222842006",
+        "display": "IVC"
+      }
+    ]
+  },
+  "id": "canshare-tnm-yp-stage-group"
+}

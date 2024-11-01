@@ -1,1 +1,283 @@
-{"resourceType":"ValueSet","id":"canshare-cancer-substream","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:52.633+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-substream","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-cancer-substream"}],"version":"20240708","name":"canshare-cancer-substream","title":"NZ cancer substream","status":"active","experimental":false,"date":"2024-07-08","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The subcategory of the primary cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"(^297771000210104 |New Zealand cancer substream reference set| MINUS (298221000210106 |Neuroendocrine primary| OR 300781000210107 |Neuroendocrine GEP primary| OR 300721000210106 |Neuroendocrine non-GEP primary| OR 351591000210100 |Myeloid neoplasm| OR 298491000210105 |B-cell lymphoid neoplasm| OR 351661000210109 |Aggressive non-Hodgkin B cell lymphoma| OR 118599009 |Hodgkin lymphoma| OR 421418009 |Mature T/NK-cell neoplasm| OR 422172005 |T/NK-cell neoplasm| OR 109993000 |Myeloproliferative neoplasm| OR 351651000210106 |Indolent non-Hodgkin B cell lymphoma| OR 371986009 |Eye primary| OR 737224006 |Histiocytic and/or dendritic cell neoplasm|)) OR 93883004 |Major salivary gland primary| OR 94098005 |Thyroid gland primary|"}]},{"system":"http://snomed.info/sct","concept":[{"code":"109993000","display":"Myeloproliferative neoplasm (MPN)"},{"code":"351651000210106","display":"Indolent B cell lymphoma"},{"code":"298221000210106","display":"Other neuroendocrine primary"},{"code":"297921000210100","display":"Other head and neck primary"},{"code":"93845000","display":"Odontogenic primary"},{"code":"737224006","display":"Histiocytic and dendritic cell neoplasm"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"382551000210106","display":"Neuroendocrine tumour gastroenteropancreatic (GEP-NET) primary"},{"code":"382561000210109","display":"Neuroendocrine tumour non-gastroenteropancreatic (non-GEP NET) primary"},{"code":"392031000210109","display":"Aggressive B cell lymphoma"},{"code":"392141000210100","display":"Mature T/NK-cell lymphoid proliferation"},{"code":"392121000210106","display":"T-cell lymphoid proliferation"},{"code":"448031000210108","display":"Oral cavity and mobile tongue primary"},{"code":"448061000210104","display":"Ear primary"},{"code":"448071000210105","display":"Pharynx, larynx and trachea primary"},{"code":"392081000210108","display":"Other B-cell lymphoid proliferation"},{"code":"390881000210102","display":"Eye and orbit primary"},{"code":"476101000210102","display":"Nasal primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:08.868+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-substream",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-cancer-substream"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-cancer-substream",
+  "title": "NZ cancer substream",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "30d1335b-6c20-468a-af93-8dd4e007a5f8",
+    "timestamp": "2024-11-01T20:25:14+13:00",
+    "total": 48,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298221000210106",
+        "display": "Other neuroendocrine primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297921000210100",
+        "display": "Other head and neck primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392081000210108",
+        "display": "Other B-cell lymphoid proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298161000210105",
+        "display": "Other thoracic primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392121000210106",
+        "display": "Other T-cell lymphoid proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298241000210100",
+        "display": "Acute leukaemia of mixed or ambiguous lineage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91857003",
+        "display": "Acute lymphoid leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91861009",
+        "display": "Acute myeloid leukaemia, disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392031000210109",
+        "display": "Aggressive B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "207036003",
+        "display": "Castleman disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109993000",
+        "display": "Chronic myeloproliferative disorder (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "737224006",
+        "display": "Histiocytic neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351651000210106",
+        "display": "Indolent B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "414653009",
+        "display": "Mast cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392141000210100",
+        "display": "Mature T-cell AND/OR natural killer cell lymphoproliferative disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109995007",
+        "display": "Myelodysplastic syndrome (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445738007",
+        "display": "Myelodysplastic/myeloproliferative disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351601000210105",
+        "display": "Myeloid precursor lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351641000210108",
+        "display": "Myeloid-lymphoid neoplasm with eosinophilia and defining gene rearrangement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351671000210103",
+        "display": "Plasma cell neoplasms and/or diseases with paraproteins"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298511000210103",
+        "display": "Primary malignant melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93725000",
+        "display": "Primary malignant neoplasm of bone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372137005",
+        "display": "Primary malignant neoplasm of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93744007",
+        "display": "Primary malignant neoplasm of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448061000210104",
+        "display": "Primary malignant neoplasm of ear"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298231000210108",
+        "display": "Primary malignant neoplasm of endocrine system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "390881000210102",
+        "display": "Primary malignant neoplasm of eye and/or orbit"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297911000210105",
+        "display": "Primary malignant neoplasm of female genital"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93845000",
+        "display": "Primary malignant neoplasm of jaw"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300531000210100",
+        "display": "Primary malignant neoplasm of liver and/or pancreas and/or biliary tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298191000210100",
+        "display": "Primary malignant neoplasm of lower gastrointestinal tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93880001",
+        "display": "Primary malignant neoplasm of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93883004",
+        "display": "Primary malignant neoplasm of major salivary gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93885006",
+        "display": "Primary malignant neoplasm of male genital organ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476101000210102",
+        "display": "Primary malignant neoplasm of nasal cavity and/or nasal sinus and/or nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448031000210108",
+        "display": "Primary malignant neoplasm of oral mucous membrane structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448071000210105",
+        "display": "Primary malignant neoplasm of pharynx and/or larynx and/or trachea"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93966009",
+        "display": "Primary malignant neoplasm of pleura"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94047004",
+        "display": "Primary malignant neoplasm of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372010005",
+        "display": "Primary malignant neoplasm of soft tissues"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94096009",
+        "display": "Primary malignant neoplasm of thymus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94098005",
+        "display": "Primary malignant neoplasm of thyroid gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "310504009",
+        "display": "Primary malignant neoplasm of unknown site"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298201000210103",
+        "display": "Primary malignant neoplasm of upper gastrointestinal tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94125001",
+        "display": "Primary malignant neoplasm of urinary system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382551000210106",
+        "display": "Primary malignant neuroendocrine tumour of digestive system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382561000210109",
+        "display": "Primary malignant neuroendocrine tumour of non-digestive system structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298171000210104",
+        "display": "Stroma-derived neoplasm of lymphoid tissue"
+      }
+    ]
+  },
+  "id": "canshare-cancer-substream"
+}

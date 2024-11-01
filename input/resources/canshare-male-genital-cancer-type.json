@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:14.654+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-male-genital-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-male-genital-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-male-genital-cancer-type",
+  "title": "NZ cancer male genital cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "479d925c-25a8-44b8-9659-9262f06834fb",
+    "timestamp": "2024-11-01T20:25:30+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93885006",
+        "display": "Other male genital primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372005006",
+        "display": "Primary malignant neoplasm of penis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93974005",
+        "display": "Primary malignant neoplasm of prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301001000210106",
+        "display": "Primary malignant neoplasm of testicular adnexa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94087009",
+        "display": "Primary malignant neoplasm of testis"
+      }
+    ]
+  },
+  "id": "canshare-male-genital-cancer-type"
+}

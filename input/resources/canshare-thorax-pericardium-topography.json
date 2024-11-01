@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-thorax-pericardium-topography","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:19.434+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-pericardium-topography","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-thorax-pericardium-topography"}],"version":"20240722","name":"canshare-thorax-pericardium-topography","title":"NZ cancer thorax pericardium topography","status":"active","experimental":false,"date":"2024-07-22","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The body location used to describe the point of origin for pericardium cancer or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"76848001 |Pericardium| OR 6871001 |Epicardium| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:25.890+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-pericardium-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-thorax-pericardium-topography"
+    }
+  ],
+  "version": "20241029",
+  "name": "canshare-thorax-pericardium-topography",
+  "title": "NZ cancer thorax pericardium topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "89dba232-3c93-4311-9a48-05dde6bb9b5c",
+    "timestamp": "2024-11-01T20:24:47+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1304150006",
+        "display": "Epicardium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76848001",
+        "display": "Pericardial structure"
+      }
+    ]
+  },
+  "id": "canshare-thorax-pericardium-topography"
+}

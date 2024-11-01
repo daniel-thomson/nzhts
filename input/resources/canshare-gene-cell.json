@@ -1,0 +1,543 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:27.546+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gene-cell",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-gene-cell"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-gene-cell",
+  "title": "NZ cancer gene cell",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "80b16cbd-f736-4fc8-88b0-b5d1ec3e60de",
+    "timestamp": "2024-11-01T20:22:54+13:00",
+    "total": 264,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443181000210104",
+        "display": "ACD gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443951000210107",
+        "display": "AKT1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "391041000210107",
+        "display": "ATM gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446671000210104",
+        "display": "ATRX gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394151000210109",
+        "display": "BAP1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382401000210106",
+        "display": "BRAF gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447431000210100",
+        "display": "BRCA2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395811000210101",
+        "display": "CDC73 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "391201000210102",
+        "display": "CDH1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395821000210106",
+        "display": "CDK4 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396361000210103",
+        "display": "CEBPA gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446181000210105",
+        "display": "CSF3R gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396561000210109",
+        "display": "CTNNA1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443551000210101",
+        "display": "CTR9 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440311000210100",
+        "display": "CYLD gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440411000210108",
+        "display": "DDB2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440421000210103",
+        "display": "DDX41 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396641000210107",
+        "display": "DIS3L2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444561000210100",
+        "display": "DOCK8 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396651000210105",
+        "display": "EGFR gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446801000210105",
+        "display": "EGLN1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446901000210103",
+        "display": "EGLN2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443561000210103",
+        "display": "ELP1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440551000210106",
+        "display": "ERCC1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440671000210102",
+        "display": "ERCC4 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440771000210105",
+        "display": "ERCC5 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440781000210107",
+        "display": "ETV6 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440901000210101",
+        "display": "EXT2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441011000210108",
+        "display": "FAM111B gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441021000210103",
+        "display": "FANCA gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441031000210101",
+        "display": "FANCB gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441141000210105",
+        "display": "FANCD2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441251000210103",
+        "display": "FANCF gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399081000210104",
+        "display": "FLCN gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396721000210106",
+        "display": "GATA2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444691000210106",
+        "display": "GBA gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441501000210101",
+        "display": "GPR101 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443681000210107",
+        "display": "GPR161 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399251000210100",
+        "display": "GREM1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441511000210104",
+        "display": "HAVCR2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399331000210101",
+        "display": "HRAS gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447041000210101",
+        "display": "IDH1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443971000210104",
+        "display": "IGF2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444071000210102",
+        "display": "KCNQ1OT gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441631000210107",
+        "display": "KIF1B gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444911000210105",
+        "display": "MAD2L2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441851000210102",
+        "display": "MAP2K2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399411000210100",
+        "display": "MAX gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399501000210103",
+        "display": "MITF gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447141000210100",
+        "display": "MLH1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441871000210105",
+        "display": "MRE11A gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447271000210104",
+        "display": "MSH3 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444931000210103",
+        "display": "NAF1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444201000210102",
+        "display": "NHP2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441981000210101",
+        "display": "NSUN2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442091000210107",
+        "display": "PMS1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "391291000210108",
+        "display": "PMS2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "393871000210109",
+        "display": "POLD1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443321000210102",
+        "display": "PPP1CB gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443421000210109",
+        "display": "RABL3 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445031000210103",
+        "display": "RAD21 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446051000210101",
+        "display": "RAD51 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399991000210101",
+        "display": "RAD51D gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400071000210103",
+        "display": "RECQL4 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400081000210101",
+        "display": "RET gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445151000210105",
+        "display": "RPL15 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445451000210101",
+        "display": "RPL5 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446291000210103",
+        "display": "RPS15 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445571000210105",
+        "display": "RPS19 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445581000210107",
+        "display": "RPS24 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445701000210105",
+        "display": "RPS28 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445711000210107",
+        "display": "RPS29 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445811000210103",
+        "display": "RPS7 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443431000210106",
+        "display": "RTEL1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442591000210100",
+        "display": "SAMD9 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442601000210105",
+        "display": "SAMD9L gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "409831000210103",
+        "display": "SDHAF2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444451000210102",
+        "display": "SH2B3 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447021000210107",
+        "display": "SHDC gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442721000210107",
+        "display": "SLX4 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "391961000210107",
+        "display": "SMAD4 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "410021000210100",
+        "display": "SMARCA4 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "410041000210106",
+        "display": "SMARCE1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442821000210101",
+        "display": "SOS1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442831000210104",
+        "display": "SOS2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444331000210102",
+        "display": "SQSTM1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445831000210105",
+        "display": "STAT3 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "410151000210105",
+        "display": "STK11 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446061000210103",
+        "display": "STX11 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429991000210100",
+        "display": "TERC gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442951000210101",
+        "display": "TINF2 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444431000210108",
+        "display": "TNFRSF11A gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "391121000210102",
+        "display": "TP53 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442961000210103",
+        "display": "TRIP13 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "439931000210103",
+        "display": "TSC1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445941000210105",
+        "display": "UBE2T gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440021000210108",
+        "display": "WRN gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440091000210106",
+        "display": "WT1 gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443071000210100",
+        "display": "XPC gene structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443081000210103",
+        "display": "XRCC2 gene structure"
+      }
+    ]
+  },
+  "id": "canshare-gene-cell"
+}

@@ -1,1 +1,133 @@
-{"resourceType":"ValueSet","id":"canshare-haematology-substream","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:36.747+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-substream","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-haematology-substream"}],"version":"20240624","name":"canshare-haematology-substream","title":"NZ cancer haematology substream","status":"active","experimental":false,"date":"2024-06-24","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The subcategory of haematologic cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^302561000210105 |New Zealand cancer haematology substream reference set| MINUS (351591000210100 |Myeloid neoplasm| OR 298491000210105|B-cell lymphoid neoplasm| OR 351661000210109 |Aggressive non-Hodgkin B cell lymphoma| OR 118599009 |Hodgkin lymphoma| OR 421418009 |Mature T/NK-cell neoplasm| OR 422172005 |T/NK-cell neoplasm| OR 109993000 |Myeloproliferative neoplasm| OR 351651000210106 |Indolent non-Hodgkin B cell lymphoma| OR 737224006 |Histiocytic and/or dendritic cell neoplasm|)"}]},{"system":"http://snomed.info/sct","concept":[{"code":"109993000","display":"Myeloproliferative neoplasm (MPN)"},{"code":"351651000210106","display":"Indolent B cell lymphoma"},{"code":"737224006","display":"Histiocytic and dendritic cell neoplasm"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"392031000210109","display":"Aggressive B cell lymphoma"},{"code":"392141000210100","display":"Mature T/NK-cell lymphoid proliferation"},{"code":"392121000210106","display":"T-cell lymphoid proliferation"},{"code":"392081000210108","display":"Other B-cell lymphoid proliferation"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:15.690+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-substream",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-haematology-substream"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-haematology-substream",
+  "title": "NZ cancer haematology substream",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e8b3cc5d-f859-44cf-905a-ccdc278b77b5",
+    "timestamp": "2024-11-01T20:24:32+13:00",
+    "total": 18,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392081000210108",
+        "display": "Other B-cell lymphoid proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392121000210106",
+        "display": "Other T-cell lymphoid proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298241000210100",
+        "display": "Acute leukaemia of mixed or ambiguous lineage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91857003",
+        "display": "Acute lymphoid leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91861009",
+        "display": "Acute myeloid leukaemia, disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392031000210109",
+        "display": "Aggressive B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "207036003",
+        "display": "Castleman disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109993000",
+        "display": "Chronic myeloproliferative disorder (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "737224006",
+        "display": "Histiocytic neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351651000210106",
+        "display": "Indolent B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "414653009",
+        "display": "Mast cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392141000210100",
+        "display": "Mature T-cell AND/OR natural killer cell lymphoproliferative disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109995007",
+        "display": "Myelodysplastic syndrome (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445738007",
+        "display": "Myelodysplastic/myeloproliferative disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351601000210105",
+        "display": "Myeloid precursor lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351641000210108",
+        "display": "Myeloid-lymphoid neoplasm with eosinophilia and defining gene rearrangement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351671000210103",
+        "display": "Plasma cell neoplasms and/or diseases with paraproteins"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298171000210104",
+        "display": "Stroma-derived neoplasm of lymphoid tissue"
+      }
+    ]
+  },
+  "id": "canshare-haematology-substream"
+}

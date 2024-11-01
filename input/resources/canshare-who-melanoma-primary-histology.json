@@ -1,0 +1,223 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:35.566+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-melanoma-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-melanoma-primary-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-melanoma-primary-histology",
+  "title": "NZ WHO classification of melanoma primary histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "10560093-5751-4f0d-a03e-693e90416b95",
+    "timestamp": "2024-11-01T20:21:59+13:00",
+    "total": 36,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16974005",
+        "display": "Acral lentiginous melanoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447881000210103",
+        "display": "Acral melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70594002",
+        "display": "Amelanotic melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67159000",
+        "display": "Blue naevus, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466361000210109",
+        "display": "Congenital naevus associated melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398641000210108",
+        "display": "Conjunctival melanocytic intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476301000210100",
+        "display": "Conjunctival melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447931000210105",
+        "display": "Dermal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51757004",
+        "display": "Desmoplastic melanoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447801000210107",
+        "display": "Desmoplastic mucosal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "61814002",
+        "display": "Dysplastic naevus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476351000210104",
+        "display": "Epithelioid cell uveal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447771000210109",
+        "display": "Lentigo maligna melanoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447861000210106",
+        "display": "Low cumulative sun damage lentiginous melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293250009",
+        "display": "Low cumulative sun damage melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447851000210108",
+        "display": "Low cumulative sun damage naevoid melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447841000210105",
+        "display": "Low cumulative sun damage nodular melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162635006",
+        "display": "Malignant melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75931002",
+        "display": "Malignant melanoma in giant pigmented naevus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "44474009",
+        "display": "Malignant melanoma in Hutchinson's melanotic freckle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128730009",
+        "display": "Meningeal melanocytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "726420002",
+        "display": "Meningeal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128731008",
+        "display": "Meningeal melanomatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476341000210102",
+        "display": "Mixed epithelioid and/or spindle cell conjunctival melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476331000210105",
+        "display": "Mixed epithelioid and/or spindle cell uveal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128732001",
+        "display": "Mucosal lentiginous melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301341000210107",
+        "display": "Mucosal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285320000",
+        "display": "Naevoid melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2142002",
+        "display": "Nodular melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447811000210109",
+        "display": "Nodular mucosal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476321000210108",
+        "display": "Spindle cell uveal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "50813003",
+        "display": "Spitz malignant melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295390008",
+        "display": "Spitz melanocytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55320002",
+        "display": "Superficial spreading melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466381000210101",
+        "display": "Uveal melanoma"
+      }
+    ]
+  },
+  "id": "canshare-who-melanoma-primary-histology"
+}

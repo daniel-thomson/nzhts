@@ -1,0 +1,535 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:55.538+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/country-code-2-alpha",
+  "version": "16.0.0",
+  "name": "Country_code_2_alpha",
+  "title": "Country code 2 alpha",
+  "status": "draft",
+  "expansion": {
+    "identifier": "4f58fa13-eb93-477a-b4c1-730b70087fc6",
+    "timestamp": "2024-11-01T20:23:50+13:00",
+    "total": 252,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/country-code-2-alpha|16.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BS",
+        "display": "Bahamas"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BY",
+        "display": "Belarus"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BZ",
+        "display": "Belize"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BM",
+        "display": "Bermuda"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BT",
+        "display": "Bhutan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BO",
+        "display": "Bolivia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BW",
+        "display": "Botswana"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BR",
+        "display": "Brazil"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IO",
+        "display": "British Indian Ocean Territory"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BN",
+        "display": "Brunei Darussalam"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "BF",
+        "display": "Burkina Faso"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CM",
+        "display": "Cameroon"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CA",
+        "display": "Canada"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CF",
+        "display": "Central African Republic"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "TD",
+        "display": "Chad"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GJ",
+        "display": "Channel Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CL",
+        "display": "Chile"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CN",
+        "display": "China, People's Republic of"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CC",
+        "display": "Cocos (Keeling) Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CO",
+        "display": "Colombia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CG",
+        "display": "Congo"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CD",
+        "display": "Congo, the Democratic Republic of the"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CK",
+        "display": "Cook Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CR",
+        "display": "Costa Rica"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CI",
+        "display": "Cote d'Ivoire"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "HR",
+        "display": "Croatia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CU",
+        "display": "Cuba"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "ZE",
+        "display": "Destination Unknown - EU"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SV",
+        "display": "El Salvador"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GQ",
+        "display": "Equatorial Guinea"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SZ",
+        "display": "Eswatini"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "FO",
+        "display": "Faeroe Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "FK",
+        "display": "Falkland Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "FJ",
+        "display": "Fiji"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "FI",
+        "display": "Finland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "FR",
+        "display": "France"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GF",
+        "display": "French Guiana"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "TF",
+        "display": "French Southern Territories"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GA",
+        "display": "Gabon"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GM",
+        "display": "Gambia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GE",
+        "display": "Georgia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GH",
+        "display": "Ghana"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GI",
+        "display": "Gibraltar"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GR",
+        "display": "Greece"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GL",
+        "display": "Greenland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GD",
+        "display": "Grenada"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GP",
+        "display": "Guadeloupe"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GU",
+        "display": "Guam"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GT",
+        "display": "Guatemala"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GN",
+        "display": "Guinea"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GW",
+        "display": "Guinea-Bissau"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GY",
+        "display": "Guyana"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "HT",
+        "display": "Haiti"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "HN",
+        "display": "Honduras"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "HK",
+        "display": "Hong Kong (Special Administrative Region)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "HU",
+        "display": "Hungary"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IS",
+        "display": "Iceland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IN",
+        "display": "India"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "ID",
+        "display": "Indonesia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IR",
+        "display": "Iran"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IQ",
+        "display": "Iraq"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IE",
+        "display": "Ireland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IM",
+        "display": "Isle of Man"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IL",
+        "display": "Israel"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "IT",
+        "display": "Italy"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "YT",
+        "display": "Mayotte"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "FM",
+        "display": "Micronesia, Federated States of"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "XX",
+        "display": "Not Stated"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "WS",
+        "display": "Samoa"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SM",
+        "display": "San Marino"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "ST",
+        "display": "Sao Tome and Principe"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SA",
+        "display": "Saudi Arabia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "HI",
+        "display": "Scotland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SN",
+        "display": "Senegal"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SC",
+        "display": "Seychelles"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "ZB",
+        "display": "Ships' Bunkering"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SL",
+        "display": "Sierra Leone"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SG",
+        "display": "Singapore"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SK",
+        "display": "Slovakia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SI",
+        "display": "Slovenia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SB",
+        "display": "Solomon Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SO",
+        "display": "Somalia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "ZA",
+        "display": "South Africa"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GS",
+        "display": "South Georgia and the South Sandwich Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SS",
+        "display": "South Sudan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SH",
+        "display": "St Helena"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SX",
+        "display": "St Maarten (Dutch Part)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SD",
+        "display": "Sudan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SR",
+        "display": "Suriname"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SE",
+        "display": "Sweden"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "CH",
+        "display": "Switzerland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "SY",
+        "display": "Syria"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "TC",
+        "display": "Turks and Caicos Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "GB",
+        "display": "United Kingdom"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "VU",
+        "display": "Vanuatu"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "VN",
+        "display": "Viet Nam"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "VI",
+        "display": "Virgin Islands, United States"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "WA",
+        "display": "Wales"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "WF",
+        "display": "Wallis and Futuna"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-2-alpha",
+        "code": "YE",
+        "display": "Yemen"
+      }
+    ]
+  },
+  "id": "country-code-2-alpha"
+}

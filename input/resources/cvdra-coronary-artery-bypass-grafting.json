@@ -1,0 +1,535 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:47.320+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/cvdra-coronary-artery-bypass-grafting",
+  "version": "20241022",
+  "name": "Cvdra_coronary_artery_bypass_grafting",
+  "title": "CVDRA Coronary Artery Bypass Grafting",
+  "status": "draft",
+  "expansion": {
+    "identifier": "f9bba6d4-afb2-4569-ac14-15986f91b888",
+    "timestamp": "2024-11-01T20:21:36+13:00",
+    "total": 125,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "175021005",
+        "display": "Allograft bypass of coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736970002",
+        "display": "Allograft bypass of four or more coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736971003",
+        "display": "Allograft bypass of one coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736972005",
+        "display": "Allograft bypass of three coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736973000",
+        "display": "Allograft bypass of two coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "39724006",
+        "display": "Anastomosis of internal mammary artery to coronary artery, double vessel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "870744008",
+        "display": "Anastomosis of left internal thoracic artery to coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1010688007",
+        "display": "Anastomosis of left internal thoracic artery to diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217166005",
+        "display": "Anastomosis of left internal thoracic artery to distal portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217165009",
+        "display": "Anastomosis of left internal thoracic artery to first diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217162007",
+        "display": "Anastomosis of left internal thoracic artery to first obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017203005",
+        "display": "Anastomosis of left internal thoracic artery to intermediate artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1010291002",
+        "display": "Anastomosis of left internal thoracic artery to left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217161000",
+        "display": "Anastomosis of left internal thoracic artery to mid portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017205003",
+        "display": "Anastomosis of left internal thoracic artery to obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217158001",
+        "display": "Anastomosis of left internal thoracic artery to proximal portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217157006",
+        "display": "Anastomosis of left internal thoracic artery to second diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217155003",
+        "display": "Anastomosis of left internal thoracic artery to second obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217153005",
+        "display": "Anastomosis of left internal thoracic artery to third diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217168006",
+        "display": "Anastomosis of left internal thoracic artery to third obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1144644003",
+        "display": "Anastomosis of right internal thoracic artery to anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1144647005",
+        "display": "Anastomosis of right internal thoracic artery to diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1144646001",
+        "display": "Anastomosis of right internal thoracic artery to marginal branch of right coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1144645002",
+        "display": "Anastomosis of right internal thoracic artery to obtuse marginal branch of circumflex branch of coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1144890008",
+        "display": "Anastomosis of right internal thoracic artery to posterior descending artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30670000",
+        "display": "Anastomosis of thoracic artery to coronary artery, double"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "48431000",
+        "display": "Anastomosis of thoracic artery to coronary artery, single"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8876004",
+        "display": "Aortocoronary artery bypass graft with prosthesis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3546002",
+        "display": "Aortocoronary artery bypass graft with saphenous vein graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "405599002",
+        "display": "Aortocoronary artery bypass graft with three vein grafts"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "405598005",
+        "display": "Aortocoronary artery bypass graft with two vein grafts"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736966005",
+        "display": "Aortocoronary artery bypass of four or more coronary arteries with saphenous vein graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736967001",
+        "display": "Aortocoronary artery bypass of one coronary artery with saphenous vein graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736968006",
+        "display": "Aortocoronary artery bypass of three coronary arteries with saphenous vein graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736969003",
+        "display": "Aortocoronary artery bypass of two coronary arteries with saphenous vein graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10190003",
+        "display": "Aortocoronary bypass of four or more coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "29819009",
+        "display": "Aortocoronary bypass of one coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14323007",
+        "display": "Aortocoronary bypass of three coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90487008",
+        "display": "Aortocoronary bypass of two coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736962007",
+        "display": "Bypass of four or more coronary arteries with prosthesis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736963002",
+        "display": "Bypass of one coronary artery with prosthesis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736964008",
+        "display": "Bypass of three coronary arteries with prosthesis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736965009",
+        "display": "Bypass of two coronary arteries with prosthesis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "868231004",
+        "display": "Coronary artery bypass grafting using free left internal thoracic artery graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1145199001",
+        "display": "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1149059007",
+        "display": "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to marginal branch of right coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1145200003",
+        "display": "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to obtuse marginal branch of circumflex branch of coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1148691001",
+        "display": "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to posterior descending artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1149060002",
+        "display": "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to posterolateral branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1148690000",
+        "display": "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to ramus intermedius artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "868228000",
+        "display": "Coronary artery bypass grafting using gastroepiploic artery graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "868227005",
+        "display": "Coronary artery bypass grafting using radial artery graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "232724005",
+        "display": "Coronary artery bypass grafts greater than 5"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "232722009",
+        "display": "Coronary artery bypass grafts x 4"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "232723004",
+        "display": "Coronary artery bypass grafts x 5"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359601003",
+        "display": "Coronary artery bypass with autogenous graft of internal mammary artery, single graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82247006",
+        "display": "Coronary artery bypass with autogenous graft, five grafts"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "39202005",
+        "display": "Coronary artery bypass with autogenous graft, four grafts"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74371005",
+        "display": "Coronary artery bypass with autogenous graft, two grafts"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "175047001",
+        "display": "Double implantation of mammary arteries into coronary arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "414088005",
+        "display": "Emergency CABG"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "275215001",
+        "display": "LIMA single anastomosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "726011000",
+        "display": "Placement of stent in coronary artery bypass graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "175029007",
+        "display": "Prosthetic bypass of coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "275216000",
+        "display": "RIMA single anastomosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208760004",
+        "display": "Sequential anastomosis of free right internal mammary artery from left internal mammary artery to first diagonal branch of left anterior descending coronary artery to left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208761000",
+        "display": "Sequential anastomosis of free right internal mammary artery from left internal mammary artery to second diagonal branch of left anterior descending coronary artery to left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209061001",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first and second diagonal branches of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209117007",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first and second obtuse marginal branches of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209060000",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first and third diagonal branches of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209115004",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first and third obtuse marginal branches of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208943002",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first diagonal branch of anterior descending branch of left coronary artery and first marginal circumflex coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208942007",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first diagonal branch of anterior descending branch of left coronary artery and third marginal circumflex coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208675002",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first obtuse marginal branch of circumflex branch of left coronary artery and anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209120004",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first obtuse marginal branch of circumflex branch of left coronary artery and posterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208916007",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to intermediate artery and first obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208919000",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to intermediate artery and second diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208673009",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to intermediate artery and second obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208917003",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to intermediate artery and third diagonal branch of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209119005",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to intermediate artery and third obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209172009",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to left posterior lateral branch of circumflex branch of left coronary artery and posterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1208430005",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to mid and distal portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204377006",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to proximal portion of anterior descending branch of left coronary artery and distal portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204378001",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to proximal portion of anterior descending branch of left coronary artery and mid portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209062008",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to second and third diagonal branches of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209204000",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to second and third obtuse marginal branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209203006",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to second obtuse marginal branch and left posterior lateral branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1201858000",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to second obtuse marginal branch of circumflex coronary artery and left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209180002",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to third obtuse marginal branch and left posterior lateral branch of circumflex branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1209174005",
+        "display": "Sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to third obtuse marginal branch of circumflex branch of left coronary artery and posterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017228002",
+        "display": "Sequential anastomosis of left internal thoracic artery from first diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1010571005",
+        "display": "Sequential anastomosis of left internal thoracic artery from first obtuse marginal branch of circumflex coronary artery to left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017233003",
+        "display": "Sequential anastomosis of left internal thoracic artery from mid portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017232008",
+        "display": "Sequential anastomosis of left internal thoracic artery from proximal portion of anterior descending branch of left coronary artery to distal portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017229005",
+        "display": "Sequential anastomosis of left internal thoracic artery from proximal portion of anterior descending branch of left coronary artery to mid portion of anterior descending branch of left coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1017227007",
+        "display": "Sequential anastomosis of left internal thoracic artery from second diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1010570006",
+        "display": "Sequential anastomosis of left internal thoracic artery from second obtuse marginal branch of circumflex coronary artery to left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "871497009",
+        "display": "Sequential anastomosis of right internal thoracic artery to coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "175048006",
+        "display": "Single anastomosis of mammary artery to left anterior descending coronary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359597003",
+        "display": "Single internal mammary-coronary artery bypass"
+      }
+    ]
+  },
+  "id": "cvdra-coronary-artery-bypass-grafting"
+}

@@ -1,1 +1,188 @@
-{"resourceType":"ValueSet","id":"canshare-who-prostate-primary-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:19.427+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-prostate-primary-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who-prostate-primary-histology"}],"version":"20240318","name":"canshare-who-prostate-primary-histology","title":"NZ WHO prostate primary histology","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for prostate primaries, from WHO Classification of Tumours, Urinary & Male Genital Tumours (latest edition) - Sections 4. Tumours of the prostate, 5. Tumours of the seminal vesicle, 9. Neuroendocrine neoplasms, 12. Melanocytic lesions or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^300361000210103 |New Zealand World Health Organization classification of tumors 5th edition urinary and/or male genital prostate histology reference set| OR ^300371000210109 |New Zealand World Health Organization classification of tumors 5th edition urinary and/or male genital seminal vesicle histology reference set| OR ^300411000210108 |New Zealand World Health Organization classification of tumors 5th edition urinary and/or male genital neuroendocrine histology reference set| OR ^300441000210109 |New Zealand World Health Organization classification of tumors 5th edition urinary and/or male genital melanocytic lesion histology reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:17.824+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-prostate-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-prostate-primary-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-prostate-primary-histology",
+  "title": "NZ WHO prostate primary histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "ba2b6b75-d754-4dd5-8e81-07466f612976",
+    "timestamp": "2024-11-01T20:23:28+13:00",
+    "total": 29,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300991000210107",
+        "display": "Acinar malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128704005",
+        "display": "Adenocarcinoma with neuroendocrine differentiation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11671000",
+        "display": "Adenoid cystic carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "59367005",
+        "display": "Adenosquamous carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448546006",
+        "display": "Combined large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47620003",
+        "display": "Cystadenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301041000210109",
+        "display": "Ductal malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51747000",
+        "display": "Extra-adrenal paraganglioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300971000210108",
+        "display": "High grade prostatic intraepithelial neoplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186968006",
+        "display": "Malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301071000210104",
+        "display": "Mixed epithelial and stromal tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "785766008",
+        "display": "Mixed neuroendocrine-non neuroendocrine neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301341000210107",
+        "display": "Mucosal melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733844008",
+        "display": "Neuroendocrine type combined small cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2142002",
+        "display": "Nodular melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162814007",
+        "display": "Non-infiltrating intraductal carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301021000210103",
+        "display": "Pleomorphic giant cell acinar malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300981000210105",
+        "display": "Prostatic intraepithelial neoplasia-like carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301031000210101",
+        "display": "Sarcomatoid acinar malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301011000210108",
+        "display": "Signet ring cell-like acinar malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74364000",
+        "display": "Small cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162767002",
+        "display": "Squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128753005",
+        "display": "Stromal sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301061000210105",
+        "display": "Stromal tumor of uncertain malignant potential"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286768001",
+        "display": "Well-differentiated neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286769009",
+        "display": "Well-differentiated neuroendocrine tumour grade 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286770005",
+        "display": "Well-differentiated neuroendocrine tumour grade 2"
+      }
+    ]
+  },
+  "id": "canshare-who-prostate-primary-histology"
+}

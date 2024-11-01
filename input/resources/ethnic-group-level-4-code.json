@@ -1,0 +1,527 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code",
+  "expansion": {
+    "identifier": "6e6ad001-d130-4709-b415-56f56ab04f0c",
+    "timestamp": "2024-11-01T20:21:52+13:00",
+    "total": 186,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code|1.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53116",
+        "display": "African American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53100",
+        "display": "African NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12911",
+        "display": "Albanian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43117",
+        "display": "Anglo Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52111",
+        "display": "Argentinian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12912",
+        "display": "Armenian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "40000",
+        "display": "Asian NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43111",
+        "display": "Bengali"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52112",
+        "display": "Bolivian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12516",
+        "display": "Bosnian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52113",
+        "display": "Brazilian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12199",
+        "display": "British NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12100",
+        "display": "British NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41411",
+        "display": "Burmese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53118",
+        "display": "Caribbean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12111",
+        "display": "Celtic"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12112",
+        "display": "Channel Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52114",
+        "display": "Chilean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41417",
+        "display": "Chin"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "42100",
+        "display": "Chinese NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52115",
+        "display": "Colombian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12113",
+        "display": "Cornish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12511",
+        "display": "Croat/Croatian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12918",
+        "display": "Cypriot Unspecified"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12512",
+        "display": "Dalmatian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "94444",
+        "display": "Don't know"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12211",
+        "display": "Dutch/Netherlands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52118",
+        "display": "Ecuadorian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12114",
+        "display": "English"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12999",
+        "display": "European NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43112",
+        "display": "Fijian Indian / Indo-Fijian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41111",
+        "display": "Filipino"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12711",
+        "display": "German"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12311",
+        "display": "Greek (including Greek Cypriot)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37122",
+        "display": "Hawaiian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37124",
+        "display": "I-Kiribati / Gilbertese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43199",
+        "display": "Indian NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37112",
+        "display": "Indigenous Australian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "61113",
+        "display": "Indigenous North American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41412",
+        "display": "Indonesian (including Javanese / Sundanese / Sumatran)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12116",
+        "display": "Irish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12611",
+        "display": "Italian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53113",
+        "display": "Jamaican"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "44211",
+        "display": "Japanese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41416",
+        "display": "Karen"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53114",
+        "display": "Kenyan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41211",
+        "display": "Khmer / Kampuchean / Cambodian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41413",
+        "display": "Lao"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52199",
+        "display": "Latin American / Hispanic NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12513",
+        "display": "Macedonian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41414",
+        "display": "Malay / Malayan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43118",
+        "display": "Malaysian Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12117",
+        "display": "Manx"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "61115",
+        "display": "Mauritian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52123",
+        "display": "Mexican"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37130",
+        "display": "Nauru Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "11111",
+        "display": "New Zealand European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "61118",
+        "display": "New Zealander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53115",
+        "display": "Nigerian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53199",
+        "display": "Other African NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "61199",
+        "display": "Other NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37199",
+        "display": "Other Pacific peoples NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "61117",
+        "display": "Other South African"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41499",
+        "display": "Other Southeast Asian NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "30000",
+        "display": "Pacific peoples NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "51124",
+        "display": "Palestinian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37135",
+        "display": "Papuan / New Guinean / Irian Jayan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52127",
+        "display": "Peruvian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37137",
+        "display": "Pitcairn Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52128",
+        "display": "Puerto Rican"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43115",
+        "display": "Punjabi"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "98888",
+        "display": "Response Outside Scope"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "97777",
+        "display": "Response unidentifiable"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37138",
+        "display": "Rotuman / Rotuman Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12119",
+        "display": "Scottish (Scots)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12514",
+        "display": "Serb/Serbian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "61116",
+        "display": "Seychelles Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43116",
+        "display": "Sikh"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "44111",
+        "display": "Sinhalese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12515",
+        "display": "Slovene/Slovenian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37140",
+        "display": "Society Islander (including Tahitian)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37141",
+        "display": "Solomon Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "53119",
+        "display": "Somali"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43119",
+        "display": "South African Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12599",
+        "display": "South Slav (formerly Yugoslav groups) NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12500",
+        "display": "South Slav (formerly Yugoslav groups) NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41000",
+        "display": "Southeast Asian NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "44199",
+        "display": "Sri Lankan NEC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "44100",
+        "display": "Sri Lankan NFD"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "44112",
+        "display": "Sri Lankan Tamil"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "43114",
+        "display": "Tamil"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "41415",
+        "display": "Thai / Tai / Siamese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "35111",
+        "display": "Tokelauan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "33111",
+        "display": "Tongan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "51127",
+        "display": "Turkish (including Turkish Cypriot)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37144",
+        "display": "Tuvalu Islander / Ellice Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52129",
+        "display": "Uruguayan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "37145",
+        "display": "Vanuatu Islander / New Hebridean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "52130",
+        "display": "Venezuelan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+        "code": "12950",
+        "display": "Zimbabwean European"
+      }
+    ]
+  },
+  "id": "ethnic-group-level-4-code"
+}

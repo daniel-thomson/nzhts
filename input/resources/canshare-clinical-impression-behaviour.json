@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:26.629+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-clinical-impression-behaviour",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-clinical-impression-behaviour"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-clinical-impression-behaviour",
+  "title": "NZ cancer clinical impression of behaviour",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6182b483-01a7-465e-937e-ff7c80979678",
+    "timestamp": "2024-11-01T20:24:00+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30389008",
+        "display": "Normal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20376005",
+        "display": "Benign"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "118616009",
+        "display": "Indeterminate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "162572001",
+        "display": "Suspicious"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "363346000",
+        "display": "Malignant"
+      }
+    ]
+  },
+  "id": "canshare-clinical-impression-behaviour"
+}

@@ -1,1 +1,535 @@
-{"resourceType":"ValueSet","id":"nzmt-mp","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:00.203+12:00"},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZMT - MP</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-mp</tt></div>"},"url":"https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-mp","version":"20240416","name":"NZMT___MP","title":"NZMT - MP","status":"draft","compose":{"include":[{"system":"http://nzmt.org.nz","filter":[{"property":"nzmtType","op":"=","value":"mp"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:13.467+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-mp",
+  "version": "20240416",
+  "name": "NZMT___MP",
+  "title": "NZMT - MP",
+  "status": "draft",
+  "expansion": {
+    "identifier": "e196940d-625f-42b0-9f02-19bc7a8b8198",
+    "timestamp": "2024-11-01T20:22:49+13:00",
+    "total": 3024,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://nzmt.org.nz|20241015"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45977211000116108",
+        "display": "aloe vera + arnica montana + calendula officinalis + echinacea purpurea + hamamelis virginiana + hypericum perforatum + lavender oil + matricaria chamomilla + orange oil + peru balsam oil + petit grain oil + rosemary oil + rosmarinus officinalis + sage oil + urtica urens + ylang ylang oil + zinc oxide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45018131000116107",
+        "display": "alumen chromicum + gelsemium sempervirens decoction + potassium dichromate + sabadilla"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10473791000116109",
+        "display": "aluminium hydroxide + magnesium hydroxide + oxetacaine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48056551000116108",
+        "display": "amikacin (as liposomal)"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46106981000116103",
+        "display": "aminoacridine hydrochloride + lidocaine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44951431000116103",
+        "display": "aminoacridine hydrochloride + lidocaine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47312731000116107",
+        "display": "ampicillin"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "24305651000116106",
+        "display": "bacitracin zinc + polymyxin B sulfate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20032401000116107",
+        "display": "benzoic acid + chlorhexidine + resorcinol + salicylic acid + undecenoic acid"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29437741000116105",
+        "display": "benzoin sumatra + aloe vera + storax prepared + tolu balsam"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47491161000116103",
+        "display": "benzylpenicilloyl octa-L-lysine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10132211000116101",
+        "display": "betamethasone sodium phosphate + naphazoline nitrate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20073041000116107",
+        "display": "bicarbonate + sodium chloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44728011000116102",
+        "display": "blood + glucose + ketone bodies + leucocytes + nitrite + pH + protein + specific gravity indicator urine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20054951000116108",
+        "display": "camphor + eucalyptus oil + menthol"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759111000116105",
+        "display": "candesartan cilexetil"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10761671000116100",
+        "display": "cefpodoxime proxetil"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10758411000116108",
+        "display": "cetirizine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45030971000116102",
+        "display": "chelidonium majus + thuja occidentalis"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759991000116101",
+        "display": "chromium picolinate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29465001000116107",
+        "display": "ciclopirox olamine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10586091000116104",
+        "display": "cimicifuga racemosa"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44997171000116108",
+        "display": "citrate sodium + potassium chloride + sodium chloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47057831000116107",
+        "display": "citrate sodium + taurolidine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10760371000116100",
+        "display": "clobetasol propionate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759661000116100",
+        "display": "clobetasone butyrate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759901000116106",
+        "display": "clomifene citrate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46210691000116106",
+        "display": "cobicistat + elvitegravir + emtricitabine + tenofovir alafenamide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29588981000116104",
+        "display": "corn silk"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10193121000116103",
+        "display": "cortisone"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46426941000116103",
+        "display": "daratumumab"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759551000116102",
+        "display": "daunorubicin (as citrate liposomal)"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10248321000116100",
+        "display": "dextropropoxyphene"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10761541000116105",
+        "display": "diflucortolone valerate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10760111000116106",
+        "display": "dihydrocodeine tartrate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46556831000116105",
+        "display": "dimeticone + oatmeal colloidal"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10760521000116106",
+        "display": "doxapram hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31120191000116105",
+        "display": "eculizumab"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "43750871000116100",
+        "display": "efavirenz + emtricitabine + tenofovir disoproxil fumarate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10331551000116103",
+        "display": "enfuvirtide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20032751000116104",
+        "display": "epirubicin hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45044981000116109",
+        "display": "felbinac"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10399021000116108",
+        "display": "flumetasone pivalate + clioquinol"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10760841000116103",
+        "display": "flurbiprofen sodium"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29590711000116106",
+        "display": "garlic"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31277141000116102",
+        "display": "gemcitabine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29589391000116109",
+        "display": "grapefruit"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47797421000116101",
+        "display": "human plasma coagulation factor XIII"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47009151000116109",
+        "display": "hydrocortisone acetate + pramoxine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10761781000116109",
+        "display": "hydroxychloroquine sulfate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29477051000116109",
+        "display": "hypromellose + propylene glycol"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44287111000116102",
+        "display": "ibudilast"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44967701000116104",
+        "display": "influenza virus type A pandemic haemagglutinin vaccine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29589491000116102",
+        "display": "jujube"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10758371000116109",
+        "display": "labetalol hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10364611000116109",
+        "display": "lactose"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46989151000116102",
+        "display": "lanadelumab"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10391351000116101",
+        "display": "lemon oil"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44053621000116105",
+        "display": "lercanidipine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759931000116102",
+        "display": "lidocaine hydrochloride anhydrous"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31166531000116105",
+        "display": "lidocaine hydrochloride anhydrous + hyaluronic acid"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47722731000116100",
+        "display": "lurasidone"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45999311000116102",
+        "display": "magnesium"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10550991000116105",
+        "display": "malathion + permethrin + piperonyl butoxide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10760241000116104",
+        "display": "mometasone furoate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46940461000116107",
+        "display": "naltrexone + bupropion hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46058381000116100",
+        "display": "netupitant + palonosetron"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46058741000116105",
+        "display": "nicardipine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10349851000116100",
+        "display": "nitrazepam"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47668571000116107",
+        "display": "olmesartan medoxomil + amlodipine + hydrochlorothiazide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10504581000116103",
+        "display": "oxalic acid"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10291181000116104",
+        "display": "oxybuprocaine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10558721000116107",
+        "display": "physostigmine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10761991000116109",
+        "display": "pivmecillinam hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10626391000116104",
+        "display": "pizotifen"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10759601000116104",
+        "display": "potassium bicarbonate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10761861000116109",
+        "display": "procainamide hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20015381000116107",
+        "display": "protein indicator urine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44669701000116107",
+        "display": "pyridoxine hydrochloride + riboflavin + thiamine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47575791000116109",
+        "display": "rAd26-S virus COVID-19 vaccine"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10760711000116107",
+        "display": "raloxifene hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29590041000116105",
+        "display": "red yeast"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47782211000116109",
+        "display": "relugolix + estradiol + norethisterone"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10084581000116101",
+        "display": "rosiglitazone"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29590171000116102",
+        "display": "saw palmetto"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48037441000116109",
+        "display": "serum human"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "24306021000116100",
+        "display": "sincalide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45234721000116101",
+        "display": "sodium methyl hydroxybenzoate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47602151000116105",
+        "display": "sotatercept"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48087141000116108",
+        "display": "tafamidis"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47672081000116105",
+        "display": "tapentadol"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "29471511000116108",
+        "display": "temsirolimus"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46482931000116100",
+        "display": "tenofovir alafenamide"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31144781000116101",
+        "display": "tetanus immunoglobulin, human"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10758391000116108",
+        "display": "thioridazine hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44283521000116105",
+        "display": "trihexyphenidyl hydrochloride"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10025341000116108",
+        "display": "trolamine laurilsulfate"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10064921000116106",
+        "display": "urea + lactic acid"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46080901000116102",
+        "display": "uric acid indicator blood"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47530901000116109",
+        "display": "xylitol + betaine + olive oil"
+      }
+    ]
+  },
+  "id": "nzmt-mp"
+}

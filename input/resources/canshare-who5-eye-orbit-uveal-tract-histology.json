@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:14.007+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-eye-orbit-uveal-tract-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-eye-orbit-uveal-tract-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-eye-orbit-uveal-tract-histology",
+  "title": "NZ WHO eye and orbit uveal tract histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "db05e1e7-8a38-4b3d-9a0c-0c3a72d82f2b",
+    "timestamp": "2024-11-01T20:21:26+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10291008",
+        "display": "Giant pigmented naevus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476311000210103",
+        "display": "Iris melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466381000210101",
+        "display": "Uveal melanoma"
+      }
+    ]
+  },
+  "id": "canshare-who5-eye-orbit-uveal-tract-histology"
+}

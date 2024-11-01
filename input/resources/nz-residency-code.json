@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-code",
+  "expansion": {
+    "identifier": "3fe9b4a4-5bee-4c07-8be3-86017f1bb8e7",
+    "timestamp": "2024-11-01T20:23:39+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/nz-residency-code|1.1.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-residency-code",
+        "code": "no",
+        "display": "Not a Permanent Resident"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-residency-code",
+        "code": "yes",
+        "display": "Permanent Resident"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-residency-code",
+        "code": "unknown",
+        "display": "Unknown"
+      }
+    ]
+  },
+  "id": "nz-residency-code"
+}

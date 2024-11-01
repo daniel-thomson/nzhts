@@ -1,1 +1,53 @@
-{"resourceType":"ValueSet","id":"canshare-test-failure-reason","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:46.169+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-test-failure-reason","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-test-failure-reason"}],"version":"20240708","name":"canshare-test-failure-reason","title":"NZ cancer test failure reason","status":"active","experimental":false,"date":"2024-07-08","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The reason why the test failed.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"74964007 |Other|"}]},{"system":"http://snomed.info/sct","concept":[{"code":"77289001","display":"Insufficient material"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:14.408+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-test-failure-reason",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-test-failure-reason"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-test-failure-reason",
+  "title": "NZ cancer test failure reason",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "945e69df-f58c-4dae-ad24-8944efefe372",
+    "timestamp": "2024-11-01T20:25:37+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77289001",
+        "display": "Insufficient tissue for diagnosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      }
+    ]
+  },
+  "id": "canshare-test-failure-reason"
+}

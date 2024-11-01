@@ -1,0 +1,138 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:37.787+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-bone-skull-facial-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-bone-skull-facial-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-bone-skull-facial-topography",
+  "title": "NZ cancer bone skull and facial topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "28e5a2fb-ffe0-40f7-bff8-37bb605e8871",
+    "timestamp": "2024-11-01T20:23:29+13:00",
+    "total": 19,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783207002",
+        "display": "Bone and/or joint structure of cranium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89546000",
+        "display": "Bone structure of cranium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91397008",
+        "display": "Bone structure of face"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "272679001",
+        "display": "Bone structure of head"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392081006",
+        "display": "Bone structure of jaw"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91609006",
+        "display": "Bone structure of mandible"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70925003",
+        "display": "Bone structure of maxilla"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52374004",
+        "display": "Ethmoid bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74872008",
+        "display": "Frontal bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74386004",
+        "display": "Nasal bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31640002",
+        "display": "Occipital bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "362901003",
+        "display": "Orbital wall structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24924006",
+        "display": "Parietal bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73117003",
+        "display": "Sphenoid bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10927008",
+        "display": "Structure of vault of skull"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60911003",
+        "display": "Temporal bone structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53620006",
+        "display": "Temporomandibular joint structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13881006",
+        "display": "Zygomatic bone structure"
+      }
+    ]
+  },
+  "id": "canshare-bone-skull-facial-topography"
+}

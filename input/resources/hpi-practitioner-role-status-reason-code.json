@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code",
+  "expansion": {
+    "identifier": "80c69e12-3072-4fbb-ab7c-2ffbb129d704",
+    "timestamp": "2024-11-01T20:25:23+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code|1.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "code": "died",
+        "display": "died"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "code": "duplicate",
+        "display": "duplicate"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "code": "enteredInError",
+        "display": "enteredInError"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "code": "other",
+        "display": "other"
+      }
+    ]
+  },
+  "id": "hpi-practitioner-role-status-reason-code"
+}

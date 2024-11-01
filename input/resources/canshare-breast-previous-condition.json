@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:38.353+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-previous-condition",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-breast-previous-condition"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-breast-previous-condition",
+  "title": "NZ cancer breast previous condition",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "bdf26da6-a916-47fb-b95c-d98f886f0ba8",
+    "timestamp": "2024-11-01T20:25:24+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477201000210107",
+        "display": "History of biopsy of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477191000210105",
+        "display": "History of lesion of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429087003",
+        "display": "History of malignant neoplasm of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      }
+    ]
+  },
+  "id": "canshare-breast-previous-condition"
+}

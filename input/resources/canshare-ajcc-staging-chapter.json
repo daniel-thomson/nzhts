@@ -1,0 +1,543 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:42.817+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ajcc-staging-chapter",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-ajcc-staging-chapter"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-ajcc-staging-chapter",
+  "title": "NZ AJCC staging chapter",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "7c49a2af-674d-4329-9248-de6d92d36246",
+    "timestamp": "2024-11-01T20:25:47+13:00",
+    "total": 101,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395201000210104",
+        "display": "TNM Adrenal Cortical Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395211000210102",
+        "display": "TNM Adrenal Neuroendocrine Tumours"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394601000210103",
+        "display": "TNM Ampulla of Vater"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394541000210104",
+        "display": "TNM Anus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394521000210105",
+        "display": "TNM Appendix: Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394721000210101",
+        "display": "TNM Bone: Appendicular Skeleton, Trunk, Skull and Facial Bones"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394751000210105",
+        "display": "TNM Bone: Pelvis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394731000210104",
+        "display": "TNM Bone: Spine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395151000210108",
+        "display": "TNM Brain and Spinal Cord"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394841000210101",
+        "display": "TNM Breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394331000210100",
+        "display": "TNM Cervical Lymph Nodes and Unknown Primary Tumours of Head and Neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394871000210106",
+        "display": "TNM Cervix Uteri"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394531000210107",
+        "display": "TNM Colon and Rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395071000210104",
+        "display": "TNM Conjunctival Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395081000210102",
+        "display": "TNM Conjunctival Melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394911000210108",
+        "display": "TNM Corpus Uteri: Adenosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394891000210105",
+        "display": "TNM Corpus Uteri: Carcinoma and Carcinosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394901000210106",
+        "display": "TNM Corpus Uteri: Leiomyosarcoma and Endometrial Stromal Sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394391000210104",
+        "display": "TNM Cutaneous Carcinoma of Head and Neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394591000210108",
+        "display": "TNM Distal Bile Duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394611000210101",
+        "display": "TNM Exocrine Pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395061000210105",
+        "display": "TNM Eyelid Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394581000210106",
+        "display": "TNM Gallbladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394781000210100",
+        "display": "TNM Gastrointestinal Stromal Tumour: Gastric and Omental GIST"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394791000210103",
+        "display": "TNM Gastrointestinal Stromal Tumour: Small Intestine, Oesophageal, Colorectal, Mesenteric and Peritoneal GIST"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394931000210101",
+        "display": "TNM Gestational Trophoblastic Neoplasms"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395291000210105",
+        "display": "TNM Hodgkin Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394371000210103",
+        "display": "TNM HPV-Mediated (p16+) Oropharynx Cancer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394461000210102",
+        "display": "TNM Hypopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394561000210103",
+        "display": "TNM Intrahepatic Bile Duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394971000210104",
+        "display": "TNM Kidney"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395121000210104",
+        "display": "TNM Lacrimal Gland Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394421000210109",
+        "display": "TNM Larynx: Glottis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394411000210104",
+        "display": "TNM Larynx: Subglottis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394431000210106",
+        "display": "TNM Larynx: Supraglottis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394551000210101",
+        "display": "TNM Liver"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394691000210109",
+        "display": "TNM Lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394351000210106",
+        "display": "TNM Major Salivary Glands"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395041000210109",
+        "display": "TNM Male Penile Urethra and Female Urethra: Squamous Cell Carcinoma and Adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395021000210103",
+        "display": "TNM Male Penile Urethra and Female Urethra: Urothelial Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394701000210109",
+        "display": "TNM Malignant Pleural Mesothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394451000210100",
+        "display": "TNM Maxillary Sinus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394821000210107",
+        "display": "TNM Melanoma of Skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394831000210109",
+        "display": "TNM Merkel Cell Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394401000210101",
+        "display": "TNM Mucosal Melanoma of Head and Neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394441000210103",
+        "display": "TNM Nasal Cavity and Ethmoid Sinus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394361000210109",
+        "display": "TNM Nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394661000210104",
+        "display": "TNM Neuroendocrine Tumours of Appendix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394671000210105",
+        "display": "TNM Neuroendocrine Tumours of Colon and Rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394641000210100",
+        "display": "TNM Neuroendocrine Tumours of Duodenum and Ampulla of Vater"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394651000210102",
+        "display": "TNM Neuroendocrine Tumours of Jejunum and Ileum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394711000210106",
+        "display": "TNM Neuroendocrine Tumours of Pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394631000210108",
+        "display": "TNM Neuroendocrine Tumours of Stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395271000210106",
+        "display": "TNM Non-Hodgkin Lymphoma: Chronic Lymphocytic Leukaemia and Small Lymphocytic Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395231000210109",
+        "display": "TNM Non-Hodgkin Lymphoma: Diffuse Large B-cell Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395251000210103",
+        "display": "TNM Non-Hodgkin Lymphoma: Follicular Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395241000210101",
+        "display": "TNM Non-Hodgkin Lymphoma: Mantle Cell Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395261000210100",
+        "display": "TNM Non-Hodgkin Lymphoma: Marginal Zone Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395281000210108",
+        "display": "TNM Non-Hodgkin Lymphoma: Peripheral T-cell Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395221000210107",
+        "display": "TNM Non-Hodgkin Lymphoma: Unspecified or Other Types"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395131000210102",
+        "display": "TNM Ocular Adnexal Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394471000210108",
+        "display": "TNM Oesophagus and Oesophagogastric Junction: Adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394481000210105",
+        "display": "TNM Oesophagus and Oesophagogastric Junction: Other Histologies"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394621000210106",
+        "display": "TNM Oesophagus and Oesophagogastric Junction: Squamous Cell Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394341000210108",
+        "display": "TNM Oral Cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395141000210105",
+        "display": "TNM Orbital Sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394381000210101",
+        "display": "TNM Oropharynx (p16-)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394921000210103",
+        "display": "TNM Ovary, Fallopian Tube and Primary Peritoneal Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395301000210109",
+        "display": "TNM Paediatric Hodgkin Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395321000210101",
+        "display": "TNM Paediatric Non-Hodgkin Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395191000210101",
+        "display": "TNM Parathyroid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394941000210109",
+        "display": "TNM Penis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394571000210109",
+        "display": "TNM Perihilar Bile Ducts"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395341000210107",
+        "display": "TNM Plasma Cell Myeloma and Plasma Cell Disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395331000210104",
+        "display": "TNM Primary Cutaneous Lymphoma: Primary Cutaneous B-cell/T-cell (non-MF/SS) Lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394951000210107",
+        "display": "TNM Prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395051000210107",
+        "display": "TNM Prostatic Urethra: Squamous Cell Carcinoma and Adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395031000210101",
+        "display": "TNM Prostatic Urethra: Urothelial Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394991000210100",
+        "display": "TNM Renal Pelvis and Ureter: Squamous Cell Carcinoma and Adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394981000210102",
+        "display": "TNM Renal Pelvis and Ureter: Urothelial Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395111000210109",
+        "display": "TNM Retinoblastoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394501000210102",
+        "display": "TNM Small Intestine: Adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394511000210100",
+        "display": "TNM Small Intestine: Other Histologies"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394771000210102",
+        "display": "TNM Soft Tissue Sarcoma of Abdomen and Thoracic Visceral Organs"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394741000210107",
+        "display": "TNM Soft Tissue Sarcoma of Head and Neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394801000210104",
+        "display": "TNM Soft Tissue Sarcoma of Retroperitoneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394761000210108",
+        "display": "TNM Soft Tissue Sarcoma of Trunk and Extremities"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394811000210102",
+        "display": "TNM Soft Tissue Sarcoma Unusual Histologies and Sites"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394491000210107",
+        "display": "TNM Stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394961000210105",
+        "display": "TNM Testis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394681000210107",
+        "display": "TNM Thymus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395161000210106",
+        "display": "TNM Thyroid: Anaplastic"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395171000210100",
+        "display": "TNM Thyroid: Differentiated"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395181000210103",
+        "display": "TNM Thyroid: Medullary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395011000210108",
+        "display": "TNM Urinary Bladder: Squamous Cell Carcinoma and Adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395001000210106",
+        "display": "TNM Urinary Bladder: Urothelial Carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395101000210107",
+        "display": "TNM Uvea: Choridal and Ciliary Body Melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395091000210100",
+        "display": "TNM Uvea: Iris Melanoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394861000210100",
+        "display": "TNM Vagina"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394881000210108",
+        "display": "TNM Vulva"
+      }
+    ]
+  },
+  "id": "canshare-ajcc-staging-chapter"
+}

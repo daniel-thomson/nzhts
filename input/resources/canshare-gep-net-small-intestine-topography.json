@@ -1,0 +1,118 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:26.470+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gep-net-small-intestine-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-gep-net-small-intestine-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-gep-net-small-intestine-topography",
+  "title": "NZ cancer gastroenteropancreatic neuroendocrine tumour small intestine topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6ef70d10-af2f-47e3-ade4-67faed959598",
+    "timestamp": "2024-11-01T20:21:03+13:00",
+    "total": 15,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9999005",
+        "display": "Duodenal ampulla structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38848004",
+        "display": "Duodenal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34516001",
+        "display": "Ileal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23153004",
+        "display": "Ileocaecal valve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21306003",
+        "display": "Jejunal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127962001",
+        "display": "Meckel's diverticulum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51807001",
+        "display": "Sphincter of Oddi structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67109009",
+        "display": "Structure of ampulla of Vater"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63803008",
+        "display": "Structure of ascending portion of duodenum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72031006",
+        "display": "Structure of descending portion of duodenum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85774003",
+        "display": "Structure of distal portion of ileum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72793003",
+        "display": "Structure of inferior portion of duodenum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30315005",
+        "display": "Structure of small intestine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56734009",
+        "display": "Structure of superior portion of duodenum"
+      }
+    ]
+  },
+  "id": "canshare-gep-net-small-intestine-topography"
+}

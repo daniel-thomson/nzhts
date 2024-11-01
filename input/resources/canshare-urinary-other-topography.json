@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:24.181+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-urinary-other-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-urinary-other-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-urinary-other-topography",
+  "title": "NZ cancer urinary system other topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "688b1406-3482-4597-ba4a-e4306326a701",
+    "timestamp": "2024-11-01T20:24:31+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49917003",
+        "display": "Male genitourinary system structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "699884007",
+        "display": "Structure of female genitourinary tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122489005",
+        "display": "Urinary system structure"
+      }
+    ]
+  },
+  "id": "canshare-urinary-other-topography"
+}

@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",
+  "expansion": {
+    "identifier": "b822c729-b5b0-452c-9f02-61d99108e4b0",
+    "timestamp": "2024-11-01T20:23:56+13:00",
+    "total": 7,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/alias-type-code|1.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "aka",
+        "display": "Aka"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "current",
+        "display": "Current unverified or unofficial name"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "legal",
+        "display": "Legal"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "maori",
+        "display": "Māori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "old",
+        "display": "Old"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "short",
+        "display": "Short"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "code": "trade-as",
+        "display": "Trading as"
+      }
+    ]
+  },
+  "id": "alias-type-code"
+}

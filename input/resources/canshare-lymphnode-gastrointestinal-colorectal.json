@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-lymphnode-gastrointestinal-colorectal","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:31:18.833+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-gastrointestinal-colorectal","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-lymphnode-gastrointestinal-colorectal"}],"version":"20240318","name":"canshare-lymphnode-gastrointestinal-colorectal","title":"NZ cancer gastrointestinal colorectal lymph node ","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Lymph nodes used for diagnosis of gastrointestinal colorectal cancer or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 332621000210109 |New Zealand cancer gastrointestinal colorectal lymph node reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:37.158+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-gastrointestinal-colorectal",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lymphnode-gastrointestinal-colorectal"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lymphnode-gastrointestinal-colorectal",
+  "title": "NZ cancer gastrointestinal colorectal lymph node",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "88b9cd20-1f27-47ba-b896-58b2687c3922",
+    "timestamp": "2024-11-01T20:21:24+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245357003",
+        "display": "Internal iliac node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "281676003",
+        "display": "Structure of ileocolic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113336002",
+        "display": "Structure of inferior mesenteric lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "282116006",
+        "display": "Structure of left colic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "282031000",
+        "display": "Structure of midcolic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "281939003",
+        "display": "Structure of right colic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49394004",
+        "display": "Structure of superior mesenteric lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68881005",
+        "display": "Structure of superior rectal lymph node"
+      }
+    ]
+  },
+  "id": "canshare-lymphnode-gastrointestinal-colorectal"
+}

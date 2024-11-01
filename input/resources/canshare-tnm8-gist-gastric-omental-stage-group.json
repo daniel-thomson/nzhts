@@ -1,1 +1,73 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-gist-gastric-omental-stage-group","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:40.627+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-gist-gastric-omental-stage-group","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-gist-gastric-omental-stage-group"}],"version":"20240318","name":"canshare-tnm8-gist-gastric-omental-stage-group","title":"NZ AJCC (8th edition) gastrointestinal stromal tumour gastric and/or omental stage group","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The stage groups that describe how far a gastrointestinal stromal tumour (GIST) gastric and/or omental has grown and spread, using chapter 43.1 of the AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 351241000210106 |New Zealand AJCC 8th edition gastrointestinal stromal tumour gastric and/or omental stage group reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:22.721+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-gist-gastric-omental-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-gist-gastric-omental-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-gist-gastric-omental-stage-group",
+  "title": "NZ AJCC (8th edition) gastrointestinal stromal tumour gastric and omental stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "73bc7a07-fd18-4b33-8b50-f4f67241d73e",
+    "timestamp": "2024-11-01T20:25:42+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222724007",
+        "display": "IA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222728005",
+        "display": "IB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222765007",
+        "display": "II"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222837003",
+        "display": "IV"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-gist-gastric-omental-stage-group"
+}

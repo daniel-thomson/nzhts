@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:15.072+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-menopause-status",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-menopause-status"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-menopause-status",
+  "title": "NZ cancer menopause status",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e6ba0d8d-2538-4d08-a082-ff43d182b10f",
+    "timestamp": "2024-11-01T20:24:07+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "161541000119104",
+        "display": "Perimenopausal state"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76498008",
+        "display": "Postmenopausal state"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "22636003",
+        "display": "Premenopausal state"
+      }
+    ]
+  },
+  "id": "canshare-menopause-status"
+}

@@ -1,1 +1,540 @@
-{"resourceType":"ValueSet","id":"body-site-uv-ips","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:51.450+12:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  442083009 (Anatomical or acquired body structure (body structure))</li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":2,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}}],"url":"http://hl7.org/fhir/uv/ips/ValueSet/body-site-uv-ips","version":"1.1.0","name":"BodySiteUvIps","title":"Body Site - IPS","status":"active","experimental":false,"date":"2022-11-22T03:32:52+00:00","publisher":"Health Level Seven International - Patient Care Work Group","contact":[{"telecom":[{"system":"url","value":"http://www.hl7.org/Special/committees/patientcare"}]}],"description":"IPS body site value set. This value set includes a set of codes from SNOMED CT that may be used to represent body sites (e.g., for laboratory specimen collection).","jurisdiction":[{"coding":[{"system":"http://unstats.un.org/unsd/methods/m49/m49.htm","code":"001"}]}],"immutable":false,"copyright":"The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"442083009"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:02.193+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/uv/ips/ValueSet/body-site-uv-ips",
+  "version": "1.1.0",
+  "name": "BodySiteUvIps",
+  "title": "Body Site - IPS",
+  "status": "active",
+  "experimental": false,
+  "copyright": "The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org",
+  "expansion": {
+    "identifier": "854d9986-0795-4d16-8769-237117bd9ad7",
+    "timestamp": "2024-11-01T20:25:03+13:00",
+    "total": 37202,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49612007",
+        "display": "Axopod"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "731019005",
+        "display": "Entire 6/7 interchondral joint"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "729790008",
+        "display": "Entire ankle joint cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368797008",
+        "display": "Entire anterior ciliary artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "728802008",
+        "display": "Entire anterior interatrial preferential pathway"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369327009",
+        "display": "Entire anterior meningeal artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1217129004",
+        "display": "Entire anterior region of lower leg"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361725000",
+        "display": "Entire axial skeleton"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1197435000",
+        "display": "Entire blood vessel of thoracic cross-sectional segment of trunk"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279727008",
+        "display": "Entire bony labyrinth"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "730068002",
+        "display": "Entire branch of middle meningeal artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "730528005",
+        "display": "Entire bronchial branches of thoracic aorta"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369038002",
+        "display": "Entire calamus scriptorius"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "728067004",
+        "display": "Entire capsular ligament of ankle joint"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "278198007",
+        "display": "Entire cardiovascular system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259954006",
+        "display": "Entire cavity of right cardiac ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "732164007",
+        "display": "Entire chest and abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367886004",
+        "display": "Entire clavicular notch of sternum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "730949003",
+        "display": "Entire Couinaud hepatic segment VII"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245615002",
+        "display": "Entire deciduous maxillary right second molar tooth"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "728238005",
+        "display": "Entire dorsal interosseus tendon within foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "322749003",
+        "display": "Entire esophageal gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368665004",
+        "display": "Entire fetal occiput"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "728527006",
+        "display": "Entire fifth costotransverse joint"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244704005",
+        "display": "Entire first costal cartilage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788250009",
+        "display": "Entire hair follicle of external nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "727023004",
+        "display": "Entire hearing mechanoreceptor"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "324097006",
+        "display": "Entire Held's space"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "730107007",
+        "display": "Entire horn of lateral meniscus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "182436000",
+        "display": "Entire iliofemoral ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "726940000",
+        "display": "Entire inferior gemellus muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "730239009",
+        "display": "Entire lacuna of iliac fossa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244245001",
+        "display": "Entire left subclavian artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27297006",
+        "display": "Entire left superior intercostal vein"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244836009",
+        "display": "Entire longus colli"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361989001",
+        "display": "Entire lower lobe of left lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "281412000",
+        "display": "Entire lumbar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280212008",
+        "display": "Entire mandibular nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "729080007",
+        "display": "Entire median septum of prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "727733003",
+        "display": "Entire middle facet of subtalar joint"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "144632009",
+        "display": "Entire mucous membrane of oropharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1231527007",
+        "display": "Entire palmar fascia of finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734090006",
+        "display": "Entire peroneal nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280344009",
+        "display": "Entire phrenic nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "362504004",
+        "display": "Entire posterior chamber of eye"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1287299005",
+        "display": "Entire posterior ramus of seventh thoracic spinal nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "731490000",
+        "display": "Entire posterior superior iliac crest region of back"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "728659006",
+        "display": "Entire posterior third of longitudinal segment of meniscus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "729961008",
+        "display": "Entire primary celiac axis branch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361857009",
+        "display": "Entire proximal interphalangeal joint of little finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1145136005",
+        "display": "Entire proximal interphalangeal joint region of fourth toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "727997007",
+        "display": "Entire radial digital nerve of middle finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296557000",
+        "display": "Entire reticulospinal tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279859007",
+        "display": "Entire septum of corpus cavernosum of clitoris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368401002",
+        "display": "Entire skin between ring finger and little finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "727865006",
+        "display": "Entire skin of anterolateral surface of arm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "222414005",
+        "display": "Entire skin of medial surface of fourth toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368112007",
+        "display": "Entire skin of nasolabial fold"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "181499006",
+        "display": "Entire skin of nipple"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "727312005",
+        "display": "Entire skin of suboccipital region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400041007",
+        "display": "Entire skin of supratip of nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280765000",
+        "display": "Entire spinous process of fourth thoracic vertebra"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280779008",
+        "display": "Entire spinous process of third lumbar vertebra"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "287877003",
+        "display": "Entire subcutaneous tissue of gluteal fold"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "727444005",
+        "display": "Entire submental space"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368954006",
+        "display": "Entire sulcus ampullaris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "316079000",
+        "display": "Entire superficial dorsal sacrococcygeal ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "729016006",
+        "display": "Entire superior thyroid tubercle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "181931001",
+        "display": "Entire supracondylar part of humerus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "345450001",
+        "display": "Entire third pharyngeal pouch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1145018008",
+        "display": "Entire thoracolumbar junction of vertebral column"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "181078002",
+        "display": "Entire tibial nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "234786006",
+        "display": "Entire transverse head of adductor hallucis muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90984005",
+        "display": "Intramitochondrial crystal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "272747004",
+        "display": "LU2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361568001",
+        "display": "Medial lemniscus in midbrain"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "22809002",
+        "display": "Nuclear envelope, outer membrane"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280055004",
+        "display": "Right leaf of central tendon"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54468004",
+        "display": "Skin structure of nipple"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68133001",
+        "display": "Structure of anterior conjunctival artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295342001",
+        "display": "Structure of Brodmann area 13 of superior temporal gyrus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "787117001",
+        "display": "Structure of Brodmann areas 17 (striate cortex) 18 (parastriate cortex) and 19 (peristriate cortex) of the right half of occipital lobe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "782379007",
+        "display": "Structure of capsule of left intertarsal joint"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259955007",
+        "display": "Structure of cavity of right cardiac ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368244001",
+        "display": "Structure of dorsal metacarpal ligaments"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "878864006",
+        "display": "Structure of eyelashes of right upper eyelid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47057005",
+        "display": "Structure of first costal cartilage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368062000",
+        "display": "Structure of left superior intercostal vein"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162965003",
+        "display": "Structure of ligament of interphalangeal joint of right middle finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49901009",
+        "display": "Structure of pedicle of twelfth thoracic vertebra"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "870619008",
+        "display": "Structure of pigmented layer of left iris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1153589009",
+        "display": "Structure of proximal epiphysis of left tibia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "890324005",
+        "display": "Structure of retrocrural lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "764468005",
+        "display": "Structure of right adductor muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1268764002",
+        "display": "Structure of right Bartholin gland duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "762881005",
+        "display": "Structure of right vestibular nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295185002",
+        "display": "Structure of temporal plane"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40666006",
+        "display": "Subcutaneous tissue structure of gluteal fold"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51865007",
+        "display": "Subunit B of peripheral doublet or cilium or flagellum, not bacterial"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110824001",
+        "display": "Ureter and pelvis, CS"
+      }
+    ]
+  },
+  "id": "body-site-uv-ips"
+}

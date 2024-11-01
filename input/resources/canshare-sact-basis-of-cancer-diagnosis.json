@@ -1,1 +1,53 @@
-{"resourceType":"ValueSet","id":"canshare-sact-basis-of-cancer-diagnosis","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:06.056+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-basis-of-cancer-diagnosis","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-sact-basis-of-cancer-diagnosis"}],"version":"20240722","name":"canshare-sact-basis-of-cancer-diagnosis","title":"NZ SACT basis of diagnosis","status":"active","experimental":false,"date":"2024-07-22","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Types of evidence that may be used to reach a cancer diagnosis, which is treated with systemic anti cancer therapy (SACT).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"373795004 |Clinical evidence| OR 261771000210109 |Pathology evidence|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:22.328+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-basis-of-cancer-diagnosis",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-sact-basis-of-cancer-diagnosis"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-sact-basis-of-cancer-diagnosis",
+  "title": "NZ SACT basis of diagnosis",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "b58816ef-487d-4021-9ef8-f49d348ef48a",
+    "timestamp": "2024-11-01T20:21:10+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "373795004",
+        "display": "Cancer diagnosis based on clinical evidence"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "261771000210109",
+        "display": "Cancer diagnosis based on pathological evidence"
+      }
+    ]
+  },
+  "id": "canshare-sact-basis-of-cancer-diagnosis"
+}

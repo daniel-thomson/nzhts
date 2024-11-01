@@ -1,1 +1,68 @@
-{"resourceType":"ValueSet","id":"canshare-pit-prognostic-score","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:47.186+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-pit-prognostic-score","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-pit-prognostic-score"}],"version":"20240318","name":"canshare-pit-prognostic-score","title":"NZ cancer PIT prognostic score","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The prognostic score for T-cell lymphoma, defined using the Prognostic Index for T-cell Lymphoma (PIT) prognostic scoring system.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 294981000210109 |New Zealand cancer PIT prognostic score reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:11.104+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-pit-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-pit-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-pit-prognostic-score",
+  "title": "NZ cancer PIT prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "46a45f5b-b429-40ab-a9e2-1b4cc0dddd38",
+    "timestamp": "2024-11-01T20:25:40+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296721000210100",
+        "display": "Prognostic Index for T-cell Lymphoma risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296711000210105",
+        "display": "Prognostic Index for T-cell Lymphoma risk group high intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296691000210108",
+        "display": "Prognostic Index for T-cell Lymphoma risk group low"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296701000210108",
+        "display": "Prognostic Index for T-cell Lymphoma risk group low intermediate"
+      }
+    ]
+  },
+  "id": "canshare-pit-prognostic-score"
+}

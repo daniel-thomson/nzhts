@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:15.839+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-radiological-behaviour-category",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-breast-radiological-behaviour-category"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-breast-radiological-behaviour-category",
+  "title": "NZ cancer breast radiological behaviour category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "c93b6d50-27fe-46db-9e7e-a1b8db684d5c",
+    "timestamp": "2024-11-01T20:23:43+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477551000210106",
+        "display": "Benign finding on radiologic imaging of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477581000210101",
+        "display": "Highly suspicious of malignancy on radiologic imaging of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477561000210109",
+        "display": "Indeterminate and/or probably benign finding on radiologic imaging of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477541000210108",
+        "display": "Normal and/or no significant abnormality on radiologic imaging of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477571000210103",
+        "display": "Suspicious of malignancy on radiologic imaging of breast"
+      }
+    ]
+  },
+  "id": "canshare-breast-radiological-behaviour-category"
+}

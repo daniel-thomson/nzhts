@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code",
+  "expansion": {
+    "identifier": "82bb9e3d-8784-4b85-a681-e4ea93a550b3",
+    "timestamp": "2024-11-01T20:23:23+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/coverage-type-code|1.1.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
+        "code": "acc",
+        "display": "Accident Compensation Corporation"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
+        "code": "csc",
+        "display": "Community Services Card"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
+        "code": "gms",
+        "display": "General Medical Subsidy"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
+        "code": "huhc",
+        "display": "High User Health Card"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
+        "code": "psc",
+        "display": "Pharmacy subsidy card"
+      }
+    ]
+  },
+  "id": "coverage-type-code"
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:17.524+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-referral-pathway",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-referral-pathway"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-referral-pathway",
+  "title": "NZ cancer referral pathway",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "94badccc-8815-4c26-9f72-ee11ba010fb1",
+    "timestamp": "2024-11-01T20:21:48+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "165197003",
+        "display": "Diagnostic assessment"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "373110003",
+        "display": "Emergency procedure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381081000210101",
+        "display": "National screening programme for malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340791000210101",
+        "display": "Surveillance of cancer"
+      }
+    ]
+  },
+  "id": "canshare-referral-pathway"
+}

@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:14.150+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-female-genital-ovary-fallopian-peritoneal-cn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-female-genital-ovary-fallopian-peritoneal-cn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-female-genital-ovary-fallopian-peritoneal-cn",
+  "title": "NZ AJCC female genital ovary and fallopian tube and primary peritoneal carcinoma clinical N category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "fcc7341a-2b51-42cc-854d-591e21aea76c",
+    "timestamp": "2024-11-01T20:21:15+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229967007",
+        "display": "cN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229971005",
+        "display": "cN0(i+)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229973008",
+        "display": "cN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229975001",
+        "display": "cN1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229976000",
+        "display": "cN1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229966003",
+        "display": "cNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm-female-genital-ovary-fallopian-peritoneal-cn"
+}

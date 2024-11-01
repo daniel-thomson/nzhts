@@ -1,0 +1,153 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:32.628+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gep-net-colorectal-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-gep-net-colorectal-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-gep-net-colorectal-topography",
+  "title": "NZ cancer gastroenteropancreatic neuroendocrine tumour colorectal topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "c61e41fa-53ab-4427-ac62-ee99745dcb07",
+    "timestamp": "2024-11-01T20:24:37+13:00",
+    "total": 22,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9040008",
+        "display": "Ascending colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32713005",
+        "display": "Caecum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71854001",
+        "display": "Colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32622004",
+        "display": "Descending colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23153004",
+        "display": "Ileocaecal valve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55572008",
+        "display": "Left colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34402009",
+        "display": "Rectum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51342009",
+        "display": "Right colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60184004",
+        "display": "Sigmoid colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57444000",
+        "display": "Structure of anorectal junction"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285733009",
+        "display": "Structure of caecum and/or colon and/or rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14742008",
+        "display": "Structure of large intestine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72592005",
+        "display": "Structure of left colic flexure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1297209000",
+        "display": "Structure of lower third of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1297208008",
+        "display": "Structure of middle third of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83856002",
+        "display": "Structure of ostium appendicis vermiformis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13170006",
+        "display": "Structure of perirectal region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49832006",
+        "display": "Structure of rectosigmoid junction"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "48338005",
+        "display": "Structure of right colic flexure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1297207003",
+        "display": "Structure of upper third of rectum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "485005",
+        "display": "Transverse colon structure"
+      }
+    ]
+  },
+  "id": "canshare-gep-net-colorectal-topography"
+}

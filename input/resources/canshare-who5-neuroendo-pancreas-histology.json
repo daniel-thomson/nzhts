@@ -1,0 +1,123 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:51.958+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-neuroendo-pancreas-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-neuroendo-pancreas-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-neuroendo-pancreas-histology",
+  "title": "NZ WHO neuroendocrine pancreas histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "b0dcfb09-59f4-4ffa-852e-27945615f9fa",
+    "timestamp": "2024-11-01T20:20:58+13:00",
+    "total": 16,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19756007",
+        "display": "Gastrinoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66515009",
+        "display": "Glucagonoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381761000210106",
+        "display": "Gonadotropin-producing neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381751000210108",
+        "display": "Growth hormone producing neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20955008",
+        "display": "Insulinoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302421000210104",
+        "display": "Malignant adrenocorticotropic hormone secreting tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302431000210102",
+        "display": "Malignant serotonin secreting tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396891002",
+        "display": "Mixed acinar-endocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302151000210104",
+        "display": "Mixed neuroendocrine non-neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286767006",
+        "display": "Neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361591000210108",
+        "display": "Pancreatic neuroendocrine tumour, nonfunctioning"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74364000",
+        "display": "Small cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128643000",
+        "display": "Somatostatinoma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31131002",
+        "display": "Vipoma, malignant"
+      }
+    ]
+  },
+  "id": "canshare-who5-neuroendo-pancreas-histology"
+}

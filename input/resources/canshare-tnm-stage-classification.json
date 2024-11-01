@@ -1,1 +1,68 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-stage-classification","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:24.183+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-stage-classification","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-stage-classification"}],"version":"20240318","name":"canshare-tnm-stage-classification","title":"NZ TNM stage classification","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"TNM stage classification used to define timing of staging.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 361211000210103 |New Zealand TNM stage classification reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:02.377+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-stage-classification",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-stage-classification"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-stage-classification",
+  "title": "NZ TNM stage classification",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "d9e0002b-5974-4fd1-b23a-b475331d5575",
+    "timestamp": "2024-11-01T20:23:27+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361231000210105",
+        "display": "Clinical TNM stage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361241000210102",
+        "display": "Pathological TNM stage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361251000210104",
+        "display": "Posttherapy and/or post neoadjuvant therapy clinical TNM stage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361261000210101",
+        "display": "Posttherapy and/or post neoadjuvant therapy pathological TNM stage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361271000210107",
+        "display": "Recurrence or retreatment TNM stage"
+      }
+    ]
+  },
+  "id": "canshare-tnm-stage-classification"
+}

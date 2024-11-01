@@ -1,1 +1,248 @@
-{"resourceType":"ValueSet","id":"canshare-who-biliary-tract-primary-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:00.867+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-biliary-tract-primary-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who-biliary-tract-primary-histology"}],"version":"20240419","name":"canshare-who-biliary-tract-primary-histology","title":"NZ WHO biliary tract primary histology","status":"active","experimental":false,"date":"2024-04-19","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for biliary tract primaries (from WHO Classification of Tumours, Digestive Tumours, latest edition, including sections 9. Tumours of the gallbladder and extrahepatic bile ducts 12. Mesenchymal tumours of the digestive system, 13. Other tumours of the digestive system (Germ cell tumours only)) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^300091000210106 |New Zealand WHO classification of tumours (5th edition) digestive system gallbladder and/or extrahepatic bile duct histology reference set| OR ^300121000210107 |New Zealand WHO classification of tumours (5th edition) digestive system mesenchymal histology reference set| OR ^361521000210105 |New Zealand World Health Organization classification of tumors 5th edition digestive system germ cell tumor histology reference set (foundation metadata concept)| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:59.589+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-biliary-tract-primary-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-biliary-tract-primary-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-biliary-tract-primary-histology",
+  "title": "NZ WHO biliary tract primary histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "37de561c-4a96-4a1e-ab30-236309b67082",
+    "timestamp": "2024-11-01T20:24:21+13:00",
+    "total": 41,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "59367005",
+        "display": "Adenosquamous carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63449009",
+        "display": "Alveolar rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "863926008",
+        "display": "Angiosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302331000210108",
+        "display": "Biliary intraepithelial neoplasia high grade"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302321000210106",
+        "display": "Biliary intraepithelial neoplasia low grade"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "450898007",
+        "display": "Calcifying nested epithelial stromal tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38549000",
+        "display": "Carcinoma, undifferentiated"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70179006",
+        "display": "Cholangiocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "271944004",
+        "display": "Clear cell sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295141000210101",
+        "display": "Desmoid type fibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28047004",
+        "display": "Embryonal carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14269005",
+        "display": "Embryonal rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "59583009",
+        "display": "Embryonal sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74409009",
+        "display": "Endodermal sinus tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54124005",
+        "display": "Epithelioid haemangioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1187383001",
+        "display": "Gastrointestinal stromal tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28307001",
+        "display": "Germinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703603008",
+        "display": "Glomangiomatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293211005",
+        "display": "Glomus tumour of uncertain malignant potential"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128908003",
+        "display": "Glomus tumour, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13238004",
+        "display": "Granular cell tumour, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290860006",
+        "display": "Inflammatory myofibroblastic tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302351000210102",
+        "display": "Intracholecystic papillary neoplasm with high grade intraepithelial neoplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302271000210101",
+        "display": "Intracholecystic papillary neoplasm with low grade intraepithelial neoplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734133009",
+        "display": "Intraductal papillary neoplasm with high grade intraepithelial neoplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734091005",
+        "display": "Intraductal papillary neoplasm with low-grade intraepithelial neoplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1179374007",
+        "display": "Kaposi sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163022006",
+        "display": "Leiomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186968006",
+        "display": "Malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1157239001",
+        "display": "Malignant teratoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32844007",
+        "display": "Mixed germ cell tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "785766008",
+        "display": "Mixed neuroendocrine-non neuroendocrine neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286767006",
+        "display": "Neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703605001",
+        "display": "Perivascular epithelioid tumour, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30924005",
+        "display": "Rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128736003",
+        "display": "Solitary fibrous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301441000210102",
+        "display": "Spindle cell and/or sclerosing rhabdomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162767002",
+        "display": "Squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63211008",
+        "display": "Synovial sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286768001",
+        "display": "Well-differentiated neuroendocrine tumour"
+      }
+    ]
+  },
+  "id": "canshare-who-biliary-tract-primary-histology"
+}

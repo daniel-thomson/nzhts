@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:13.300+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-diagnosis-clinical-status",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-diagnosis-clinical-status"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-diagnosis-clinical-status",
+  "title": "NZ cancer diagnosis clinical status",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "520a0dee-699c-4504-a442-480b3cdea168",
+    "timestamp": "2024-11-01T20:23:16+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443601000210103",
+        "display": "Active phase"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "103338009",
+        "display": "In full remission"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "103337004",
+        "display": "In partial remission"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443611000210101",
+        "display": "Inactive phase"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443801000210104",
+        "display": "New active phase"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443811000210102",
+        "display": "Recurrence active phase"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "263855007",
+        "display": "Relapse phase"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "277022003",
+        "display": "Remission phase"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443821000210107",
+        "display": "Resolved phase"
+      }
+    ]
+  },
+  "id": "canshare-diagnosis-clinical-status"
+}

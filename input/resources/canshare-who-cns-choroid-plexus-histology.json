@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:37.336+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-cns-choroid-plexus-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-cns-choroid-plexus-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-cns-choroid-plexus-histology",
+  "title": "NZ WHO central nervous system choroid plexus histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "ba78b8b2-e38f-45a4-b09a-0ce971b426a7",
+    "timestamp": "2024-11-01T20:24:40+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128904001",
+        "display": "Atypical choroid plexus papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156641000",
+        "display": "Benign choroid plexus papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88252006",
+        "display": "Choroid plexus carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      }
+    ]
+  },
+  "id": "canshare-who-cns-choroid-plexus-histology"
+}

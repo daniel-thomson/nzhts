@@ -1,0 +1,203 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:56.987+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-neuroendocrine-other-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-neuroendocrine-other-topography"
+    }
+  ],
+  "version": "20240802",
+  "name": "canshare-neuroendocrine-other-topography",
+  "title": "NZ cancer neuroendocrine other topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e5591629-46e6-4a85-9ffb-ec05d62d5acd",
+    "timestamp": "2024-11-01T20:24:23+13:00",
+    "total": 32,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "818983003",
+        "display": "Abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72167002",
+        "display": "Autonomic nervous system structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51345006",
+        "display": "Carotid body structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25238003",
+        "display": "Cranial nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56052001",
+        "display": "Facial nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21161002",
+        "display": "Glossopharyngeal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80891009",
+        "display": "Heart structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37899009",
+        "display": "Hypoglossal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "181381004",
+        "display": "Jugular body"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72410000",
+        "display": "Mediastinal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33805007",
+        "display": "Paraganglia structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23424009",
+        "display": "Parasympathetic nervous system structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12921003",
+        "display": "Pelvic region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "84782009",
+        "display": "Peripheral nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82849001",
+        "display": "Retroperitoneal compartment structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3169005",
+        "display": "Spinal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296722001",
+        "display": "Structure of autonomic nervous system of abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296729005",
+        "display": "Structure of autonomic nervous system of head and/or neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296687000",
+        "display": "Structure of autonomic nervous system of lower limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296697009",
+        "display": "Structure of autonomic nervous system of thorax"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296727007",
+        "display": "Structure of autonomic nervous system of trunk"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296693008",
+        "display": "Structure of autonomic nervous system of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21483005",
+        "display": "Structure of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "774007",
+        "display": "Structure of head and/or neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77513005",
+        "display": "Structure of lumbar spinal nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90769006",
+        "display": "Structure of paraaortic body"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46315001",
+        "display": "Structure of sacral spinal nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68365008",
+        "display": "Sympathetic nervous system structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51185008",
+        "display": "Thoracic structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89837001",
+        "display": "Urinary bladder structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88882009",
+        "display": "Vagus nerve structure"
+      }
+    ]
+  },
+  "id": "canshare-neuroendocrine-other-topography"
+}

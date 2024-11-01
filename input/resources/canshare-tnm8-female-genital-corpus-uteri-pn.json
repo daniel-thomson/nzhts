@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-female-genital-corpus-uteri-pn","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:31:19.702+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-female-genital-corpus-uteri-pn","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-female-genital-corpus-uteri-pn"}],"version":"20240318","name":"canshare-tnm8-female-genital-corpus-uteri-pn","title":"NZ AJCC (8th edition) female genital corpus uteri pathological N category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A pathological regional lymph node stage (pN) of a corpus uteri tumour, using the AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 331251000210108 |New Zealand AJCC 8th edition female genital corpus uteri pathological N category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:21.934+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-female-genital-corpus-uteri-pn",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-female-genital-corpus-uteri-pn"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-female-genital-corpus-uteri-pn",
+  "title": "NZ AJCC (8th edition) female genital corpus uteri pathological N category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "928a1005-129e-4899-b869-f994bf10d5cc",
+    "timestamp": "2024-11-01T20:25:26+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229947003",
+        "display": "pN0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229949000",
+        "display": "pN0(i+)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229951001",
+        "display": "pN1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229954009",
+        "display": "pN1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229952008",
+        "display": "pN1mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229957002",
+        "display": "pN2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229959004",
+        "display": "pN2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229958007",
+        "display": "pN2mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229945006",
+        "display": "pNX"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-female-genital-corpus-uteri-pn"
+}

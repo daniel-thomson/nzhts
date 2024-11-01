@@ -1,0 +1,308 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:12.444+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-breast-epithelial-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-breast-epithelial-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-breast-epithelial-histology",
+  "title": "NZ WHO breast epithelial histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6fda2b65-3db2-456c-9064-d491f0181ad1",
+    "timestamp": "2024-11-01T20:24:13+13:00",
+    "total": 53,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397241000210107",
+        "display": "Acinic cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11671000",
+        "display": "Adenoid cystic carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128765009",
+        "display": "Adenomyoepithelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703644009",
+        "display": "Adenomyoepithelioma with carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36318001",
+        "display": "Apocrine adenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476381000210109",
+        "display": "Apocrine adenosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6660000",
+        "display": "Atypical intraductal hyperplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33889003",
+        "display": "Atypical lobular hyperplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476391000210106",
+        "display": "Atypical microglandular adenosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156654007",
+        "display": "Benign tubular adenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "384951004",
+        "display": "Carcinoma of salivary gland type"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476461000210108",
+        "display": "Carcinoma with apocrine differentiation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476371000210107",
+        "display": "Columnar cell change"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285031000210109",
+        "display": "Columnar cell lesion with flat epithelial atypia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30156004",
+        "display": "Cribriform carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703545003",
+        "display": "Encapsulated papillary carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703547006",
+        "display": "Encapsulated papillary carcinoma with invasion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9618003",
+        "display": "Epithelial-myoepithelial carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301541000210103",
+        "display": "Epithelial-myoepithelial tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "50916005",
+        "display": "Fibrosing adenosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290750006",
+        "display": "Florid lobular carcinoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82711006",
+        "display": "Infiltrating duct carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64524002",
+        "display": "Intraductal papillary adenocarcinoma with invasion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5244003",
+        "display": "Intraductal papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703578005",
+        "display": "Invasive micropapillary carcinoma of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128651002",
+        "display": "Lactating adenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89740008",
+        "display": "Lobular carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77284006",
+        "display": "Lobular carcinoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128705006",
+        "display": "Metaplastic carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285041000210101",
+        "display": "Microglandular adenosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285051000210103",
+        "display": "Microinvasive malignant epithelial neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72495009",
+        "display": "Mucinous adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "79143006",
+        "display": "Mucinous cystadenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4079000",
+        "display": "Mucoepidermoid carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3898006",
+        "display": "Neoplasm, benign"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286767006",
+        "display": "Neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301521000210109",
+        "display": "Non-infiltrating intraductal carcinoma of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30566004",
+        "display": "Noninfiltrating intraductal papillary adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1269006002",
+        "display": "Noninvasive premalignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8360001",
+        "display": "Pleomorphic adenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444591006",
+        "display": "Pleomorphic lobular carcinoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285071000210106",
+        "display": "Polymorphous malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "133855003",
+        "display": "Radial scar"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285061000210100",
+        "display": "Secretory malignant epithelial neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74364000",
+        "display": "Small cell neuroendocrine carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703546002",
+        "display": "Solid papillary carcinoma in situ"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703594003",
+        "display": "Solid papillary carcinoma with invasion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285081000210108",
+        "display": "Tall cell carcinoma with reversed polarity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4631006",
+        "display": "Tubular adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472906008",
+        "display": "Usual ductal hyperplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286768001",
+        "display": "Well-differentiated neuroendocrine tumour"
+      }
+    ]
+  },
+  "id": "canshare-who5-breast-epithelial-histology"
+}

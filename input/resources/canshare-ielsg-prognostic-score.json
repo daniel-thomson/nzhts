@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-ielsg-prognostic-score","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:54.880+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ielsg-prognostic-score","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-ielsg-prognostic-score"}],"version":"20240318","name":"canshare-ielsg-prognostic-score","title":"NZ cancer IELSG (International Extranodal Lymphoma Study Group) prognostic score","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The prognostic score for a cancer, defined by International Extranodal Lymphoma Study Group (IELSG) prognostic scoring system.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 294971000210107 |New Zealand cancer IELSG (International Extranodal Lymphoma Study Group) prognostic score reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:32.427+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ielsg-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-ielsg-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-ielsg-prognostic-score",
+  "title": "NZ cancer IELSG (International Extranodal Lymphoma Study Group) prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "1ab0800f-91c8-4abd-9c13-a8f3e623dae8",
+    "timestamp": "2024-11-01T20:23:41+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296681000210106",
+        "display": "International Extranodal Lymphoma Study Group risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296671000210109",
+        "display": "International Extranodal Lymphoma Study Group risk group intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296661000210103",
+        "display": "International Extranodal Lymphoma Study Group risk group low"
+      }
+    ]
+  },
+  "id": "canshare-ielsg-prognostic-score"
+}

@@ -1,1 +1,68 @@
-{"resourceType":"ValueSet","id":"canshare-ipss-r-prognostic-score","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:51.397+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ipss-r-prognostic-score","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-ipss-r-prognostic-score"}],"version":"20240318","name":"canshare-ipss-r-prognostic-score","title":"NZ cancer IPSS-R for MDS prognostic score","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The prognostic score for myelodysplastic syndrome, defined using the Revised International Prognostic Scoring System (IPSS-R).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 294841000210105 |New Zealand cancer IPSS-R for MDS prognostic score reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:13.036+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ipss-r-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-ipss-r-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-ipss-r-prognostic-score",
+  "title": "NZ cancer IPSS-R for MDS prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "101bb821-5679-4292-9ec2-b532f784a983",
+    "timestamp": "2024-11-01T20:21:54+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296131000210102",
+        "display": "Revised International Prognostic Scoring System risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296121000210104",
+        "display": "Revised International Prognostic Scoring System risk group intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296111000210109",
+        "display": "Revised International Prognostic Scoring System risk group low"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296141000210105",
+        "display": "Revised International Prognostic Scoring System risk group very high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "296101000210107",
+        "display": "Revised International Prognostic Scoring System risk group very low"
+      }
+    ]
+  },
+  "id": "canshare-ipss-r-prognostic-score"
+}

@@ -1,1 +1,79 @@
-{"resourceType":"ValueSet","id":"canshare-recurrence-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:22.458+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-recurrence-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-recurrence-type"}],"version":"20240318","name":"canshare-recurrence-type","title":"NZ cancer recurrence type","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of cancer recurrence, e.g. local, regional plus unknown and not applicable values.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 253291000210105 |New Zealand cancer recurrence type reference set| OR 261665006 |Unknown (qualifier value)| OR 261721000210105 |Definitely not applicable (qualifier value)|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:44.177+13:00",
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "code": "SUBSETTED"
+      }
+    ]
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-recurrence-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-recurrence-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-recurrence-type",
+  "title": "NZ cancer recurrence type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "f8a6eaac-0557-4a25-bb1f-5b443837f019",
+    "timestamp": "2024-11-01T20:22:57+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "261721000210105",
+        "display": "Definitely not applicable"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340751000210108",
+        "display": "Distant recurrence of malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340731000210102",
+        "display": "Local recurrence of malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340741000210105",
+        "display": "Regional recurrence of malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340761000210106",
+        "display": "Systemic recurrence of malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "261665006",
+        "display": "Unknown"
+      }
+    ]
+  },
+  "id": "canshare-recurrence-type"
+}

@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:00.910+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-anatomical-position",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-anatomical-position"
+    }
+  ],
+  "version": "20241011",
+  "name": "canshare-anatomical-position",
+  "title": "NZ cancer anatomical position",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "82d7946c-0c57-49c0-bb0d-291e8ef0f732",
+    "timestamp": "2024-11-01T20:21:13+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "255549009",
+        "display": "Anterior"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "261089000",
+        "display": "Inferior"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49370004",
+        "display": "Lateral"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "255561001",
+        "display": "Medial"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "255551008",
+        "display": "Posterior"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264217000",
+        "display": "Superior"
+      }
+    ]
+  },
+  "id": "canshare-anatomical-position"
+}

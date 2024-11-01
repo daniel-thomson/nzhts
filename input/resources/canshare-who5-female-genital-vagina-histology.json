@@ -1,1 +1,198 @@
-{"resourceType":"ValueSet","id":"canshare-who5-female-genital-vagina-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:33.607+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-female-genital-vagina-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who5-female-genital-vagina-histology"}],"version":"20240423","name":"canshare-who5-female-genital-vagina-histology","title":"NZ WHO female genital vagina histology (5th edition)","status":"active","experimental":false,"date":"2024-04-23","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for female genital cancer types (WHO Classification of Tumours, Female Genital Tumours, 5th edition - 10. Tumours of the vagina) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"(^ 300271000210100 |New Zealand WHO classification of tumours (5th edition) female genital vagina histology reference set| OR 74964007 |Other| OR 1186968006 |Malignant adenomatous neoplasm|) MINUS 1187332001 |Adenocarcinoma|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:17.766+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-female-genital-vagina-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-female-genital-vagina-histology"
+    }
+  ],
+  "version": "20241002",
+  "name": "canshare-who5-female-genital-vagina-histology",
+  "title": "NZ WHO female genital vagina histology (5th edition)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "4a3cd87b-7fcd-4d2b-b0c0-5f872ea08826",
+    "timestamp": "2024-11-01T20:25:29+13:00",
+    "total": 31,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128637002",
+        "display": "Adenoid basal carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31470003",
+        "display": "Adenosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57597008",
+        "display": "Adenosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "59367005",
+        "display": "Adenosquamous carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13331008",
+        "display": "Atrophy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "299911000210102",
+        "display": "Benign mixed tumor"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "299841000210109",
+        "display": "Benign mullerian papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63264007",
+        "display": "Carcinosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30546008",
+        "display": "Clear cell adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19672005",
+        "display": "Condyloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367643001",
+        "display": "Cyst"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110449007",
+        "display": "Endocervicosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30289006",
+        "display": "Endometrioid carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "299771000210108",
+        "display": "Gastric type mucinous adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "22725004",
+        "display": "High-grade squamous intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783213006",
+        "display": "Human papillomavirus negative squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783212001",
+        "display": "Human papillomavirus positive squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1157177004",
+        "display": "Human papillomavirus-associated adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "486291000210108",
+        "display": "Human papillomavirus-associated mesonephric adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112662005",
+        "display": "Low-grade squamous intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186968006",
+        "display": "Malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300961000210102",
+        "display": "Malignant adenomatous neoplasm of Cowper gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300941000210103",
+        "display": "Malignant adenomatous neoplasm of Littré gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300951000210100",
+        "display": "Malignant adenomatous neoplasm of Skene gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "713582000",
+        "display": "Malignant germ cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72495009",
+        "display": "Mucinous adenocarcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41329004",
+        "display": "Polyp"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162767002",
+        "display": "Squamous cell carcinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63451008",
+        "display": "Squamous cell papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128859003",
+        "display": "Villous adenoma"
+      }
+    ]
+  },
+  "id": "canshare-who5-female-genital-vagina-histology"
+}

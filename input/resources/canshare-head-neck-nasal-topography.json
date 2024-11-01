@@ -1,0 +1,153 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:44.399+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-head-neck-nasal-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-head-neck-nasal-topography"
+    }
+  ],
+  "version": "20240811",
+  "name": "canshare-head-neck-nasal-topography",
+  "title": "NZ cancer head and neck nasal topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "17bf9851-b86e-4c4a-8e77-b723ec8f36d8",
+    "timestamp": "2024-11-01T20:22:57+13:00",
+    "total": 22,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54215007",
+        "display": "Ethmoid sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55060009",
+        "display": "Frontal sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4906008",
+        "display": "Mastoid antrum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15924003",
+        "display": "Maxillary sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16178009",
+        "display": "Nasal cartilage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279549004",
+        "display": "Nasal cavity structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68426009",
+        "display": "Nasal septum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2095001",
+        "display": "Nasal sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46607005",
+        "display": "Nasal turbinate structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71836000",
+        "display": "Nasopharyngeal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24999009",
+        "display": "Sphenoid sinus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1797002",
+        "display": "Structure of anterior naris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82521001",
+        "display": "Structure of anterior wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71717001",
+        "display": "Structure of choana"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70988003",
+        "display": "Structure of lateral wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34508005",
+        "display": "Structure of mucous membrane of nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76786004",
+        "display": "Structure of nasopharyngeal surface of soft palate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1849007",
+        "display": "Structure of pharyngeal recess"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91207004",
+        "display": "Structure of pharyngotympanic tube"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30157008",
+        "display": "Structure of posterior wall of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20409001",
+        "display": "Structure of superior wall of nasopharynx"
+      }
+    ]
+  },
+  "id": "canshare-head-neck-nasal-topography"
+}

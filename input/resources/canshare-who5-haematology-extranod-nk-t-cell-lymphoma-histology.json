@@ -1,1 +1,41 @@
-{"resourceType":"ValueSet","id":"canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:55.722+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology"}],"version":"20240711","name":"canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology","title":"NZ WHO haematolymphoid extranodal NK/T cell lymphoma histology (5th edition)","status":"retired","experimental":false,"date":"2024-07-11","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for extranodal NK cell and T cell lymphoma (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"372087000 |Primary malignant neoplasm (disorder)| MINUS 372087000 |Primary malignant neoplasm (disorder)|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:25.321+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology"
+    }
+  ],
+  "version": "20240711",
+  "name": "canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology",
+  "title": "NZ WHO haematolymphoid extranodal NK/T cell lymphoma histology (5th edition)",
+  "status": "retired",
+  "experimental": false,
+  "expansion": {
+    "identifier": "46b28ff0-1f6b-4658-be59-ea572f829455",
+    "timestamp": "2024-11-01T20:25:38+13:00",
+    "total": 0,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ]
+  },
+  "id": "canshare-who5-haematology-extranod-nk-t-cell-lymphoma-histology"
+}

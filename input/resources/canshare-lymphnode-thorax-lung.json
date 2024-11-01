@@ -1,1 +1,163 @@
-{"resourceType":"ValueSet","id":"canshare-lymphnode-thorax-lung","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:07.677+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-thorax-lung","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-lymphnode-thorax-lung"}],"version":"20240318","name":"canshare-lymphnode-thorax-lung","title":"NZ cancer thorax lung lymph node ","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Lymph nodes used for diagnosis of thoracic lung cancer or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 332631000210106 |New Zealand cancer thorax lung lymph node reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:13.499+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-thorax-lung",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lymphnode-thorax-lung"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lymphnode-thorax-lung",
+  "title": "NZ cancer thorax lung lymph node",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "10eab4ca-0a25-4cc9-8269-ae89e8369f88",
+    "timestamp": "2024-11-01T20:21:07+13:00",
+    "total": 24,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381941000210107",
+        "display": "Structure of left hilar lymph node station ten left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381961000210108",
+        "display": "Structure of left interlobar lymph node station eleven left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381981000210100",
+        "display": "Structure of left lobar lymph node station twelve left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381871000210109",
+        "display": "Structure of left lower paratracheal lymph node station four left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382001000210100",
+        "display": "Structure of left segmental lymph node station thirteen left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382021000210108",
+        "display": "Structure of left subsegmental lymph node station fourteen left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381811000210100",
+        "display": "Structure of left supraclavicular lymph node station one left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381831000210107",
+        "display": "Structure of left upper paratracheal (supra-aortic) mediastinal lymph node station two left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381881000210106",
+        "display": "Structure of lymph node of aortopulmonary window station five of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381921000210101",
+        "display": "Structure of lymph node of pulmonary ligament station nine of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381891000210108",
+        "display": "Structure of para-aortic lymph node of anterior mediastinum station six of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381911000210106",
+        "display": "Structure of paraoesophageal lymph node below carina station eight of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381841000210104",
+        "display": "Structure of prevascular lymph node station three anterior of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381851000210101",
+        "display": "Structure of retrotracheal lymph node (mediastinal) station 3 posterior of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381931000210104",
+        "display": "Structure of right hilar lymph node station ten right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381951000210105",
+        "display": "Structure of right interlobar lymph node station eleven right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381971000210102",
+        "display": "Structure of right lobar lymph node station twelve right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381861000210103",
+        "display": "Structure of right lower paratracheal lymph node station station four right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381991000210103",
+        "display": "Structure of right segmental lymph node station thirteen right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382011000210103",
+        "display": "Structure of right subsegmental lymph node station fourteen right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381801000210102",
+        "display": "Structure of right supraclavicular lymph node station one right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381821000210105",
+        "display": "Structure of right upper paratracheal (supra innominate) mediastinal lymph node station two right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381901000210109",
+        "display": "Structure of subcarinal lymph node station seven of lung"
+      }
+    ]
+  },
+  "id": "canshare-lymphnode-thorax-lung"
+}

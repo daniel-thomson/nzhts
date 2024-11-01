@@ -1,0 +1,535 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:21.515+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/atc-value-set",
+  "version": "20241015",
+  "name": "Atc_value_set",
+  "title": "ATC value set",
+  "status": "draft",
+  "expansion": {
+    "identifier": "6b68e8b8-564a-439d-b6bb-79cc70529c1f",
+    "timestamp": "2024-11-01T20:22:41+13:00",
+    "total": 6703,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://www.whocc.no/atc|20241015"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01CA",
+        "display": "Adrenergic and dopaminergic agents"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA05",
+        "display": "ajmaline"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C05AX01",
+        "display": "aluminium preparations"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R02AD05",
+        "display": "ambroxol"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX01",
+        "display": "amlexanox"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA",
+        "display": "Antiarrhythmics, class Ia"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BB",
+        "display": "Antiarrhythmics, class Ib"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BC",
+        "display": "Antiarrhythmics, class Ic"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BD",
+        "display": "Antiarrhythmics, class III"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "S03AA",
+        "display": "Antiinfectives"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "P01BE02",
+        "display": "artemether"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "P01BE01",
+        "display": "artemisinin"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "P01BE03",
+        "display": "artesunate"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB13",
+        "display": "benazepril and amlodipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX10",
+        "display": "benralizumab"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01DX54",
+        "display": "benziodarone, combinations"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R02AD01",
+        "display": "benzocaine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C05AX02",
+        "display": "bismuth preparations, combinations"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG10",
+        "display": "cannabinoids"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M09AX13",
+        "display": "casimersen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R02AD03",
+        "display": "cocaine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "S03BA",
+        "display": "Corticosteroids"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "S03CA",
+        "display": "Corticosteroids and antiinfectives in combination"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M09AX15",
+        "display": "delandistrogene moxeparvovec"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB12",
+        "display": "delapril and manidipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C02DA01",
+        "display": "diazoxide"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01AA",
+        "display": "Digitalis glycosides"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA03",
+        "display": "disopyramide"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R02AD04",
+        "display": "dyclonine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB02",
+        "display": "enalapril and lercanidipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB06",
+        "display": "enalapril and nitrendipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX02",
+        "display": "eprozinol"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA03",
+        "display": "ethisterone and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA06",
+        "display": "etynodiol and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX03",
+        "display": "fenspiride"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG04",
+        "display": "floctafenine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG07",
+        "display": "flupirtine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M09AX14",
+        "display": "givinostat"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG03",
+        "display": "glafenine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "H04AA",
+        "display": "Glycogenolytic hormones"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07AG54",
+        "display": "haemophilus influenza B, combinations with meningococcus C,Y, conjugated"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07AG53",
+        "display": "haemophilus influenzae B, combinations with meningococcus C, conjugated"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07AG52",
+        "display": "haemophilus influenzae B, combinations with pertussis and toxoids"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07AG51",
+        "display": "haemophilus influenzae B, combinations with toxoids"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07AG01",
+        "display": "haemophilus influenzae B, purified antigen conjugated"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA02",
+        "display": "hydroxyprogesterone and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "A10AF01",
+        "display": "insulin (human)"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07AX01",
+        "display": "leptospira vaccines"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R02AD02",
+        "display": "lidocaine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB03",
+        "display": "lisinopril and amlodipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA12",
+        "display": "lorajmine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA07",
+        "display": "lynestrenol and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA08",
+        "display": "megestrol and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX09",
+        "display": "mepolizumab"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG09",
+        "display": "methoxyflurane"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA05",
+        "display": "methylnortestosterone and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "A07AC01",
+        "display": "miconazole"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG06",
+        "display": "nefopam"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA01",
+        "display": "norethisterone and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA09",
+        "display": "noretynodrel and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX05",
+        "display": "omalizumab"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BG",
+        "display": "Other antiarrhythmics, class I and III"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01EX",
+        "display": "Other cardiac combination products"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01EB",
+        "display": "Other cardiac preparations"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01CX",
+        "display": "Other cardiac stimulants"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C05AX03",
+        "display": "other preparations, combinations"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01DX",
+        "display": "Other vasodilators used in cardiac diseases"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M09AX11",
+        "display": "palovarotene"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02AD01",
+        "display": "pentazocine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB04",
+        "display": "perindopril and amlodipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02AD02",
+        "display": "phenazocine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C05AX06",
+        "display": "phenylephrine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01CE",
+        "display": "Phosphodiesterase inhibitors"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA02",
+        "display": "procainamide"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "G03FA04",
+        "display": "progesterone and estrogen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01EA",
+        "display": "Prostaglandins"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA01",
+        "display": "quinidine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB07",
+        "display": "ramipril and amlodipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB05",
+        "display": "ramipril and felodipine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX08",
+        "display": "reslizumab"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG02",
+        "display": "rimazolium"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M09AX10",
+        "display": "risdiplam"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M05BA07",
+        "display": "risedronic acid"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX07",
+        "display": "roflumilast"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07BJ51",
+        "display": "rubella, combinations with mumps, live attenuated"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J07BJ01",
+        "display": "rubella, live attenuated"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01AB",
+        "display": "Scilla glycosides"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX06",
+        "display": "seratrodast"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01BA04",
+        "display": "sparteine"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C01AC",
+        "display": "Strophanthus glycosides"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG12",
+        "display": "tanezumab"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "R03DX11",
+        "display": "tezepelumab"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "H01AB01",
+        "display": "thyrotropin alfa"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C09BB10",
+        "display": "trandolapril and verapamil"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C05AX05",
+        "display": "tribenoside"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M09AX12",
+        "display": "viltolarsen"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG05",
+        "display": "viminol"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BG08",
+        "display": "ziconotide"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "C05AX04",
+        "display": "zinc preparations"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "M05BA08",
+        "display": "zoledronic acid"
+      }
+    ]
+  },
+  "id": "atc-value-set"
+}

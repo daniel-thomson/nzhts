@@ -1,0 +1,103 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:32.412+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-female-genital-vulva",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lymphnode-female-genital-vulva"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lymphnode-female-genital-vulva",
+  "title": "NZ cancer female genital vulva lymph node",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "22d12e7e-47e8-4544-9736-e0f646697010",
+    "timestamp": "2024-11-01T20:22:21+13:00",
+    "total": 12,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245353004",
+        "display": "Common iliac node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8928004",
+        "display": "Inguinal lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245357003",
+        "display": "Internal iliac node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62683002",
+        "display": "Mediastinal lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54268001",
+        "display": "Pelvic lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35783009",
+        "display": "Structure of aortic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "65266007",
+        "display": "Structure of deep inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "65349008",
+        "display": "Structure of external iliac lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36086000",
+        "display": "Structure of obturator lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113340006",
+        "display": "Structure of superficial inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76838003",
+        "display": "Structure of supraclavicular lymph node"
+      }
+    ]
+  },
+  "id": "canshare-lymphnode-female-genital-vulva"
+}

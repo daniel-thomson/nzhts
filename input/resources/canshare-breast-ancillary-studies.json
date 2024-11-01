@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:19.272+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-ancillary-studies",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-breast-ancillary-studies"
+    }
+  ],
+  "version": "20241010",
+  "name": "canshare-breast-ancillary-studies",
+  "title": "NZ cancer breast ancillary studies",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6198a20c-b503-459b-bfd4-3d22451b56f3",
+    "timestamp": "2024-11-01T20:25:13+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "476171000210109",
+        "display": "Detection of human epidermal growth factor 2 gene amplification in primary malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445028008",
+        "display": "Presence of oestrogen receptor in neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445029000",
+        "display": "Presence of progesterone receptor in neoplasm"
+      }
+    ]
+  },
+  "id": "canshare-breast-ancillary-studies"
+}

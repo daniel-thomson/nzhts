@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-german-hodgkin-stage","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:31.423+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-german-hodgkin-stage","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-german-hodgkin-stage"}],"version":"20240318","name":"canshare-german-hodgkin-stage","title":"NZ cancer GHSG Hodgkin treatment stratification stage","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The stage groups for Hodgkin lymphoma, defined using German Hodgkin Study Group (GHSG) staging system.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 294741000210104 |New Zealand cancer GHSG Hodgkin treatment stratification stage reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:19.665+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-german-hodgkin-stage",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-german-hodgkin-stage"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-german-hodgkin-stage",
+  "title": "NZ cancer GHSG Hodgkin treatment stratification stage",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6b1d627a-2367-4f97-b770-a1124d86f5e8",
+    "timestamp": "2024-11-01T20:23:44+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295431000210101",
+        "display": "German Hodgkin Study Group advanced stage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295411000210108",
+        "display": "German Hodgkin Study Group early stage favourable"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "295421000210103",
+        "display": "German Hodgkin Study Group early stage unfavourable"
+      }
+    ]
+  },
+  "id": "canshare-german-hodgkin-stage"
+}

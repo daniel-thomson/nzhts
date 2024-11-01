@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:41.803+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-thoracic-thymus-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-thoracic-thymus-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-thoracic-thymus-stage-group",
+  "title": "NZ AJCC thoracic thymus stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "18a0fad1-552d-4b88-87d8-8f48f2f8e945",
+    "timestamp": "2024-11-01T20:21:26+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222723001",
+        "display": "I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222765007",
+        "display": "II"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222838008",
+        "display": "IVA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222841004",
+        "display": "IVB"
+      }
+    ]
+  },
+  "id": "canshare-tnm-thoracic-thymus-stage-group"
+}

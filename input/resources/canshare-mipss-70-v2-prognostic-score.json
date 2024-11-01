@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:11.903+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-mipss-70-v2-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-mipss-70-v2-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-mipss-70-v2-prognostic-score",
+  "title": "NZ cancer MIPSS 70+ v2.0 myelofibrosis prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "5db0c16b-de47-4627-bf36-9b1ed639564d",
+    "timestamp": "2024-11-01T20:21:19+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371041000210100",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy-plus version two for myelofibrosis risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371031000210108",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy-plus version two for myelofibrosis risk group intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371021000210106",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy-plus version two for myelofibrosis risk group low"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371051000210102",
+        "display": "Mutation-Enhanced International Prognostic Score System age seventy-plus version two for myelofibrosis risk group very high"
+      }
+    ]
+  },
+  "id": "canshare-mipss-70-v2-prognostic-score"
+}

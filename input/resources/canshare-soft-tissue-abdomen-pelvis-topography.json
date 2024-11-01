@@ -1,0 +1,543 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:12.125+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-soft-tissue-abdomen-pelvis-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-soft-tissue-abdomen-pelvis-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-soft-tissue-abdomen-pelvis-topography",
+  "title": "NZ cancer soft tissue abdomen and pelvis topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "25cdee01-ec2a-44f8-9e47-5840887f360b",
+    "timestamp": "2024-11-01T20:23:50+13:00",
+    "total": 193,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60865004",
+        "display": "Abdominal oesophagus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68594002",
+        "display": "Adrenal cortex structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38254008",
+        "display": "Adrenal medulla structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34381000",
+        "display": "Anal canal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28273000",
+        "display": "Bile duct structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34707002",
+        "display": "Biliary tract structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34411009",
+        "display": "Broad ligament structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66997005",
+        "display": "Bulbourethral gland structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25271004",
+        "display": "Cardio-oesophageal junction structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "263711007",
+        "display": "Cloacogenic zone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "416953005",
+        "display": "Descended testis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32622004",
+        "display": "Descending colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "50515001",
+        "display": "Endocervical gland structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28349006",
+        "display": "Exocervical structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56340000",
+        "display": "External os structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16014003",
+        "display": "Extrahepatic duct structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279867004",
+        "display": "Frenulum of labia minora"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28231008",
+        "display": "Gallbladder structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309054009",
+        "display": "Gartner's duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68560004",
+        "display": "Gastric corpus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "39117004",
+        "display": "Genital labium structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60319009",
+        "display": "Glans penis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23153004",
+        "display": "Ileocaecal valve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244411005",
+        "display": "Iliac vein structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "360962002",
+        "display": "Incisure of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64131007",
+        "display": "Inferior vena cava structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73385006",
+        "display": "Internal urethral orifice structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90140006",
+        "display": "Intrahepatic biliary tract structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64033007",
+        "display": "Kidney structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82462005",
+        "display": "Labium majus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32104003",
+        "display": "Labium minus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55572008",
+        "display": "Left colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45272004",
+        "display": "Lumbosacral plexus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127962001",
+        "display": "Meckel's diverticulum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89679009",
+        "display": "Mesentery structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21241002",
+        "display": "Mesonephric structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82029006",
+        "display": "Mons pubis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245381005",
+        "display": "Neck of pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "415990002",
+        "display": "Paratesticular structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "819000006",
+        "display": "Peripheral nerve of abdomen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83670000",
+        "display": "Peritoneal cavity structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "78067005",
+        "display": "Placental structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41216001",
+        "display": "Prostatic structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66051006",
+        "display": "Pyloric antrum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280119005",
+        "display": "Pyloric structure of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34402009",
+        "display": "Rectum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2334006",
+        "display": "Renal calyx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19938000",
+        "display": "Skin structure of female genitalia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128252004",
+        "display": "Skin structure of labium majus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "50858009",
+        "display": "Structure of anterior wall of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40133006",
+        "display": "Structure of body of pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "725502003",
+        "display": "Structure of common hepatic duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367608002",
+        "display": "Structure of dome of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40749002",
+        "display": "Structure of endometrial stroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1145526007",
+        "display": "Structure of fetal membranes"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41218000",
+        "display": "Structure of fornix of vagina"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27485007",
+        "display": "Structure of fundus uteri"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "206007",
+        "display": "Structure of gluteus maximus muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64163001",
+        "display": "Structure of head of pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56732008",
+        "display": "Structure of hepatic duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27907006",
+        "display": "Structure of hymen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10293006",
+        "display": "Structure of iliac artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68455001",
+        "display": "Structure of iliopsoas muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27869007",
+        "display": "Structure of internal os"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19318009",
+        "display": "Structure of lateral wall of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72592005",
+        "display": "Structure of left colic flexure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67173009",
+        "display": "Structure of lower third of oesophagus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33437000",
+        "display": "Structure of mesentery of colon"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24507007",
+        "display": "Structure of mesoappendix"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49222007",
+        "display": "Structure of mesonephric duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "20963009",
+        "display": "Structure of mesovarium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1142228004",
+        "display": "Structure of muscle of wall of abdominal proper segment of trunk"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64344009",
+        "display": "Structure of neck of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83856002",
+        "display": "Structure of ostium appendicis vermiformis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45682005",
+        "display": "Structure of parametrium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13783004",
+        "display": "Structure of paraovarian region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "29704000",
+        "display": "Structure of parenchyma of kidney"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1300153000",
+        "display": "Structure of peripheral nerve of pelvis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25640004",
+        "display": "Structure of posterior wall of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17880006",
+        "display": "Structure of prepuce of penis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36278009",
+        "display": "Structure of psoas muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15048009",
+        "display": "Structure of pyloric portion of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53843000",
+        "display": "Structure of rectouterine pouch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31243008",
+        "display": "Structure of rectus abdominis muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "48338005",
+        "display": "Structure of right colic flexure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72372004",
+        "display": "Structure of serous membrane of pelvic peritoneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41178004",
+        "display": "Structure of sphincter ani muscle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73239005",
+        "display": "Structure of tail of pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14105008",
+        "display": "Structure of urachus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53180009",
+        "display": "Structure of ureteral orifice"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32004001",
+        "display": "Structure of ureteropelvic junction"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17149004",
+        "display": "Structure of uterine ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91607008",
+        "display": "Structure of uterosacral ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "367611001",
+        "display": "Structure of vaginal vault"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35532006",
+        "display": "Structure of vena cava"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "393006",
+        "display": "Structure of wall of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35985007",
+        "display": "Subcutaneous tissue structure of sacrococcygeal region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "485005",
+        "display": "Transverse colon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21740000",
+        "display": "Trigonal structure"
+      }
+    ]
+  },
+  "id": "canshare-soft-tissue-abdomen-pelvis-topography"
+}

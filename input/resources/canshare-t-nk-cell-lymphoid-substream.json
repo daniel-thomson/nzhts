@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:17.918+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-t-nk-cell-lymphoid-substream",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-t-nk-cell-lymphoid-substream"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-t-nk-cell-lymphoid-substream",
+  "title": "NZ cancer T/NK cell lymphoid substream",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "7c5519a1-e4a0-4f95-b457-e5887872a6f5",
+    "timestamp": "2024-11-01T20:21:38+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392121000210106",
+        "display": "Other T-cell lymphoid proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91857003",
+        "display": "Acute lymphoid leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392141000210100",
+        "display": "Mature T-cell AND/OR natural killer cell lymphoproliferative disorder"
+      }
+    ]
+  },
+  "id": "canshare-t-nk-cell-lymphoid-substream"
+}

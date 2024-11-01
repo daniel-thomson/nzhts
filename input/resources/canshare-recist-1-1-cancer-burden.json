@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:08.062+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-recist-1-1-cancer-burden",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-recist-1-1-cancer-burden"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-recist-1-1-cancer-burden",
+  "title": "NZ cancer RECIST 1.1 cancer burden",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e51da1b0-4e7d-4566-8124-2d9f5a959eb1",
+    "timestamp": "2024-11-01T20:24:42+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399171000210102",
+        "display": "Response Evaluation Criteria in Solid Tumours 1.1 complete response"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399181000210100",
+        "display": "Response Evaluation Criteria in Solid Tumours 1.1 partial response"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399201000210101",
+        "display": "Response Evaluation Criteria in Solid Tumours 1.1 progressive disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399191000210103",
+        "display": "Response Evaluation Criteria in Solid Tumours 1.1 stable disease"
+      }
+    ]
+  },
+  "id": "canshare-recist-1-1-cancer-burden"
+}

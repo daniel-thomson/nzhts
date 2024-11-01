@@ -1,1 +1,543 @@
-{"resourceType":"ValueSet","id":"canshare-cns-topography","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:52.392+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cns-topography","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-cns-topography"}],"version":"20240423","name":"canshare-cns-topography","title":"NZ cancer central nervous system topography","status":"active","experimental":false,"date":"2024-04-23","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The body location used to describe the point of origin for central nervous system cancer or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"25087005 |Nervous system| OR 21483005 |Central nervous system| OR 128319008 |Intracranial structure| OR 8935007 |Cranial meninges| OR 28838006 |Cranial dura mater| OR 51429005 |Cranial arachnoid| OR 36405008 |Cranial pia mater| OR 80401008 |Falx cerebri| OR 81084000 |Falx cerebelli| OR 4566004 |Tentorium cerebelli| OR 75559006 |Spinal meninges| OR 37554007 |Spinal dura mater| OR 3062004 |Spinal arachnoid| OR 68847004 |Spinal pia mater| OR 1231004 |Meninges| OR 75042008 |Arachnoid| OR 18545000 |Dura mater| OR 23180006 |Pia mater| OR 54092001 |Epidural space| OR 244436004 |Extradural space| OR 54214006 |Subdural space| OR 7173007 |Cauda equina| OR 11522000 |Olfactory nerve| OR 18234004 |Optic nerve| OR 244453006 |Optic chiasm| OR 56193007 |Oculomotor nerve| OR 39322007 |Trochlear nerve| OR 27612005 |Trigeminal nerve| OR 80622005 |Abducens nerve| OR 56052001 |Facial nerve| OR 8598002 |Acoustic/vestibular nerve| OR 21161002 |Glossopharyngeal nerve| OR 88882009 |Vagus nerve| OR 788535004 |Spinal accessory nerve| OR 15119000 |Accessory nerve| OR 37899009 |Hypoglossal nerve| OR 25238003 |Cranial nerve| OR 2748008 |Spinal cord| OR 54785003 |Cervical cord| OR 50800009 |Thoracic cord| OR 60051002 | Lumbar cord| OR 32516000 |Conus medullaris| OR 13726009 |Filum terminale| OR 83678007 |Cerebrum| OR 32610002 |Basal ganglia| OR 40146001 |Cerebral cortex| OR 372073000 |Cerebral hemisphere| OR 68523003 |Cerebral white matter| OR 31428008 |Corpus striatum| OR 14738005 |Globus pallidus| OR 67923007 |Hypothalamus| OR 36169008 |Insula| OR 85637007 |Internal capsule| OR 55844009 |Operculum| OR 89278009 |Putamen| OR 91362006 |Rhinencephalon| OR 42695009 |Thalamus| OR 83251001 |Frontal lobe| OR 72175008 |Frontal pole| OR 78277001 |Temporal lobe| OR 5366008 |Hippocampus| OR 73226006 |Uncus| OR 16630005 |Parietal lobe| OR 31065004 |Occipital lobe| OR 56658001 |Occipital pole| OR 35764002 |Cerebral ventricle| OR 80621003 |Choroid plexus| OR 369272004 |Choroid plexus of lateral ventricle| OR 369273009 |Choroid plexus of third ventricle| OR 12766003 |Ependyma| OR 66720007 |Lateral ventricle| OR 49841001 |Third ventricle| OR 88442005 |Corpus callosum| OR 113305005 |Cerebellum| OR 21362003 |Cerebellopontine angle| OR 58501004 |Vermis of cerebellum| OR 6566002 |Hemisphere of cerebellum| OR 15926001 |Brain stem| OR 30890006 |Olive| OR 49557009 |Pons| OR 24314005 |Pyramid| OR 26519002 |Medulla oblongata| OR 61962009 |Midbrain| OR 36159002 |Cerebral peduncle| OR 35918002 |Fourth ventricle| OR 369274003 |Choroid plexus of fourth ventricle| OR 60105000 |Tapetum| OR 12738006 |Brain| OR 222036002 |Supratentorial brain| OR 21031007 |Infratentorial brain| OR 44542004 |Cranial fossa| OR 6646002 |Anterior cranial fossa| OR 42592002 |Middle cranial fossa| OR 35763008 |Posterior cranial fossa| OR 15328005 |Suprasellar region| OR 42575006 |Pituitary fossa| OR 56329008 |Pituitary gland| OR 86394004 |Craniopharyngeal duct| OR 45793000 |Pineal gland| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:51.819+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cns-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-cns-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-cns-topography",
+  "title": "NZ cancer central nervous system topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "23f1a9b8-0b15-4c43-b8e3-717cce9d0835",
+    "timestamp": "2024-11-01T20:21:13+13:00",
+    "total": 100,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80622005",
+        "display": "Abducens nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15119000",
+        "display": "Accessory nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75042008",
+        "display": "Arachnoid structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32610002",
+        "display": "Basal ganglion structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28838006",
+        "display": "Brain dura mater structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12738006",
+        "display": "Brain structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35764002",
+        "display": "Brain ventricle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15926001",
+        "display": "Brainstem structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7173007",
+        "display": "Cauda equina structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6566002",
+        "display": "Cerebellar hemisphere structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113305005",
+        "display": "Cerebellar structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "58501004",
+        "display": "Cerebellar vermis structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372073000",
+        "display": "Cerebral hemisphere structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36159002",
+        "display": "Cerebral peduncle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68523003",
+        "display": "Cerebral white matter structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83678007",
+        "display": "Cerebrum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54785003",
+        "display": "Cervical spinal cord structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88442005",
+        "display": "Corpus callosum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31428008",
+        "display": "Corpus striatum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25238003",
+        "display": "Cranial nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36405008",
+        "display": "Cranial pia mater structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18545000",
+        "display": "Dura mater structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12766003",
+        "display": "Ependyma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244436004",
+        "display": "Extradural space of brain"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56052001",
+        "display": "Facial nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13726009",
+        "display": "Filum terminale structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35918002",
+        "display": "Fourth ventricle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83251001",
+        "display": "Frontal lobe structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14738005",
+        "display": "Globus pallidus structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21161002",
+        "display": "Glossopharyngeal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5366008",
+        "display": "Hippocampal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37899009",
+        "display": "Hypoglossal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67923007",
+        "display": "Hypothalamic structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21031007",
+        "display": "Infratentorial brain structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36169008",
+        "display": "Insular structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85637007",
+        "display": "Internal capsule structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51429005",
+        "display": "Intracranial arachnoid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128319008",
+        "display": "Intracranial structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66720007",
+        "display": "Lateral ventricle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60051002",
+        "display": "Lumbar spinal cord structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26519002",
+        "display": "Medulla oblongata structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1231004",
+        "display": "Meninges structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "61962009",
+        "display": "Midbrain structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31065004",
+        "display": "Occipital lobe structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56193007",
+        "display": "Oculomotor nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11522000",
+        "display": "Olfactory nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55844009",
+        "display": "Operculum structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18234004",
+        "display": "Optic nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16630005",
+        "display": "Parietal lobe structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23180006",
+        "display": "Pia mater structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45793000",
+        "display": "Pineal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56329008",
+        "display": "Pituitary structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49557009",
+        "display": "Pontine structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24314005",
+        "display": "Pyramidal system structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91362006",
+        "display": "Rhinencephalon structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3062004",
+        "display": "Spinal arachnoid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75559006",
+        "display": "Spinal cord meninges structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2748008",
+        "display": "Spinal cord structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37554007",
+        "display": "Spinal dura mater structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68847004",
+        "display": "Spinal pia mater structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6646002",
+        "display": "Structure of anterior fossa of cranial cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8935007",
+        "display": "Structure of brain meninges"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21483005",
+        "display": "Structure of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21362003",
+        "display": "Structure of cerebellopontine angle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40146001",
+        "display": "Structure of cerebral cortex"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80621003",
+        "display": "Structure of choroid plexus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369274003",
+        "display": "Structure of choroid plexus of fourth ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369272004",
+        "display": "Structure of choroid plexus of lateral ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369273009",
+        "display": "Structure of choroid plexus of third ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32516000",
+        "display": "Structure of conus medullaris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "86394004",
+        "display": "Structure of craniopharyngeal duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54092001",
+        "display": "Structure of epidural space of spine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "81084000",
+        "display": "Structure of falx cerebelli"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80401008",
+        "display": "Structure of falx cerebri"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "44542004",
+        "display": "Structure of fossa of cranial cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72175008",
+        "display": "Structure of frontal pole"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42592002",
+        "display": "Structure of middle fossa of cranial cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25087005",
+        "display": "Structure of nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56658001",
+        "display": "Structure of occipital pole"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30890006",
+        "display": "Structure of olivary body"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "244453006",
+        "display": "Structure of optic chiasma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42575006",
+        "display": "Structure of pituitary fossa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35763008",
+        "display": "Structure of posterior fossa of cranial cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89278009",
+        "display": "Structure of putamen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788535004",
+        "display": "Structure of spinal accessory nerve proper"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15328005",
+        "display": "Structure of suprasellar region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60105000",
+        "display": "Structure of tapetum of corpus callosum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4566004",
+        "display": "Structure of tentorium cerebelli"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73226006",
+        "display": "Structure of uncus of hippocampus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54214006",
+        "display": "Subdural space structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "222036002",
+        "display": "Supratentorial brain"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "78277001",
+        "display": "Temporal lobe structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42695009",
+        "display": "Thalamic structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49841001",
+        "display": "Third ventricle structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "50800009",
+        "display": "Thoracic spinal cord structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27612005",
+        "display": "Trigeminal nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "39322007",
+        "display": "Trochlear nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88882009",
+        "display": "Vagus nerve structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8598002",
+        "display": "Vestibulocochlear nerve structure"
+      }
+    ]
+  },
+  "id": "canshare-cns-topography"
+}

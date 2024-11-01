@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:48.744+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ro-beam-energy-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-ro-beam-energy-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-ro-beam-energy-type",
+  "title": "NZ cancer radiation oncology beam energy type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "f01f6cbc-95cc-4c9a-8266-6f6dfe42330b",
+    "timestamp": "2024-11-01T20:23:06+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5304008",
+        "display": "Deep radiation therapy, 200-300 KVP"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10611004",
+        "display": "External beam radiation therapy protons"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45643008",
+        "display": "External beam radiation therapy using electrons"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46044009",
+        "display": "Megavoltage radiation therapy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "782204001",
+        "display": "Superficial radiation therapy"
+      }
+    ]
+  },
+  "id": "canshare-ro-beam-energy-type"
+}

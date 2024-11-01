@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:05.713+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-malt-ipi-prognostic-score",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-malt-ipi-prognostic-score"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-malt-ipi-prognostic-score",
+  "title": "NZ cancer MALT-IPI prognostic score",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "5282ca85-cba5-4b21-beb7-902ed3168100",
+    "timestamp": "2024-11-01T20:25:00+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370961000210107",
+        "display": "Extranodal marginal zone lymphoma of mucosa associated lymphoid tissue International Prognostic Index risk group high"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370951000210109",
+        "display": "Extranodal marginal zone lymphoma of mucosa associated lymphoid tissue International Prognostic Index risk group intermediate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "370941000210106",
+        "display": "Extranodal marginal zone lymphoma of mucosa associated lymphoid tissue International Prognostic Index risk group low"
+      }
+    ]
+  },
+  "id": "canshare-malt-ipi-prognostic-score"
+}

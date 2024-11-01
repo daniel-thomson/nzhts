@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:57.717+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-specimen-calcification-qualifier",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-breast-specimen-calcification-qualifier"
+    }
+  ],
+  "version": "20241010",
+  "name": "canshare-breast-specimen-calcification-qualifier",
+  "title": "NZ cancer breast specimen calcification qualifier",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "20b1481c-dadd-463b-85d4-b727a248b3dc",
+    "timestamp": "2024-11-01T20:21:18+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477261000210106",
+        "display": "Core with calcification"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "477271000210100",
+        "display": "Core without calcification"
+      }
+    ]
+  },
+  "id": "canshare-breast-specimen-calcification-qualifier"
+}

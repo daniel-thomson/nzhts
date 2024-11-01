@@ -1,0 +1,527 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+  "expansion": {
+    "identifier": "a0187267-c7ee-45f5-a4af-8c18b5b0c243",
+    "timestamp": "2024-11-01T20:25:02+13:00",
+    "total": 120,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code|2.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEAC",
+        "display": "Adult Care in Dental Therapy Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "LTAT",
+        "display": "Anaesthetic Technician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "CHIR",
+        "display": "Chiropractor"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DECD",
+        "display": "Clinical Dental Technology Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEDH",
+        "display": "Dental Hygiene Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEDT",
+        "display": "Dental Technology Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DIET",
+        "display": "Dietitian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSED",
+        "display": "Educational Psychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OPED",
+        "display": "Educator in Optometry (Educator Optometrist)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OPET",
+        "display": "Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEEN",
+        "display": "Endodontic Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "NCEN",
+        "display": "Enrolled Nurse"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DENT",
+        "display": "General Dental Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEGD",
+        "display": "General Dental Therapy Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCGE",
+        "display": "General Scope of Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSHE",
+        "display": "Health Psychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEIA",
+        "display": "Implant over dentures in clinical dental technology practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PHIN",
+        "display": "Intern Pharmacist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTMR",
+        "display": "Magnetic Resonance Technologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "LTLS",
+        "display": "Medical Laboratory Scientist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "LTLT",
+        "display": "Medical Laboratory Technician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTTE",
+        "display": "Medical Radiation Technologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MWIF",
+        "display": "Midwife"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSNE",
+        "display": "Neuropsychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTMT",
+        "display": "Nuclear Medicine Technologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "NCNA",
+        "display": "Nurse Assistant"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "NCNP",
+        "display": "Nurse Practitioner"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OCCT",
+        "display": "Occupational Therapist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OPLS",
+        "display": "Ophthalmic Laser Surgeries"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OPDI",
+        "display": "Optical Dispensing (Dispensing Optician)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OPTP",
+        "display": "Optometry (Optometrist)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEOR",
+        "display": "Oral and Maxillofacial Surgery Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEOH",
+        "display": "Oral Health Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEOM",
+        "display": "Oral Medicine Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEOP",
+        "display": "Oral Pathology Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEOS",
+        "display": "Oral Surgery Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEOA",
+        "display": "Orthodontic Auxiliary Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSTE",
+        "display": "Osteopath"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSSP",
+        "display": "Osteopath - Special Purpose"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSCA",
+        "display": "Osteopath -Child and Adolescent Health"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSGE",
+        "display": "Osteopath -Gerontology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSPM",
+        "display": "Osteopath -Pain Management"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEPA",
+        "display": "Paediatric Dentistry Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PAPS",
+        "display": "Paramedic"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEPE",
+        "display": "Periodontic Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PHAR",
+        "display": "Pharmacist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PHPP",
+        "display": "Pharmacist Prescriber"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PHSO",
+        "display": "Physiotherapist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PODP",
+        "display": "Podiatric Prescriber"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PODR",
+        "display": "Podiatric Radiographic Imager"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PODS",
+        "display": "Podiatric Surgeon"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PODI",
+        "display": "Podiatrist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEPS",
+        "display": "Prosthodontic Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPG",
+        "display": "Provisional General Scope of Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPV",
+        "display": "Provisional Vocational Scope of Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSYC",
+        "display": "Psychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PBCA",
+        "display": "Psychotherapist with Child and Adolescent Specialism"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DEPH",
+        "display": "Public Health Dentistry (or Community Dentistry) Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTRT",
+        "display": "Radiation Therapist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "NCRN",
+        "display": "Registered Nurse"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTMS",
+        "display": "Sonographer"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTTM",
+        "display": "Trainee Magnetic Resonance Imaging (MRI) Technologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTTN",
+        "display": "Trainee Nuclear Medicine Technologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSIT",
+        "display": "Trainee or Intern Psychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSTO",
+        "display": "Trainee Osteopath"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "RTTS",
+        "display": "Trainee Sonographer"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "POVD",
+        "display": "Visiting Podiatrist Educator/Presenter"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCAM",
+        "display": "Vocational Scope of Accident and Medical Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCAN",
+        "display": "Vocational Scope of Anaesthesia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCBM",
+        "display": "Vocational Scope of Breast Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCEM",
+        "display": "Vocational Scope of Emergency Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCFP",
+        "display": "Vocational Scope of Family Planning/Reproductive Health"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCGP",
+        "display": "Vocational Scope of General Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCGS",
+        "display": "Vocational Scope of General Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCIC",
+        "display": "Vocational Scope of Intensive Care Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCIM",
+        "display": "Vocational Scope of Internal Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCMM",
+        "display": "Vocational Scope of Musculoskeletal Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCNS",
+        "display": "Vocational Scope of Neurosurgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCOG",
+        "display": "Vocational Scope of Obstetrics and Gynaecology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCOM",
+        "display": "Vocational Scope of Occupational Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCOP",
+        "display": "Vocational Scope of Ophthalmology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCOR",
+        "display": "Vocational Scope of Oral and Maxillofacial Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCOS",
+        "display": "Vocational Scope of Orthopaedic Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCOH",
+        "display": "Vocational Scope of Otolaryngology Head and Neck Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPS",
+        "display": "Vocational Scope of Paediatric Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPE",
+        "display": "Vocational Scope of Paediatrics"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCAP",
+        "display": "Vocational Scope of Pain Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPM",
+        "display": "Vocational Scope of Palliative Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPA",
+        "display": "Vocational Scope of Pathology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPR",
+        "display": "Vocational Scope of Plastic and Reconstructive Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCVO",
+        "display": "Vocational Scope of Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPY",
+        "display": "Vocational Scope of Psychiatry"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCPH",
+        "display": "Vocational Scope of Public Health Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCRO",
+        "display": "Vocational Scope of Radiation Oncology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCRM",
+        "display": "Vocational Scope of Rehabilitation Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCRH",
+        "display": "Vocational Scope of Rural Hospital Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCSH",
+        "display": "Vocational Scope of Sexual Health Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCSM",
+        "display": "Vocational Scope of Sports Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCUR",
+        "display": "Vocational Scope of Urology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCVS",
+        "display": "Vocational Scope of Vascular Surgery"
+      }
+    ]
+  },
+  "id": "practitioner-scope-of-practice-code"
+}

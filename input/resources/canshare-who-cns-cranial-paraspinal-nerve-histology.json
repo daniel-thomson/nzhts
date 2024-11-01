@@ -1,0 +1,173 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:33.906+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-cns-cranial-paraspinal-nerve-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-cns-cranial-paraspinal-nerve-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-cns-cranial-paraspinal-nerve-histology",
+  "title": "NZ WHO central nervous system cranial and paraspinal nerve histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "5da2f546-970f-4fb1-a007-6cbadf9b516c",
+    "timestamp": "2024-11-01T20:21:30+13:00",
+    "total": 26,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "409704009",
+        "display": "Ancient schwannoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734083001",
+        "display": "Atypical neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156951001",
+        "display": "Benign extraneural soft tissue perineurioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156949000",
+        "display": "Benign intraneural perineurioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156930004",
+        "display": "Benign neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156946007",
+        "display": "Benign perineurioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381781000210103",
+        "display": "Cauda equina neuroendocrine tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290951002",
+        "display": "Cellular neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "253086004",
+        "display": "Cellular schwannoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397971000210105",
+        "display": "Diffuse neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "253093000",
+        "display": "Epithelioid malignant nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295253009",
+        "display": "Epithelioid schwannoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703710008",
+        "display": "Hybrid nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19897006",
+        "display": "Malignant peripheral nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397991000210109",
+        "display": "Massive soft tissue neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "253094006",
+        "display": "Melanotic malignant peripheral nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1287273003",
+        "display": "Microcystic reticular schwannoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "115242003",
+        "display": "Nerve sheath tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397981000210107",
+        "display": "Nodular neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128796000",
+        "display": "Perineurioma, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41252002",
+        "display": "Plexiform neurofibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "253087008",
+        "display": "Plexiform schwannoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398001000210101",
+        "display": "Reticular perineurioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "985004",
+        "display": "Schwannoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398011000210104",
+        "display": "Sclerosing perineurioma"
+      }
+    ]
+  },
+  "id": "canshare-who-cns-cranial-paraspinal-nerve-histology"
+}

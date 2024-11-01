@@ -1,1 +1,68 @@
-{"resourceType":"ValueSet","id":"canshare-who-urinary-male-genital-seminal-vesicle-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:56.475+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-urinary-male-genital-seminal-vesicle-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who-urinary-male-genital-seminal-vesicle-histology"}],"version":"20240318","name":"canshare-who-urinary-male-genital-seminal-vesicle-histology","title":"NZ WHO urinary and/or male genital seminal vesicle histology","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for urinary and male genital cancer types (WHO Classification of Tumours, Urinary & Male Genital Tumours, latest edition - 5. Tumours of the seminal vesicle) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^300371000210109 |New Zealand World Health Organization classification of tumors 5th edition urinary and/or male genital seminal vesicle histology reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:15.788+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-urinary-male-genital-seminal-vesicle-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-urinary-male-genital-seminal-vesicle-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-urinary-male-genital-seminal-vesicle-histology",
+  "title": "NZ WHO urinary and male genital seminal vesicle histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "0c8ca2c2-25df-40db-b06c-c747925d1b65",
+    "timestamp": "2024-11-01T20:25:42+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47620003",
+        "display": "Cystadenoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186968006",
+        "display": "Malignant adenomatous neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301071000210104",
+        "display": "Mixed epithelial and stromal tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162767002",
+        "display": "Squamous cell carcinoma"
+      }
+    ]
+  },
+  "id": "canshare-who-urinary-male-genital-seminal-vesicle-histology"
+}

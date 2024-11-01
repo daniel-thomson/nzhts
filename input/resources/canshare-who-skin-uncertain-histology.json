@@ -1,0 +1,233 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:15.764+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-skin-uncertain-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-skin-uncertain-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-skin-uncertain-histology",
+  "title": "NZ WHO classification of tumours skin ucertain behaviour histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6dc69b7f-df12-4806-9dea-b459871bc8d6",
+    "timestamp": "2024-11-01T20:25:46+13:00",
+    "total": 38,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128744003",
+        "display": "Angiomatoid fibrous histiocytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466011000210109",
+        "display": "Atypical intradermal smooth muscle neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "116063003",
+        "display": "Atypical lipomatous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703660008",
+        "display": "Composite haemangioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398641000210108",
+        "display": "Conjunctival melanocytic intraepithelial lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76594008",
+        "display": "Dermatofibrosarcoma protuberans"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788572005",
+        "display": "EBV positive mucocutaneous ulcer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "360931000210107",
+        "display": "Epstein-Barr virus associated smooth muscle tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1292983002",
+        "display": "EWSR1-SMAD3-positive fibroblastic tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448151000210101",
+        "display": "Fibroblastic mesenchymal neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "465981000210106",
+        "display": "Generalised myofibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128742004",
+        "display": "Giant cell fibroblastoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293211005",
+        "display": "Glomus tumour of uncertain malignant potential"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789440003",
+        "display": "Hydroa vacciniforme-like lymphoproliferative disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290969006",
+        "display": "Inclusion body fibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110450007",
+        "display": "Langerhans' cell histiocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789178005",
+        "display": "Lymphomatoid granulomatosis grade 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789179002",
+        "display": "Lymphomatoid granulomatosis grade 2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397353001",
+        "display": "Lymphomatoid papulosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788566005",
+        "display": "Malignant lymphomatoid granulomatosis grade 3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128730009",
+        "display": "Meningeal melanocytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "465971000210109",
+        "display": "Multicentric myofibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "465961000210103",
+        "display": "Multicentric myopericytomatois"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "360781000210108",
+        "display": "Palmar fibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128768006",
+        "display": "Papillary intralymphatic angioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62621002",
+        "display": "Pigmented dermatofibrosarcoma protuberans"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "360791000210105",
+        "display": "Plantar fibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "817948000",
+        "display": "Plaque-like CD34 positive dermal fibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128743009",
+        "display": "Plexiform fibrohistiocytic tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128804002",
+        "display": "Primary cutaneous CD30 antigen positive T-cell lymphoproliferative disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788570002",
+        "display": "Primary cutaneous CD4-positive small/medium T-cell lymphoproliferative disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "817951007",
+        "display": "Primitive non-neural granular cell tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "446023005",
+        "display": "Proliferating trichilemmal tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703658006",
+        "display": "Pseudomyogenic (epithelioid sarcoma-like) haemangioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703659003",
+        "display": "Retiform haemangioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295390008",
+        "display": "Spitz melanocytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1292997005",
+        "display": "Superficial CD34-positive fibroblastic tumour"
+      }
+    ]
+  },
+  "id": "canshare-who-skin-uncertain-histology"
+}

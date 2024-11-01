@@ -1,1 +1,88 @@
-{"resourceType":"ValueSet","id":"canshare-thorax-soft-tissue-topography","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:17.953+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-soft-tissue-topography","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-thorax-soft-tissue-topography"}],"version":"20240722","name":"canshare-thorax-soft-tissue-topography","title":"NZ cancer thorax soft tissue topography","status":"active","experimental":false,"date":"2024-07-22","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The body location used to describe the point of origin for soft tissue sarcoma of thorax and/or mediastinum primary or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 312751000210100 |New Zealand cancer thorax soft tissue topography reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:35.702+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-soft-tissue-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-thorax-soft-tissue-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-thorax-soft-tissue-topography",
+  "title": "NZ cancer thorax soft tissue topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "d47a7aff-d7b7-44f2-9039-e24e724a1b10",
+    "timestamp": "2024-11-01T20:24:23+13:00",
+    "total": 9,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80891009",
+        "display": "Heart structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72410000",
+        "display": "Mediastinal structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3120008",
+        "display": "Pleural structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76386002",
+        "display": "Structure of anterior mediastinum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1296697009",
+        "display": "Structure of autonomic nervous system of thorax"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1268431001",
+        "display": "Structure of peripheral nerve of thorax"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27291007",
+        "display": "Structure of posterior mediastinum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31749008",
+        "display": "Structure of soft tissue of thorax"
+      }
+    ]
+  },
+  "id": "canshare-thorax-soft-tissue-topography"
+}

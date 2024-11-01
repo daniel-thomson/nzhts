@@ -1,0 +1,535 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:33.546+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/cvdra-peripheral-vascular-disease",
+  "version": "20241022",
+  "name": "Cvdra_peripheral_vascular_disease",
+  "title": "CVDRA Peripheral Vascular Disease",
+  "status": "draft",
+  "expansion": {
+    "identifier": "5a0a9ebe-964d-4c78-9ef7-cfbc5b7cd0ec",
+    "timestamp": "2024-11-01T20:22:53+13:00",
+    "total": 480,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783716004",
+        "display": "Acquired aneurysm of cerebral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "723871004",
+        "display": "Acute occlusion of aortoiliac artery due to thrombosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "723870003",
+        "display": "Acute occlusion of artery of lower limb co-occurrent and due to thromboembolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "735572005",
+        "display": "Acute occlusion of artery of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733127007",
+        "display": "Acute occlusion of artery of upper limb caused by thrombus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204215008",
+        "display": "Acute occlusion of axillary artery due to thromboembolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204216009",
+        "display": "Acute occlusion of axillary artery due to thrombosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204214007",
+        "display": "Acute occlusion of brachial artery due to thromboembolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204212006",
+        "display": "Acute occlusion of brachial artery due to thrombosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204213001",
+        "display": "Acute occlusion of common femoral artery due to thromboembolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204183003",
+        "display": "Acute occlusion of popliteal artery due to thromboembolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204197006",
+        "display": "Acute occlusion of superficial femoral artery due to thromboembolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204187002",
+        "display": "Acute thromboembolic crural artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204177001",
+        "display": "Acute thromboembolic subclavian artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204186006",
+        "display": "Acute thrombotic common femoral artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204184009",
+        "display": "Acute thrombotic crural artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204182008",
+        "display": "Acute thrombotic iliac artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448116004",
+        "display": "Aneurysm of aortic sinus of Valsalva with protrusion into left ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448117008",
+        "display": "Aneurysm of aortic sinus of Valsalva with protrusion into pericardial cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448100001",
+        "display": "Aneurysm of aortic sinus of Valsalva with protrusion into right ventricle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448528000",
+        "display": "Aneurysm of aortic sinus of Valsalva with rupture to pericardial cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3827008",
+        "display": "Aneurysm of artery of neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10878002",
+        "display": "Aneurysm of common carotid artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16025471000119107",
+        "display": "Aneurysm of coronary artery due to and following acute febrile mucocutaneous lymph node syndrome"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "61091005",
+        "display": "Aneurysm of external carotid artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15648481000119107",
+        "display": "Aneurysm of left common carotid artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15649481000119103",
+        "display": "Aneurysm of left femoral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12237271000119105",
+        "display": "Aneurysm of left renal artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15648921000119102",
+        "display": "Aneurysm of left subclavian artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15648441000119102",
+        "display": "Aneurysm of right common carotid artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16662331000119106",
+        "display": "Aneurysm of right vertebral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70405009",
+        "display": "Aneurysm of splenic artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40136003",
+        "display": "Aneurysm of subclavian artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428479004",
+        "display": "Aneurysm of superficial temporal artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195279006",
+        "display": "Anterior tibial aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "838364007",
+        "display": "Aortic aneurysm due to Loeys-Dietz syndrome"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427567003",
+        "display": "Atheromatous embolus of upper limb"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16018831000119106",
+        "display": "Atherosclerosis of bilateral iliac arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15648771000119103",
+        "display": "Atherosclerosis of bilateral renal arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204175009",
+        "display": "Atherosclerosis of crural artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1258934002",
+        "display": "Atherosclerosis of femoral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16019471000119104",
+        "display": "Atherosclerosis of left iliac artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204173002",
+        "display": "Atherosclerosis of popliteal artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204174008",
+        "display": "Atherosclerosis of subclavian artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1204172007",
+        "display": "Atherosclerosis of superficial femoral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16899261000119106",
+        "display": "Atherosclerosis of superior mesenteric artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15710321000119103",
+        "display": "Bilateral atherosclerosis of nonautologous biological bypass graft of lower limbs"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "787044009",
+        "display": "Bilateral stenosis of carotid arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15967301000119102",
+        "display": "Bilateral subclavian artery stenosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16007831000119105",
+        "display": "Bilateral thrombosis of ulnar arteries"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "233974006",
+        "display": "Brachial artery embolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297146000",
+        "display": "Brachial artery thrombosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783707003",
+        "display": "Cerebral aneurysm due to dissection of cerebral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "698816006",
+        "display": "Chronic occlusion of artery of extremity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "233986009",
+        "display": "Common femoral aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312825008",
+        "display": "Common iliac artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93396008",
+        "display": "Congenital stenosis of carotid artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312822006",
+        "display": "Critical ischaemia of foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "233962007",
+        "display": "Critical lower limb ischaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "233960004",
+        "display": "Critical upper limb ischaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195280009",
+        "display": "Dorsalis pedis aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "233990006",
+        "display": "Ductus arteriosus aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195319003",
+        "display": "Embolism and thrombosis of the brachial artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195320009",
+        "display": "Embolism and thrombosis of the radial artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "403189002",
+        "display": "Erythrocyanosis with nodules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312826009",
+        "display": "External iliac artery occlusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297151006",
+        "display": "External iliac artery thrombosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195289005",
+        "display": "Inferior mesenteric aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297140006",
+        "display": "Inferior mesenteric artery embolus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314186008",
+        "display": "Inflammatory abdominal aortic aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307409006",
+        "display": "Ischaemic finger"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307407008",
+        "display": "Ischaemic hand"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307408003",
+        "display": "Ischaemic toe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314185007",
+        "display": "Juxtarenal aortic aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195268001",
+        "display": "Leaking abdominal aortic aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16019311000119103",
+        "display": "Left lower limb atherosclerosis of nonbiological bypass graft"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "770581008",
+        "display": "Microaneurysm of right retinal artery due to diabetes mellitus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "724097003",
+        "display": "Moyamoya angiopathy, short stature, facial dysmorphism, hypergonadotropic hypogonadism syndrome"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783413008",
+        "display": "Multiple aneurysms of cerebral artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10749961000119104",
+        "display": "Occlusion of aortoiliac artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16014791000119105",
+        "display": "Occlusion of left popliteal artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "735576008",
+        "display": "Perforation of abdominal aorta co-occurrent and due to aneurysm of abdominal aorta"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "735575007",
+        "display": "Perforation of thoracic aorta co-occurrent and due to aneurysm of thoracic aorta"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "735577004",
+        "display": "Perforation of thoracoabdominal aorta co-occurrent and due to aneurysm of thoracoabdominal aorta"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31211000119101",
+        "display": "Peripheral angiopathy due to type 1 diabetes mellitus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421365002",
+        "display": "Peripheral circulatory disorder due to type 1 diabetes mellitus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "251045002",
+        "display": "Peripheral pulmonary artery A/V aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "737158007",
+        "display": "Post-procedural aortic aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312377009",
+        "display": "Post-radiological embolism of upper limb artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297175006",
+        "display": "Profunda femoris aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "895205251000119104",
+        "display": "Ruptured aneurysm of aortic arch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "609590581000119102",
+        "display": "Ruptured aneurysm of descending thoracic aorta"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "425600006",
+        "display": "Ruptured aneurysm of internal iliac artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314184006",
+        "display": "Ruptured suprarenal aortic aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "297155002",
+        "display": "Superficial femoral artery thrombosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74883004",
+        "display": "Thoracic aortic aneurysm without rupture"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "233984007",
+        "display": "Thoracoabdominal aortic aneurysm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "195265003",
+        "display": "Thoracoabdominal aortic aneurysm, ruptured"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734299002",
+        "display": "Thromboembolus of external iliac artery"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307406004",
+        "display": "Trash foot"
+      }
+    ]
+  },
+  "id": "cvdra-peripheral-vascular-disease"
+}

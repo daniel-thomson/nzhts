@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/clinical-coding-system-code",
+  "expansion": {
+    "identifier": "f39a5992-5168-42d0-80d1-13e1611ccbff",
+    "timestamp": "2024-11-01T20:21:55+13:00",
+    "total": 13,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/clinical-coding-system-code|20221115"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "05",
+        "display": "Continuum AMR codes"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "07",
+        "display": "DSM-IV"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "14",
+        "display": "ICD-10-AM eight edition"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "15",
+        "display": "ICD-10-AM eleventh edition"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "10",
+        "display": "ICD-10-AM first edition"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "11",
+        "display": "ICD-10-AM second edition"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "13",
+        "display": "ICD-10-AM sixth edition"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "12",
+        "display": "ICD-10-AM third edition"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "01",
+        "display": "ICD-9"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "02",
+        "display": "ICD-9-CM"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "06",
+        "display": "ICD9-CMA"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "04",
+        "display": "ICPC"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-coding-system-code",
+        "code": "03",
+        "display": "Read"
+      }
+    ]
+  },
+  "id": "clinical-coding-system-code"
+}

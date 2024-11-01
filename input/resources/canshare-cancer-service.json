@@ -1,1 +1,63 @@
-{"resourceType":"ValueSet","id":"canshare-cancer-service","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:06.963+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-service","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-cancer-service"}],"version":"20240318","name":"canshare-cancer-service","title":"NZ cancer service","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of cancer service that is currently, or should in the future, treat this cancer.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 297751000210107 |New Zealand cancer service reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:45.191+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-service",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-cancer-service"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-cancer-service",
+  "title": "NZ cancer service",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "1fb55eeb-e753-4155-9bb0-a08b03b37023",
+    "timestamp": "2024-11-01T20:23:11+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394803006",
+        "display": "Clinical haematology"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394593009",
+        "display": "Medical oncology"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418002000",
+        "display": "Paediatric oncology"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419815003",
+        "display": "Radiation oncology"
+      }
+    ]
+  },
+  "id": "canshare-cancer-service"
+}

@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-eye-orbit-retina-topography","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:10.809+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-eye-orbit-retina-topography","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-eye-orbit-retina-topography"}],"version":"20240404","name":"canshare-eye-orbit-retina-topography","title":"NZ cancer eye and/or orbit retina topography","status":"active","experimental":false,"date":"2024-04-04","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The body location used to describe the point of origin for retina cancer or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"113324008 |Neuroepithelial layer of retina| OR 5665001 |Retina| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:27.268+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-eye-orbit-retina-topography",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-eye-orbit-retina-topography"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-eye-orbit-retina-topography",
+  "title": "NZ cancer eye and orbit retina topography",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "c963fbec-9bdd-4c74-a175-acb7e96123a4",
+    "timestamp": "2024-11-01T20:22:33+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113324008",
+        "display": "Neuroepithelial layer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5665001",
+        "display": "Retinal structure"
+      }
+    ]
+  },
+  "id": "canshare-eye-orbit-retina-topography"
+}

@@ -1,1 +1,540 @@
-{"resourceType":"ValueSet","id":"results-microorganism-uv-ips","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:58.535+12:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  409822003 (Domain Bacteria (organism))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  441649000 (Class Cestoda and/or Class Trematoda and/or Phylum Nemata (organism))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  414561005 (Kingdom Fungi (organism))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  84676004 (Prion)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  49872002 (Virus)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  417396000 (Kingdom Protozoa (organism))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  419036000 (Superkingdom Archaea)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  426785004 (Kingdom Chromista (organism))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  370570004 (Kingdom Protista)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  417377004 (Kingdom Viridiplantae (organism))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  243565002 (Slime mold)</li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":2,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}}],"url":"http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-uv-ips","version":"1.1.0","name":"ResultsMicroorganismUvIps","title":"Results Microorganism - IPS","status":"active","experimental":false,"date":"2022-11-22T03:32:52+00:00","publisher":"Health Level Seven International - Patient Care Work Group","contact":[{"telecom":[{"system":"url","value":"http://www.hl7.org/Special/committees/patientcare"}]}],"description":"This is a value set of the SNOMED CT microorganism concepts for use in the Results section observation values.","jurisdiction":[{"coding":[{"system":"http://unstats.un.org/unsd/methods/m49/m49.htm","code":"001"}]}],"immutable":false,"copyright":"The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"409822003"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"441649000"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"414561005"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"84676004"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"49872002"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"417396000"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"419036000"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"426785004"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"370570004"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"417377004"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"243565002"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:08.963+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-uv-ips",
+  "version": "1.1.0",
+  "name": "ResultsMicroorganismUvIps",
+  "title": "Results Microorganism - IPS",
+  "status": "active",
+  "experimental": false,
+  "copyright": "The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org",
+  "expansion": {
+    "identifier": "2351009a-30b1-47b3-9509-4611e8f3a413",
+    "timestamp": "2024-11-01T20:24:05+13:00",
+    "total": 22526,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113373004",
+        "display": "Acholeplasma cavigenitalium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3881000181107",
+        "display": "Acinetobacter wuhouensis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28811000087104",
+        "display": "Acrodontium salmoneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45785000",
+        "display": "Aelurostrongylus abstrusus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "426831008",
+        "display": "Agromyces aurantiacus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2831000146101",
+        "display": "Amycolatopsis minnesotensis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113662004",
+        "display": "Amycolatopsis sulphurea"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302555002",
+        "display": "Ancylostoma intestinale"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "442513007",
+        "display": "Araraquara virus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "738406009",
+        "display": "Bacillus gobiensis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "719558002",
+        "display": "Biatriosporaceae"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385495009",
+        "display": "Brevibacillus invocatus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1336112004",
+        "display": "Butyricimonas paravirosa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32330009",
+        "display": "Cacao virus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "903925371000087108",
+        "display": "Candida norvegica"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46026001",
+        "display": "Capillaria bilobata"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49587003",
+        "display": "Capillaria eupomatis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113530009",
+        "display": "Capnocytophaga cynodegmi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "433716005",
+        "display": "Cetobacterium ceti"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "782943008",
+        "display": "Choanephora infundibulifera"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "30641000087103",
+        "display": "Cladosporium langeronii"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "726493005",
+        "display": "Clarithromycin resistant bacteria"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7889007",
+        "display": "Clostridium carnis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82677007",
+        "display": "CoAr 3627 virus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42491000284109",
+        "display": "Cryptosporidium ubiquitum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6674007",
+        "display": "Cylicostephanus calicatus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "717985007",
+        "display": "Diaporthe"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "43137008",
+        "display": "Dracunculus globocephalus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "434206006",
+        "display": "Ensifer meliloti"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "449322006",
+        "display": "Enterococcus thailandicus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "103429008",
+        "display": "Enterohemorrhagic Escherichia coli, serotype O157:H7"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "407271009",
+        "display": "Enterohemorrhagic Escherichia coli, serotype O50:H7"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "890299005",
+        "display": "Epidermidibacterium keratini"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "458120005",
+        "display": "Escherichia coli serotype O24:H25"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "114179002",
+        "display": "Exiguobacterium acetylicum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1106701000112108",
+        "display": "Extended spectrum beta-lactamase producing Serratia fonticola"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40480006",
+        "display": "Feline leukemia virus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127513007",
+        "display": "Haemophilus parainfluenzae, biotype I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "432922002",
+        "display": "Halomonas salina"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47819006",
+        "display": "Helicometrina elongata"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "69597004",
+        "display": "Histomonas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42500000",
+        "display": "Histomonas meleagridis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55969008",
+        "display": "Human rhinovirus 10"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46301003",
+        "display": "Human rhinovirus 31"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49323000",
+        "display": "Human rhinovirus 5"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "434692006",
+        "display": "Hyphomonas neptunium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49034008",
+        "display": "Insect iridescent virus 16"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "284698006",
+        "display": "Kingdom Protozoa sporont"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "434049000",
+        "display": "Lonepinella koalarum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53250009",
+        "display": "Lycoperdon pyriforme"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "409858005",
+        "display": "Massilia timonae"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "433702000",
+        "display": "Mesonia algae"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "114204002",
+        "display": "Microbacterium lacticum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113832008",
+        "display": "Moraxella boevrei"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "767041006",
+        "display": "Mycobacterium paraintracellulare"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1079801000112107",
+        "display": "Mycolicibacterium malmesburyense"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14277009",
+        "display": "Mycoplasma canis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420235004",
+        "display": "Myxocephala"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51458008",
+        "display": "Nematodirella dromedarii"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441720004",
+        "display": "Nocardia exalbida"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23231006",
+        "display": "Onchocerca ochengi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4680001",
+        "display": "Ostertagia pinnata"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5591000146106",
+        "display": "Paenibacillus phyllosphaerae"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1172727002",
+        "display": "Pantoea vagans"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "415949000",
+        "display": "Phaeoacremonium inflatipes"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "699561009",
+        "display": "Plasmodium malariae merozoite"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "434338004",
+        "display": "Polyangium rugiseptum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "450374007",
+        "display": "Prevotella timonensis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "437806005",
+        "display": "Pseudomonas grimontii"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "114322001",
+        "display": "Salmonella Ati"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66863002",
+        "display": "Salmonella Dabou"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23665004",
+        "display": "Salmonella Dakar"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19857008",
+        "display": "Salmonella II 11:-:1,5"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "114757000",
+        "display": "Salmonella II 40:z:z42"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "404553009",
+        "display": "Salmonella IIIb 47:z10:z35"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "58845009",
+        "display": "Salmonella Ilala"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51312006",
+        "display": "Salmonella Leipzig"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42921006",
+        "display": "Salmonella Mountpleasant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "131284005",
+        "display": "Salmonella serotype C2,6,8:eh:-"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "114625007",
+        "display": "Salmonella Serrekunda"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113700003",
+        "display": "Shewanella putrefaciens"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "840387000",
+        "display": "Shiga toxin-producing Escherichia coli serogroup O42"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "782365004",
+        "display": "Shiga toxin-producing Escherichia coli serotype O76:H19"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440719000",
+        "display": "Sporolactobacillus terrae"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113964000",
+        "display": "Staphylococcus delphini"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "103493004",
+        "display": "Staphylococcus ureilyticus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "438718009",
+        "display": "Streptomyces coerulescens"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "438190008",
+        "display": "Streptomyces libani"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "437938001",
+        "display": "Streptomyces paradoxus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441288008",
+        "display": "Thalassomonas ganghwensis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440940007",
+        "display": "Thermobifida alba"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441156007",
+        "display": "Thermococcus celer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4081000146102",
+        "display": "Thomasclavelia saccharogumia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "785795004",
+        "display": "Trichoderma hamatum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "744852003",
+        "display": "Tropicoporus tropicalis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "68568006",
+        "display": "Tumor virus X"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "718779006",
+        "display": "Variovorax boronicumulans"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "438429007",
+        "display": "Vibrio rotiferianus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441431008",
+        "display": "Williamsia maris"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "705166001",
+        "display": "Yersinia enterocolitica subsp. enterocolitica"
+      }
+    ]
+  },
+  "id": "results-microorganism-uv-ips"
+}

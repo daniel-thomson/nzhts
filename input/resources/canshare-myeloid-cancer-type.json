@@ -1,1 +1,138 @@
-{"resourceType":"ValueSet","id":"canshare-myeloid-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:00.108+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-myeloid-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-myeloid-cancer-type"}],"version":"20240416","name":"canshare-myeloid-cancer-type","title":"NZ cancer myeloid proliferation and/or myeloid neoplasm cancer type","status":"active","experimental":false,"date":"2024-04-16","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of myeloid proliferation and/or myeloid neoplasm haematologic cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 351791000210105 |New Zealand cancer myeloid proliferation and/or myeloid neoplasm cancer type reference set| MINUS (351591000210100 |Myeloid neoplasm| OR 109993000 |Myeloproliferative neoplasm|)"}]},{"system":"http://snomed.info/sct","concept":[{"code":"109993000","display":"Other myeloproliferative neoplasm (MPN)"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:28.825+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-myeloid-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-myeloid-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-myeloid-cancer-type",
+  "title": "NZ cancer myeloid proliferation and myeloid neoplasm cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "96da1716-4568-4e95-9e96-fa92854c7bb1",
+    "timestamp": "2024-11-01T20:23:07+13:00",
+    "total": 19,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109993000",
+        "display": "Other myeloproliferative neoplasm (MPN)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298241000210100",
+        "display": "Acute leukaemia of mixed or ambiguous lineage"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91861009",
+        "display": "Acute myeloid leukaemia, disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188733003",
+        "display": "Chronic eosinophilic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92818009",
+        "display": "Chronic myeloid leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127225006",
+        "display": "Chronic myelomonocytic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188734009",
+        "display": "Chronic neutrophilic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397012002",
+        "display": "Cutaneous mastocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109994006",
+        "display": "Essential thrombocythaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445227008",
+        "display": "Juvenile myelomonocytic leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "118615008",
+        "display": "Malignant mast cell tumour (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "414653009",
+        "display": "Mast cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109995007",
+        "display": "Myelodysplastic syndrome (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "445738007",
+        "display": "Myelodysplastic/myeloproliferative disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351601000210105",
+        "display": "Myeloid precursor lesion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351641000210108",
+        "display": "Myeloid-lymphoid neoplasm with eosinophilia and defining gene rearrangement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109992005",
+        "display": "Polycythaemia vera (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "307651005",
+        "display": "Primary myelofibrosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397016004",
+        "display": "Systemic mast cell disease"
+      }
+    ]
+  },
+  "id": "canshare-myeloid-cancer-type"
+}

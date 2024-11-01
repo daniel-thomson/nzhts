@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:17.220+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-neuroendocrine-gi-colorectal-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-neuroendocrine-gi-colorectal-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-neuroendocrine-gi-colorectal-stage-group",
+  "title": "NZ AJCC neuroendocrine gastrointestinal colon and rectum stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "4664f0f4-9a78-4422-9066-1e7201b8da18",
+    "timestamp": "2024-11-01T20:21:25+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222723001",
+        "display": "I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222766008",
+        "display": "IIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222769001",
+        "display": "IIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222837003",
+        "display": "IV"
+      }
+    ]
+  },
+  "id": "canshare-tnm-neuroendocrine-gi-colorectal-stage-group"
+}

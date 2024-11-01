@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:08.686+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-gi-pm",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-gi-pm"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-gi-pm",
+  "title": "NZ AJCC (8th edition) gastrointestinal pathological M category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "b50ce1e3-cd44-404e-8106-0ede79ae7529",
+    "timestamp": "2024-11-01T20:22:54+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229916009",
+        "display": "pM1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229917000",
+        "display": "pM1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229920008",
+        "display": "pM1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229923005",
+        "display": "pM1c"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-gi-pm"
+}

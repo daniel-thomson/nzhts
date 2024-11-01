@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/clinical-code-type-code",
+  "expansion": {
+    "identifier": "3d852410-160c-4094-8fdc-ac22eee3e63c",
+    "timestamp": "2024-11-01T20:23:39+13:00",
+    "total": 7,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/clinical-code-type-code|20221115"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "A",
+        "display": "Diagnosis"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "D",
+        "display": "DSM-IV"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "E",
+        "display": "External cause of injury"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "B",
+        "display": "Injury"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "M",
+        "display": "Morphology (pathology)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "O",
+        "display": "Operation/Procedure"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "code": "V",
+        "display": "V code (supplementary classification)"
+      }
+    ]
+  },
+  "id": "clinical-code-type-code"
+}

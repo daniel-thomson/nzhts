@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:17.622+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm"}],"version":"20240725","name":"canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm","title":"NZ AJCC female genital ovary and/or fallopian tube and/or primary peritoneal carcinoma clinical M category","status":"active","experimental":false,"date":"2024-07-25","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A clinical distant metastasis stage (cM) of a ovary, fallopian tube and/or primary peritoneal carcinoma before initiation of treatment, using the AJCC cancer staging manual (latest edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"1229901006 |cM0| OR 1229903009 |cM1| OR 1229907005 |cM1b|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:10.728+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm",
+  "title": "NZ AJCC female genital ovary and fallopian tube and primary peritoneal carcinoma clinical M category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "2be3bc19-1ba2-4ed2-b741-793e3060b508",
+    "timestamp": "2024-11-01T20:25:01+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229901006",
+        "display": "cM0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229903009",
+        "display": "cM1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229907005",
+        "display": "cM1b"
+      }
+    ]
+  },
+  "id": "canshare-tnm-female-genital-ovary-fallopian-peritoneal-cm"
+}

@@ -1,0 +1,493 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:29.829+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-bone-site-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-bone-site-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-bone-site-histology",
+  "title": "NZ WHO bone site histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "40c87027-c42b-4063-9cff-c798642d64b3",
+    "timestamp": "2024-11-01T20:23:50+13:00",
+    "total": 90,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1172729004",
+        "display": "ALK negative anaplastic large cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734044003",
+        "display": "Anaplastic lymphoma kinase positive anaplastic large cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76000001",
+        "display": "Aneurysmal bone cyst"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "863926008",
+        "display": "Angiosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162660006",
+        "display": "B lymphoblastic leukaemia lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "253053003",
+        "display": "Benign haemangioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703708006",
+        "display": "Benign notochordal tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1156874003",
+        "display": "Benign osteoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703696007",
+        "display": "Bizarre parosteal osteochondromatous proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77381001",
+        "display": "Burkitt lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361111000210105",
+        "display": "Central atypical cartilaginous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361401000210101",
+        "display": "Central chondrosarcoma grade 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361131000210103",
+        "display": "Central chondrosarcoma grade 2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361141000210106",
+        "display": "Central chondrosarcoma grade 3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9001003",
+        "display": "Chondroblastoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128784007",
+        "display": "Chondroid chordoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83944004",
+        "display": "Chondromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361181000210104",
+        "display": "Chondromesenchymal hamartoma of chest wall"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "39553005",
+        "display": "Chondromyxoid fibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186889001",
+        "display": "CIC-rearranged sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361201000210100",
+        "display": "Classic adamantinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "762691001",
+        "display": "Classical Hodgkin lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128775007",
+        "display": "Clear cell chondrosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361171000210101",
+        "display": "Conventional chordoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290642008",
+        "display": "Conventional osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290634007",
+        "display": "Dedifferentiated adamantinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128776008",
+        "display": "Dedifferentiated chondrosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128785008",
+        "display": "Dedifferentiated chordoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6842002",
+        "display": "Desmoplastic fibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1172695008",
+        "display": "Diffuse large B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "423699002",
+        "display": "Enchondroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54124005",
+        "display": "Epithelioid haemangioendothelioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33929001",
+        "display": "Epithelioid haemangioma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703711007",
+        "display": "Erdheim-Chester disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76909002",
+        "display": "Ewing's sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1286704002",
+        "display": "Fibrocartilaginous mesenchymoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "53654007",
+        "display": "Fibrosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789439000",
+        "display": "Fibrous dysplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55150002",
+        "display": "Follicular lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57500000",
+        "display": "Giant cell tumour of bone"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10069009",
+        "display": "Giant cell tumour of bone, malignant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77027006",
+        "display": "Hibernoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314925008",
+        "display": "High grade B-cell lymphoma morphology"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128773000",
+        "display": "High grade surface osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110450007",
+        "display": "Langerhans' cell histiocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163022006",
+        "display": "Leiomyosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "134328007",
+        "display": "Lipoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703694005",
+        "display": "Low grade central osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361441000210103",
+        "display": "Malignant epithelioid neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1240414004",
+        "display": "Malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361431000210106",
+        "display": "Malignant round cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "88897007",
+        "display": "Malignant tumour, fusiform cell type"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128803008",
+        "display": "Marginal zone B-cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "56565002",
+        "display": "Mesenchymal chondrosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3898006",
+        "display": "Neoplasm, benign"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80415005",
+        "display": "Non-ossifying fibroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55333008",
+        "display": "Osteoblastoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52299001",
+        "display": "Osteochondroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703695006",
+        "display": "Osteochondromyxoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290733009",
+        "display": "Osteofibrous dysplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290635008",
+        "display": "Osteofibrous dysplasia-like adamantinoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "71666005",
+        "display": "Osteoid osteoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1163405004",
+        "display": "Osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128918008",
+        "display": "Parosteal osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293245003",
+        "display": "Periosteal chondroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290900008",
+        "display": "Periosteal chondrosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128772005",
+        "display": "Periosteal osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1162576007",
+        "display": "Plasma cell myeloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1187107005",
+        "display": "Plasmacytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290636009",
+        "display": "Poorly differentiated chordoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295376005",
+        "display": "Rosai-Dorfman disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186898003",
+        "display": "Round cell sarcoma with EWSR1-non-ETS fusions"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1186893007",
+        "display": "Sarcoma with BCOR genetic alterations"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1179472005",
+        "display": "Secondary osteosarcoma following treatment or precursor disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361121000210100",
+        "display": "Secondary peripheral atypical cartilaginous tumour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361411000210104",
+        "display": "Secondary peripheral chondrosarcoma grade 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361151000210109",
+        "display": "Secondary peripheral chondrosarcoma grade 2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361391000210104",
+        "display": "Secondary peripheral chondrosarcoma grade 3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12302002",
+        "display": "Small cell osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361421000210109",
+        "display": "Spindle cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9801004",
+        "display": "Spindle cell sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703697003",
+        "display": "Subungual exostosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314926009",
+        "display": "T-cell lymphoma morphology"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397348006",
+        "display": "T-lymphoblastic lymphoma/leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "78453009",
+        "display": "Telangiectatic osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290732004",
+        "display": "Undifferentiated pleomorphic sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290804000",
+        "display": "Undifferentiated small round cell sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290806003",
+        "display": "Undifferentiated spindle cell sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112643007",
+        "display": "Unicameral bone cyst"
+      }
+    ]
+  },
+  "id": "canshare-who-bone-site-histology"
+}

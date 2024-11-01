@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:13:23.365+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-specimen-category-excision-biopsy",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-specimen-category-excision-biopsy"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-specimen-category-excision-biopsy",
+  "title": "NZ cancer specimen category biopsy or excision",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "46634045-a689-4d3a-8c7c-318224b5fb4e",
+    "timestamp": "2024-11-01T20:24:56+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "361571000210109",
+        "display": "Specimen obtained by biopsy"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "439479000",
+        "display": "Tissue specimen obtained by excision"
+      }
+    ]
+  },
+  "id": "canshare-specimen-category-excision-biopsy"
+}

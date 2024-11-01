@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:27.404+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-laterality-with-unknown",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-laterality-with-unknown"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-laterality-with-unknown",
+  "title": "NZ cancer laterality with unknown value",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "6e371632-474c-4408-a89e-7856509021c7",
+    "timestamp": "2024-11-01T20:23:02+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7771000",
+        "display": "Left"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24028007",
+        "display": "Right"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "51440002",
+        "display": "Right and left"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "261665006",
+        "display": "Unknown"
+      }
+    ]
+  },
+  "id": "canshare-laterality-with-unknown"
+}

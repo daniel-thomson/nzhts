@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:48.205+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-diagnosis-verification-status",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-diagnosis-verification-status"
+    }
+  ],
+  "version": "20241022",
+  "name": "canshare-diagnosis-verification-status",
+  "title": "NZ cancer diagnosis verification status",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "80e37842-af6e-4942-be4d-c1431f1fa361",
+    "timestamp": "2024-11-01T20:25:19+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "410605003",
+        "display": "Confirmed"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "723510000",
+        "display": "Entered in error"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "723511001",
+        "display": "Refuted"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466541000210104",
+        "display": "Unconfirmed"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466561000210103",
+        "display": "Unconfirmed differential"
+      }
+    ]
+  },
+  "id": "canshare-diagnosis-verification-status"
+}

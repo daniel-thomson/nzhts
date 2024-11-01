@@ -1,0 +1,143 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:03.698+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-haematolymphoid-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-thoracic-haematolymphoid-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-thoracic-haematolymphoid-histology",
+  "title": "NZ WHO thoracic haematolymphoid histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "51eb6c17-bfc4-4fd1-ba2d-42df2e398a2a",
+    "timestamp": "2024-11-01T20:22:28+13:00",
+    "total": 20,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12351000132102",
+        "display": "B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and Hodgkin lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "762691001",
+        "display": "Classical Hodgkin lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1172695008",
+        "display": "Diffuse large B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734076008",
+        "display": "Diffuse large B-cell lymphoma associated with chronic inflammation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703711007",
+        "display": "Erdheim-Chester disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397350003",
+        "display": "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "262671000210107",
+        "display": "Fibrin associated large B cell malignant lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128816008",
+        "display": "Follicular dendritic cell sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112687003",
+        "display": "Hodgkin lymphoma, lymphocyte depletion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128799007",
+        "display": "Hodgkin lymphoma, lymphocyte-rich"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41529000",
+        "display": "Hodgkin lymphoma, mixed cellularity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52248008",
+        "display": "Hodgkin lymphoma, nodular sclerosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "399648005",
+        "display": "Intravascular large B-cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110450007",
+        "display": "Langerhans' cell histiocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789177000",
+        "display": "Lymphomatoid granulomatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128801005",
+        "display": "Mediastinal large B-cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35287006",
+        "display": "Myeloid sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128800006",
+        "display": "Primary effusion lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397348006",
+        "display": "T-lymphoblastic lymphoma/leukaemia"
+      }
+    ]
+  },
+  "id": "canshare-who-thoracic-haematolymphoid-histology"
+}

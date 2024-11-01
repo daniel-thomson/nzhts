@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-tumour-origin","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:42.284+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tumour-origin","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tumour-origin"}],"version":"20240704","name":"canshare-tumour-origin","title":"NZ cancer tumour origin","status":"active","experimental":false,"date":"2024-07-04","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The suspected origin of the tumour clinically assessed.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"372087000 |Primary malignant neoplasm (disorder)| MINUS 372087000 |Primary malignant neoplasm (disorder)|"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"392231000210101","display":"New primary tumour"},{"code":"392241000210109","display":"Local recurrence tumour"},{"code":"392261000210105","display":"Distant metastasis tumour"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:28.804+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tumour-origin",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tumour-origin"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tumour-origin",
+  "title": "NZ cancer tumour origin",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "a0db4d63-a097-4448-a98d-c9e2bbe2eebc",
+    "timestamp": "2024-11-01T20:21:41+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392261000210105",
+        "display": "Tumour origin from distant metastasis of primary malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392241000210109",
+        "display": "Tumour origin from local recurrence of primary malignant neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392231000210101",
+        "display": "Tumour origin from new primary malignant neoplasm"
+      }
+    ]
+  },
+  "id": "canshare-tumour-origin"
+}

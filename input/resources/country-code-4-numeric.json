@@ -1,0 +1,535 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:38.927+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/country-code-4-numeric",
+  "version": "15.0.0",
+  "name": "Country_code_4_numeric",
+  "title": "Country code 4 numeric",
+  "status": "draft",
+  "expansion": {
+    "identifier": "35f1c7d6-ade0-4fa2-a04e-9e8b06a5b433",
+    "timestamp": "2024-11-01T20:24:27+13:00",
+    "total": 326,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/country-code-4-numeric|15.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7201",
+        "display": "Afghanistan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8401",
+        "display": "Anguilla"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8402",
+        "display": "Antigua and Barbuda"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7202",
+        "display": "Armenia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8403",
+        "display": "Aruba"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0001",
+        "display": "At Sea"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1101",
+        "display": "Australia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2301",
+        "display": "Austria"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7203",
+        "display": "Azerbaijan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8404",
+        "display": "Bahamas"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7101",
+        "display": "Bangladesh"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8405",
+        "display": "Barbados"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2302",
+        "display": "Belgium"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8301",
+        "display": "Belize"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7102",
+        "display": "Bhutan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8400",
+        "display": "Caribbean (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8406",
+        "display": "Cayman Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8300",
+        "display": "Central America (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7200",
+        "display": "Central Asia (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6101",
+        "display": "China, People's Republic of"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8302",
+        "display": "Costa Rica"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8407",
+        "display": "Cuba"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8433",
+        "display": "Curacao"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0008",
+        "display": "Destination Unknown - EU"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0009",
+        "display": "Destination Unknown - Non-EU"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8408",
+        "display": "Dominica"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8411",
+        "display": "Dominican Republic"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "3300",
+        "display": "Eastern Europe (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8303",
+        "display": "El Salvador"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2303",
+        "display": "France"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7204",
+        "display": "Georgia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2304",
+        "display": "Germany"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8412",
+        "display": "Grenada"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8413",
+        "display": "Guadeloupe"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8304",
+        "display": "Guatemala"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8414",
+        "display": "Haiti"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8305",
+        "display": "Honduras"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6102",
+        "display": "Hong Kong (Special Administrative Region)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2405",
+        "display": "Iceland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0000",
+        "display": "Inadequately Described"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7103",
+        "display": "India"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2201",
+        "display": "Ireland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "22",
+        "display": "Ireland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8415",
+        "display": "Jamaica"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6103",
+        "display": "Japan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7205",
+        "display": "Kazakhstan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6104",
+        "display": "Korea, Democratic People's Republic of"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6105",
+        "display": "Korea, Republic of"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7206",
+        "display": "Kyrgyzstan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2305",
+        "display": "Liechtenstein"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2306",
+        "display": "Luxembourg"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6106",
+        "display": "Macau (Special Administrative Region)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7104",
+        "display": "Maldives"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8416",
+        "display": "Martinique"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "13",
+        "display": "Melanesia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1300",
+        "display": "Melanesia (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8306",
+        "display": "Mexico"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2307",
+        "display": "Monaco"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6107",
+        "display": "Mongolia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8417",
+        "display": "Montserrat"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7105",
+        "display": "Nepal"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2308",
+        "display": "Netherlands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1301",
+        "display": "New Caledonia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1201",
+        "display": "New Zealand"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "12",
+        "display": "New Zealand"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8307",
+        "display": "Nicaragua"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1102",
+        "display": "Norfolk Island"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6100",
+        "display": "North-East Asia (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2406",
+        "display": "Norway"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "9999",
+        "display": "Not Stated"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1000",
+        "display": "Oceania and Antarctica (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "10",
+        "display": "Oceania and Antarctica (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7106",
+        "display": "Pakistan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8308",
+        "display": "Panama"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1302",
+        "display": "Papua New Guinea"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0004",
+        "display": "Passengers' Effects"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1599",
+        "display": "Polynesia (excludes Hawaii) nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8421",
+        "display": "Puerto Rico"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0006",
+        "display": "Ships' Bunkering"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "0005",
+        "display": "Ships' Stores"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1303",
+        "display": "Solomon Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "9299",
+        "display": "Southern and East Africa nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7100",
+        "display": "Southern Asia (not further defined)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8422",
+        "display": "St Kitts and Nevis"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8423",
+        "display": "St Lucia"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8434",
+        "display": "St Maarten (Dutch Part)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8424",
+        "display": "St Vincent and the Grenadines"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2311",
+        "display": "Switzerland"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "6108",
+        "display": "Taiwan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7207",
+        "display": "Tajikistan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8425",
+        "display": "Trinidad and Tobago"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7208",
+        "display": "Turkmenistan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8426",
+        "display": "Turks and Caicos Islands"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "7211",
+        "display": "Uzbekistan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "1304",
+        "display": "Vanuatu"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "5105",
+        "display": "Viet Nam"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8427",
+        "display": "Virgin Islands, British"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "8428",
+        "display": "Virgin Islands, United States"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "23",
+        "display": "Western Europe"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/country-code-4-numeric",
+        "code": "2300",
+        "display": "Western Europe (not further defined)"
+      }
+    ]
+  },
+  "id": "country-code-4-numeric"
+}

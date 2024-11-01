@@ -1,1 +1,527 @@
-{"resourceType":"ValueSet","id":"meddra-code-27-0","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:01.351+12:00"},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MedDRA LLT 27.0 VS</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/meddra-code-27-0</tt><p>List of MedDRA codes suitable for use in New Zealand</p></div>"},"url":"https://nzhts.digital.health.nz/fhir/ValueSet/meddra-code-27-0","version":"27.0","name":"MedDRALLT27_0VS","title":"MedDRA LLT 27.0 VS","status":"draft","date":"2024-03-12T00:00:00.000Z","publisher":"Health New Zealand","contact":[{"name":"Health New Zealand","telecom":[{"system":"email","value":"Standards@health.govt.nz"}]}],"description":"List of MedDRA codes suitable for use in New Zealand","compose":{"include":[{"system":"http://terminology.hl7.org/CodeSystem/mdr-27-0","version":"27.0"}]}}
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/meddra-code-27-0",
+  "expansion": {
+    "identifier": "41040372-7d4b-42d5-b3d7-817ad923dec6",
+    "timestamp": "2024-11-01T20:23:59+13:00",
+    "total": 79026,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://terminology.hl7.org/CodeSystem/mdr-27-0|27.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084290",
+        "display": "Acute rhinosinusitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001939",
+        "display": "Aminoaciduria"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001940",
+        "display": "Aminolevulinic acid urine"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001942",
+        "display": "Ammonia abnormal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001944",
+        "display": "Ammonia abnormal NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001945",
+        "display": "Ammonia decreased"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001946",
+        "display": "Ammonia increased"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001947",
+        "display": "Ammonia normal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001948",
+        "display": "Ammoniacal dermatitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001949",
+        "display": "Amnesia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001951",
+        "display": "Amnesia transient"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001952",
+        "display": "Amnestic disorder NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001953",
+        "display": "Amnestic disorder, cause unknown"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001955",
+        "display": "Amnestic disorders due to a general medical condition"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001957",
+        "display": "Amnestic syndrome"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001958",
+        "display": "Amniocentesis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001959",
+        "display": "Amniocentesis abnormal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001960",
+        "display": "Amniocentesis exc.chromosome, neural tube screening"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001961",
+        "display": "Amniocentesis for chromosomal abnormalities"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001962",
+        "display": "Amniocentesis for neural tube defects"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001963",
+        "display": "Amniocentesis normal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001964",
+        "display": "Amnioscopy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001965",
+        "display": "Amnioscopy abnormal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001966",
+        "display": "Amnioscopy normal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001967",
+        "display": "Amniotic cavity disorder NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001968",
+        "display": "Amniotic cavity infection NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001969",
+        "display": "Amniotic fluid abnormal NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001971",
+        "display": "Amniotic fluid embolism"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001977",
+        "display": "Amniotic fluid embolus"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001978",
+        "display": "Amoeba histolytica dysentery"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001979",
+        "display": "Amoeba histolytica infection NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001980",
+        "display": "Amoebiasis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001982",
+        "display": "Amoebiasis NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001983",
+        "display": "Amoebiasis, unspecified"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001984",
+        "display": "Amoebic brain abscess"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001985",
+        "display": "Amoebic colitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001986",
+        "display": "Amoebic dysentery"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001987",
+        "display": "Amoebic enteritis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001989",
+        "display": "Amoebic liver abscess"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001990",
+        "display": "Amoebic lung abscess"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001992",
+        "display": "Amoebic skin ulcer"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001993",
+        "display": "Amoebic skin ulceration"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10001994",
+        "display": "Amoral personality"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084253",
+        "display": "Asymmetric crying facies"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084299",
+        "display": "Campylobacter colonisation of intestine"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084298",
+        "display": "Campylobacter colonization of intestine"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084265",
+        "display": "Canker sore"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084282",
+        "display": "Cardiac calcium score high"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084283",
+        "display": "Cardiac calcium score low"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084266",
+        "display": "Citrin deficiency"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084294",
+        "display": "Computerised tomogram pelvis and abdomen"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084295",
+        "display": "Computerized tomogram pelvis and abdomen"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084252",
+        "display": "Congenital hepatitis C infection"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084255",
+        "display": "Congenital unilateral lower lip palsy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084251",
+        "display": "Congenital viral hepatitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084269",
+        "display": "Coronavirus test negative"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084268",
+        "display": "COVID-19"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011300",
+        "display": "Cramps of lower body"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011301",
+        "display": "Cramps of lower extremities"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011303",
+        "display": "Cranial arteritis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011304",
+        "display": "Cranial nerve disorder NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011307",
+        "display": "Cranial nerve injury NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011308",
+        "display": "Cranial nerve injury secondary to birth trauma"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011309",
+        "display": "Cranial nerve lesion"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011310",
+        "display": "Cranial nerve lesion NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011311",
+        "display": "Cranial nerve neoplasm benign NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011312",
+        "display": "Cranial nerve operation NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011314",
+        "display": "Cranial nerve palsies multiple"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011315",
+        "display": "Cranial third nerve paralysis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011316",
+        "display": "Cranial third nerve paresis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011317",
+        "display": "Cranial ultrasound scan"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011318",
+        "display": "Craniopharyngioma"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011319",
+        "display": "Craniopharyngioma benign"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011325",
+        "display": "Crawling sensation"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011326",
+        "display": "Crawling sensation of skin"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011328",
+        "display": "Creatine"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10011329",
+        "display": "Creatine abnormal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084250",
+        "display": "Cryptotia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084257",
+        "display": "Discouragement"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084259",
+        "display": "Haemoglobin Lepore trait"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10060290",
+        "display": "Hair sulfur normal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084260",
+        "display": "Hemoglobin Lepore trait"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084297",
+        "display": "Hip resurfacing surgery"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10060299",
+        "display": "Human T-cell leukemia virus III"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084296",
+        "display": "Immune-mediated gastritis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084261",
+        "display": "Intestinal plication surgery"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084288",
+        "display": "Inverted follicular keratosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084258",
+        "display": "Laryngeal cryptococcosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10060298",
+        "display": "MHA-TP"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084267",
+        "display": "Mitochondrial aspartate glutamate carrier 2 deficiency"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084264",
+        "display": "Optic perineuritis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084292",
+        "display": "Padua prediction score"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084289",
+        "display": "Palliative sedation"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084262",
+        "display": "Piebaldism"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084263",
+        "display": "Rheumatological examination"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084256",
+        "display": "Sternomastoid tumor of infancy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084254",
+        "display": "Sternomastoid tumour of infancy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084291",
+        "display": "Tooth misalignment"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10060297",
+        "display": "Total white blood cell count"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-27-0",
+        "code": "10084293",
+        "display": "Unilateral glaucoma"
+      }
+    ]
+  },
+  "id": "meddra-code-27-0"
+}

@@ -1,1 +1,53 @@
-{"resourceType":"ValueSet","id":"canshare-who-haematology-mpn-other-histology","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:50.520+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-mpn-other-histology","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who-haematology-mpn-other-histology"}],"version":"20240419","name":"canshare-who-haematology-mpn-other-histology","title":"NZ WHO haematolymphoid myeloproliferative neoplasm other leukaemia histology","status":"active","experimental":false,"date":"2024-04-19","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Histologies used for myeloproliferative neoplasm which are not primary myelofibrosis, essential thrombocythemia, polycythemia vera, chronic myeloid leukaemia, chronic eosinophilic leukaemia, juvenile myelomonocytic leukaemia,   (WHO Classification of Tumours, Haematolymphoid Tumours) or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"1255668009 |Myeloproliferative neoplasm, NOS| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:34.031+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-mpn-other-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-haematology-mpn-other-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-haematology-mpn-other-histology",
+  "title": "NZ WHO haematolymphoid myeloproliferative neoplasm other leukaemia histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "74ac31cc-e553-4657-919b-97dda3d0a558",
+    "timestamp": "2024-11-01T20:22:54+13:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1255668009",
+        "display": "Myeloproliferative neoplasm unclassifiable"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      }
+    ]
+  },
+  "id": "canshare-who-haematology-mpn-other-histology"
+}

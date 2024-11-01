@@ -1,1 +1,93 @@
-{"resourceType":"ValueSet","id":"canshare-genitourinary-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:31.727+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-genitourinary-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-genitourinary-cancer-type"}],"version":"20240718","name":"canshare-genitourinary-cancer-type","title":"NZ cancer genitourinary cancer type","status":"active","experimental":false,"date":"2024-07-18","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of the primary genitourinary solid cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 302641000210108 |New Zealand cancer genitourinary cancer type reference set| MINUS (301051000210107 |Renal pelvis and/or ureter primary| OR 93689003 |Urinary bladder primary|)"}]},{"system":"http://snomed.info/sct","concept":[{"code":"93885006","display":"Other male genital primary"},{"code":"94125001","display":"Other urinary system primary"},{"code":"301051000210107","display":"Renal pelvis and ureter primary"},{"code":"93689003","display":"Bladder primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:10.235+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-genitourinary-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-genitourinary-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-genitourinary-cancer-type",
+  "title": "NZ cancer genitourinary cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "57485d01-e5d8-47fd-b2c3-b450283b8b98",
+    "timestamp": "2024-11-01T20:22:10+13:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93885006",
+        "display": "Other male genital primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94125001",
+        "display": "Other urinary system primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93849006",
+        "display": "Primary malignant neoplasm of kidney"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372005006",
+        "display": "Primary malignant neoplasm of penis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93974005",
+        "display": "Primary malignant neoplasm of prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301051000210107",
+        "display": "Primary malignant neoplasm of renal pelvis and/or ureter"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301001000210106",
+        "display": "Primary malignant neoplasm of testicular adnexa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94087009",
+        "display": "Primary malignant neoplasm of testis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94123008",
+        "display": "Primary malignant neoplasm of urethra"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93689003",
+        "display": "Primary malignant neoplasm of urinary bladder"
+      }
+    ]
+  },
+  "id": "canshare-genitourinary-cancer-type"
+}

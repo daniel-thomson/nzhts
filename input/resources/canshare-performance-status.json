@@ -1,1 +1,63 @@
-{"resourceType":"ValueSet","id":"canshare-performance-status","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:08.552+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-performance-status","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-performance-status"}],"version":"20240708","name":"canshare-performance-status","title":"NZ cancer performance status","status":"active","experimental":false,"date":"2024-07-08","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The performance status of the procedure and/or test.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"398166005 |Performed| OR 191611000210106 |Pending| OR 385651009 |In-progress|"}]},{"system":"http://snomed.info/sct","concept":[{"code":"340841000210104","display":"Not performed"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:25.918+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-performance-status",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-performance-status"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-performance-status",
+  "title": "NZ cancer performance status",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "336db2c2-4094-483a-9fc6-b23a60a04dd1",
+    "timestamp": "2024-11-01T20:24:37+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340841000210104",
+        "display": "Did not perform"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385651009",
+        "display": "In progress"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "191611000210106",
+        "display": "Pending"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "398166005",
+        "display": "Performed"
+      }
+    ]
+  },
+  "id": "canshare-performance-status"
+}

@@ -1,1 +1,540 @@
-{"resourceType":"ValueSet","id":"result-coded-value-pathology-uv-ips","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:03.822+12:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  106253005 (Histologic grading differentiation AND/OR behavior)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  373369003 (Finding of histologic grading differentiation AND/OR behavior (finding))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  399981008 (Neoplasm and/or hamartoma (disorder))</li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":2,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"}]}}],"url":"http://hl7.org/fhir/uv/ips/ValueSet/result-coded-value-pathology-uv-ips","version":"1.1.0","name":"ResultsCodedValuesPathologyUvIps","title":"Results Coded Values Pathology - IPS","status":"active","experimental":false,"date":"2022-11-22T03:32:52+00:00","publisher":"Health Level Seven International - Patient Care Work Group","contact":[{"telecom":[{"system":"url","value":"http://www.hl7.org/Special/committees/patientcare"}]}],"description":"This value set includes codes from SNOMED Clinical Terms (SNOMED CT®) that are included in:  all descendants of 106253005 \\|Histologic grading differentiation AND/OR behavior (qualifier value)\\|, all descendants of 373369003 \\|Finding of histologic grading differentiation AND/OR behavior (finding)\\|, all descendants of 399981008 \\|Neoplasm and/or hamartoma (disorder)\\|.","jurisdiction":[{"coding":[{"system":"http://unstats.un.org/unsd/methods/m49/m49.htm","code":"001"}]}],"immutable":false,"copyright":"The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"106253005"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"373369003"}]},{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/900000000000207008","filter":[{"property":"concept","op":"descendent-of","value":"399981008"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:13.852+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/uv/ips/ValueSet/result-coded-value-pathology-uv-ips",
+  "version": "1.1.0",
+  "name": "ResultsCodedValuesPathologyUvIps",
+  "title": "Results Coded Values Pathology - IPS",
+  "status": "active",
+  "experimental": false,
+  "copyright": "The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org",
+  "expansion": {
+    "identifier": "a3798c85-7085-410a-bd00-c4d3b75df5d1",
+    "timestamp": "2024-11-01T20:23:14+13:00",
+    "total": 10995,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400174005",
+        "display": "Basal cell carcinoma of antihelix of ear"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92124001",
+        "display": "Benign neoplasm of great vessels"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188900004",
+        "display": "Benign neoplasm of lower posterior mediastinum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188927000",
+        "display": "Benign neoplasm of lumbar vertebra"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109852009",
+        "display": "Benign neoplasm of mesothelial tissue of peritoneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92256001",
+        "display": "Benign neoplasm of olfactory nerve"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92269002",
+        "display": "Benign neoplasm of parametrial lymph nodes"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92413008",
+        "display": "Benign neoplasm of sublingual gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15958701000119105",
+        "display": "Bilateral metastatic malignant melanoma to kidneys"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12246561000119101",
+        "display": "Bilateral metastatic malignant neoplasm to adrenal glands"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92558004",
+        "display": "Carcinoma in situ of buccal mucosa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "189231007",
+        "display": "Carcinoma in situ of rectum and rectosigmoid junction"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92716004",
+        "display": "Carcinoma in situ of skin of cheek"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "92729004",
+        "display": "Carcinoma in situ of skin of groin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "424600001",
+        "display": "Carcinoma of ovary, stage 1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "449154007",
+        "display": "Cavernous hemangioma of scalp"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1079701000119109",
+        "display": "Congenital pigmented melanocytic nevus of skin of right ear"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293259005",
+        "display": "Deep penetrating melanocytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "897554004",
+        "display": "Dermal melanocytic hamartoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1332431001",
+        "display": "Disseminated Langerhans cell histiocytosis of abdominal lymph nodes"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "737169005",
+        "display": "Ductal comedocarcinoma in situ of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "403826009",
+        "display": "Familial multiple cylindroma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "238865006",
+        "display": "Fibromatosis colli"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "424286001",
+        "display": "Fibrous dysplasia of orbit"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369723005",
+        "display": "G4: Nuclei bizarre and multilobated, 20 µ or greater, nucleoli prominent, chromatin clumped"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "838372009",
+        "display": "High grade flat intraepithelial neoplasia of ampulla of Vater"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "783737007",
+        "display": "Hirschsprung disease, ganglioneuroblastoma syndrome"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "93509007",
+        "display": "Hodgkin's disease, mixed cellularity of spleen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188572001",
+        "display": "Hodgkin's disease, nodular sclerosis of lymph nodes of multiple sites"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279714001",
+        "display": "International Society of Urological Pathology grade group 2 (Gleason score 3 + 4 = 7)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "770559003",
+        "display": "Leiomyosarcoma of corpus uteri"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396446002",
+        "display": "Less than 1 mitotic figure per mm2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314952003",
+        "display": "Local recurrence of malignant tumor of buccal cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1255270006",
+        "display": "Lymphoplasmacytic lymphoma without immunoglobulin M production"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188506004",
+        "display": "Lymphosarcoma of spleen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "278052009",
+        "display": "Malignant lymphoma of breast"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "188296005",
+        "display": "Malignant neoplasm of medulla oblongata"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369448007",
+        "display": "Malignant tumor involving rectum by direct extension from endometrium"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "254530002",
+        "display": "Malignant tumor of parapharyngeal space"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1255730003",
+        "display": "Mast cell malignancy of lymph nodes of neck"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16782731000119102",
+        "display": "Melanoma in situ of forehead"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1251482009",
+        "display": "Metastatic adenocarcinoma to pancreatic duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1251496003",
+        "display": "Metastatic carcinoma to uvula"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1251497007",
+        "display": "Metastatic carcinoma to vermilion border of lower lip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94194009",
+        "display": "Metastatic malignant neoplasm to blood vessel of forearm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94197002",
+        "display": "Metastatic malignant neoplasm to blood vessel of hip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94419008",
+        "display": "Metastatic malignant neoplasm to muscle of buttock"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94472007",
+        "display": "Metastatic malignant neoplasm to parietal peritoneum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94483003",
+        "display": "Metastatic malignant neoplasm to perianal skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94486006",
+        "display": "Metastatic malignant neoplasm to phalanx of foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94497006",
+        "display": "Metastatic malignant neoplasm to posterior mediastinum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94640003",
+        "display": "Metastatic malignant neoplasm to tonsillar pillar"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1251471001",
+        "display": "Metastatic osteosarcoma to bone of clavicle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "254951005",
+        "display": "Mixed glial tumor of spinal cord"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "403816002",
+        "display": "Multiple café-au-lait macules due to neurofibromatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "109998009",
+        "display": "Myelodysplastic syndrome with ring sideroblasts and single lineage dysplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "738527001",
+        "display": "Myeloid and/or lymphoid neoplasm associated with platelet derived growth factor receptor alpha rearrangement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128571000119108",
+        "display": "Neoplasm following transplantation of kidney"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "129791000119108",
+        "display": "Neoplasm following transplantation of liver"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94772006",
+        "display": "Neoplasm of uncertain behavior of bronchus of middle lobe of right lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "94775008",
+        "display": "Neoplasm of uncertain behavior of buccal mucosa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419317000",
+        "display": "Neoplasm of uncertain behavior of lacrimal drainage structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "95012001",
+        "display": "Neoplasm of uncertain behavior of posterior wall of urinary bladder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "95013006",
+        "display": "Neoplasm of uncertain behavior of presacral region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "302845006",
+        "display": "Nodular malignant lymphoma, lymphocytic - well differentiated"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1293126001",
+        "display": "NTRK-rearranged spindle cell neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733064004",
+        "display": "Osteosarcoma, limb anomalies, erythroid macrocytosis syndrome"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419738008",
+        "display": "Pedunculated conjunctival papilloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "449732002",
+        "display": "Pigmented actinic keratosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "707671008",
+        "display": "Pleuropulmonary blastoma type I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259666003",
+        "display": "Primary acinar cell cystadenocarcinoma of prostate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "721559007",
+        "display": "Primary adenocarcinoma of common bile duct"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "681941000119107",
+        "display": "Primary adenocarcinoma of pylorus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259822003",
+        "display": "Primary anaplastic lymphoma kinase fusion oncogene negative non-small cell lung cancer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259377000",
+        "display": "Primary basal cell carcinoma with eccrine differentiation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259704009",
+        "display": "Primary basaloid squamous cell carcinoma of nasopharynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259376009",
+        "display": "Primary basosquamous carcinoma of skin"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259415000",
+        "display": "Primary carcinoma of head of pancreas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "721716004",
+        "display": "Primary cholangiocarcinoma of intrahepatic biliary tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259823008",
+        "display": "Primary chordoma of cervical spine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1080051000119105",
+        "display": "Primary Ewing sarcoma of bone of right foot"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "685951000119107",
+        "display": "Primary liposarcoma of soft tissue of perineum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1269412004",
+        "display": "Primary medulloepithelioma of central nervous system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "352091000119106",
+        "display": "Primary Merkel cell carcinoma of skin of nose"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1259797008",
+        "display": "Primary Paget disease of skin of scrotum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "687841000119105",
+        "display": "Primary rhabdomyosarcoma of inguinal region"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1081851000119108",
+        "display": "Primary small cell carcinoma of left main bronchus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1268632002",
+        "display": "Primary squamous cell carcinoma of gallbladder and extrahepatic biliary tract"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "707421004",
+        "display": "Primary undifferentiated carcinoma of larynx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "724553007",
+        "display": "Primary undifferentiated carcinoma of thyroid gland"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400188009",
+        "display": "Relapsing linear acantholytic dermatosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "789044001",
+        "display": "Serous cystadenoma borderline malignancy of ovary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290893002",
+        "display": "Small cell osteosarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "403891008",
+        "display": "Squamous cell carcinoma of scalp"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62497000",
+        "display": "Stewart-Treves syndrome"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1144922006",
+        "display": "Thymoma type AB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372290003",
+        "display": "Tumor invasion of periprostatic fat absent (prostate)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "403958000",
+        "display": "Ulcerated angiomatous nevus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369737001",
+        "display": "Vascular invasion by tumor, grossly evident"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "369734008",
+        "display": "Venous (large vessel) extramural invasion by tumor present"
+      }
+    ]
+  },
+  "id": "result-coded-value-pathology-uv-ips"
+}

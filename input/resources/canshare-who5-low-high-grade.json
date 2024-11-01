@@ -1,1 +1,58 @@
-{"resourceType":"ValueSet","id":"canshare-who5-low-high-grade","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:53.968+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-low-high-grade","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-who5-low-high-grade"}],"version":"20240419","name":"canshare-who5-low-high-grade","title":"NZ WHO (5th edition) malignant low high grade","status":"active","experimental":false,"date":"2024-04-19","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The grade of a cancer, assessed using the WHO Classification of Tumours (5th edition) malignant low / high grading system.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 341001000210104 |New Zealand World Health Organization classification of tumors 5th edition malignant low high grade reference set (foundation metadata concept)|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:24.864+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who5-low-high-grade",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who5-low-high-grade"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who5-low-high-grade",
+  "title": "NZ WHO (5th edition) malignant low high grade",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "9ab4f482-417a-42a0-bc1c-38565cc864be",
+    "timestamp": "2024-11-01T20:21:28+13:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "384741006",
+        "display": "Grade cannot be determined"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1155707008",
+        "display": "High histologic grade"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1155708003",
+        "display": "Low histologic grade"
+      }
+    ]
+  },
+  "id": "canshare-who5-low-high-grade"
+}

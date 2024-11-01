@@ -1,1 +1,543 @@
-{"resourceType":"ValueSet","id":"canshare-lymphnode","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:20.510+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-lymphnode"}],"version":"20240318","name":"canshare-lymphnode","title":"NZ cancer lymph node ","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Lymph nodes used for diagnosis of cancer or an 'Other' value.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 312771000210108 |New Zealand cancer lymph node reference set| OR 74964007 |Other|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:49.167+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lymphnode"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lymphnode",
+  "title": "NZ cancer lymph node",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "c1baa0b6-b665-4027-9839-bc29bc7c262b",
+    "timestamp": "2024-11-01T20:25:32+13:00",
+    "total": 176,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279800004",
+        "display": "Inferior epigastric lymph node group"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9659009",
+        "display": "Infraclavicular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64038003",
+        "display": "Intercostal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127936005",
+        "display": "Left lower paratracheal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127929009",
+        "display": "Left upper paratracheal (supra-aortic) mediastinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340881000210106",
+        "display": "Level II axillary lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "340891000210108",
+        "display": "Level III axillary lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "254198003",
+        "display": "Lymph nodes of multiple sites"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62683002",
+        "display": "Mediastinal lymph node structure"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245346008",
+        "display": "Peripancreatic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245345007",
+        "display": "Porta hepatis node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127931000",
+        "display": "Retrotracheal lymph node (mediastinal)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127935009",
+        "display": "Right lower paratracheal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127928001",
+        "display": "Right upper paratracheal (supra innominate) mediastinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "25247006",
+        "display": "Structure of anterior auricular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "455901000210105",
+        "display": "Structure of anterior perithymic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35783009",
+        "display": "Structure of aortic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395661000210103",
+        "display": "Structure of aortocaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34775006",
+        "display": "Structure of cubital lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "65266007",
+        "display": "Structure of deep inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "196751009",
+        "display": "Structure of diaphragmatic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28870006",
+        "display": "Structure of epitrochlear lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "69255009",
+        "display": "Structure of hypogastric lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113336002",
+        "display": "Structure of inferior mesenteric lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "196821008",
+        "display": "Structure of innominate lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36251007",
+        "display": "Structure of intestinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279609001",
+        "display": "Structure of juxtaintestinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33770006",
+        "display": "Structure of lateral axillary lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "196587000",
+        "display": "Structure of lateral pericardial lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "282116006",
+        "display": "Structure of left colic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285494001",
+        "display": "Structure of left hilar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381941000210107",
+        "display": "Structure of left hilar lymph node station ten left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285496004",
+        "display": "Structure of left interlobar lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381961000210108",
+        "display": "Structure of left interlobar lymph node station eleven left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381871000210109",
+        "display": "Structure of left lower paratracheal lymph node station four left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285491009",
+        "display": "Structure of left lymph node of pulmonary ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1332375001",
+        "display": "Structure of left paracardial lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285502005",
+        "display": "Structure of left subsegmental lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382021000210108",
+        "display": "Structure of left subsegmental lymph node station fourteen left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16217501000119107",
+        "display": "Structure of left supraclavicular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381811000210100",
+        "display": "Structure of left supraclavicular lymph node station one left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381831000210107",
+        "display": "Structure of left upper paratracheal (supra-aortic) mediastinal lymph node station two left of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8334002",
+        "display": "Structure of lumbar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76878005",
+        "display": "Structure of lymph node of greater curvature of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279784003",
+        "display": "Structure of lymph node of lesser curvature of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381921000210101",
+        "display": "Structure of lymph node of pulmonary ligament station nine of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "279866008",
+        "display": "Structure of lymph node ring of cardia of stomach"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "155338003",
+        "display": "Structure of mandibular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "282031000",
+        "display": "Structure of midcolic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466101000210108",
+        "display": "Structure of middle jugular level III lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3916005",
+        "display": "Structure of occipital lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127939003",
+        "display": "Structure of para-aortic lymph node of anterior mediastinum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381891000210108",
+        "display": "Structure of para-aortic lymph node of anterior mediastinum station six of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3243006",
+        "display": "Structure of parametrial lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82365008",
+        "display": "Structure of parasternal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "65690001",
+        "display": "Structure of paratracheal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395711000210105",
+        "display": "Structure of perivesical lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466071000210100",
+        "display": "Structure of posterior triangle cervical level V lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466121000210100",
+        "display": "Structure of posterior triangle cervical sublevel VA lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466131000210103",
+        "display": "Structure of posterior triangle cervical sublevel VB lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395681000210106",
+        "display": "Structure of precaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74203007",
+        "display": "Structure of prelaryngeal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6413002",
+        "display": "Structure of presymphysial lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "168460001",
+        "display": "Structure of pretracheal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285503000",
+        "display": "Structure of prevascular lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381841000210104",
+        "display": "Structure of prevascular lymph node station three anterior of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "249708006",
+        "display": "Structure of renal hilar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "455911000210107",
+        "display": "Structure of retro pancreatic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395691000210108",
+        "display": "Structure of retrocaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381851000210101",
+        "display": "Structure of retrotracheal lymph node (mediastinal) station 3 posterior of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285492002",
+        "display": "Structure of right hilar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381931000210104",
+        "display": "Structure of right hilar lymph node station ten right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285495000",
+        "display": "Structure of right interlobar lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381951000210105",
+        "display": "Structure of right interlobar lymph node station eleven right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285497008",
+        "display": "Structure of right lobar lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381971000210102",
+        "display": "Structure of right lobar lymph node station twelve right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381861000210103",
+        "display": "Structure of right lower paratracheal lymph node station station four right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285490005",
+        "display": "Structure of right lymph node of pulmonary ligament"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1332374002",
+        "display": "Structure of right paracardial lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285499006",
+        "display": "Structure of right segmental lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381991000210103",
+        "display": "Structure of right segmental lymph node station thirteen right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1285501003",
+        "display": "Structure of right subsegmental lymph node of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382011000210103",
+        "display": "Structure of right subsegmental lymph node station fourteen right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381801000210102",
+        "display": "Structure of right supraclavicular lymph node station one right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381821000210105",
+        "display": "Structure of right upper paratracheal (supra innominate) mediastinal lymph node station two right of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280824006",
+        "display": "Structure of splenic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "381901000210109",
+        "display": "Structure of subcarinal lymph node station seven of lung"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "455931000210100",
+        "display": "Structure of submandibular sublevel IB lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46055009",
+        "display": "Structure of submental lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "455921000210102",
+        "display": "Structure of submental sublevel IA lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12196003",
+        "display": "Structure of subscapular axillary lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "113340006",
+        "display": "Structure of superficial inguinal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466151000210109",
+        "display": "Structure of superior mediastinal level VII lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49394004",
+        "display": "Structure of superior mesenteric lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "280216006",
+        "display": "Structure of suprapyloric lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "466091000210101",
+        "display": "Structure of upper jugular sublevel IIB lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1297248000",
+        "display": "Structure of upper thoracic paraoesophageal lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "5394000",
+        "display": "Structure of uterine paracervical lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "245371006",
+        "display": "Superomedial superficial inguinal node"
+      }
+    ]
+  },
+  "id": "canshare-lymphnode"
+}

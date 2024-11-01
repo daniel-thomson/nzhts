@@ -1,1 +1,93 @@
-{"resourceType":"ValueSet","id":"canshare-tnm8-haematology-non-mf-or-ss-pt","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:31:19.101+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-haematology-non-mf-or-ss-pt","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm8-haematology-non-mf-or-ss-pt"}],"version":"20240318","name":"canshare-tnm8-haematology-non-mf-or-ss-pt","title":"NZ AJCC (8th edition) haematology primary cutaneous B cell or T cell (non MF/SS) lymphoma pathological T category","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A pathological tumour stage (pT) of a cutaneous B cell or T cell lymphoma (non mycosis fungoides and non sezary syndrome), using the AJCC cancer staging manual (8th edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 253601000210102 |New Zealand AJCC 8th edition haematology primary cutaneous B-cell or T-cell (non-MF/SS) lymphoma pathological T category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:27.455+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm8-haematology-non-mf-or-ss-pt",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm8-haematology-non-mf-or-ss-pt"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm8-haematology-non-mf-or-ss-pt",
+  "title": "NZ AJCC (8th edition) haematology primary cutaneous B cell or T cell (non MF/SS) lymphoma pathological T category",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "4258cc9e-2cb6-4a8e-a2c3-fc5da9cddc91",
+    "timestamp": "2024-11-01T20:25:39+13:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228957006",
+        "display": "pT1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228959009",
+        "display": "pT1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1228962007",
+        "display": "pT1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229852009",
+        "display": "pT2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229853004",
+        "display": "pT2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229856007",
+        "display": "pT2b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229857003",
+        "display": "pT2c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229859000",
+        "display": "pT3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229860005",
+        "display": "pT3a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1229861009",
+        "display": "pT3b"
+      }
+    ]
+  },
+  "id": "canshare-tnm8-haematology-non-mf-or-ss-pt"
+}

@@ -1,1 +1,527 @@
-{"resourceType":"ValueSet","id":"meddra-code-26-0","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:45.467+12:00"},"url":"https://nzhts.digital.health.nz/fhir/ValueSet/meddra-code-26-0","version":"20231101","name":"MedDRA_LLT_26_0_VS","title":"MedDRA LLT 26.0 VS","status":"active","date":"2023-07-01T00:00:00.000Z","contact":[{"telecom":[{"system":"email","value":"standards@health.govt.nz"}]}],"description":"FHIR ValueSet for MedDRA LLT 26.0","compose":{"include":[{"system":"http://terminology.hl7.org/CodeSystem/mdr-26-0","version":"26.0"}]}}
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/meddra-code-26-0",
+  "expansion": {
+    "identifier": "2dc692b6-25ae-40b5-9df6-9d24c4ac4dc2",
+    "timestamp": "2024-11-01T20:23:58+13:00",
+    "total": 77408,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://terminology.hl7.org/CodeSystem/mdr-26-0|26.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003600",
+        "display": "Atheroma coronary artery"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003601",
+        "display": "Atherosclerosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003602",
+        "display": "Atherosclerosis cerebral"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003605",
+        "display": "Atherosclerosis of aorta"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003610",
+        "display": "Atherosclerosis of arteries of the extremities with ulceration"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003611",
+        "display": "Atherosclerosis of arteries of the extremities, unspecified"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003612",
+        "display": "Atherosclerosis of autologous vein bypass graft of the extremities"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003613",
+        "display": "Atherosclerosis of bypass graft of the extremities"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003616",
+        "display": "Atherosclerosis of renal artery"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003617",
+        "display": "Atherosclerosis of unspecified graft of the extremities"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003618",
+        "display": "Atherosclerotic dementia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003619",
+        "display": "Athetoid"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003620",
+        "display": "Athetosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003621",
+        "display": "Athlete's foot"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003624",
+        "display": "Atonia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003625",
+        "display": "Atonic bladder (neurogenic)"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003626",
+        "display": "Atonic bladder sphincter"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003627",
+        "display": "Atonic hemorrhage"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003628",
+        "display": "Atonic seizures"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10003629",
+        "display": "Atonic urinary bladder"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052590",
+        "display": "Bateman's purpura senilis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076541",
+        "display": "Biological antioxidant potential"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076567",
+        "display": "Biopsy neck"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076584",
+        "display": "Blood culture positive for Staphylococcus"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076581",
+        "display": "Blood pressure measurement"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052599",
+        "display": "Bone marrow dysplasia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076579",
+        "display": "Breath sounds normal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076597",
+        "display": "Chest wall haematoma"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052583",
+        "display": "Chronic generalised exfoliative dermatitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052597",
+        "display": "Coronary stent placement"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076572",
+        "display": "Dermal filler overcorrection"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076591",
+        "display": "Discoid lupus erythematosus-lichen planus overlap syndrome"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052591",
+        "display": "Enteral nutrition"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076550",
+        "display": "Enteropathic arthropathy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076549",
+        "display": "Enteropathic spondylitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076551",
+        "display": "Enteropathic spondyloarthropathy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052585",
+        "display": "Erythema annulare rheumaticum"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076569",
+        "display": "Eye paraesthesia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076570",
+        "display": "Eye paresthesia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076598",
+        "display": "Fallopian tube diverticulosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076546",
+        "display": "Falsified drug administered"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076548",
+        "display": "Falsified product"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076576",
+        "display": "Focal epithelial hyperplasia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052592",
+        "display": "Gastrostomy tube insertion"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076583",
+        "display": "Haemodynamometry"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076575",
+        "display": "Harlequin syndrome"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076577",
+        "display": "Heck's disease"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076582",
+        "display": "Hemodynamometry"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076552",
+        "display": "Idiopathic partial epilepsy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076580",
+        "display": "Immunoadsorption therapy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076544",
+        "display": "Intercepted product selection error"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076587",
+        "display": "Laser brain ablation"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052580",
+        "display": "Leukoplakia labialis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052581",
+        "display": "Leukoplakia lingualis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052586",
+        "display": "Lichen sclerosis atrophicus"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076556",
+        "display": "Little's area varicosities"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076555",
+        "display": "Locus valsalvae varices"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076578",
+        "display": "Lumbosacral radiculopathy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076596",
+        "display": "Marginal zone lymphoma"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052598",
+        "display": "Meningeal bleeding"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052593",
+        "display": "Meningorrhagia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076585",
+        "display": "Nasal mucosal erosion"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076553",
+        "display": "Nasal varices"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052596",
+        "display": "Nosocomial pneumonia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076590",
+        "display": "Oral blood blister"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076574",
+        "display": "Patient dissatisfaction with procedure outcome"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076571",
+        "display": "Patient dissatisfaction with treatment"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076566",
+        "display": "Perineal necrosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052587",
+        "display": "Periorificial lentiginosis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052594",
+        "display": "Periventricular leukomalacia"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076540",
+        "display": "Pneumocystis test negative"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076594",
+        "display": "Polydrug dependence"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076542",
+        "display": "Product selection error"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076588",
+        "display": "Radiotherapy to mediastinum"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076557",
+        "display": "Retinal blot haemorrhages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076558",
+        "display": "Retinal blot hemorrhages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076559",
+        "display": "Retinal dot and blot haemorrhages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076560",
+        "display": "Retinal dot and blot hemorrhages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076561",
+        "display": "Retinal dot haemorrhages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076562",
+        "display": "Retinal dot hemorrhages"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052589",
+        "display": "Rheumatic purpura"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076554",
+        "display": "Saburral tongue"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076593",
+        "display": "Scedosporium apiospermum infection"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076592",
+        "display": "Scedosporium prolificans infection"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076563",
+        "display": "Sensory polyneuropathy"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052588",
+        "display": "Skin and subcutaneous tissue abscess NOS"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076586",
+        "display": "Splenic hamartoma"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052582",
+        "display": "Subacute generalised exfoliative dermatitis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076595",
+        "display": "Substance dependence"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076547",
+        "display": "Suspected falsified product"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052595",
+        "display": "Tube placement for enteral nutrition"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076599",
+        "display": "Ulcerative gastritis"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076589",
+        "display": "Unintentional use for unapproved indication"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076568",
+        "display": "Urinary tract discomfort"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10052584",
+        "display": "Wilson-Brocq's disease"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076565",
+        "display": "Wrist edema"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076564",
+        "display": "Wrist oedema"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076545",
+        "display": "Wrong drug concentration selected"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076543",
+        "display": "Wrong product selected"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/mdr-26-0",
+        "code": "10076573",
+        "display": "Wrong technique in product usage process"
+      }
+    ]
+  },
+  "id": "meddra-code-26-0"
+}

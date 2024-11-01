@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:44.088+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoid-substream",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-b-cell-lymphoid-substream"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-b-cell-lymphoid-substream",
+  "title": "NZ cancer B cell lymphoid substream",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "2ac8da40-d317-480c-b7e0-f5928bc8101b",
+    "timestamp": "2024-11-01T20:21:38+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392081000210108",
+        "display": "Other B-cell lymphoid proliferation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "91857003",
+        "display": "Acute lymphoid leukaemia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "392031000210109",
+        "display": "Aggressive B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "207036003",
+        "display": "Castleman disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351651000210106",
+        "display": "Indolent B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "351671000210103",
+        "display": "Plasma cell neoplasms and/or diseases with paraproteins"
+      }
+    ]
+  },
+  "id": "canshare-b-cell-lymphoid-substream"
+}

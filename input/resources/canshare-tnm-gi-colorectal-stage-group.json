@@ -1,1 +1,98 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-gi-colorectal-stage-group","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:19.359+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-gi-colorectal-stage-group","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-gi-colorectal-stage-group"}],"version":"20240318","name":"canshare-tnm-gi-colorectal-stage-group","title":"NZ AJCC gastrointestinal colon and/or rectum stage group","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The stage groups that describe how far a gastrointestinal colon and/or rectum cancer has grown and spread, using AJCC cancer staging manual (latest edition).","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^351231000210103 |New Zealand AJCC 8th edition gastrointestinal colon and/or rectum stage group reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:49.662+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-gi-colorectal-stage-group",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-gi-colorectal-stage-group"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-gi-colorectal-stage-group",
+  "title": "NZ AJCC gastrointestinal colon and rectum stage group",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "2492f306-946c-4662-bd9d-4a8585359e94",
+    "timestamp": "2024-11-01T20:22:27+13:00",
+    "total": 11,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222605001",
+        "display": "0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222723001",
+        "display": "I"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222766008",
+        "display": "IIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222769001",
+        "display": "IIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222770000",
+        "display": "IIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222802001",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222805004",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222806003",
+        "display": "IIIC"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222838008",
+        "display": "IVA"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222841004",
+        "display": "IVB"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1222842006",
+        "display": "IVC"
+      }
+    ]
+  },
+  "id": "canshare-tnm-gi-colorectal-stage-group"
+}

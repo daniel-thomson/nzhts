@@ -1,1 +1,647 @@
-{"resourceType":"ValueSet","id":"canshare-sact-regimen-code","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:28:39.177+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-regimen-code","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-sact-regimen-code"}],"version":"20240605","name":"canshare-sact-regimen-code","title":"NZ SACT regimen code","status":"active","experimental":false,"date":"2024-06-05","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"Systemic anti-cancer therapy (SACT) regimens published by the New Zealand Medicines Formulary in the SACT Regimen Library.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"< 61371000210101 |Systemic anti cancer therapy regimen (regime/therapy)|"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"392611000210105","display":"BR Metastatic - cARBOplatin [2 AUC] and gemcitabine"},{"code":"392601000210108","display":"BR Metastatic - ribociclib"},{"code":"392591000210103","display":"LEU - GMALL T-LBL 1/2004 HDMTX/ASP [55 years and under]"},{"code":"392581000210100","display":"LEU - GMALL T-LBL 1/2004 Consolidation [55 years and under]"},{"code":"392571000210102","display":"LEU - GMALL T-LBL 1/2004 Pre-phase and Induction [55 years and under]"},{"code":"392561000210108","display":"LEU ALL precursor T-cell - GMALL T-LBL 1/2004 [55 years and under]"},{"code":"392551000210105","display":"LEU - GMALL T-LBL 1/2004 triple prophylaxis"},{"code":"392541000210107","display":"LEU - GMALL T-LBL 1/2004 CYCLO/ARAC"},{"code":"392531000210104","display":"LEU - GMALL T-LBL 1/2004 VM26/ARAC"},{"code":"392521000210101","display":"LEU - GMALL T-LBL 1/2004 Reinduction"},{"code":"392511000210106","display":"LEU - GMALL T-LBL 1/2004 HDMTX/ASP [over 55 years]"},{"code":"392501000210109","display":"LEU - GMALL T-LBL 1/2004 Consolidation I [over 55 years]"},{"code":"392491000210104","display":"LEU - GMALL T-LBL 1/2004 Pre-phase and Induction [over 55 years]"},{"code":"392481000210101","display":"LEU ALL precursor T-cell - GMALL T-LBL 1/2004 [over 55 years]"},{"code":"392471000210103","display":"LEU - HyperCVAD with pegaspargase [under 40 years] Part B with Intrathecal CNS prophylaxis High Risk"},{"code":"392461000210109","display":"LEU - HyperCVAD with pegaspargase [under 40 years] Part B with Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"392451000210106","display":"LEU - HyperCVAD with pegaspargase [under 40 years] Part A with Intrathecal CNS prophylaxis High Risk"},{"code":"392441000210108","display":"LEU - HyperCVAD with pegaspargase [under 40 years] Part A with Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"392431000210100","display":"LEU ALL - HyperCVAD with pegaspargase Part A and B followed by POMP Maintenance [under 40 years]"},{"code":"392421000210102","display":"LEU - UKALL14 with RITUximab [over 40 years] [not for transplant] Consolidation/delayed intensification [Cycle 3]"},{"code":"392411000210107","display":"LEU - UKALL14 with RITUximab [over 40 years] [not for transplant] Intensification/CNS prophylaxis"},{"code":"392401000210105","display":"LEU ALL precursor B-cell - UKALL14 with RITUximab [over 40 years] [not for transplant]"},{"code":"392391000210107","display":"LEU - UKALL14 with RITUximab [not for transplant] Maintenance"},{"code":"392381000210105","display":"LEU - UKALL14 with RITUximab [40 years and under] [not for transplant] Consolidation/delayed intensification [Cycle 3]"},{"code":"392371000210108","display":"LEU - UKALL14 with RITUximab [40 years and under] [not for transplant] Intensification/CNS prophylaxis"},{"code":"392361000210102","display":"LEU - UKALL14 with RITUximab [not for transplant] Phase 2 Induction"},{"code":"392351000210100","display":"LEU ALL precursor B-cell - UKALL14 with RITUximab [40 years and under] [not for transplant]"},{"code":"392341000210103","display":"LEU - HyperCVAD with RITUximab [60 years and under] Part B with Intrathecal CNS prophylaxis High Risk"},{"code":"392331000210106","display":"LEU - HyperCVAD with RITUximab [60 years and under] Part B with Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"392321000210109","display":"LEU - HyperCVAD with RITUximab [60 years and under] Part A with Intrathecal CNS prophylaxis High Risk"},{"code":"392311000210104","display":"LEU - HyperCVAD with RITUximab [60 years and under] Part A with Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"392301000210101","display":"LEU ALL precursor B-cell - HyperCVAD with RITUximab Part A and B followed by POMP Maintenance [60 years and under]"},{"code":"392291000210100","display":"LEU - HyperCVAD with RITUximab [over 60 years] Part B with Intrathecal CNS prophylaxis High Risk"},{"code":"392281000210102","display":"LEU - HyperCVAD Part B with RITUximab [over 60 years] Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"391941000210106","display":"LEU - HyperCVAD Part A with RITUximab [over 60 years] Intrathecal CNS prophylaxis High Risk"},{"code":"391931000210103","display":"LEU - HyperCVAD Part A with RITUximab [over 60 years] Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"391921000210100","display":"LEU ALL precursor B-cell - HyperCVAD with RITUximab Part A and B followed by POMP Maintenance [over 60 years]"},{"code":"391911000210105","display":"LEU - UKALL14 with RITUximab [40 years and under] [for transplant] Consolidation/delayed intensification [Cycle 3]"},{"code":"391901000210108","display":"LEU - UKALL14 with RITUximab [40 years and under] Consolidation [Cycle 1 and 2]"},{"code":"391891000210107","display":"LEU - UKALL14 with RITUximab [40 years and under] [for transplant] Intensification/CNS prophylaxis"},{"code":"391881000210105","display":"LEU - UKALL14 with RITUximab [40 years and under] Phase 1 Induction"},{"code":"391871000210108","display":"LEU ALL precursor B-cell - UKALL14 with RITUximab [40 years and under] [for transplant]"},{"code":"391861000210102","display":"LEU - UKALL14 Consolidation/delayed intensification [Cycle 3] [40 years and under]"},{"code":"391851000210100","display":"LEU - UKALL14 Consolidation [Cycle 1] [40 years and under]"},{"code":"391841000210103","display":"LEU - UKALL14 Intensification/CNS prophylaxis [40 years and under]"},{"code":"391831000210106","display":"LEU - UKALL14 Phase 1 Induction [40 years and under]"},{"code":"391821000210109","display":"LEU ALL - UKALL14 [40 years and under]"},{"code":"391811000210104","display":"LEU - UKALL14 with RITUximab Consolidation [Cycle 4]"},{"code":"391801000210101","display":"LEU - UKALL14 with RITUximab [over 40 years] [for transplant] Consolidation/delayed intensification [Cycle 3]"},{"code":"391791000210100","display":"LEU - UKALL14 with RITUximab [over 40 years] Consolidation [Cycle 1 and 2]"},{"code":"391781000210102","display":"LEU - UKALL14 with RITUximab [over 40 years] [for transplant] Intensification/CNS prophylaxis"},{"code":"391771000210104","display":"LEU - UKALL14 with RITUximab [for transplant] Phase 2 Induction"},{"code":"391761000210105","display":"LEU - UKALL14 with RITUximab [over 40 years] Phase 1 Induction"},{"code":"391751000210107","display":"LEU ALL precursor B-cell - UKALL14 with RITUximab [over 40 years] [for transplant]"},{"code":"391741000210109","display":"LEU - AIDA consolidation 3 [over 70 years]"},{"code":"391731000210101","display":"LEU - AIDA consolidation 2 [over 70 years]"},{"code":"391721000210103","display":"LEU - AIDA consolidation 1 [over 70 years]"},{"code":"391711000210108","display":"LEU - AIDA induction [over 70 years]"},{"code":"391701000210106","display":"LEU APL - AIDA induction and consolidations 1, 2 and 3 [over 70 years]"},{"code":"391691000210106","display":"LEU AML - DA+GO-1 [DAUNOrubicin, cytarabine and Mylotarg [gemtuzumab ozogamicin]] induction [de novo CD33+] [good or intermediate risk]"},{"code":"391681000210109","display":"LEU - Pethema LPA2005 maintenance [70 years and under] [low risk]"},{"code":"391671000210107","display":"LEU - Pethema LPA2005 consolidation 3 [70 years and under] [low risk]"},{"code":"391661000210101","display":"LEU - Pethema LPA2005 consolidation 2 [70 years and under] [low risk]"},{"code":"391621000210108","display":"LEU - Pethema LPA2005 consolidation 1 [70 years and under] [low risk]"},{"code":"391601000210100","display":"LEU - Pethema LPA2005 induction [70 years and under] [low risk]"},{"code":"391591000210105","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [70 years and under] [low risk]"},{"code":"391581000210108","display":"LEU - Pethema LPA2005 maintenance [over 70 years] [low risk]"},{"code":"391571000210106","display":"LEU - Pethema LPA2005 consolidation 3 [over 70 years] [low risk]"},{"code":"391561000210100","display":"LEU - Pethema LPA2005 consolidation 2 [over 70 years] [low risk]"},{"code":"391551000210103","display":"LEU - Pethema LPA2005 consolidation 1 [over 70 years] [low risk]"},{"code":"391541000210101","display":"LEU - Pethema LPA2005 induction [over 70 years] [low risk]"},{"code":"391531000210109","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [over 70 years] [low risk]"},{"code":"391521000210107","display":"LEU - Pethema LPA2005 maintenance [over 70 years] [high risk]"},{"code":"391511000210102","display":"LEU - Pethema LPA2005 consolidation 3 [over 70 years] [high risk]"},{"code":"391501000210104","display":"LEU - Pethema LPA2005 consolidation 2 [over 70 years] [high risk]"},{"code":"391491000210109","display":"LEU - Pethema LPA2005 consolidation 1 [over 70 years] [high risk]"},{"code":"391481000210107","display":"LEU - Pethema LPA2005 induction [over 70 years] [high risk]"},{"code":"391471000210105","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [over 70 years] [high risk]"},{"code":"391461000210104","display":"GU GCT Seminoma Adjuvant - cARBOplatin [7 AUC]"},{"code":"391451000210102","display":"GU URO Advanced - cISplatin and gemcitabine"},{"code":"391441000210100","display":"GU URO Advanced - cISplatin [split dose] and gemcitabine"},{"code":"391431000210108","display":"GU Upper Tract Urothelial Adjuvant - cISplatin [split dose] and gemcitabine"},{"code":"391421000210106","display":"GU GCT Metastatic - TIP [PACLItaxel, IFOSFamide and cISplatin]"},{"code":"391411000210101","display":"LEU - Pethema LPA2005 maintenance [over 70 years] [intermediate risk]"},{"code":"312741000210103","display":"LEU - Pethema LPA2005 consolidation 3 [over 70 years] [intermediate risk]"},{"code":"312731000210106","display":"LEU - Pethema LPA2005 consolidation 2 [over 70 years] [intermediate risk]"},{"code":"312721000210109","display":"LEU - Pethema LPA2005 consolidation 1 [over 70 years] [intermediate risk]"},{"code":"312711000210104","display":"LEU - Pethema LPA2005 induction [over 70 years] [intermediate risk]"},{"code":"312701000210101","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [over 70 years] [intermediate risk]"},{"code":"312691000210101","display":"LEU - Pethema LPA2005 maintenance [under 60 years] [high risk]"},{"code":"312681000210103","display":"LEU - Pethema LPA2005 consolidation 3 [under 60 years] [high risk]"},{"code":"312671000210100","display":"LEU - Pethema LPA2005 consolidation 2 [under 60 years] [high risk]"},{"code":"312661000210106","display":"LEU - Pethema LPA2005 consolidation 1 [under 60 years] [high risk]"},{"code":"312651000210108","display":"LEU - Pethema LPA2005 induction [under 60 years] [high risk]"},{"code":"312631000210102","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [under 60 years] [high risk]"},{"code":"312621000210104","display":"LEU - Pethema LPA2005 maintenance [60 to 70 years] [high risk]"},{"code":"312611000210109","display":"LEU - Pethema LPA2005 consolidation 3 [60 to 70 years] [high risk]"},{"code":"312601000210107","display":"LEU - Pethema LPA2005 consolidation 2 [60 to 70 years] [high risk]"},{"code":"312591000210102","display":"LEU - Pethema LPA2005 consolidation 1 [60 to 70 years] [high risk]"},{"code":"312581000210104","display":"LEU - Pethema LPA2005 induction [60 to 70 years] [high risk]"},{"code":"312571000210101","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [60 to 70 years] [high risk]"},{"code":"312561000210107","display":"LEU - UKALL14 Maintenance"},{"code":"312551000210109","display":"LEU - UKALL14 Consolidation [Cycle 4]"},{"code":"312541000210106","display":"LEU - UKALL14 Consolidation/delayed intensification [Cycle 3] [over 40 years]"},{"code":"312531000210103","display":"LEU - UKALL14 Consolidation [Cycle 2]"},{"code":"312521000210100","display":"LEU - UKALL14 Consolidation [Cycle 1] [over 40 years]"},{"code":"312511000210105","display":"LEU - UKALL14 Intensification/CNS prophylaxis [over 40 years]"},{"code":"312501000210108","display":"LEU - UKALL14 - Phase 2 Induction"},{"code":"312491000210103","display":"LEU - UKALL14 [over 40 years] - Phase 1 Induction"},{"code":"312481000210100","display":"LEU ALL - UKALL14 [over 40 years]"},{"code":"312471000210102","display":"LYM NHL B-cell - O-CHOP21 [oBINUTUZumab, CYCLOPHOSPHamide, DOXOrubicin, vinCRISTine and prEDNISone]"},{"code":"312461000210108","display":"LYM - DA-R-EPOCH LEVEL 6"},{"code":"312451000210105","display":"LYM - DA-R-EPOCH LEVEL 5"},{"code":"312441000210107","display":"LYM - DA-R-EPOCH LEVEL 4"},{"code":"312431000210104","display":"LYM - DA-R-EPOCH LEVEL 3"},{"code":"312421000210101","display":"LYM - DA-R-EPOCH LEVEL 2"},{"code":"312411000210106","display":"LYM - DA-R-EPOCH LEVEL minus 3"},{"code":"312401000210109","display":"LYM - DA-R-EPOCH LEVEL minus 2"},{"code":"312391000210106","display":"LYM - DA-R-EPOCH LEVEL minus 1"},{"code":"312381000210109","display":"LYM - DA-R-EPOCH LEVEL 1"},{"code":"312371000210107","display":"LYM NHL B-cell - DA-R-EPOCH [Dose-adjusted RITUximab, etoposide, prEDNIsone, vinCRISTine, CYCLOPHOSPHamide and DOXOrubicin] [9 levels]"},{"code":"312361000210101","display":"LEU - HyperCVAD Part B [60 years and under] Intrathecal CNS prophylaxis High Risk"},{"code":"312351000210104","display":"LEU - HyperCVAD Part B [60 years and under] Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"312341000210102","display":"LEU - HyperCVAD Part A [60 years and under] Intrathecal CNS prophylaxis High Risk"},{"code":"312331000210105","display":"LEU - HyperCVAD Part A [60 years and under] Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"312321000210108","display":"LEU ALL - HyperCVAD Part A and B followed by POMP Maintenance [60 years and under]"},{"code":"312311000210103","display":"LEU - HyperCVAD POMP Maintenance"},{"code":"312301000210100","display":"LEU - HyperCVAD Part B [over 60 years] Intrathecal CNS prophylaxis High Risk"},{"code":"312291000210104","display":"LEU - HyperCVAD Part B [over 60 years] Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"312281000210101","display":"LEU - HyperCVAD Part A [over 60 years] Intrathecal CNS prophylaxis High Risk"},{"code":"312271000210103","display":"LEU - HyperCVAD Part A [over 60 years] Intrathecal CNS prophylaxis Unknown Risk [default]"},{"code":"312261000210109","display":"LEU ALL - HyperCVAD Part A and B followed by POMP Maintenance [over 60 years]"},{"code":"312251000210106","display":"SAR - VAC [vinCRISTine, daCTINomycin and CYCLOPHOSPHamide][Q2W]"},{"code":"312241000210108","display":"SAR Ewing sarcoma - VAC, VC and IE [Q2W]"},{"code":"312231000210100","display":"SAR - VAC + VV [vinCRISTine day 1, 8 and 15, daCTINomycin and CYCLOPHOSPHamide] ARST0431 [high risk]"},{"code":"312221000210102","display":"SAR - VAC [vinCRISTine, daCTINomycin and CYCLOPHOSPHamide] ARST0431 [high risk]"},{"code":"312211000210107","display":"SAR - VDC + V [vinCRISTine days 1 and 8, DOXOrubicin and CYCLOPHOSPHamide] [Q3W] ARST0431 [high risk]"},{"code":"312201000210105","display":"SAR - IE [IFOSFamide and etoposide] [Q3W] ARST0431 [high risk]"},{"code":"312191000210108","display":"SAR - IE [IFOSFamide and etoposide] [Q2W] ARST0431 [high risk]"},{"code":"312181000210106","display":"SAR - VDC + V [vinCRISTine days 1 and 8, DOXOrubicin and CYCLOPHOSPHamide] [Q2W] ARST0431 [high risk]"},{"code":"312171000210109","display":"SAR - vinCRISTine days 1 and 8 and irinotecan ARST0431 [high risk]"},{"code":"312161000210103","display":"SAR - vinCRISTine days 1, 8 and 15 and irinotecan ARST0431 [high risk]"},{"code":"312151000210101","display":"SAR Rhabdomyosarcoma - vinCRISTine, irinotecan, IFOSFamide, etoposide, DOXOrubicin, CYCLOPHOSPHamide and daCTINomycin [ARST0431] [high risk]"},{"code":"312141000210104","display":"SAR - VAC [vinCRISTine, daCTINomycin and CYCLOPHOSPHamide][Q3W]"},{"code":"312131000210107","display":"SAR Ewing sarcoma - VAC, VC and IE [Q3W]"},{"code":"312121000210105","display":"SAR - VC [vinCRISTine and CYCLOPHOSPHamide][Q3W]"},{"code":"312111000210100","display":"SAR - IE [IFOSfamide and etoposide][Q3W]"},{"code":"312101000210102","display":"SAR - VDC [vinCRISTine, DOXOrubicin and CYCLOPHOSPHamide] [Q3W]"},{"code":"312091000210109","display":"SAR Ewing sarcoma - VDC, VC and IE [Q3W]"},{"code":"312081000210107","display":"SAR - MA [metHOTREXATe and DOXOrubicin]"},{"code":"312071000210105","display":"SAR - MAP [metHOTREXATe, DOXOrubicin and cISplatin]"},{"code":"312061000210104","display":"SAR Osteosarcoma - MAP [metHOTREXATe, DOXOrubicin and cISplatin]"},{"code":"312051000210102","display":"PCN MM - pamidronate 90mg Q4W"},{"code":"312041000210100","display":"LEU ALL precursor B-cell - blinatumomab [CNS1 and CNS2]"},{"code":"312031000210108","display":"LEU ALL precursor B-cell - blinatumomab [CNS3]"},{"code":"312021000210106","display":"CRC REC Locally advanced - dostarlimab"},{"code":"312011000210101","display":"CRC - mFOLFOX6 [low dose foliNIc acid] 9 cycles"},{"code":"312001000210103","display":"CRC - mFOLFOX6 [high dose foliNIc acid] 9 cycles"},{"code":"311991000210101","display":"CRC - CAPOX 6 cycles"},{"code":"311981000210103","display":"CRC REC Neoadjuvant - RAPIDO Total Neoadjuvant Therapy"},{"code":"311971000210100","display":"CRC Metastatic - irinotecan [Q3W] dose reduced"},{"code":"311961000210106","display":"CRC Metastatic - CETUximab Q2W"},{"code":"311951000210108","display":"CRC Metastatic - trifluridine/tipiracil and beVACizumab"},{"code":"311941000210105","display":"CRC Metastatic - trifluridine/tipiracil"},{"code":"311931000210102","display":"CRC Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"311921000210104","display":"CRC Locally advanced - ipilimumab and nivolumab"},{"code":"311911000210109","display":"CRC Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"311901000210107","display":"CRC Metastatic - CETUximab [Q2W] and encorafenib"},{"code":"311891000210106","display":"CRC Metastatic - CETUximab [Q2W] and daBRAFEnib"},{"code":"311881000210109","display":"LEU - AIDA consolidation 3 [70 years and under]"},{"code":"311871000210107","display":"LEU - AIDA consolidation 2 [70 years and under]"},{"code":"311861000210101","display":"LEU - AIDA consolidation 1 [70 years and under]"},{"code":"311851000210104","display":"LEU - AIDA induction [70 years and under]"},{"code":"311841000210102","display":"LEU APL - AIDA induction and consolidations 1, 2 and 3 [70 years and under]"},{"code":"311831000210105","display":"LEU - arsenic trioxide and tretinoin consolidation [AML17]"},{"code":"311821000210108","display":"LEU - arsenic trioxide and tretinoin induction [AML17]"},{"code":"311811000210103","display":"LEU APL - arsenic trioxide and tretinoin induction followed by consolidation [AML17]"},{"code":"311801000210100","display":"LEU - APML4 maintenance [61 to 70 years]"},{"code":"311791000210104","display":"LEU - APML4 consolidation 2 [61 to 70 years]"},{"code":"311781000210101","display":"LEU - APML4 consolidation 1 [61 to 70 years]"},{"code":"311771000210103","display":"LEU - APML4 induction [61 to 70 years]"},{"code":"311761000210109","display":"LEU APL - APML4 induction, consolidation 1 and 2 followed by maintenance [61 to 70 years]"},{"code":"311751000210106","display":"LEU - APML4 maintenance [over 70 years]"},{"code":"311741000210108","display":"LEU - APML4 consolidation 2 [over 70 years]"},{"code":"311721000210102","display":"LEU - APML4 consolidation 1 [over 70 years]"},{"code":"311711000210107","display":"LEU - APML4 induction [over 70 years]"},{"code":"311701000210105","display":"LEU APL - APML4 induction, consolidation 1 and 2 followed by maintenance [over 70 years]"},{"code":"311691000210105","display":"LEU - Pethema LPA2005 maintenance [70 years and under] [intermediate risk]"},{"code":"311681000210108","display":"LEU - Pethema LPA2005 consolidation 3 [70 years and under] [intermediate risk]"},{"code":"311671000210106","display":"LEU - Pethema LPA2005 consolidation 2 [70 years and under] [intermediate risk]"},{"code":"311661000210100","display":"LEU - Pethema LPA2005 consolidation 1 [70 years and under] [intermediate risk]"},{"code":"311651000210103","display":"LEU - Pethema LPA2005 induction [70 years and under] [intermediate risk]"},{"code":"311641000210101","display":"LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [70 years and under] [intermediate risk]"},{"code":"311631000210109","display":"LEU HCL - cladribine and RITUximab"},{"code":"311621000210107","display":"LEU - arsenic trioxide and tretinoin consolidation [standard risk]"},{"code":"311611000210102","display":"LEU - arsenic trioxide, tretinoin and prEDNISone induction [standard risk]"},{"code":"311601000210104","display":"LEU APL - arsenic trioxide, tretinoin and prEDNISone induction followed by consolidation [standard risk]"},{"code":"311591000210109","display":"LEU - APML4 maintenance [60 years and under]"},{"code":"311581000210107","display":"LEU - APML4 consolidation 2 [60 years and under]"},{"code":"311571000210105","display":"LEU - APML4 consolidation 1 [60 years and under]"},{"code":"311561000210104","display":"LEU - APML4 induction [60 years and under]"},{"code":"311551000210102","display":"LEU APL - APML4 induction, consolidation 1 and 2 followed by maintenance [60 years and under]"},{"code":"311541000210100","display":"LEU - UKALL14 with daSATinib Maintenance"},{"code":"311531000210108","display":"LEU - UKALL14 with daSATinib Consolidation [Cycle 4]"},{"code":"311521000210106","display":"LEU - UKALL14 with daSATinib consolidation/delayed intensification [Cycle 3]"},{"code":"311511000210101","display":"LEU - UKALL14 with daSATinib Consolidation [Cycle 1 and 2]"},{"code":"311501000210103","display":"LEU - UKALL14 with daSATinib Intensification/CNS prophylaxis"},{"code":"311491000210108","display":"LEU - UKALL14 with daSATinib Phase 2 Induction"},{"code":"311481000210106","display":"LEU - UKALL14 with daSATinib Phase 1 Induction"},{"code":"311471000210109","display":"LEU ALL precursor B-cell BCR-ABL1+ - UKALL14 with daSATinib"},{"code":"311461000210103","display":"LEU - UKALL14 with RITUximab and daSATinib [not for transplant] Maintenance"},{"code":"311451000210101","display":"LEU - UKALL14 with RITUximab and daSATinib [not for transplant] Consolidation/delayed intensification [Cycle 3]"},{"code":"311441000210104","display":"LEU - UKALL14 with RITUximab and daSATinib [not for transplant] Intensification/CNS prophylaxis"},{"code":"311431000210107","display":"LEU - UKALL14 with RITUximab and daSATinib [not for transplant] Phase 2 Induction"},{"code":"311421000210105","display":"LEU ALL precursor B-cell BCR-ABL1+ - UKALL14 with RITUximab and daSATinib [not for transplant]"},{"code":"311411000210100","display":"LYM - High dose cytarabine [2000mg/m2 TWICE daily days 1 and 2] Consolidation"},{"code":"311401000210102","display":"LYM - R-MPV alternating with R-MV"},{"code":"311391000210100","display":"LYM NHL B-cell PCNSL - R-MPV [RITUximab, metHOTREXATe, procarbazine and vinCRISTine] followed by high dose cytarabine"},{"code":"311381000210102","display":"LYM - EA [etoposide and cytarabine]"},{"code":"311371000210104","display":"LYM - MT-R"},{"code":"311361000210105","display":"LYM NHL B-cell PCNSL - MT-R [metHOTREXate, temozolomide and RITUximab] followed by EA [etoposide and cytarabine]"},{"code":"311351000210107","display":"LYM NHL B-cell Primary Testicular - high dose metHOTREXATe [CNS prophylaxis]"},{"code":"311341000210109","display":"LYM NHL B-cell PCNSL - MATRix [metHOTREXATe, cytarabine, thiotepa and RITUximab] Induction"},{"code":"311331000210101","display":"LEU CLL Relapsed - aLEMTUzumab [subcut]"},{"code":"311321000210103","display":"LEU CLL - venetoclax and oBINUTUZumab"},{"code":"311311000210108","display":"LEU CLL - RITUximab and bendamustine"},{"code":"311301000210106","display":"LEU CLL Relapsed - aLEMTUzumab [IV]"},{"code":"311291000210107","display":"LEU - UKALL14 with RITUximab and daSATinib Consolidation [Cycle 4]"},{"code":"311281000210105","display":"LEU - UKALL14 with RITUximab and daSATinib consolidation/delayed intensification [Cycle 3] [for transplant]"},{"code":"311271000210108","display":"LEU - UKALL14 with RITUximab and daSATinib Consolidation [Cycle 1 and 2]"},{"code":"311261000210102","display":"LEU - UKALL14 with RITUximab and daSATinib [for transplant] Intensification/CNS prophylaxis"},{"code":"311251000210100","display":"LEU - UKALL14 with RITUximab and daSATinib Phase 2 Induction [for transplant]"},{"code":"311241000210103","display":"LEU - UKALL14 with RITUximab and daSATinib Phase 1 Induction"},{"code":"311231000210106","display":"LEU - dexamethasone 6 mg/m2 days 1 to 5"},{"code":"311221000210109","display":"LEU ALL precursor B-cell BCR-ABL1+ - UKALL14 with RITUximab and daSATinib [for transplant]"},{"code":"311211000210104","display":"LYM - oBINUTUZumab maintenance"},{"code":"311201000210101","display":"LYM - bendamustine and oBINUTUZumab"},{"code":"311191000210103","display":"LYM NHL B-cell - bendamustine and oBINUTUZumab"},{"code":"311181000210100","display":"LYM NHL NK/T-cell Extra Nodal - DDGP [dexamethasone, cISplatin, gemcitabine and pegaspargase]"},{"code":"311171000210102","display":"LEU CLL - venetoclax and RITUximab"},{"code":"311161000210108","display":"LEU - imatinib 600"},{"code":"311151000210105","display":"LEU - imatinib 400"},{"code":"311141000210107","display":"LEU CML - imatinib"},{"code":"311131000210104","display":"LYM NHL B-cell - Flyer R-CHOP21 [RITUximab, CYCLOPHOSPHamide, DOXOrubicin, vinCRISTine and prEDNISone] followed by RITUximab"},{"code":"311121000210101","display":"LEU - UKALL60+ Maintenance"},{"code":"311111000210106","display":"LEU - UKALL60+ Consolidation"},{"code":"311101000210109","display":"LEU - UKALL60+ Phase 2 Induction"},{"code":"311091000210102","display":"LEU - UKALL60+ Phase 1 Induction"},{"code":"311081000210104","display":"LEU ALL - UKALL60+ [non-intensive]"},{"code":"311071000210101","display":"LEU - UKALL60+ with daSATinib Maintenance"},{"code":"311061000210107","display":"LEU - UKALL60+ with daSATinib Consolidation"},{"code":"311051000210109","display":"LEU - UKALL60+ with daSATinib Phase 2 Induction"},{"code":"311041000210106","display":"LEU - UKALL60+ with daSATinib Phase 1 Induction"},{"code":"311031000210103","display":"LEU ALL BCR-ABL1+ - UKALL60+ with daSATinib"},{"code":"311021000210100","display":"LEU - UKALL60+ with imatinib Maintenance"},{"code":"311011000210105","display":"LEU - UKALL60+ with imatinib Consolidation"},{"code":"311001000210108","display":"LEU - UKALL60+ with imatinib Phase 2 Induction"},{"code":"310991000210109","display":"LEU - UKALL60+ with imatinib Phase 1 Induction"},{"code":"310981000210107","display":"LEU - dexamethasone 6 mg/m2 [max 10 mg] days 1 to 5"},{"code":"310971000210105","display":"LEU ALL BCR-ABL1+ - UKALL60+ with imatinib"},{"code":"310961000210104","display":"LEU AML - DA+GO-2 [DAUNOrubicin, cytarabine and Mylotarg [gemtuzumab ozogamicin]] induction [de novo CD33+] [good or intermediate risk]"},{"code":"310951000210102","display":"LEU AML - 7 + 3 IDA [IDArubicin and cytarabine] induction"},{"code":"310941000210100","display":"LEU - High dose cytarabine [1000mg/m2 TWICE daily days 1 to 6] consolidation"},{"code":"310931000210108","display":"LEU - DA[45] 3+7 [DAUNOrubicin and cytarabine] induction [over 60 years]"},{"code":"303631000210108","display":"LEU AML - DA[45] 3+7 [DAUNOrubicin and cytarabine] induction followed by high dose cytarabine consolidation [over 60 years]"},{"code":"303621000210106","display":"LEU - High dose cytarabine and midostaurin consolidation [under 60 years]"},{"code":"303611000210101","display":"LEU - DAUNOrubicin, cytarabine and midostaurin induction [under 60 years]"},{"code":"303601000210103","display":"LEU AML - DAUNOrubicin, cytarabine and midostaurin induction, high dose cytarabine and midostaurin consolidation followed by midostaurin maintenance [FLT3 mutated] [under 60 years]"},{"code":"303591000210108","display":"LEU - Midostaurin maintenance"},{"code":"303581000210106","display":"LEU - High dose cytarabine and midostaurin consolidation [60 years and over]"},{"code":"303571000210109","display":"LEU - DAUNOrubicin, cytarabine and midostaurin induction [60 years and over]"},{"code":"303561000210103","display":"LEU AML - DAUNOrubicin, cytarabine and midostaurin induction, high dose cytarabine and midostaurin consolidation followed by midostaurin maintenance [FLT3 mutated] [60 years and over]"},{"code":"303551000210101","display":"LEU - Manchester Protocol [mitoxantrone and cytarabine IV] consolidation"},{"code":"303541000210104","display":"LEU - Manchester Protocol [mitoxantrone and cytarabine IV] induction"},{"code":"303531000210107","display":"LEU AML - Manchester Protocol [mitoxantrone and cytarabine IV] induction followed by consolidation"},{"code":"303521000210105","display":"LYM NHL B-cell PCNSL Relapsed - R-IE [RITUximab, IFOSFamide and etoposide]"},{"code":"303511000210100","display":"LYM - procarbazine [100 mg daily for 5 days]"},{"code":"303501000210102","display":"LYM - R-MP [RITUximab, metHOTREXATe, procarbazine] [65 years and over]"},{"code":"303491000210107","display":"LYM NHL B-cell PCNSL - R-MP [RITUximab, metHOTREXATe and procarbazine] followed by procarbazine maintenance [65 years and over]"},{"code":"303481000210105","display":"LYM NHL B-cell - RITUximab and bendamustine"},{"code":"303471000210108","display":"LYM NHL B-cell - RITUximab Maintenance Q8W"},{"code":"303461000210102","display":"LYM NHL B-cell - RITUximab Q1W"},{"code":"303451000210100","display":"GYN CX Advanced - cISplatin, PACLItaxel, beVACizumab and pembrolizumab"},{"code":"303441000210103","display":"GYN CX Advanced - cISplatin, PACLItaxel and pembrolizumab"},{"code":"274651000210101","display":"GYN CX Advanced - cISplatin, PACLItaxel and beVACizumab"},{"code":"265811000210107","display":"LYM NHL - vinCRISTine and prEDNISone [pre-phase]"},{"code":"265801000210105","display":"LYM NHL B-cell PCNSL - high dose metHOTREXATe 8 g/m2"},{"code":"265791000210106","display":"LYM NHL B-cell - CYCLOPHOSPHamide and prEDNIsone [pre-phase]"},{"code":"265781000210109","display":"LYM Relapsed - GIVE [filgrastim, IFOSFamide, etoposide and epirubicin]"},{"code":"265771000210107","display":"LYM Relapsed - DHAP [dexamethasone, high dose cytarabine and cISplatin]"},{"code":"265761000210101","display":"LYM NHL NK/T-cell Extra Nodal - Level 2 [100%] DeVIC [dexamethasone, etoposide, IFOSFamide, cARBOplatin] chemoradiation [nasal type]"},{"code":"265751000210104","display":"LYM NHL NK/T-cell Extra Nodal - Level 1 [67%] DeVIC [dexamethasone, etoposide, IFOSFamide, cARBOplatin] chemoradiation [nasal type]"},{"code":"265741000210102","display":"LYM NHL B-cell Relapsed - R-DHAP [RITUximab, dexamethasone, high dose cytarabine and cISplatin]"},{"code":"265731000210105","display":"Neuroendocrine neoplasm Advanced - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"265721000210108","display":"Neuroendocrine carcinoma Advanced - mFOLFIRI [irinotecan, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"265711000210103","display":"Neuroendocrine carcinoma - cISplatin and etoposide 60/120 chemoradiation"},{"code":"265701000210100","display":"Neuroendocrine carcinoma - cISplatin and etoposide 80/100 chemoradiation"},{"code":"265691000210100","display":"Desmoid fibromatosis - metHOTREXATe and vinBLASTine"},{"code":"265681000210102","display":"SAR STS Metastatic - DOCEtaxel and gemcitabine 900"},{"code":"265671000210104","display":"SAR STS Metastatic - DOCEtaxel and gemcitabine 675 [GeDDis]"},{"code":"265661000210105","display":"SAR STS Advanced - trabectedin"},{"code":"265651000210107","display":"SAR STS Advanced - pAZOPanib"},{"code":"265641000210109","display":"SAR STS Advanced - IFOSFamide [3-day]"},{"code":"265631000210101","display":"SAR - VC [vinCRISTine and CYCLOPHOSPHamide][Q2W]"},{"code":"265621000210103","display":"SAR - IE [IFOSfamide and etoposide][Q2W]"},{"code":"265611000210108","display":"SAR - VDC [vinCRISTine, DOXOrubicin and CYCLOPHOSPHamide] with dexrazoxane [Q2W]"},{"code":"265601000210106","display":"SAR Ewing sarcoma - VDC with dexrazoxane, VC and IE [Q2W]"},{"code":"265591000210101","display":"SAR STS Advanced - DOXOrubicin and IFOSFamide 25/3000"},{"code":"265581000210103","display":"SAR STS Advanced - DOXOrubicin and IFOSFamide 20/2000"},{"code":"265571000210100","display":"SAR Osteosarcoma Advanced - DOXOrubicin [1-day dosing] and cISplatin"},{"code":"265561000210106","display":"SAR Ewing sarcoma Relapsed - CYCLOPHOSPHamide and topotecan"},{"code":"265551000210108","display":"SAR Rhabdomyosarcoma Relapsed - VIT [vinCRISTine, irinotecan and temozolomide]"},{"code":"265541000210105","display":"SAR Osteosarcoma Advanced - DOXOrubicin [3-day split dosing] and cISplatin"},{"code":"265531000210102","display":"LYM NHL B-cell - R-MiniCHOP [RITUximab, CYCLOPHOSPHamide, DOXOrubicin, vinCRISTine and prEDNISone]"},{"code":"265521000210104","display":"Neuroendocrine carcinoma Advanced - cARBOplatin and oral etoposide"},{"code":"265511000210109","display":"Neuroendocrine tumour Advanced - everolimus"},{"code":"265501000210107","display":"Neuroendocrine tumour PANC Advanced - sUNITinib"},{"code":"265491000210102","display":"Neuroendocrine carcinoma Advanced - cARBOplatin and etoposide"},{"code":"265481000210104","display":"GU Renal cell Metastatic - beVACizumab and erlotinib"},{"code":"265471000210101","display":"GU GCT Advanced - EP [etoposide and cISplatin] [3-day]"},{"code":"265461000210107","display":"GU GCT Metastatic - BEP [bleomycin, etoposide and cISplatin] [3-day]"},{"code":"265451000210109","display":"GU Bladder Urothelial - cISplatin [Q1W] chemoradiation"},{"code":"265441000210106","display":"GU URO Advanced - avelumab Q2W [flat dosing]"},{"code":"265431000210103","display":"GU Renal cell Metastatic - pembrolizumab Q3W [flat dosing] and ipilimumab"},{"code":"265421000210100","display":"GU Renal cell Metastatic - cABOZANtinib and nivolumab"},{"code":"265411000210105","display":"GU Renal cell Metastatic - aXITinib and avelumab [flat dose]"},{"code":"265401000210108","display":"GU - nivolumab maintenance Q2W [flat dosing]"},{"code":"265391000210105","display":"GU Renal cell Advanced - nivolumab and ipilimumab induction followed by nivolumab maintenance Q2W [flat dosing]"},{"code":"265381000210108","display":"GU - nivolumab maintenance Q4W [flat dosing]"},{"code":"265371000210106","display":"GU - nivolumab and ipilimumab induction"},{"code":"265361000210100","display":"GU Renal cell Advanced - nivolumab and ipilimumab induction followed by nivolumab maintenance Q4W [flat dosing]"},{"code":"265351000210103","display":"GU URO Metastatic - PACLItaxel Q1W and pembrolizumab Q3W [flat dosing]"},{"code":"265341000210101","display":"GU Renal cell Metastatic - leNVAtinib and everolimus"},{"code":"265331000210109","display":"GU Bladder Urothelial - gemcitabine [low dose] chemoradiation"},{"code":"265321000210107","display":"GU Bladder Urothelial Neoadjuvant - ddMVAC [metHOTREXATe, DOXOrubicin, vinBLASTine and cISplatin] dose dense"},{"code":"265311000210102","display":"GU Bladder Urothelial Adjuvant - ddMVAC [metHOTREXATe, DOXOrubicin, vinBLASTine and cISplatin] dose dense"},{"code":"265301000210104","display":"GU Penile Advanced - TIP [PACLItaxel, IFOSFamide and cISplatin] [3-day]"},{"code":"265291000210103","display":"GU Penile Advanced - TIP [PACLItaxel, IFOSFamide and cISplatin] [5-day]"},{"code":"265281000210100","display":"GU Penile Advanced - TPF [DOCEtaxel, cISplatin, fluorouracil]"},{"code":"265271000210102","display":"CRC ACA - cISplatin and fluorouracil chemoradiation"},{"code":"265261000210108","display":"CRC ACA - mitomycin and capecitabine chemoradiation"},{"code":"265251000210105","display":"CRC ACA - mitomycin and fluorouracil chemoradiation"},{"code":"265241000210107","display":"UGI GAST AND OES Metastatic - CAPOX [capecitabine and oxaliplatin] and nivolumab"},{"code":"265231000210104","display":"UGI GAST AND OES Metastatic - CAPOX [capecitabine and oxaliplatin], pembrolizumab and trastuzumab"},{"code":"265221000210101","display":"UGI GAST AND OES Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid] and nivolumab"},{"code":"265211000210106","display":"UGI GAST AND OES Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid] and nivolumab"},{"code":"265201000210109","display":"CRC Metastatic - CETUximab [Q1W], daBRAFEnib and tRAMEtinib"},{"code":"265191000210107","display":"GU URO Metastatic - PACLItaxel [Q1W]"},{"code":"265181000210105","display":"GU Renal cell Metastatic - leNVAtinib and pembrolizumab Q3W [flat dosing]"},{"code":"265171000210108","display":"GU Renal cell Advanced - nivolumab Q2W [flat dosing]"},{"code":"265161000210102","display":"GU Renal cell Advanced - nivolumab Q4W [flat dosing]"},{"code":"265151000210100","display":"GU Renal cell Metastatic - pAZOPanib"},{"code":"265141000210103","display":"GU Renal cell Metastatic - sUNITinib"},{"code":"265131000210106","display":"GU URO Advanced - pembrolizumab Q3W [flat dosing]"},{"code":"265121000210109","display":"GU URO Advanced - pembrolizumab Q6W [flat dosing]"},{"code":"265111000210104","display":"GU Renal cell Metastatic - aXITinib and pembrolizumab Q3W [flat dosing]"},{"code":"265101000210101","display":"GU Renal cell Metastatic - aXITinib and pembrolizumab Q6W [flat dosing]"},{"code":"265091000210108","display":"GU Renal cell Metastatic - everolimus"},{"code":"265081000210106","display":"GU Renal cell Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"265071000210109","display":"GU Renal cell Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"265061000210103","display":"GU Bladder Urothelial Neoadjuvant - cISplatin and gemcitabine"},{"code":"265051000210101","display":"GU BLA - mitomycin and fluorouracil chemoradiation"},{"code":"265041000210104","display":"GU GCT Metastatic - BEP [bleomycin, etoposide and cISplatin] [5-day]"},{"code":"265031000210107","display":"GU GCT Non-seminoma Adjuvant - BEP [bleomycin, etoposide and cISplatin]"},{"code":"265021000210105","display":"GU GCT Advanced - EP [etoposide and cISplatin] [5-day]"},{"code":"265011000210100","display":"GU GCT Metastatic - VIP [etoposide, IFOSFamide and cISplatin]"},{"code":"265001000210102","display":"GU URO Advanced - cARBOplatin and gemcitabine"},{"code":"264991000210108","display":"GU Upper Tract Urothelial Adjuvant - cARBOplatin and gemcitabine"},{"code":"264981000210106","display":"GU Upper Tract Urothelial Adjuvant - cISplatin and gemcitabine"},{"code":"264971000210109","display":"GU Renal cell Metastatic - cABOZANtinib"},{"code":"264961000210103","display":"GU Renal cell Metastatic - aXITinib"},{"code":"264951000210101","display":"LYM Relapsed/Refractory - pembrolizumab Q3W [flat dosing]"},{"code":"264941000210104","display":"LEU CML - pONATinib"},{"code":"264931000210107","display":"LYM - GemOx [gemcitabine and oxaliplatin]"},{"code":"264921000210105","display":"LYM Relapsed - DHAC [dexamethasone, high dose cytarabine and cARBOplatin]"},{"code":"264911000210100","display":"LYM NHL B-cell Relapsed - R-DHAC [RITUximab, dexamethasone, high dose cytarabine and cARBOplatin]"},{"code":"264901000210102","display":"LYM NHL B-cell PCNSL Relapsed - modified CYVE [cytarabine and etoposide]"},{"code":"264891000210103","display":"MPN Myelofibrosis - ruxolitinib"},{"code":"264881000210100","display":"LEU HCL - RITUximab"},{"code":"264871000210102","display":"LEU T-PLL Relapsed - pentostatin"},{"code":"264861000210108","display":"LEU T-PLL - aLEMTUzumab [IV]"},{"code":"264851000210105","display":"LEU CLL - FCR [fludarabine, CYCLOPHOSPHamide and RITUximab] [oral] [3 day]"},{"code":"264841000210107","display":"LEU CLL - FCR [fludarabine, CYCLOPHOSPHamide and RITUximab] [oral] [5 day]"},{"code":"264831000210104","display":"LEU CLL - FCR [IV] fludarabine, CYCLOPHOSPHamide and RITUximab"},{"code":"264821000210101","display":"LEU CLL - venetoclax"},{"code":"264811000210106","display":"LEU - daSATinib 140"},{"code":"264801000210109","display":"LEU - daSATinib 100"},{"code":"264791000210105","display":"LEU CML - daSATinib"},{"code":"264781000210108","display":"LEU HCL - cladribine"},{"code":"264771000210106","display":"PCN MM - lenalidomide and dexamethasone"},{"code":"264761000210100","display":"GYN VUL Advanced - ciSplatin [Q1W] chemoradiation"},{"code":"264751000210103","display":"LUNG NSCLC Locally advanced/Metastatic - cARBOplatin and gemcitabine"},{"code":"264741000210101","display":"LUNG NSCLC Locally advanced/Metastatic - cARBOplatin and vinORELBine"},{"code":"264731000210109","display":"SAR Ewing sarcoma Relapsed - irinotecan and temozolomide"},{"code":"264721000210107","display":"Desmoid fibromatosis - metHOTREXATe and vinORELBine"},{"code":"264711000210102","display":"SAR Advanced - pembrolizumab Q3W [flat dosing]"},{"code":"264701000210104","display":"SAR Advanced/Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"264691000210104","display":"SAR Angiosarcoma Advanced - PACLItaxel"},{"code":"264681000210101","display":"SAR Advanced - pembrolizumab Q3W [weight-based dosing]"},{"code":"264671000210103","display":"Giant Cell tumour of bone - denosumab"},{"code":"264661000210109","display":"SAR STS Advanced - DOXOrubicin"},{"code":"264651000210106","display":"SAR Kaposi Sarcoma - pegylated liposomal DOXOrubicin hydrochloride"},{"code":"264641000210108","display":"LYM NHL T-cell - CHOEP21 [CYCLOPHOSPHamide, DOXOrubicin, etoposide, vinCRISTine and prEDNISone] [IV etoposide]"},{"code":"264631000210100","display":"LYM NHL T-cell - CHOEP21 [CYCLOPHOSPHamide, DOXOrubicin, etoposide, vinCRISTine and prEDNISone] [IV/oral etoposide]"},{"code":"264621000210102","display":"LYM NHL B-cell - R-CVP [RITUximab, CYCLOPHOSPHamide, vinCRISTine and prEDNISone]"},{"code":"264611000210107","display":"LYM NHL B-cell - R-CHOP21 [RITUximab, CYCLOPHOSPHamide, DOXOrubicin, vinCRISTine and prEDNISone]"},{"code":"264601000210105","display":"LYM NHL B-cell Diffuse large - R-CEOP [RITUximab, CYCLOPHOSPHamide, etoposide, vinCRISTine and prEDNISone] [IV etoposide]"},{"code":"264591000210100","display":"LYM NHL B-cell Diffuse large - R-CEOP [RITUximab, CYCLOPHOSPHamide, etoposide, vinCRISTine and prEDNIsone] [IV/oral etoposide]"},{"code":"264581000210102","display":"LYM - vinORELBine and gemcitabine"},{"code":"264571000210104","display":"LYM NHL - CHOP21 [CYCLOPHOSPHamide, DOXOrubicin, vinCRISTine and prEDNISone]"},{"code":"264561000210105","display":"LYM NHL B-cell - R-CHOP14 [RITUximab, CYCLOPHOSPHamide, DOXOrubicin, vinCRISTine and prEDNISone]"},{"code":"264551000210107","display":"LYM NHL B-cell - R-CEPP [RITUximab, CYCLOPHOSPHamide, etoposide, procarbazine and prEDNISone] [IV/oral etoposide]"},{"code":"264541000210109","display":"LYM NHL B-cell - R-CEPP [RITUximab, CYCLOPHOSPHamide, etoposide, procarbazine and prEDNISone] [IV etoposide]"},{"code":"264531000210101","display":"LYM NHL B-cell - R-GDP [RITUximab, gemcitabine, dexamethasone and cISplatin]"},{"code":"264521000210103","display":"LYM NHL B-cell - R-GCVP [RITUximab, gemcitabine, CYCLOPHOSPHamide, vinCRISTine and prEDNISone]"},{"code":"264511000210108","display":"LYM - GDP [gemcitabine, dexamethasone and cISplatin]"},{"code":"264501000210106","display":"LYM - GCD [gemcitabine, cARBOplatin and dexamethasone]"},{"code":"264491000210101","display":"LYM NHL B-cell - R-GemOX [RITUximab, gemcitabine and oxaliplatin]"},{"code":"264481000210103","display":"LYM - PEP-C [prEDNISone, CYCLOPHOSPHamide, etoposide and procarbazine]"},{"code":"264471000210100","display":"CRC ACA Advanced - cARBOplatin and PACLItaxel"},{"code":"264461000210106","display":"CRC Metastatic - CETUximab [Q1W], biNIMEtinib and encorafenib"},{"code":"264451000210108","display":"CRC Metastatic - CETUximab [Q1W] and encorafenib"},{"code":"264441000210105","display":"LEU AML - MidAC [mitoxantrone and cytarabine]"},{"code":"264431000210102","display":"LEU CLL - acalabrutinib"},{"code":"264411000210109","display":"LEU CLL - chlorambucil and oBINUTUZumab"},{"code":"264401000210107","display":"LEU - nilotinib 300"},{"code":"264391000210109","display":"LEU - nilotinib 400"},{"code":"264381000210107","display":"LEU CML - nilotinib"},{"code":"264371000210105","display":"CNS GBM Recurrent - beVACizumab and irinotecan 340 mg/m2"},{"code":"264361000210104","display":"LYM Relapsed - ICE [fractionated IFOSFamide, cARBOplatin and etoposide]"},{"code":"264351000210102","display":"LYM NHL B-cell Relapsed - R-ICE [RITUximab, fractionated IFOSFamide, cARBOplatin and etoposide]"},{"code":"264341000210100","display":"LYM NHL B-cell MCL - R-BAC [RITUximab, bendamustine and cytarabine]"},{"code":"264331000210108","display":"LYM NHL B-cell Lymphoplasmacytic - ibrutinib [Waldenstr√∂m macroglobulinema]"},{"code":"264321000210106","display":"LYM HL Advanced - ChlVPP [chlorambucil, vinBLASTine, procarbazine and prEDNISone]"},{"code":"264311000210101","display":"LYM NHL B-cell MCL - ibrutinib"},{"code":"264301000210103","display":"LYM NHL T-cell - CHOEP14 [CYCLOPHOSPHamide, DOXOrubicin, etoposide, vinCRISTine and prEDNISone] [IV/oral etoposide]"},{"code":"264291000210102","display":"LYM NHL T-cell - CHOEP14 [CYCLOPHOSPHamide, DOXOrubicin, etoposide, vinCRISTine and prEDNISone] [IV etoposide]"},{"code":"264281000210104","display":"CNS GBM Recurrent - lomustine"},{"code":"264271000210101","display":"CNS GLI Recurrent - temozolomide [continuous dose-intense] [high grade]"},{"code":"264261000210107","display":"CNS GBM Recurrent - beVACizumab and irinotecan 125 mg/m2"},{"code":"264251000210109","display":"CNS GLI Adjuvant - PCV [procarbazine, lomustine and vinCRISTine] [high grade]"},{"code":"264241000210106","display":"CNS GLI Adjuvant - PCV [procarbazine, lomustine and vinCRISTine] [low grade]"},{"code":"264231000210103","display":"LUNG NSCLC Metastatic - vinORELBine 30 [day 1 and 8] Q3W"},{"code":"264221000210100","display":"LUNG NSCLC Metastatic - vinORELBine 25 Q1W"},{"code":"264211000210105","display":"BR Adjuvant - EC-D [epirubicin and CYCLOPHOSPHamide followed by DOCEtaxel]"},{"code":"264201000210108","display":"BR Metastatic - olaparib"},{"code":"264191000210106","display":"BR NON-Metastatic - D100-FEC [DOCEtaxel followed by fluorouracil, epirubicin and CYCLOPHOSPHamide]"},{"code":"264181000210109","display":"BR Neoadjuvant - cARBOplatin Q3W and PACLItaxel Q1W followed by AC [DOXOrubicin and CYCLOPHOSPHamide] Q3W"},{"code":"264171000210107","display":"BR NON-Metastatic - D75-FEC [DOCEtaxel followed by fluorouracil, epirubicin and CYCLOPHOSPHamide]"},{"code":"264161000210101","display":"BR NON-Metastatic - EC [epirubicin and CYCLOPHOSPHamide]"},{"code":"264151000210104","display":"LEU AML Relapsed - gilteritinib [FLT3 mutated]"},{"code":"264141000210102","display":"LEU AML Refractory - FLAG-Ida10 [fludarabine, cytarabine, filgrastim and IDArubicin] [under 60 years]"},{"code":"264131000210105","display":"LEU AML FLT3-ITD mutated Relapsed - azacitidine and soRAFENib"},{"code":"264121000210108","display":"LEU AML FLT3-ITD mutated - soRAFENib maintenance after allogeneic stem cell transplant"},{"code":"264111000210103","display":"LEU AML - azacitidine [7 day]"},{"code":"264101000210100","display":"LEU AML - azacitidine and venetoclax"},{"code":"264091000210107","display":"LEU AML - ALFA 9801 [IDArubicin and cytarabine] induction"},{"code":"264081000210105","display":"LEU AML - MACE [amsacrine, cytarabine and etoposide]"},{"code":"264071000210108","display":"LUNG NSCLC Locally advanced - durvalumab Q4W [flat dosing]"},{"code":"264061000210102","display":"PCN MM Relapsed - carfilzomib and dexamethasone [Q1W]"},{"code":"264051000210100","display":"PCN MM Relapsed - pomalidomide and dexamethasone"},{"code":"264041000210103","display":"PCN MM Relapsed - daratumumab [subcut]"},{"code":"264031000210106","display":"PCN MM Relapsed - daratumumab [subcut], bortezomib and dexamethasone [Q3W] followed by daratumumab [subcut] [Q4W]"},{"code":"264021000210109","display":"PCN MM Relapsed - LenBorDex [lenalidomide, bortezomib, and dexamethasone] Q4W"},{"code":"264011000210104","display":"PCN MM Relapsed - pomalidomide, bortezomib and dexamethasone"},{"code":"264001000210101","display":"Myelodysplastic syndrome - azacitidine [7 day]"},{"code":"263991000210105","display":"Myelodysplastic syndrome - azacitidine [5 day]"},{"code":"263981000210108","display":"LEU AML Relapsed - FLAG [fludarabine, cytarabine and filgrastim] [60 years and over]"},{"code":"263971000210106","display":"CNS GBM Recurrent - beVACizumab and lomustine"},{"code":"263961000210100","display":"CNS GBM Recurrent - beVACizumab Q2W"},{"code":"263951000210103","display":"CNS GBM Recurrent - beVACizumab Q3W"},{"code":"263941000210101","display":"CNS GLI Recurrent - temozolomide [high grade]"},{"code":"263931000210109","display":"CNS - temozolomide following chemoradiation"},{"code":"263921000210107","display":"CNS - temozolomide chemoradiation"},{"code":"263911000210102","display":"CNS GBM - temozolomide chemoradiation followed by temozolomide"},{"code":"263901000210104","display":"LUNG NSCLC Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"263891000210100","display":"LUNG SCLC Extensive - PACLItaxel Q1W"},{"code":"263881000210102","display":"LEU AML Relapsed - FLAG-amsacrine [fludarabine, cytarabine, filgrastim and amsacrine] [under 60 years]"},{"code":"263871000210104","display":"LEU AML Relapsed - FLAG-amsacrine [fludarabine, cytarabine, filgrastim and amsacrine] [60 years and over]"},{"code":"263861000210105","display":"LEU AML Relapsed - FLAG [fludarabine, cytarabine and filgrastim] [under 60 years]"},{"code":"263851000210107","display":"LEU CMML - azacitidine [7 day]"},{"code":"263841000210109","display":"LEU AML - cytarabine 3 g/m2 [ONCE daily days 1 to 6] consolidation [courses 3 and 4]"},{"code":"263831000210101","display":"LUNG NSCLC Metastatic - gemcitabine"},{"code":"263821000210103","display":"LUNG NSCLC Adjuvant - osimertinib"},{"code":"60491000210104","display":"LEU AML - low dose cytarabine"},{"code":"60481000210101","display":"LEU AML - low dose cytarabine and venetoclax"},{"code":"60471000210103","display":"LEU AML - DA 3+8 [DAUNOrubicin and cytarabine] induction [course 2]"},{"code":"60461000210109","display":"LEU AML - DA 3+10 [DAUNOrubicin and cytarabine] induction [course 1]"},{"code":"60451000210106","display":"LEU AML - cytarabine 3 g/m2 [days 1,3,5] consolidation [courses 3 and 4] [under 60 years]"},{"code":"60441000210108","display":"LEU AML - cytarabine 1.5 g/m2 [days 1,3,5] consolidation [courses 3 and 4] [60 years and over]"},{"code":"60431000210100","display":"LEU AML - cytarabine 3 g/m2 [days 1,2,3] consolidation [courses 3 and 4] [under 60 years]"},{"code":"60421000210102","display":"LEU AML - FLAG-Ida [fludarabine, cytarabine, filgrastim and IDArubicin] [under 60 years]"},{"code":"60411000210107","display":"LEU AML - FLAG-Ida [fludarabine, cytarabine, filgrastim and IDArubicin] [60 years and over]"},{"code":"60401000210105","display":"PCN MM - daratumumab [subcut], lenalidomide and dexamethasone"},{"code":"60391000210107","display":"PCN MM - lenalidomide [continuous dosing] post autologous stem cell transplant"},{"code":"60381000210105","display":"PCN MM - pamidronate 30mg Q4W"},{"code":"60371000210108","display":"PCN MM - zoledronic acid [Q12W]"},{"code":"60361000210102","display":"PCN MM - MP [melphalan and preDNISone]"},{"code":"60351000210100","display":"PCN MM - MPT [melphalan, prEDNISone and thalidomide]"},{"code":"60341000210103","display":"PCN MM - lenalidomide [3/1 dosing] post autologous stem cell transplant"},{"code":"60331000210106","display":"PCN MM - LenBorDex [lenalidomide, bortezomib, and dexamethasone] consolidation"},{"code":"60321000210109","display":"PCN MM - LenBorDex [lenalidomide, bortezomib, and dexamethasone] induction followed by autologous stem cell transplant"},{"code":"60311000210104","display":"PCN MM - ixazomib, lenalidomide and dexamethasone"},{"code":"60301000210101","display":"PCN MM - CyBorDex Low [CYCLOPHOSPHamide, bortezomib and dexamethasone]"},{"code":"60291000210100","display":"PCN - CTDa [CYCLOPHOSPHamide, thalidomide and dexamethasone] [attenuated dose]"},{"code":"60281000210102","display":"PCN MM - CyBorDex High [CYCLOPHOSPHamide, bortezomib and dexamethasone]"},{"code":"60271000210104","display":"PCN - CTD [CYCLOPHOSPHamide, thalidomide and dexamethasone]"},{"code":"60261000210105","display":"PCN MM - BTD [bortezomib, thalidomide and dexamethasone] induction"},{"code":"60251000210107","display":"PCN MM - BMP [bortezomib, melphalan and prEDNISone]"},{"code":"60241000210109","display":"MPN - busulfan"},{"code":"60231000210101","display":"HN NPC Metastatic - gemcitabine [Q4W]"},{"code":"60221000210103","display":"GYN Ovarian germ cell tumour - BEP [bleomycin, etoposide and cISplatin]"},{"code":"60211000210108","display":"GYN OV Recurrent - PACLitaxel [Q1W] and beVACizumab"},{"code":"60201000210106","display":"GYN OV Recurrent - PACLitaxel [Q1W]"},{"code":"60191000210109","display":"CRC Adjuvant - mDe Gramont [high dose foliNIc acid]"},{"code":"60181000210107","display":"CRC Adjuvant - mDe Gramont [low dose foliNIc acid]"},{"code":"60171000210105","display":"UGI BIL AND GBC Metastatic - cISplatin and gemcitabine"},{"code":"60161000210104","display":"UGI PANC Metastatic - gemcitabine and Abraxane [PACLItaxel nanoparticle albumin bound]"},{"code":"60151000210102","display":"LEU CLL - ibrutinib"},{"code":"60141000210100","display":"LEU CLL - chlorambucil"},{"code":"60131000210108","display":"LEU CLL - chlorambucil [flat dosing]"},{"code":"60121000210106","display":"HN SQCC Metastatic - metHOTREXATe"},{"code":"60111000210101","display":"HN SQCC NON-Metastatic - TPF [DOCEtaxel, ciSplatin and fluorouracil] followed by cARBOplatin chemoradiation"},{"code":"60101000210103","display":"HN SQCC NON-Metastatic - CETUximab chemoradiation"},{"code":"60091000210105","display":"GYN - cARBOplatin and PACLItaxel [following chemoradiation]"},{"code":"60081000210108","display":"GYN - cISplatin chemoradiation"},{"code":"60071000210106","display":"GYN END Adjuvant - cISplatin chemoradiation followed by cARBOplatin and PACLItaxel"},{"code":"60061000210100","display":"GYN OV Recurrent - topotecan"},{"code":"60051000210103","display":"GYN END Adjuvant - cARBOplatin and PACLItaxel [chemotherapy-only]"},{"code":"60041000210101","display":"GYN VUL Advanced - CARBOplatin [Q1W] chemoradiation"},{"code":"60031000210109","display":"GYN OV Recurrent - topotecan and beVACizumab Q4W"},{"code":"60021000210107","display":"GYN GTD - TP-TE [PACLItaxel, cISplatin - PACLItaxel and etoposide] [relapsed or high risk]"},{"code":"60011000210102","display":"GYN GTD - EP-EMA [etoposide, ciSplatin, etoposide, metHOTREXATe and daCTINomycin] [high risk]"},{"code":"60001000210104","display":"GYN OV Low grade serous carcinoma - letrozole maintenance"},{"code":"59991000210107","display":"GYN OV Recurrent - CYCLOPHOSPHamide oral [2/4 dosing]"},{"code":"59981000210105","display":"GYN OV Recurrent - CYCLOPHOSPHamide oral [continuous]"},{"code":"59971000210108","display":"GYN OV Recurrent - etoposide oral"},{"code":"59961000210102","display":"GYN OV Recurrent - gemcitabine"},{"code":"59951000210100","display":"GYN OV Recurrent - pegylated liposomal DOXOrubicin hydrochloride"},{"code":"59941000210103","display":"GYN OV Recurrent - pegylated liposomal DOXOrubicin hydrochloride and beVACizumab"},{"code":"59931000210106","display":"GYN CX Locally advanced - cARBOplatin [Q1W] chemoradiation"},{"code":"59921000210109","display":"GYN CX Locally advanced - cISplatin [Q1W] chemoradiation"},{"code":"59911000210104","display":"GYN GTD - EMA-CO [etoposide, metHOTREXATe, daCTINomycin, CYCLOPHOSPHamide and vinCRISTine] [high risk]"},{"code":"59901000210101","display":"LUNG NSCLC Locally advanced - durvalumab Q2W [weight based dosing]"},{"code":"59891000210102","display":"GYN OV Recurrent - cARBOplatin and gemcitabine [day 1 cARBOplatin]"},{"code":"59881000210104","display":"GYN OV Recurrent - cARBOplatin and pegylated liposomal DOXOrubicin hydrochloride"},{"code":"59871000210101","display":"GYN OV Recurrent - cARBOplatin, gemcitabine and beVACizumab"},{"code":"59861000210107","display":"GYN OV Recurrent - cARBOplatin, pegylated liposomal DOXOrubicin hydrochloride and beVACizumab"},{"code":"59851000210109","display":"GYN GTD - EP [etoposide and cISplatin] [very high risk]"},{"code":"59841000210106","display":"BR NON-Metastatic - DOCEtaxel, pERTUZumab and trastuzumab"},{"code":"59831000210103","display":"BR Metastatic - Abraxane [PACLItaxel nanoparticle albumin bound] [Q1W 3/4]"},{"code":"59821000210100","display":"BR NON-Metastatic - cARBOplatin Q3W and PACLItaxel Q1W followed by AC [DOXOrubicin and CYCLOPHOSPHamide] dose dense"},{"code":"59811000210105","display":"BR Metastatic - CMF classical [CYCLOPHOSPHamide, metHOTREXATe and fluorouracil]"},{"code":"59801000210108","display":"BR Metastatic - vinORELBine [IV], pERTUZumab and trastuzumab Q3W"},{"code":"59791000210109","display":"BR Metastatic - Abraxane [PACLItaxel nanoparticle albumin bound] [Q1W 2/3]"},{"code":"59781000210107","display":"BR Metastatic - vinORELBine [oral]"},{"code":"59771000210105","display":"GYN END Advanced - meDROXYPROGESTERone acetate"},{"code":"59761000210104","display":"GYN OV Advanced - beVACizumab 7.5 mg/kg Q3W [shared care]"},{"code":"59751000210102","display":"GYN OV Advanced - cARBOplatin [primary treatment]"},{"code":"59731000210108","display":"GYN CX Advanced - cISplatin and PACLItaxel"},{"code":"59721000210106","display":"GYN OV Advanced - cARBOplatin and DOCEtaxel"},{"code":"59711000210101","display":"GYN OV Advanced - cARBOplatin and PACLItaxel [Q1W]"},{"code":"59701000210103","display":"GYN OV Advanced - cARBOplatin and PACLitaxel [Q3W]"},{"code":"59691000210103","display":"GYN OV Advanced - cARBOplatin, PACLItaxel and beVACizumab"},{"code":"59681000210100","display":"GYN OV Recurrent - cARBOplatin"},{"code":"59671000210102","display":"GYN OV Advanced - olaparib"},{"code":"59661000210108","display":"GYN END Advanced - leNVAtinib and pembrolizumab Q3W [flat dosing]"},{"code":"59651000210105","display":"GYN OV Advanced - beVACizumab 15 mg/kg Q3W [shared care]"},{"code":"59641000210107","display":"GYN OV Adjuvant - cARBOplatin and PACLitaxel [early stage]"},{"code":"59631000210104","display":"GYN OV Adjuvant - cARBOplatin [early stage]"},{"code":"59621000210101","display":"GYN GTD - metHOTREXATe [low risk]"},{"code":"59591000210104","display":"GYN GTD - daCTINomycin [low risk]"},{"code":"59581000210101","display":"GYN - pembrolizumab Q3W [weight based dosing]"},{"code":"59571000210103","display":"GYN - pembrolizumab Q6W [flat dosing]"},{"code":"59561000210109","display":"GYN - pembrolizumab Q3W [flat dosing]"},{"code":"59551000210106","display":"GYN END Advanced - cARBOplatin and PACLItaxel"},{"code":"59541000210108","display":"GYN CX Advanced - cARBOplatin, PACLItaxel and beVACizumab"},{"code":"59531000210100","display":"GYN CX Advanced - cARBOplatin and PACLItaxel"},{"code":"59521000210102","display":"LUNG SCLC NON-Metastatic - [Limited] cISplatin and etoposide 80/100 chemoradiation"},{"code":"59511000210107","display":"HN THY Metastatic - leNVAtinib"},{"code":"59501000210105","display":"HN SQCC NON-Metastatic - cISplatin [Q3W] post-operative chemoradiation"},{"code":"59491000210100","display":"HN SQCC Metastatic - cARBOplatin and fluorouracil [Q3W]"},{"code":"59481000210102","display":"HN NPC NON-Metastatic - cARBOplatin chemoradiation followed by cARBOplatin and fluorouracil"},{"code":"59471000210104","display":"HN NPC NON-Metastatic - gemcitabine and cISplatin followed by cISplatin chemoradiation"},{"code":"59461000210105","display":"HN SAL Metastatic - cISplatin and vinORELBine [IV]"},{"code":"59451000210107","display":"HN SQCC NON-Metastatic - cISplatin [Q3W] chemoradiation"},{"code":"59441000210109","display":"HN NPC NON-Metastatic - cISplatin [Q3W] chemoradiation followed by cISplatin and fluorouracil"},{"code":"59431000210101","display":"HN SAL Metastatic - CAP [CYCLOPHOSPHamide, DOXOrubicin and cISplatin]"},{"code":"59421000210103","display":"HN SQCC Metastatic - cISplatin, fluorouracil and pembrolizumab"},{"code":"59411000210108","display":"HN SQCC Metastatic - nivolumab Q2W [flat dosing]"},{"code":"59401000210106","display":"HN SQCC Metastatic - PACLItaxel Q1W"},{"code":"59391000210108","display":"HN SQCC Metastatic - pembrolizumab Q3W [weight-based dosing]"},{"code":"59381000210106","display":"HN NPC Metastatic - gemcitabine and cARBOplatin"},{"code":"59371000210109","display":"HN SQCC Metastatic - cARBOplatin, fluorouracil and pembrolizumab"},{"code":"59361000210103","display":"HN NPC Metastatic - gemcitabine and cISplatin"},{"code":"59351000210101","display":"HN SQCC Metastatic - cARBOplatin and PACLItaxel"},{"code":"59341000210104","display":"HN SQCC Metastatic - cISplatin and fluorouracil"},{"code":"59331000210107","display":"HN NPC NON-Metastatic - cISplatin [Q1W] chemoradiation"},{"code":"59321000210105","display":"HN SQCC NON-Metastatic - cISplatin [Q1W] chemoradiation"},{"code":"59311000210100","display":"BR NON-Metastatic - CMF classical IV [CYCLOPHOSPHamide, metHOTREXATe and fluorouracil]"},{"code":"59301000210102","display":"BR Metastatic - CMF classical IV [CYCLOPHOSPHamide, metHOTREXATe and fluorouracil]"},{"code":"59291000210101","display":"LUNG NSCLC NON-Metastatic - cISplatin and gemcitabine chemoradiation"},{"code":"59281000210103","display":"LUNG NSCLC Metastatic - cISplatin and gemcitabine"},{"code":"59271000210100","display":"LUNG NSCLC NON-Metastatic - cISplatin and vinBLASTine chemoradiation"},{"code":"59261000210106","display":"GU PROS Metastatic - zoledronic acid Q6W"},{"code":"59251000210108","display":"HN SQCC Metastatic - nivolumab Q4W [flat dosing]"},{"code":"59241000210105","display":"HN SQCC NON-Metastatic - cISplatin [Q1W] post-operative chemoradiation"},{"code":"59231000210102","display":"HN SQCC NON-Metastatic - cARBOplatin and fluorouracil chemoradiation"},{"code":"59221000210104","display":"HN SQCC Metastatic - nivolumab [weight-based dosing]"},{"code":"59211000210109","display":"HN SQCC Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"59201000210107","display":"HN SQCC Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"59191000210105","display":"BR Metastatic - capecitabine 1000 and trastuzumab Q3W"},{"code":"59181000210108","display":"BR Metastatic - DOCEtaxel Q3W"},{"code":"59171000210106","display":"BR Metastatic - DOCEtaxel, pERTUZumab and trastuzumab"},{"code":"59161000210100","display":"BR NON-Metastatic - AC [DOXOrubicin and CYCLOPHOSPHamide] Q3W followed by PACLItaxel Q1W"},{"code":"59151000210103","display":"BR Metastatic - DOCEtaxel and trastuzumab Q3W"},{"code":"59141000210101","display":"BR NON-Metastatic - FEC-D75 [fluorouracil, epirubicin and CYCLOPHOSPHamide followed by DOCEtaxel]"},{"code":"59131000210109","display":"BR Metastatic - AC [DOXOrubicin and CYCLOPHOSPHamide]"},{"code":"59121000210107","display":"BR NON-Metastatic - AC-TH [DOXOrubicin and CYCLOPHOSPHamide] Q3W followed by [DOCEtaxel and trastuzumab] Q3W"},{"code":"59111000210102","display":"UGI GAST AND OES Metastatic - DOCEtaxel"},{"code":"59101000210104","display":"UGI PANC NON-Metastatic - FOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"59091000210106","display":"UGI PANC NON-Metastatic - FOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"59081000210109","display":"UGI PANC NON-Metastatic - mFOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"59071000210107","display":"UGI PANC Metastatic - FOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"59051000210104","display":"UGI PANC Metastatic - mFOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"59041000210102","display":"UGI PANC Metastatic - FOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"59031000210105","display":"UGI PANC Metastatic - mFOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"59021000210108","display":"SKIN Melanoma NON-Metastatic - daBRAFEnib and tRAMEtinib"},{"code":"59011000210103","display":"LUNG NSCLC Metastatic - gefitinib"},{"code":"59001000210100","display":"LUNG SCLC NON-Metastatic - [Limited] cISplatin and etoposide 60/120 chemoradiation"},{"code":"58991000210100","display":"LUNG SCLC Extensive - cARBOplatin and oral etoposide"},{"code":"58981000210102","display":"LUNG NSCLC NON-Metastatic - cISplatin and vinORELBine Q4W"},{"code":"58971000210104","display":"LUNG SCLC Metastatic - [Extensive] cISplatin and irinotecan"},{"code":"58961000210105","display":"LUNG SCLC Extensive - cARBOplatin and etoposide"},{"code":"58951000210107","display":"LUNG NSCLC Metastatic - erlotinib"},{"code":"58941000210109","display":"LUNG NSCLC Metastatic - cISplatin and pemetrexed"},{"code":"58931000210101","display":"SKIN Melanoma Metastatic - daBRAFEnib and tRAMEtinib"},{"code":"58921000210103","display":"LUNG NSCLC NON-Metastatic - cISplatin and vinORELBine Q3W"},{"code":"58911000210108","display":"LUNG NSCLC Metastatic - cISplatin and vinORELBine"},{"code":"58901000210106","display":"LUNG NSCLC NON-Metastatic - cARBOplatin and PACLItaxel chemoradiation"},{"code":"58891000210105","display":"LUNG NSCLC Metastatic - cARBOplatin and PACLItaxel"},{"code":"58881000210108","display":"BR Metastatic - CYCLOPHOSPHamide and metHOTREXATe [low dose oral]"},{"code":"58871000210106","display":"BR NON-Metastatic - CMF classical [CYCLOPHOSPHamide, metHOTREXATe and fluorouracil]"},{"code":"58861000210100","display":"BR NON-Metastatic - AC [DOXOrubicin and and CYCLOPHOSPHamide] dose dense followed by PACLItaxel dose dense"},{"code":"58851000210103","display":"BR NON-Metastatic - capecitabine"},{"code":"58841000210101","display":"BR Metastatic - zoledronic acid Q12W"},{"code":"58831000210109","display":"BR NON-Metastatic - TCy and trastuzumab [DOCEtaxel, CYCLOPHOSPHamide and trastuzumab]"},{"code":"58821000210107","display":"BR NON-Metastatic - trastuzumab Q3W"},{"code":"58811000210102","display":"BR NON-Metastatic - trastuzumab subcutaneous"},{"code":"58801000210104","display":"BR NON-Metastatic - exemestane and goserelin"},{"code":"58791000210103","display":"BR NON-Metastatic - PACLItaxel Q1W and trastuzumab Q3W"},{"code":"58781000210100","display":"BR NON-Metastatic - FEC-D100 [fluorouracil, epirubicin and CYCLOPHOSPHamide followed by DOCEtaxel]"},{"code":"58771000210102","display":"BR Metastatic - Abraxane [PACLItaxel nanoparticle albumin bound] Q3W"},{"code":"58761000210108","display":"BR NON-Metastatic - zoledronic acid"},{"code":"58751000210105","display":"BR NON-Metastatic - neratinib"},{"code":"58741000210107","display":"BR NON-Metastatic - TCH [DOCEtaxel, cARBOplatin and trastuzumab]"},{"code":"58731000210104","display":"BR NON-Metastatic - PACLItaxel Q1W"},{"code":"58721000210101","display":"BR NON-Metastatic - Kadcyla [trastuzumab emtansine]"},{"code":"58711000210106","display":"BR NON-Metastatic - TCy [DOCEtaxel and CYCLOPHOSPHamide]"},{"code":"58701000210109","display":"BR Metastatic - zoledronic acid Q4W"},{"code":"58691000210109","display":"BR NON-Metastatic - cARBOplatin Q3W and PACLItaxel Q1W"},{"code":"58681000210107","display":"BR NON-Metastatic - AC [DOXOrubicin and CYCLOPHOSPHamide] Q3W followed by PACLItaxel Q1W and trastuzumab Q3W"},{"code":"58671000210105","display":"BR Metastatic - capecitabine 1250"},{"code":"58661000210104","display":"BR NON-Metastatic - AC [DOXOrubicin and CYCLOPHOSPHamide] Q3W followed by DOCEtaxel Q3W"},{"code":"58651000210102","display":"BR Metastatic - trastuzumab Q3W"},{"code":"58641000210100","display":"BR Metastatic - DOXOrubicin Q3W"},{"code":"58631000210108","display":"BR Metastatic - eribulin"},{"code":"58621000210106","display":"BR Metastatic - PACLItaxel Q1W, pERTUZumab and trastuzumab Q3W"},{"code":"58611000210101","display":"BR Metastatic - DOXOrubicin Q1W"},{"code":"58601000210103","display":"BR Metastatic - cARBOplatin [5 AUC] and gemcitabine"},{"code":"58591000210108","display":"BR Metastatic - gemcitabine"},{"code":"58581000210106","display":"BR Metastatic - PACLItaxel Q1W and trastuzumab Q3W"},{"code":"58571000210109","display":"BR Metastatic - pamidronate"},{"code":"58561000210103","display":"BR Metastatic - goserelin Q12W"},{"code":"58551000210101","display":"BR Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"58541000210104","display":"BR Metastatic - fulvestrant"},{"code":"58531000210107","display":"BR Metastatic - denosumab"},{"code":"58521000210105","display":"BR Metastatic - MMM [mitomycin, mitoxantrone and metHOTREXATe]"},{"code":"58511000210100","display":"BR Metastatic - Kadcyla [trastuzumab emtansine]"},{"code":"58501000210102","display":"BR Metastatic - PACLItaxel Q1W"},{"code":"58491000210107","display":"BR Metastatic - everolimus and exemestane"},{"code":"58481000210105","display":"BR Metastatic - Abraxane [PACLItaxel nanoparticle albumin bound] and aTEZOLIzumab"},{"code":"58471000210108","display":"BR Metastatic - trastuzumab Q3W and vinORELBine [oral]"},{"code":"58461000210102","display":"BR Metastatic - trastuzumab Q3W and vinORELBine [IV]"},{"code":"57851000210102","display":"BR NON-Metastatic - PACLItaxel Q1W, pERTUZumab and trastuzumab Q3W"},{"code":"57841000210100","display":"BR NON-Metastatic - AC [DOXOrubicin and CYCLOPHOSPHamide] Q3W"},{"code":"57831000210108","display":"BR Metastatic - trastuzumab subcutaneous"},{"code":"57821000210106","display":"BR Metastatic - vinORELBine [IV]"},{"code":"57811000210101","display":"BR Metastatic - palbociclib"},{"code":"57801000210103","display":"BR Metastatic - goserelin Q4W"},{"code":"57791000210102","display":"BR Metastatic - cARBOplatin"},{"code":"57781000210104","display":"BR Metastatic - EC [epirubicin and CYCLOPHOSPHamide]"},{"code":"57771000210101","display":"BR Metastatic - vinORELBine [IV] Q1W"},{"code":"57761000210107","display":"BR NON-Metastatic - AC [DOXOrubicin and CYCLOPHOSPHamide] dose dense"},{"code":"57751000210109","display":"UGI PANC NON-Metastatic - capecitabine and gemcitabine [advanced]"},{"code":"57741000210106","display":"UGI PANC NON-Metastatic - capecitabine and gemcitabine [adjuvant]"},{"code":"57731000210103","display":"UGI PANC NON-Metastatic - mFOLFIRINOX [oxaliplatin, irinotecan, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"57721000210100","display":"UGI PANC Metastatic - PDXG [DOCEtaxel, gemcitabine, ciSplatin and capecitabine]"},{"code":"57711000210105","display":"UGI PANC NON-Metastatic - gemcitabine [adjuvant]"},{"code":"57701000210108","display":"UGI PANC Metastatic - olaparib"},{"code":"57691000210108","display":"UGI PANC NON-Metastatic - gemcitabine [advanced]"},{"code":"57681000210106","display":"UGI PANC NON-Metastatic - capecitabine chemoradiation [continuous dosing]"},{"code":"57671000210109","display":"UGI PANC NON-Metastatic - capecitabine chemoradiation [5 day dosing]"},{"code":"57661000210103","display":"SKIN SQCC Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"57651000210101","display":"SKIN SQCC Metastatic - pembrolizumab Q3W [weight based dosing]"},{"code":"57641000210104","display":"SKIN SQCC Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"57631000210107","display":"SKIN Melanoma NON-Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"57621000210105","display":"SKIN Melanoma NON-Metastatic - pembrolizumab Q3W [weight based dosing]"},{"code":"57611000210100","display":"SKIN Melanoma NON-Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"57601000210102","display":"SKIN Melanoma NON-Metastatic - nivolumab Q4W [flat dosing]"},{"code":"57591000210107","display":"SKIN Melanoma NON-Metastatic - nivolumab Q2W [weight based dosing]"},{"code":"57581000210105","display":"SKIN Melanoma NON-Metastatic - nivolumab Q2W [flat dosing]"},{"code":"57571000210108","display":"SKIN Melanoma Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"57561000210102","display":"SKIN Melanoma Metastatic - pembrolizumab Q3W [weight based dosing]"},{"code":"57551000210100","display":"SKIN Melanoma Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"57541000210103","display":"SKIN Melanoma Metastatic - nivolumab Q4W [flat dosing]"},{"code":"57531000210106","display":"SKIN Melanoma Metastatic - nivolumab Q2W [weight based dosing]"},{"code":"57521000210109","display":"SKIN Melanoma Metastatic - nivolumab Q2W [flat dosing]"},{"code":"57511000210104","display":"SKIN Melanoma Metastatic - ipilimumab and pembrolizumab"},{"code":"57501000210101","display":"SKIN Melanoma Metastatic - ipilimumab 3mg/kg and nivolumab 1mg/kg"},{"code":"57491000210106","display":"SKIN Melanoma Metastatic - ipilimumab 1mg/kg and nivolumab 3mg/kg"},{"code":"57481000210109","display":"SKIN Melanoma Metastatic - imatinib"},{"code":"57471000210107","display":"SKIN Melanoma Metastatic - dacarbazine"},{"code":"57461000210101","display":"SKIN Melanoma Metastatic - cOBIMEtinib and vemurafenib"},{"code":"57451000210104","display":"SKIN Melanoma Metastatic - cARBOplatin, PACLItaxel, and beVACizumab"},{"code":"57441000210102","display":"SKIN BCC Metastatic - vismodegib"},{"code":"57431000210105","display":"SKIN MCC Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"57421000210108","display":"SKIN MCC Metastatic - pembrolizumab Q3W [weight based dosing]"},{"code":"57411000210103","display":"SKIN MCC Metastatic - pembrolizumab Q6W [flat dosing]"},{"code":"57401000210100","display":"SKIN Melanoma Metastatic - biNIMEtinib and encorafenib"},{"code":"57391000210103","display":"LUNG SCLC NON-Metastatic - [Limited] cISplatin and etoposide"},{"code":"57381000210100","display":"LUNG SCLC NON-Metastatic - [Limited] cARBOplatin and etoposide"},{"code":"57371000210102","display":"LUNG SCLC Metastatic - CAV [Extensive] [CYCLOPHOSPHamide 750, DOXOrubicin and vinCRISTine]"},{"code":"57361000210108","display":"UGI HEP Metastatic - leNVAtinib"},{"code":"57351000210105","display":"UGI HEP Metastatic - aTEZOLIzumab and beVACizumab"},{"code":"57341000210107","display":"UGI HEP Metastatic - aTEZOLIzumab"},{"code":"57331000210104","display":"UGI GIST NON-Metastatic - imatinib"},{"code":"57321000210101","display":"UGI GIST Metastatic - sUNITinib [4/2 dosing]"},{"code":"57311000210106","display":"UGI GAST Metastatic - cISplatin, capecitabine and pembrolizumab [flat dose]"},{"code":"57301000210109","display":"UGI GAST AND OES Metastatic - cISplatin, fluorouracil and trastuzumab"},{"code":"57291000210105","display":"UGI GAST AND OES Metastatic - cISplatin, capecitabine and trastuzumab"},{"code":"57281000210108","display":"UGI BIL AND GBC NON-Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"57271000210106","display":"UGI PANC Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"57261000210100","display":"UGI PANC Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"54251000210109","display":"UGI GAST AND OES Metastatic - cISplatin and fluorouracil"},{"code":"54241000210106","display":"UGI OES NON-Metastatic - cISplatin and fluorouracil chemoradiation"},{"code":"54231000210103","display":"UGI BIL AND GBC Metastatic - cARBOplatin and gemcitabine"},{"code":"54221000210100","display":"UGI BIL AND GBC Metastatic - gemcitabine"},{"code":"54211000210105","display":"UGI BIL AND GBC Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"54201000210108","display":"UGI GAST AND OES Metastatic - trifluridine/tipiracil"},{"code":"54191000210106","display":"UGI BIL AND GBC NON-Metastatic - capecitabine"},{"code":"54181000210109","display":"UGI BIL AND GBC NON-Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"54171000210107","display":"UGI PANC Metastatic - gemcitabine"},{"code":"54161000210101","display":"UGI GIST Metastatic - sUNITinib [2/1 dosing]"},{"code":"54151000210104","display":"UGI BIL AND GBC Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"54131000210105","display":"UGI HEP Metastatic - soRAFENib"},{"code":"54121000210108","display":"UGI GAST AND OES Metastatic - cISplatin and capecitabine"},{"code":"54111000210103","display":"UGI GAST AND OES Metastatic - pembrolizumab Q3W [weight based dosing]"},{"code":"54101000210100","display":"UGI GAST AND OES Metastatic - raMUCIRumab"},{"code":"54091000210107","display":"UGI GAST AND OES Metastatic - PACLItaxel and raMUCIRumab"},{"code":"54081000210105","display":"UGI GAST AND OES Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"54071000210108","display":"UGI GAST NON-Metastatic - fluorouracil chemoradiation [modified MacDonald]"},{"code":"54061000210102","display":"UGI GAST AND OES Metastatic - mFOLFIRI [irinotecan, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"53971000210106","display":"UGI GAST AND OES Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid] and trastuzumab"},{"code":"53071000210105","display":"UGI GAST AND OES Metastatic - mFOLFIRI [irinotecan, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"53061000210104","display":"UGI GAST AND OES Metastatic - CAPOX [capecitabine and oxaliplatin]"},{"code":"53051000210102","display":"UGI GAST AND OES NON-Metastatic - FLOT [DOCEtaxel, oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"53041000210100","display":"UGI GIST Metastatic - imatinib"},{"code":"53031000210108","display":"UGI GAST AND OES NON-Metastatic - FLOT [DOCEtaxel, oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid]"},{"code":"53021000210106","display":"UGI OES NON-Metastatic - mitomycin and fluorouracil chemoradiation [MSKCC]"},{"code":"53011000210101","display":"UGI OES NON-Metastatic - mitomycin and fluorouracil chemoradiation"},{"code":"53001000210103","display":"UGI OES NON-Metastatic - cISplatin and fluorouracil chemoradiation [Herskovic]"},{"code":"52991000210102","display":"UGI GIST Metastatic - regorafenib"},{"code":"52981000210104","display":"UGI GAST AND OES NON-Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] chemoradiation [low dose foliNIc acid]"},{"code":"52971000210101","display":"UGI GAST AND OES Metastatic - pembrolizumab Q3W [flat dosing]"},{"code":"52961000210107","display":"UGI GAST NON-Metastatic - CAPOX [capecitabine and oxaliplatin]"},{"code":"52951000210109","display":"UGI GAST AND OES Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [high dose foliNIc acid] and trastuzumab"},{"code":"52941000210106","display":"UGI GAST AND OES Metastatic - CAPOX [capecitabine and oxaliplatin] and trastuzumab"},{"code":"52931000210103","display":"UGI GAST AND OES NON-Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] chemoradiation [high dose foliNIc acid]"},{"code":"52921000210100","display":"UGI GAST AND OES Metastatic - irinotecan Q2W"},{"code":"52911000210105","display":"UGI GAST AND OES Metastatic - PACLItaxel weekly [3/1 dosing]"},{"code":"52901000210108","display":"UGI GAST AND OES Metastatic - PACLItaxel weekly [continuous dosing]"},{"code":"52891000210107","display":"UGI GAST AND OES Metastatic - mFOLFOX6 [oxaliplatin, foliNIc acid and fluorouracil] [low dose foliNIc acid]"},{"code":"52881000210105","display":"UGI OES NON-Metastatic - cARBOplatin and PACLItaxel Q1W chemoradiation"},{"code":"52871000210108","display":"LUNG SCLC Metastatic - CAV [Extensive] [CYCLOPHOSPHamide 1000, DOXOrubicin and vinCRISTine]"},{"code":"52861000210102","display":"LUNG NSCLC NON-Metastatic - crizotinib"},{"code":"52851000210100","display":"LUNG NSCLC NON-Metastatic - cISplatin and etoposide chemoradiation"},{"code":"52841000210103","display":"LUNG NSCLC NON-Metastatic - [Superior sulcus Pancoast] cISplatin and etoposide chemoradiation"},{"code":"52831000210106","display":"LUNG NSCLC Metastatic - cARBOplatin and DOCEtaxel"},{"code":"52821000210109","display":"LUNG NSCLC Metastatic - cARBOplatin and pemetrexed"},{"code":"52811000210104","display":"LUNG NSCLC Metastatic - DOCEtaxel Q3W"},{"code":"52801000210101","display":"LUNG NSCLC Metastatic - DOCEtaxel Q1W"},{"code":"52791000210100","display":"CRC REC Metastatic - capecitabine chemoradiation [continuous dosing]"},{"code":"52781000210102","display":"LUNG NSCLC NON-Metastatic - durvalumab"},{"code":"52771000210104","display":"LUNG NSCLC NON-Metastatic - aTEZOLIzumab"},{"code":"52761000210105","display":"LUNG NSCLC Metastatic - nivolumab Q4W [flat dosing]"},{"code":"52751000210107","display":"LUNG NSCLC Metastatic - nivolumab Q2W [weight based dosing]"},{"code":"52741000210109","display":"LUNG NSCLC Metastatic - daBRAFEnib and tRAMEtinib"},{"code":"52731000210101","display":"LUNG NSCLC Metastatic - aTEZOLIzumab"},{"code":"52721000210103","display":"LUNG NSCLC Metastatic - aFATinib"},{"code":"52711000210108","display":"LUNG MESO Metastatic - cISplatin and pemetrexed"},{"code":"52701000210106","display":"LUNG NSCLC Metastatic - nivolumab Q2W [flat dosing]"},{"code":"52691000210106","display":"LUNG MESO Metastatic - cARBOplatin and pemetrexed"},{"code":"52681000210109","display":"LUNG NSCLC Metastatic - PACLItaxel Q1W"},{"code":"52671000210107","display":"LUNG NSCLC Metastatic - cARBOplatin, pemetrexed and pembrolizumab"},{"code":"52661000210101","display":"LUNG NSCLC Metastatic - crizotinib"},{"code":"52651000210104","display":"LUNG NSCLC Metastatic - cARBOplatin, PACLItaxel and pembrolizumab"},{"code":"52641000210102","display":"LUNG NSCLC Metastatic - cARBOplatin, PACLItaxel, aTEZOLIzumab and beVACizumab"},{"code":"52631000210105","display":"CRC REC Metastatic - capecitabine chemoradiation [5 day dosing]"},{"code":"52621000210108","display":"CRC Adjuvant - mRoswell Park [low dose foliNIc acid]"},{"code":"52611000210103","display":"CRC Metastatic - mDe Gramont [low dose foliNIc acid]"},{"code":"52601000210100","display":"CRC REC Metastatic - fluorouracil chemoradiation"},{"code":"52591000210105","display":"CRC Metastatic - mDe Gramont [high dose foliNIc acid]"},{"code":"52581000210108","display":"BR Metastatic - capecitabine 1000"},{"code":"52571000210106","display":"LUNG MESO Metastatic - vinORELBine"},{"code":"52561000210100","display":"GU PROS Castration resistant Metastatic - cARBOplatin and DOCEtaxel"},{"code":"52551000210103","display":"LUNG NSCLC Metastatic - cARBOplatin and Q1W PACLItaxel"},{"code":"52541000210101","display":"GU PROS Metastatic - zoledronic acid Q12W"},{"code":"52531000210109","display":"GU PROS Castration resistant Metastatic - enzalutamide"},{"code":"52521000210107","display":"GU PROS Metastatic - zoledronic acid Q4W"},{"code":"52511000210102","display":"GU PROS Castration resistant Metastatic - cabazitaxel Q3W and prEDNISone"},{"code":"52501000210104","display":"CRC Metastatic - raltitrexed and oxaliplatin"},{"code":"52491000210109","display":"CRC Adjuvant - mRoswell Park [high dose foliNIc acid]"},{"code":"52481000210107","display":"CRC Metastatic - mRoswell Park [low dose foliNIc acid]"},{"code":"52471000210105","display":"CRC Metastatic - raltitrexed"},{"code":"52461000210104","display":"GU PROS Metastatic - goserelin"},{"code":"52451000210102","display":"GU PROS Castration resistant Metastatic - abiraterone and dexamethasone"},{"code":"52441000210100","display":"GU PROS Castration resistant NON-Metastatic - apalutamide"},{"code":"52431000210108","display":"GU PROS Castration sensitive Metastatic - apalutamide"},{"code":"52421000210106","display":"GU PROS Metastatic - bicalutamide"},{"code":"52411000210101","display":"GU PROS Metastatic - flutamide"},{"code":"52401000210103","display":"LUNG NSCLC NON-Metastatic - alectinib"},{"code":"52391000210101","display":"GU PROS Castration resistant Metastatic - DOCEtaxel Q2W and prEDNISone"},{"code":"52381000210103","display":"GU PROS Castration resistant Metastatic - DOCEtaxel Q3W and prEDNISone"},{"code":"52371000210100","display":"GU PROS Castration sensitive Metastatic - abiraterone and prEDNISone"},{"code":"52361000210106","display":"GU PROS Castration sensitive Metastatic - DOCEtaxel Q3W"},{"code":"52351000210108","display":"GU PROS Metastatic - cyproterone"},{"code":"52341000210105","display":"GU PROS Metastatic - pembrolizumab [flat dose]"},{"code":"52331000210102","display":"LUNG NSCLC Advanced/Metastatic - alectinib"},{"code":"52321000210104","display":"GU PROS Castration resistant Metastatic - abiraterone and prEDNISone"},{"code":"52311000210109","display":"GU PROS Castration resistant Metastatic - abiraterone and prEDNISone [fed state]"},{"code":"52301000210107","display":"CRC Metastatic - mFOLFOXIRI with beVACizumab [high dose foliNIc acid]"},{"code":"52291000210108","display":"CRC Metastatic - mFOLFIRI and CETUximab [Q1W] [high dose foliNIc acid]"},{"code":"52281000210106","display":"CRC Metastatic - mFOLFIRI and CETUximab [Q1W] [low dose foliNIc acid]"},{"code":"52271000210109","display":"CRC Metastatic - mFOLFOXIRI [high dose foliNIc acid]"},{"code":"52261000210103","display":"CRC Metastatic - mFOLFOXIRI [low dose foliNIc acid]"},{"code":"52251000210101","display":"CRC Metastatic - mFOLFOXIRI with beVACizumab [low dose foliNIc acid]"},{"code":"52241000210104","display":"CRC Metastatic - mRoswell Park [high dose foliNIc acid]"},{"code":"52231000210107","display":"CRC REC Locally advanced - fluorouracil chemoradiation"},{"code":"52221000210105","display":"CRC REC Locally advanced - capecitabine chemoradiation [continuous dosing]"},{"code":"52211000210100","display":"CRC REC Locally advanced - capecitabine chemoradiation [5 day dosing]"},{"code":"52201000210102","display":"CRC Adjuvant - mFOLFOX6 [low dose foliNIc acid]"},{"code":"52191000210104","display":"CRC Adjuvant - mFOLFOX6 [high dose foliNIc acid]"},{"code":"52181000210101","display":"CRC Adjuvant - CAPOX"},{"code":"52171000210103","display":"CRC Adjuvant - capecitabine"},{"code":"52161000210109","display":"CRC Metastatic - regorafenib"},{"code":"52151000210106","display":"CRC Metastatic - mFOLFOX6 and CETUximab [Q2W] [low dose foliNIc acid]"},{"code":"52141000210108","display":"CRC Metastatic - mFOLFOX6 and CETUximab [Q2W] [high dose foliNIc acid]"},{"code":"52131000210100","display":"CRC Metastatic - mFOLFOX6 and beVACizumab [low dose foliNIc acid]"},{"code":"52121000210102","display":"CRC Metastatic - mFOLFOX6 and beVACizumab [high dose foliNIc acid]"},{"code":"52111000210107","display":"CRC Metastatic - mFOLFOX6 [low dose foliNIc acid]"},{"code":"52101000210105","display":"CRC Metastatic - mFOLFOX6 [high dose foliNIc acid]"},{"code":"52091000210103","display":"CRC Metastatic - mFOLFIRI and CETUximab [Q2W] [low dose foliNIc acid]"},{"code":"52081000210100","display":"CRC Metastatic - CAPOX"},{"code":"52071000210102","display":"CRC Metastatic - capecitabine 1000"},{"code":"52061000210108","display":"CRC Metastatic - capecitabine 1250"},{"code":"52051000210105","display":"CRC Metastatic - capecitabine and beVACizumab"},{"code":"52041000210107","display":"CRC Metastatic - capecitabine and mitomycin"},{"code":"52031000210104","display":"CRC Metastatic - CAPOX and beVACizumab"},{"code":"52021000210101","display":"CRC Metastatic - CETUximab [Q1W]"},{"code":"52011000210106","display":"CRC Metastatic - CETUximab [Q1W] and irinotecan [Q2W]"},{"code":"52001000210109","display":"CRC Metastatic - CETUximab and irinotecan [Q2W]"},{"code":"51991000210106","display":"CRC Metastatic - irinotecan Q3W"},{"code":"51981000210109","display":"CRC Metastatic - IrOX"},{"code":"51971000210107","display":"CRC Metastatic - mCAPIRI"},{"code":"51961000210101","display":"CRC Metastatic - mFOLFIRI [high dose foliNIc acid]"},{"code":"51951000210104","display":"CRC Metastatic - mFOLFIRI [low dose foliNIc acid]"},{"code":"51941000210102","display":"CRC Metastatic - mFOLFIRI and beVACizumab [high dose foliNIc acid]"},{"code":"51931000210105","display":"CRC Metastatic - mFOLFIRI and beVACizumab [low dose foliNIc acid]"},{"code":"51921000210108","display":"CRC Metastatic - mFOLFIRI and CETUximab [Q2W] [high dose foliNIc acid]"},{"code":"51911000210103","display":"CRC Metastatic - FLOX"},{"code":"51901000210100","display":"CRC Adjuvant - mQUASAR"},{"code":"51891000210101","display":"CRC Adjuvant - MAYO"},{"code":"51881000210103","display":"CRC Metastatic - mQUASAR"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:11.926+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-regimen-code",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-sact-regimen-code"
+    }
+  ],
+  "version": "20240605",
+  "name": "canshare-sact-regimen-code",
+  "title": "NZ SACT regimen code",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "3b238c55-43f7-4c5b-b09e-33eda39bd553",
+    "timestamp": "2024-11-01T20:24:44+13:00",
+    "total": 884,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished|1"
+      },
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392561000210108",
+        "display": "LEU ALL precursor T-cell - GMALL T-LBL 1/2004 [55 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392551000210105",
+        "display": "LEU - GMALL T-LBL 1/2004 triple prophylaxis"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392501000210109",
+        "display": "LEU - GMALL T-LBL 1/2004 Consolidation I [over 55 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392491000210104",
+        "display": "LEU - GMALL T-LBL 1/2004 Pre-phase and Induction [over 55 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392481000210101",
+        "display": "LEU ALL precursor T-cell - GMALL T-LBL 1/2004 [over 55 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392471000210103",
+        "display": "LEU - HyperCVAD with pegaspargase [under 40 years] Part B with Intrathecal CNS prophylaxis High Risk"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392351000210100",
+        "display": "LEU ALL precursor B-cell - UKALL14 with RITUximab [40 years and under] [not for transplant]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392301000210101",
+        "display": "LEU ALL precursor B-cell - HyperCVAD with RITUximab Part A and B followed by POMP Maintenance [60 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "392281000210102",
+        "display": "LEU - HyperCVAD Part B with RITUximab [over 60 years] Intrathecal CNS prophylaxis Unknown Risk [default]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391941000210106",
+        "display": "LEU - HyperCVAD Part A with RITUximab [over 60 years] Intrathecal CNS prophylaxis High Risk"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391931000210103",
+        "display": "LEU - HyperCVAD Part A with RITUximab [over 60 years] Intrathecal CNS prophylaxis Unknown Risk [default]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391871000210108",
+        "display": "LEU ALL precursor B-cell - UKALL14 with RITUximab [40 years and under] [for transplant]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391861000210102",
+        "display": "LEU - UKALL14 Consolidation/delayed intensification [Cycle 3] [40 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391851000210100",
+        "display": "LEU - UKALL14 Consolidation [Cycle 1] [40 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391801000210101",
+        "display": "LEU - UKALL14 with RITUximab [over 40 years] [for transplant] Consolidation/delayed intensification [Cycle 3]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391791000210100",
+        "display": "LEU - UKALL14 with RITUximab [over 40 years] Consolidation [Cycle 1 and 2]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391781000210102",
+        "display": "LEU - UKALL14 with RITUximab [over 40 years] [for transplant] Intensification/CNS prophylaxis"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391731000210101",
+        "display": "LEU - AIDA consolidation 2 [over 70 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391601000210100",
+        "display": "LEU - Pethema LPA2005 induction [70 years and under] [low risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391531000210109",
+        "display": "LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [over 70 years] [low risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391471000210105",
+        "display": "LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [over 70 years] [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391461000210104",
+        "display": "GU GCT Seminoma Adjuvant - cARBOplatin [7 AUC]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391451000210102",
+        "display": "GU URO Advanced - cISplatin and gemcitabine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "391441000210100",
+        "display": "GU URO Advanced - cISplatin [split dose] and gemcitabine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312711000210104",
+        "display": "LEU - Pethema LPA2005 induction [over 70 years] [intermediate risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312701000210101",
+        "display": "LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [over 70 years] [intermediate risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312691000210101",
+        "display": "LEU - Pethema LPA2005 maintenance [under 60 years] [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312631000210102",
+        "display": "LEU APL - Pethema LPA2005 induction and consolidations 1, 2 and 3 followed by maintenance [under 60 years] [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312561000210107",
+        "display": "LEU - UKALL14 Maintenance"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312551000210109",
+        "display": "LEU - UKALL14 Consolidation [Cycle 4]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312501000210108",
+        "display": "LEU - UKALL14 - Phase 2 Induction"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312491000210103",
+        "display": "LEU - UKALL14 [over 40 years] - Phase 1 Induction"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312481000210100",
+        "display": "LEU ALL - UKALL14 [over 40 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312431000210104",
+        "display": "LYM - DA-R-EPOCH LEVEL 3"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312301000210100",
+        "display": "LEU - HyperCVAD Part B [over 60 years] Intrathecal CNS prophylaxis High Risk"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312231000210100",
+        "display": "SAR - VAC + VV [vinCRISTine day 1, 8 and 15, daCTINomycin and CYCLOPHOSPHamide] ARST0431 [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312161000210103",
+        "display": "SAR - vinCRISTine days 1, 8 and 15 and irinotecan ARST0431 [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312151000210101",
+        "display": "SAR Rhabdomyosarcoma - vinCRISTine, irinotecan, IFOSFamide, etoposide, DOXOrubicin, CYCLOPHOSPHamide and daCTINomycin [ARST0431] [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312101000210102",
+        "display": "SAR - VDC [vinCRISTine, DOXOrubicin and CYCLOPHOSPHamide] [Q3W]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312091000210109",
+        "display": "SAR Ewing sarcoma - VDC, VC and IE [Q3W]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312081000210107",
+        "display": "SAR - MA [metHOTREXATe and DOXOrubicin]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312031000210108",
+        "display": "LEU ALL precursor B-cell - blinatumomab [CNS3]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "312021000210106",
+        "display": "CRC REC Locally advanced - dostarlimab"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311991000210101",
+        "display": "CRC - CAPOX 6 cycles"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311941000210105",
+        "display": "CRC Metastatic - trifluridine/tipiracil"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311931000210102",
+        "display": "CRC Metastatic - pembrolizumab Q6W [flat dosing]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311881000210109",
+        "display": "LEU - AIDA consolidation 3 [70 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311871000210107",
+        "display": "LEU - AIDA consolidation 2 [70 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311861000210101",
+        "display": "LEU - AIDA consolidation 1 [70 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311791000210104",
+        "display": "LEU - APML4 consolidation 2 [61 to 70 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311621000210107",
+        "display": "LEU - arsenic trioxide and tretinoin consolidation [standard risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311611000210102",
+        "display": "LEU - arsenic trioxide, tretinoin and prEDNISone induction [standard risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311591000210109",
+        "display": "LEU - APML4 maintenance [60 years and under]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311541000210100",
+        "display": "LEU - UKALL14 with daSATinib Maintenance"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311531000210108",
+        "display": "LEU - UKALL14 with daSATinib Consolidation [Cycle 4]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311471000210109",
+        "display": "LEU ALL precursor B-cell BCR-ABL1+ - UKALL14 with daSATinib"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311461000210103",
+        "display": "LEU - UKALL14 with RITUximab and daSATinib [not for transplant] Maintenance"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311401000210102",
+        "display": "LYM - R-MPV alternating with R-MV"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311391000210100",
+        "display": "LYM NHL B-cell PCNSL - R-MPV [RITUximab, metHOTREXATe, procarbazine and vinCRISTine] followed by high dose cytarabine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311381000210102",
+        "display": "LYM - EA [etoposide and cytarabine]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311371000210104",
+        "display": "LYM - MT-R"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311331000210101",
+        "display": "LEU CLL Relapsed - aLEMTUzumab [subcut]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311321000210103",
+        "display": "LEU CLL - venetoclax and oBINUTUZumab"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311261000210102",
+        "display": "LEU - UKALL14 with RITUximab and daSATinib [for transplant] Intensification/CNS prophylaxis"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311251000210100",
+        "display": "LEU - UKALL14 with RITUximab and daSATinib Phase 2 Induction [for transplant]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311201000210101",
+        "display": "LYM - bendamustine and oBINUTUZumab"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311181000210100",
+        "display": "LYM NHL NK/T-cell Extra Nodal - DDGP [dexamethasone, cISplatin, gemcitabine and pegaspargase]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311171000210102",
+        "display": "LEU CLL - venetoclax and RITUximab"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311121000210101",
+        "display": "LEU - UKALL60+ Maintenance"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "311051000210109",
+        "display": "LEU - UKALL60+ with daSATinib Phase 2 Induction"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "303631000210108",
+        "display": "LEU AML - DA[45] 3+7 [DAUNOrubicin and cytarabine] induction followed by high dose cytarabine consolidation [over 60 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "303621000210106",
+        "display": "LEU - High dose cytarabine and midostaurin consolidation [under 60 years]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "303551000210101",
+        "display": "LEU - Manchester Protocol [mitoxantrone and cytarabine IV] consolidation"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "303501000210102",
+        "display": "LYM - R-MP [RITUximab, metHOTREXATe, procarbazine] [65 years and over]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "303481000210105",
+        "display": "LYM NHL B-cell - RITUximab and bendamustine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "303471000210108",
+        "display": "LYM NHL B-cell - RITUximab Maintenance Q8W"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265711000210103",
+        "display": "Neuroendocrine carcinoma - cISplatin and etoposide 60/120 chemoradiation"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265651000210107",
+        "display": "SAR STS Advanced - pAZOPanib"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265641000210109",
+        "display": "SAR STS Advanced - IFOSFamide [3-day]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265581000210103",
+        "display": "SAR STS Advanced - DOXOrubicin and IFOSFamide 20/2000"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265571000210100",
+        "display": "SAR Osteosarcoma Advanced - DOXOrubicin [1-day dosing] and cISplatin"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265521000210104",
+        "display": "Neuroendocrine carcinoma Advanced - cARBOplatin and oral etoposide"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265371000210106",
+        "display": "GU - nivolumab and ipilimumab induction"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "265361000210100",
+        "display": "GU Renal cell Advanced - nivolumab and ipilimumab induction followed by nivolumab maintenance Q4W [flat dosing]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264811000210106",
+        "display": "LEU - daSATinib 140"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264751000210103",
+        "display": "LUNG NSCLC Locally advanced/Metastatic - cARBOplatin and gemcitabine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264741000210101",
+        "display": "LUNG NSCLC Locally advanced/Metastatic - cARBOplatin and vinORELBine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264411000210109",
+        "display": "LEU CLL - chlorambucil and oBINUTUZumab"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264381000210107",
+        "display": "LEU CML - nilotinib"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264351000210102",
+        "display": "LYM NHL B-cell Relapsed - R-ICE [RITUximab, fractionated IFOSFamide, cARBOplatin and etoposide]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "264341000210100",
+        "display": "LYM NHL B-cell MCL - R-BAC [RITUximab, bendamustine and cytarabine]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "263981000210108",
+        "display": "LEU AML Relapsed - FLAG [fludarabine, cytarabine and filgrastim] [60 years and over]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "263971000210106",
+        "display": "CNS GBM Recurrent - beVACizumab and lomustine"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "263921000210107",
+        "display": "CNS - temozolomide chemoradiation"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "60071000210106",
+        "display": "GYN END Adjuvant - cISplatin chemoradiation followed by cARBOplatin and PACLItaxel"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "60061000210100",
+        "display": "GYN OV Recurrent - topotecan"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "60011000210102",
+        "display": "GYN GTD - EP-EMA [etoposide, ciSplatin, etoposide, metHOTREXATe and daCTINomycin] [high risk]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "60001000210104",
+        "display": "GYN OV Low grade serous carcinoma - letrozole maintenance"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "59991000210107",
+        "display": "GYN OV Recurrent - CYCLOPHOSPHamide oral [2/4 dosing]"
+      },
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+        "version": "1",
+        "code": "59941000210103",
+        "display": "GYN OV Recurrent - pegylated liposomal DOXOrubicin hydrochloride and beVACizumab"
+      }
+    ]
+  },
+  "id": "canshare-sact-regimen-code"
+}

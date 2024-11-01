@@ -1,1 +1,63 @@
-{"resourceType":"ValueSet","id":"canshare-mastocytosis-cancer-type","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:09.628+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-mastocytosis-cancer-type","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-mastocytosis-cancer-type"}],"version":"20240416","name":"canshare-mastocytosis-cancer-type","title":"NZ cancer mastocytosis cancer type","status":"active","experimental":false,"date":"2024-04-16","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The type of mastocytosis haematologic cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 351811000210106 |New Zealand cancer mastocytosis cancer type reference set| MINUS 414653009 |Mastocytosis|"}]},{"system":"http://snomed.info/sct","concept":[{"code":"414653009","display":"Other mastocytosis"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:54.245+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-mastocytosis-cancer-type",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-mastocytosis-cancer-type"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-mastocytosis-cancer-type",
+  "title": "NZ cancer mastocytosis cancer type",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "9a2042f6-d20e-4988-b842-e2220ef51d41",
+    "timestamp": "2024-11-01T20:22:36+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "414653009",
+        "display": "Other mastocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397012002",
+        "display": "Cutaneous mastocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "118615008",
+        "display": "Malignant mast cell tumour (clinical)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397016004",
+        "display": "Systemic mast cell disease"
+      }
+    ]
+  },
+  "id": "canshare-mastocytosis-cancer-type"
+}

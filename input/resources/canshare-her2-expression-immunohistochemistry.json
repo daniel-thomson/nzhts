@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:14:36.621+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-her2-expression-immunohistochemistry",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-her2-expression-immunohistochemistry"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-her2-expression-immunohistochemistry",
+  "title": "NZ cancer HER2 expression immunohistochemistry",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "8cfad7f1-fb3d-4fa1-9dc9-36c868d1867f",
+    "timestamp": "2024-11-01T20:23:03+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395591000210107",
+        "display": "Human epidermal growth factor receptor 2 immunohistochemistry score 0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395601000210102",
+        "display": "Human epidermal growth factor receptor 2 immunohistochemistry score 1+"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395611000210100",
+        "display": "Human epidermal growth factor receptor 2 immunohistochemistry score 2+"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395621000210105",
+        "display": "Human epidermal growth factor receptor 2 immunohistochemistry score 3+"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419984006",
+        "display": "Inconclusive"
+      }
+    ]
+  },
+  "id": "canshare-her2-expression-immunohistochemistry"
+}

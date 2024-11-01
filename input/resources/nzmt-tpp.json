@@ -1,1 +1,535 @@
-{"resourceType":"ValueSet","id":"nzmt-tpp","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:07.094+12:00"},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZMT - TPP</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-tpp</tt></div>"},"url":"https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-tpp","version":"20240416","name":"NZMT___TPP","title":"NZMT - TPP","status":"draft","compose":{"include":[{"system":"http://nzmt.org.nz","filter":[{"property":"nzmtType","op":"=","value":"tpp"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:39.833+13:00"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-tpp",
+  "version": "20240416",
+  "name": "NZMT___TPP",
+  "title": "NZMT - TPP",
+  "status": "draft",
+  "expansion": {
+    "identifier": "00bf2891-dd97-44d9-ab4d-1f382f50fd21",
+    "timestamp": "2024-11-01T20:21:03+13:00",
+    "total": 23086,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://nzmt.org.nz|20241015"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45347151000116105",
+        "display": "60 Second Taste raspberry 2.73% (27.3 mg/g) oral gel, 480 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47750211000116104",
+        "display": "AdiraMedica Ibuprofen Suspension Double Strength 200 mg/5 mL oral liquid: suspension, 75 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44784231000116103",
+        "display": "Advil Mini Caps 200 mg tablet: sugar-coated, 4 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10038381000116105",
+        "display": "Amco Peanut oil, 450 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10051801000116104",
+        "display": "Apo-Ascorbic Acid 100 mg tablet: uncoated, 500 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44090621000116107",
+        "display": "Apo-Famciclovir 250 mg tablet: film-coated, 28 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44755331000116103",
+        "display": "Apo-Pregabalin 300 mg capsule: hard, 14 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45386991000116105",
+        "display": "Arostea 120 mg tablet: film-coated, 10 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31073131000116106",
+        "display": "Arrow-Lisinopril 20 mg tablet: uncoated, 90 tablets [obsolete]"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44206121000116105",
+        "display": "Arrow-Salbutamol 2.5 mg/2.5 mL inhalation: solution, 20 x 2.5 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48158881000116109",
+        "display": "Artropan 20 mg/mL injection: suspension, 1 x 1 mL ampoule"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46716771000116108",
+        "display": "Azithromycin for Injection, USP (Apotex) 500 mg injection: powder for, 10 x 500 mg vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10130931000116100",
+        "display": "Betadine Alcoholic Skin Preparation solution, 100 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47854611000116107",
+        "display": "Bosulif 400 mg tablet: film-coated, 28 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47466161000116108",
+        "display": "Cefuroxime Multichem 750 mg injection: powder for, 1 x 750 mg vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47465371000116106",
+        "display": "Cetedyne Hayfever Allergy Relief 10 mg capsule: soft, 30 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10153071000116106",
+        "display": "Chlorhexidine 2% in Alcohol 10% (Orion) Blue application, 100 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10183231000116108",
+        "display": "Citanest 1% (50 mg/5 mL) injection: solution, 10 x 5 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10166131000116106",
+        "display": "Clopine 100 mg tablet: uncoated, 50 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46702031000116105",
+        "display": "Cold & Flu Day + Night PE (Pharmacy Health) (48 x day tablets, 24 x night tablets), 72 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10278981000116104",
+        "display": "DBL Etoposide 100 mg/5 mL injection: concentrated, 1 x 5 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47189561000116105",
+        "display": "Deep Heat Original Heat Rub cream, 140 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46838151000116107",
+        "display": "DP-Atorvastatin 10 mg tablet: film-coated, 30 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46026001000116107",
+        "display": "E-Z-Paque 96% (960 mg/g) oral liquid: powder for, 10 kg"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44952391000116104",
+        "display": "Ego Emollient cream, 250 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48098701000116108",
+        "display": "Eltroxin 100 microgram tablet: uncoated, 100 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47196211000116102",
+        "display": "Fentanyl-Rotex 100 microgram/2 mL injection: solution, 10 x 2 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48098171000116101",
+        "display": "Ferric Carboxymaltose Sandoz 500 mg/10 mL injection: solution, 5 x 10 mL vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48076201000116107",
+        "display": "FexaLieve 180 mg tablet: film-coated, 5 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10328661000116106",
+        "display": "Fluorescein Sodium (Novartis) 500 mg/5 mL injection: solution, 10 x 5 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10297181000116107",
+        "display": "Fragmin 10 000 anti-Xa international units/mL injection: solution, 10 x 1 mL syringes"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46146441000116105",
+        "display": "Glaumox 500 mg injection: powder for, 1 x 500 mg vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10308871000116109",
+        "display": "Glycerine (Midwest) 1 mL/mL BP liquid, 100 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44933671000116102",
+        "display": "Granisetron Kabi 1 mg/mL injection: solution, 5 x 1 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20054021000116101",
+        "display": "Haemorol Oily Phenol 5% (250 mg/5 mL) mL injection: solution, 5 x 5 mL vials"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47318211000116105",
+        "display": "Haylor 1 mg/mL oral liquid: syrup, 100 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45407271000116108",
+        "display": "Hepatyrix vaccine injection: suspension, 1 x 1 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10345131000116103",
+        "display": "Hydrogen Peroxide (Jasol) 50% (500 mg/mL) solution, 2 L"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44658881000116109",
+        "display": "Ibuprofen (Medix) 200 mg capsule: soft, 48 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44818851000116102",
+        "display": "Imiquimod (Perrigo) 5% (12.5 mg/250 mg) cream, 12 x 250 mg sachets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "24306701000116109",
+        "display": "Indometacin (Actavis) 25 mg capsule: hard, 28 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45036341000116108",
+        "display": "Indomethacin IV Mylan 1 mg injection: powder for, 3 x 1 mg vials [Obsolete]"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44768681000116109",
+        "display": "Inflectra 100 mg injection: powder for, 1 x 100 mg vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46653231000116106",
+        "display": "Influvac Tetra 2018 injection: suspension, 10 x 0.5 mL syringes [Obsolete]"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48262481000116102",
+        "display": "Influvac Tetra 2024 injection: suspension, 10 x 0.5 mL syringes"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47044511000116105",
+        "display": "Inovelon 100 mg tablet: film-coated, 60 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44043821000116108",
+        "display": "Ipca-Sumatriptan 100 mg tablet: film-coated, 6 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "28051061000116107",
+        "display": "Karvol Decongestant inhalation, 12 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48215321000116103",
+        "display": "L-Tyrosine (Nutricia) 1 g/g powder, 100 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10388621000116105",
+        "display": "Lasix 10 mg/mL oral liquid: solution, 30 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31087331000116105",
+        "display": "Loraclear Hayfever Relief 10 mg tablet: uncoated, 5 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48203301000116107",
+        "display": "Lyrica 150 mg capsule: hard, 20 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10409681000116108",
+        "display": "Maxipime 500 mg injection: powder for, 1 x 500 mg vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48386911000116108",
+        "display": "Medleaf Tropicana THC 160 mg/g + CBD 10 mg/g dried flower tea, 30 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10416211000116106",
+        "display": "Menomune ACYW-135 (1 x 200 microgram vaccine vial, 1 x 0.6 mL diluent vial), 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10431571000116102",
+        "display": "Methopt Tears 0.5% (5 mg/mL) eye drops: solution, 15 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46197431000116106",
+        "display": "Microdacyn Hydrogel gel, 120 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47219161000116101",
+        "display": "MiniMed Sure-T MMT-876A insulin pump infusion set (8 mm x 29 gauge steel needle x 10, 80 cm line x 10), 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44064921000116105",
+        "display": "Modavigil 100 mg tablet: uncoated, 10 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10471561000116105",
+        "display": "Morphine Sulphate (Mayne) 30 mg/30 mL injection: solution, 1 x 30 mL syringe"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20042281000116101",
+        "display": "Mylanta 2go Rolltabs peppermint tablet: chewable, 12 tablets [obsolete]"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48060561000116103",
+        "display": "Nicorette Chewing Gum Icy Mint 4 mg gum, 340 gums"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31145631000116107",
+        "display": "Normal Immunoglobulin-VF (CSL) 16% (320 mg/2 mL) injection: solution, 1 x 2 mL vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48341741000116109",
+        "display": "Novesine 0.4% (4 mg/mL) eye drops: solution, 10 x 10 mL bottles"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10490561000116105",
+        "display": "Nuelin SR 500 mg tablet: sustained release, 100 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10513111000116104",
+        "display": "Nutrison Low Sodium liquid: enteral, 1 x 500 mL bottle"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44114871000116108",
+        "display": "Oliclinomel N-5 800 E injection: intravenous infusion, 1 x 2500 mL bag"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46872051000116106",
+        "display": "Omeprazole 2 mg/mL oral liquid (Extemporaneously Compounded Formulation)"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47724001000116100",
+        "display": "Oraycea 40 mg capsule: modified release, 56 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20005221000116103",
+        "display": "Orgran Gluten Free Pasta Rice and Corn Mini Lasagne Sheets food: solid, 200 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44304531000116104",
+        "display": "Oxycodone Immediate Release (Interpharma) 10 mg capsule: hard, 28 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47803931000116100",
+        "display": "Paliperidone ADVZ 100 mg/mL injection: modified release, 1 x 1 mL syringe"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10509401000116106",
+        "display": "Pamol Double Strength colourfree 250 mg/5 mL oral liquid: suspension, 100 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46593801000116101",
+        "display": "Pregabalin Pfizer 50 mg capsule: hard, 20 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10571121000116101",
+        "display": "Premarin 625 microgram tablet: sugar-coated, 84 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44223711000116104",
+        "display": "Quetapel 25 mg tablet: film-coated, 56 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45400031000116103",
+        "display": "Ranexa 375 mg tablet: modified release, 60 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46934451000116104",
+        "display": "Rydapt 25 mg capsule: soft, 112 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47782701000116104",
+        "display": "Ryeqo 40/1/0.5 tablet: film-coated, 84 tablets [3 x 28 tablets]"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10624621000116101",
+        "display": "Saizen Click.Easy 8 mg (24 international units) injection: powder for, 1 x 8 mg dual chamber vial"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "46456211000116109",
+        "display": "Sirdupla MDI 125/25 inhalation: pressurised, 120 actuations"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48119661000116104",
+        "display": "SmartSet GMV Endurance Gentamicin Bone Cement (1 x 40 g bag, 1 x 18.88 g ampoule), 1 pack"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45021691000116104",
+        "display": "Spedra 200 mg tablet: uncoated, 4 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10644241000116106",
+        "display": "Spironolactone (Biomed) 5 mg/mL oral liquid: solution, 25 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "26656111000116103",
+        "display": "Stingose 20% (200 mg/g) gel, 25 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10662961000116100",
+        "display": "Stocrin 600 mg tablet: film-coated, 30 tablets"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "20056631000116101",
+        "display": "Strepsils Soothing honey and lemon lozenge, 16"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "47051941000116102",
+        "display": "Symbicort Rapihaler 100/3 inhalation: pressurised, 120 actuations"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10690821000116104",
+        "display": "Trop T diagnostic test: strip, 10 strips"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "28038931000116107",
+        "display": "Vamin 14 with electrolytes injection: intravenous infusion, 1 x 500 mL bottle"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48163921000116104",
+        "display": "Vanilla SilQ HD 98% (304 g/310 g) oral liquid: powder for, 24 x 310 g bottles"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10697701000116101",
+        "display": "Ventolin Nebule 5 mg/2.5 mL inhalation: solution, 20 x 2.5 mL ampoules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44235571000116103",
+        "display": "Vexol 1% (10 mg/mL) eye drops: suspension, 5 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "31100051000116109",
+        "display": "Volulyte 6% injection: intravenous infusion, 20 x 250 mL bags"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44981741000116105",
+        "display": "Water For Injections BP (B Braun) injection: solution, 1 x 10 mL ampoule"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "48148511000116100",
+        "display": "White Soft Paraffin (Evara) ointment, 450 g"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10749201000116103",
+        "display": "Xylocaine Jelly 2% (20 mg/mL), 15 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "44104601000116104",
+        "display": "Zaditen 0.025% (250 microgram/mL) eye drops: solution, 2.5 mL"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "45281431000116100",
+        "display": "Ziprasidone Actavis 20 mg capsule: hard, 100 capsules"
+      },
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "43996741000116103",
+        "display": "Zyprexa 2.5 mg tablet: film-coated, 100 tablets"
+      }
+    ]
+  },
+  "id": "nzmt-tpp"
+}

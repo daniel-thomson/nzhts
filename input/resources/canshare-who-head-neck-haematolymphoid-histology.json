@@ -1,0 +1,183 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:09:11.773+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-head-neck-haematolymphoid-histology",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-who-head-neck-haematolymphoid-histology"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-who-head-neck-haematolymphoid-histology",
+  "title": "NZ WHO classification of tumours head and neck haematolymphoid histology",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "f2f4bb15-064a-4fec-9ad2-0296d078f490",
+    "timestamp": "2024-11-01T20:21:49+13:00",
+    "total": 28,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77381001",
+        "display": "Burkitt lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "762691001",
+        "display": "Classical Hodgkin lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1172695008",
+        "display": "Diffuse large B cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "788572005",
+        "display": "EBV positive mucocutaneous ulcer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "703711007",
+        "display": "Erdheim-Chester disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397350003",
+        "display": "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128816008",
+        "display": "Follicular dendritic cell sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55150002",
+        "display": "Follicular lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "112687003",
+        "display": "Hodgkin lymphoma, lymphocyte depletion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128799007",
+        "display": "Hodgkin lymphoma, lymphocyte-rich"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41529000",
+        "display": "Hodgkin lymphoma, mixed cellularity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70600005",
+        "display": "Hodgkin lymphoma, nodular lymphocyte predominance"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52248008",
+        "display": "Hodgkin lymphoma, nodular sclerosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10743271000119103",
+        "display": "IgG4 related disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "262481000210107",
+        "display": "Juvenile xanthogranuloma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "110450007",
+        "display": "Langerhans' cell histiocytosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "786960000",
+        "display": "Large B-cell lymphoma with IRF4 rearrangement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "43961000",
+        "display": "Lymphoid hyperplasia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74654000",
+        "display": "Mantle cell lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35287006",
+        "display": "Myeloid sarcoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128805001",
+        "display": "NK/T-cell lymphoma, nasal and nasal-type"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "733917002",
+        "display": "Paediatric follicular lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "450909005",
+        "display": "Plasmablastic lymphoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1187107005",
+        "display": "Plasmacytoma"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429891000210105",
+        "display": "Primary mucosal CD30-positive T-cell lymphoproliferative disorder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1295376005",
+        "display": "Rosai-Dorfman disease"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397348006",
+        "display": "T-lymphoblastic lymphoma/leukaemia"
+      }
+    ]
+  },
+  "id": "canshare-who-head-neck-haematolymphoid-histology"
+}

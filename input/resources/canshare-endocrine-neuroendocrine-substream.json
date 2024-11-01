@@ -1,1 +1,63 @@
-{"resourceType":"ValueSet","id":"canshare-endocrine-neuroendocrine-substream","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:29:59.491+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-endocrine-neuroendocrine-substream","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-endocrine-neuroendocrine-substream"}],"version":"20240514","name":"canshare-endocrine-neuroendocrine-substream","title":"NZ cancer endocrine and/or neuroendocrine substream","status":"active","experimental":false,"date":"2024-05-14","publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"The subcategory of the primary endocrine and/or neuroendocrine tumour solid cancer being assessed and/or treated.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^302521000210103 |New Zealand cancer endocrine and/or neuroendocrine substream reference set (foundation metadata concept)| MINUS (298221000210106 |Neuroendocrine primary| OR 300781000210107 |Neuroendocrine GEP primary| OR 300721000210106 |Neuroendocrine non-GEP primary|)"}]},{"system":"http://snomed.info/sct","concept":[{"code":"298221000210106","display":"Other neuroendocrine primary"}]},{"system":"http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished","concept":[{"code":"382551000210106","display":"Neuroendocrine tumour gastroenteropancreatic (GEP-NET) primary"},{"code":"382561000210109","display":"Neuroendocrine tumour non-gastroenteropancreatic (non-GEP NET) primary"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:16:13.138+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-endocrine-neuroendocrine-substream",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-endocrine-neuroendocrine-substream"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-endocrine-neuroendocrine-substream",
+  "title": "NZ cancer endocrine and neuroendocrine substream",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "942d9907-52a0-4fa8-aa04-41eed16077b7",
+    "timestamp": "2024-11-01T20:24:34+13:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298221000210106",
+        "display": "Other neuroendocrine primary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "298231000210108",
+        "display": "Primary malignant neoplasm of endocrine system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382551000210106",
+        "display": "Primary malignant neuroendocrine tumour of digestive system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "382561000210109",
+        "display": "Primary malignant neuroendocrine tumour of non-digestive system structure"
+      }
+    ]
+  },
+  "id": "canshare-endocrine-neuroendocrine-substream"
+}

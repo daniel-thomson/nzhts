@@ -1,0 +1,355 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:15:32.557+13:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://hl7.org/fhir/uv/ips/ValueSet/results-presence-absence-uv-ips",
+  "version": "1.1.0",
+  "name": "ResultsPresenceAbsenceUvIps",
+  "title": "Results Presence/Absence - IPS",
+  "status": "active",
+  "experimental": false,
+  "copyright": "The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org",
+  "expansion": {
+    "identifier": "a5823cf7-c762-43cf-9b0d-dd4297b20908",
+    "timestamp": "2024-11-01T20:24:04+13:00",
+    "total": 63,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260347006",
+        "display": "+"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260348001",
+        "display": "++"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260349009",
+        "display": "+++"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260350009",
+        "display": "++++"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "43261007",
+        "display": "Abnormal presence of"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2667000",
+        "display": "Absent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260412002",
+        "display": "Anaerobes detected"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260373001",
+        "display": "Detected"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "462371000124108",
+        "display": "Detected in pooled specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1303846005",
+        "display": "Highly positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1339054002",
+        "display": "Highly reduced sensitivity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264840007",
+        "display": "Hyperplasia present"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "897500001",
+        "display": "Indeterminate in pooled specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46651001",
+        "display": "Isolated"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260351008",
+        "display": "Just noticeable"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "41277001",
+        "display": "Lacking"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1303844008",
+        "display": "Moderately positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260385009",
+        "display": "Negative"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264866005",
+        "display": "Neoplasm present"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260386005",
+        "display": "Nil"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "373067005",
+        "display": "No"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260387001",
+        "display": "No anaerobes detected"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264868006",
+        "display": "No growth"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264869003",
+        "display": "No neoplasm"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260389003",
+        "display": "No reaction"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264871003",
+        "display": "Nodules absent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264872005",
+        "display": "Nodules present"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260392004",
+        "display": "Non-patent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260393009",
+        "display": "Non-pigmented"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260390007",
+        "display": "Non-vital"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260413007",
+        "display": "None"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260391006",
+        "display": "Noninflammatory"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17511009",
+        "display": "Normal absence"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260415000",
+        "display": "Not detected"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "895231008",
+        "display": "Not detected in pooled specimen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264887000",
+        "display": "Not isolated"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260416004",
+        "display": "Not itching"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47492008",
+        "display": "Not seen"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260414001",
+        "display": "Nothing"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260353006",
+        "display": "Nothing at all"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "276727009",
+        "display": "Null"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10828004",
+        "display": "Positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "263650004",
+        "display": "Presence of calculi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "263651000",
+        "display": "Presence of delta phalanx"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260976002",
+        "display": "Presence of infection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52101004",
+        "display": "Present"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441614007",
+        "display": "Present one plus out of three plus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441521003",
+        "display": "Present three plus out of three plus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "441517005",
+        "display": "Present two plus out of three plus"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "720735008",
+        "display": "Presumptive positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264915001",
+        "display": "Receptor absent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1339053008",
+        "display": "Reduced sensitivity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "735269004",
+        "display": "Repeatedly reactive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "83185005",
+        "display": "Sensitive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260417008",
+        "display": "Strains different"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260418003",
+        "display": "Strains similar"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1290623009",
+        "display": "Strong positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "264929000",
+        "display": "Superadded infection absent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260405006",
+        "display": "Trace"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1303845009",
+        "display": "Very highly positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260410005",
+        "display": "Vital"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260408008",
+        "display": "Weakly positive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "373066001",
+        "display": "Yes"
+      }
+    ]
+  },
+  "id": "results-presence-absence-uv-ips"
+}

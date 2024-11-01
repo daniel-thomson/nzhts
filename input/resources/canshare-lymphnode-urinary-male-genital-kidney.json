@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:10:50.411+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphnode-urinary-male-genital-kidney",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-lymphnode-urinary-male-genital-kidney"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-lymphnode-urinary-male-genital-kidney",
+  "title": "NZ cancer urinary and male genital kidney lymph node",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "ca332bb4-921a-4e81-a90f-8cc9d9c72be7",
+    "timestamp": "2024-11-01T20:25:11+13:00",
+    "total": 8,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "74964007",
+        "display": "Other"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35783009",
+        "display": "Structure of aortic lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395661000210103",
+        "display": "Structure of aortocaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395651000210101",
+        "display": "Structure of caval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395671000210109",
+        "display": "Structure of paracaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395681000210106",
+        "display": "Structure of precaval lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "249708006",
+        "display": "Structure of renal hilar lymph node"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395691000210108",
+        "display": "Structure of retrocaval lymph node"
+      }
+    ]
+  },
+  "id": "canshare-lymphnode-urinary-male-genital-kidney"
+}

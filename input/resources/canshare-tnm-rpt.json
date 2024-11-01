@@ -1,1 +1,233 @@
-{"resourceType":"ValueSet","id":"canshare-tnm-rpt","meta":{"versionId":"1","lastUpdated":"2024-07-25T17:30:00.261+12:00"},"language":"en-x-sctlang-23162100-0210105","url":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-rpt","identifier":[{"system":"http://canshare.co.nz/fhir/NamingSystem/valuesets","value":"canshare-tnm-rpt"}],"version":"20240318","name":"canshare-tnm-rpt","title":"NZ AJCC recurrence or retreatment pathological T category (rpT)","status":"active","experimental":false,"publisher":"Te Aho o Te Kahu","contact":[{"telecom":[{"system":"email","value":"info@teaho.govt.nz"}]}],"description":"A recurrence or retreatment pathological tumour stage (pT) of a tumour, using the AJCC cancer staging manual.","compose":{"include":[{"system":"http://snomed.info/sct","version":"http://snomed.info/sct/21000210109","filter":[{"property":"constraint","op":"=","value":"^ 333351000210100 |New Zealand AJCC recurrence or retreatment pathological T (rpT) category reference set|"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-29T17:11:06.570+13:00"
+  },
+  "language": "en",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-rpt",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-tnm-rpt"
+    }
+  ],
+  "version": "20241009",
+  "name": "canshare-tnm-rpt",
+  "title": "NZ AJCC recurrence or retreatment pathological T category (rpT)",
+  "status": "active",
+  "experimental": false,
+  "expansion": {
+    "identifier": "e5998548-6de7-44e3-8485-c904d03e144e",
+    "timestamp": "2024-11-01T20:25:12+13:00",
+    "total": 38,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000210109/version/20241001"
+      },
+      {
+        "name": "count",
+        "valueInteger": 100
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279740007",
+        "display": "rpT0"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279748000",
+        "display": "rpT1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279750008",
+        "display": "rpT1a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279751007",
+        "display": "rpT1a1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279752000",
+        "display": "rpT1a2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279753005",
+        "display": "rpT1b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279754004",
+        "display": "rpT1b1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279756002",
+        "display": "rpT1b2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279757006",
+        "display": "rpT1c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279758001",
+        "display": "rpT1c1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279759009",
+        "display": "rpT1c2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279760004",
+        "display": "rpT1c3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279761000",
+        "display": "rpT1d"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279749008",
+        "display": "rpT1mi"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279762007",
+        "display": "rpT2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279763002",
+        "display": "rpT2a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279764008",
+        "display": "rpT2a1"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279765009",
+        "display": "rpT2a2"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279766005",
+        "display": "rpT2b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279767001",
+        "display": "rpT2c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279768006",
+        "display": "rpT2d"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279769003",
+        "display": "rpT3"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279770002",
+        "display": "rpT3a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279771003",
+        "display": "rpT3b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279772005",
+        "display": "rpT3c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279773000",
+        "display": "rpT3d"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279774006",
+        "display": "rpT4"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279775007",
+        "display": "rpT4a"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279776008",
+        "display": "rpT4b"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279777004",
+        "display": "rpT4c"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279778009",
+        "display": "rpT4d"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279779001",
+        "display": "rpT4e"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279743009",
+        "display": "rpTa"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279744003",
+        "display": "rpTis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279745002",
+        "display": "rpTis(DCIS)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279746001",
+        "display": "rpTis(LAMN)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279747005",
+        "display": "rpTis(Paget)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1279739005",
+        "display": "rpTX"
+      }
+    ]
+  },
+  "id": "canshare-tnm-rpt"
+}
