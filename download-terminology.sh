@@ -1,15 +1,10 @@
 #!/bin/bash
-
 # download terminology resources from NZHTS via FHIR API
 
-RESOURCES_TO_SAVE=(
-  "https://nzhts.digital.health.nz/fhir/CodeSystem/"
-)
-RESOURCES_TO_EXPAND_AND_SAVE=(
-  "https://nzhts.digital.health.nz/fhir/ValueSet/"
-)
+RESOURCES_TO_SAVE=( "https://nzhts.digital.health.nz/fhir/CodeSystem/" )
+RESOURCES_TO_EXPAND_AND_SAVE=( "https://nzhts.digital.health.nz/fhir/ValueSet/" )
 
-count_param="&count=100"
+expansion_params="&count=101&includeDefinition=true"
 nzhts_expansion_prefix="https://nzhts.digital.health.nz/fhir/ValueSet/\$expand?url="
 BEARER_TOKEN=""
 
@@ -67,12 +62,13 @@ for base_url in "${RESOURCES_TO_EXPAND_AND_SAVE[@]}"; do
   full_urls=$(echo "$main_response" | jq -r '.entry[].resource.url')
   for full_url in $full_urls; do
     output_file="input/resources/$(basename $full_url).json"
-    fetch_and_save "$nzhts_expansion_prefix$full_url$count_param" "$output_file"
-     
-    # Extract the last part of the URL to use as the id and add to valueset
-    id=$(basename "$full_url")
-    jq --arg id "$id" '. + {id: $id}' "$output_file" > tmp.$$.json && mv tmp.$$.json "$output_file"
+    fetch_and_save "$nzhts_expansion_prefix$full_url$expansion_params" "$output_file"
 
+    # Output of $expand doesn't always have an id, so add it if it doesn't exist.
+    id=$(basename "$full_url")
+    if ! jq -e '.id' "$output_file" > /dev/null; then
+      jq --arg id "$id" '. + {id: $id}' "$output_file" > tmp.$$.json && mv tmp.$$.json "$output_file"
+    fi
   done
   rm -rf "$main_output_file"
 done
