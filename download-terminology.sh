@@ -4,7 +4,7 @@
 RESOURCES_TO_SAVE=( "https://nzhts.digital.health.nz/fhir/CodeSystem/" )
 RESOURCES_TO_EXPAND_AND_SAVE=( "https://nzhts.digital.health.nz/fhir/ValueSet/" )
 
-expansion_params="&count=101&includeDefinition=true"
+expansion_params="&includeDefinition=true"
 nzhts_expansion_prefix="https://nzhts.digital.health.nz/fhir/ValueSet/\$expand?url="
 BEARER_TOKEN=""
 

@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-moh-refcrit-colonoscopy-2w",
+  "publisher": "Te Aho o Te Kahu",
+  "description": "All codes for http://canshare.co.nz/fhir/CodeSystem/canshare-moh-refcrit-colonoscopy-2w",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.co.nz/fhir/CodeSystem/canshare-moh-refcrit-colonoscopy-2w",
+        "version": "20240920"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "c0450672-db3a-4b60-afba-a9d39cc12a9e",
-    "timestamp": "2024-11-01T20:21:45+13:00",
+    "identifier": "c23c80f1-b783-4b66-a738-be9f78eb5b2b",
+    "timestamp": "2024-11-11T11:02:14+13:00",
     "total": 3,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",

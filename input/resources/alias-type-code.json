@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",
+  "publisher": "HL7 New Zealand",
+  "description": "All codes for https://standards.digital.health.nz/ns/alias-type-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "version": "1.0.0"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "b822c729-b5b0-452c-9f02-61d99108e4b0",
-    "timestamp": "2024-11-01T20:23:56+13:00",
+    "identifier": "bc91b883-8a3e-4733-a587-2ccb508869be",
+    "timestamp": "2024-11-11T11:04:34+13:00",
     "total": 7,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",

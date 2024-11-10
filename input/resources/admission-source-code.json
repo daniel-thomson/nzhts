@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/admission-source-code",
+  "publisher": "HISO",
+  "description": "All codes for https://standards.digital.health.nz/ns/admission-source-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/admission-source-code",
+        "version": "20221115"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "6b3ed292-3384-43f2-b4a0-4d2c7b116d5b",
-    "timestamp": "2024-11-01T20:23:35+13:00",
+    "identifier": "d85de571-2082-451a-be62-eea666229858",
+    "timestamp": "2024-11-11T10:58:48+13:00",
     "total": 2,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",
