@@ -4,7 +4,7 @@
     {
       "severity": "error",
       "code": "not-found",
-      "diagnostics": "[8e86bfc6-aef2-484f-8954-8754657f64fe]: A usable code system with URL https://standards.digital.health.nz/ns/information-source-code|2.0-ballot could not be resolved."
+      "diagnostics": "[38791dad-224f-4536-acdb-0bd21737c959]: A usable code system with URL https://standards.digital.health.nz/ns/information-source-code|2.0-ballot could not be resolved."
     }
   ],
   "id": "NZ-residency-source-code"

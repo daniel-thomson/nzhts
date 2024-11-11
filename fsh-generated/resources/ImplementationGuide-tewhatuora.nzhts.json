@@ -689,6 +689,30 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/LOINC-2.76"
+        },
+        "description": "LOINC is a common language (set of identifiers, names, and codes) for clinical and laboratory observations.",
+        "exampleBoolean": false,
+        "name": "LOINC 2.76"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/LOINC-2.77"
+        },
+        "description": "LOINC is a common language (set of identifiers, names, and codes) for clinical and laboratory observations.",
+        "exampleBoolean": false,
+        "name": "LOINC 2.77"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/LOINC-2.78"
+        },
+        "description": "LOINC is a common language (set of identifiers, names, and codes) for clinical and laboratory observations.",
+        "exampleBoolean": false,
+        "name": "LOINC 2.78"
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/loinc-nz-local-order-code"
         },
         "exampleBoolean": false,
@@ -783,6 +807,38 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/21000210109-20230401"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "New Zealand integrated care module"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/21000210109-20231001"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "New Zealand integrated care module"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/21000210109-20240401"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "New Zealand integrated care module"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/21000210109-20241001"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "New Zealand integrated care module"
+      },
+      {
+        "reference": {
           "reference": "OperationOutcome/nhi-use-code"
         },
         "exampleBoolean": false,
@@ -795,6 +851,14 @@
         "description": "Number of vessels identified in the umbilical cord",
         "exampleBoolean": false,
         "name": "Number of cord vessels code"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/1303956008-20240101"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "Nutrition Care Process Terminology module"
       },
       {
         "reference": {
@@ -8435,6 +8499,46 @@
         },
         "exampleBoolean": false,
         "name": "Smoking status"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/900000000000207008-20230131"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "SNOMED CT core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/900000000000207008-20230731"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "SNOMED CT core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/900000000000207008-20240101"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "SNOMED CT core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/900000000000207008-20240201"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "SNOMED CT core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/900000000000207008-20240801"
+        },
+        "description": "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+        "exampleBoolean": false,
+        "name": "SNOMED CT core"
       },
       {
         "reference": {
