@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code",
+  "publisher": "HL7 New Zealand",
+  "description": "All codes for https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "version": "1.0.0"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "80c69e12-3072-4fbb-ab7c-2ffbb129d704",
-    "timestamp": "2024-11-01T20:25:23+13:00",
+    "identifier": "a6aa87ee-102c-46df-82a6-00ad37005a75",
+    "timestamp": "2024-11-11T13:48:47+13:00",
     "total": 4,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",

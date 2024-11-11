@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/skin-to-skin-contact-end-reason-code",
+  "publisher": "HISO",
+  "description": "All codes for https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+        "version": "20230401"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "accde69f-dd2f-486a-b8df-abb3ad7cba82",
+    "timestamp": "2024-11-11T13:43:15+13:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code|20230401"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+        "code": "3",
+        "display": "Health professional decision"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+        "code": "2",
+        "display": "Maternal request"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+        "code": "4",
+        "display": "Medical reason"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+        "code": "1",
+        "display": "One hour or more contact achieved"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/skin-to-skin-contact-end-reason-code",
+        "code": "5",
+        "display": "Other reason"
+      }
+    ]
+  },
+  "id": "skin-to-skin-contact-end-reason-code"
+}

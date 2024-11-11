@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[370980fb-d9d9-41b7-b1a7-236cc7c6c422]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved."
+    }
+  ],
+  "id": "vaccines-uv-ips"
+}

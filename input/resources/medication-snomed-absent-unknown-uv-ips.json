@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[b8c2f62b-58b2-4272-b3fd-247b29b1beb1]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved."
+    }
+  ],
+  "id": "medication-snomed-absent-unknown-uv-ips"
+}

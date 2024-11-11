@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code",
+  "publisher": "HL7 New Zealand",
+  "description": "All codes for https://standards.digital.health.nz/ns/contact-point-purpose-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "1d032d2d-7b1d-4101-8134-8ab3f376b1dc",
+    "timestamp": "2024-11-11T13:47:24+13:00",
+    "total": 6,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/contact-point-purpose-code|1.0.0"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "code": "ob",
+        "display": "Online booking"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "code": "rx",
+        "display": "Prescription"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "code": "vob",
+        "display": "Vaccination online booking"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "code": "vc",
+        "display": "Video Conference"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "code": "wf",
+        "display": "Web forum"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+        "code": "www",
+        "display": "Website"
+      }
+    ]
+  },
+  "id": "contact-point-purpose-code"
+}

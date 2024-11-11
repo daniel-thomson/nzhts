@@ -1,0 +1,263 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code",
+  "publisher": "HL7 New Zealand",
+  "description": "All codes for https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "version": "1.0.1"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "61459193-bfab-4430-a290-0688f5cc441c",
+    "timestamp": "2024-11-11T13:51:43+13:00",
+    "total": 45,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code|1.0.1"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "NC04",
+        "display": "A nurse authorised to prescribe in community health"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "NC03",
+        "display": "A nurse authorised to prescribe with primary health and speciality teams"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "CA01",
+        "display": "Cardiothoracic Surgery: Cardiothoracic Surgeon"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "CA02",
+        "display": "Cardiothoracic Surgery: Transplant Surgeon"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "DP01",
+        "display": "Diabetes Prescriber"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "DI01",
+        "display": "Diagnostic Imaging authorisation"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "EC01",
+        "display": "ECP authorisation"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "FS01",
+        "display": "First Surgical Assistant"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "IMMU",
+        "display": "Immunisation"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD01",
+        "display": "Internal Medicine: Cardiologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD02",
+        "display": "Internal Medicine: Endocrinologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD03",
+        "display": "Internal Medicine: Gastroenterologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD04",
+        "display": "Internal Medicine: Geriatrician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD05",
+        "display": "Internal Medicine: Infectious Disease Specialist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD06",
+        "display": "Internal Medicine: Nephrologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD07",
+        "display": "Internal Medicine: Neurologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD08",
+        "display": "Internal Medicine: Oncologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD09",
+        "display": "Internal Medicine: Physician for the Elderly (FRACP)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD10",
+        "display": "Internal Medicine: Renal Physician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD11",
+        "display": "Internal Medicine: Respiratory Specialist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "MD12",
+        "display": "Internal Medicine: Rheumatologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "INTR",
+        "display": "Intravenous Infusions"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "NC05",
+        "display": "May supply Hepatitis C Medication"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "NC02",
+        "display": "Nurse Colposcopist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "OG01",
+        "display": "Obstetrics and Gynaecology: Gynaecologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "OG02",
+        "display": "Obstetrics and Gynaecology: Obstetrician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "OP01",
+        "display": "Optometrists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA01",
+        "display": "Paediatrics: Cardiologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA02",
+        "display": "Paediatrics: Endocrinologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA03",
+        "display": "Paediatrics: Gastroenterologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA04",
+        "display": "Paediatrics: Geriatrician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA05",
+        "display": "Paediatrics: Infectious Disease Specialist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA06",
+        "display": "Paediatrics: Nephrologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA07",
+        "display": "Paediatrics: Neurologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA08",
+        "display": "Paediatrics: Oncologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA09",
+        "display": "Paediatrics: Physician for the Elderly (FRACP)"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA10",
+        "display": "Paediatrics: Renal Physician"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA11",
+        "display": "Paediatrics: Respiratory Specialist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PA12",
+        "display": "Paediatrics: Rheumatologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "NC01",
+        "display": "Prescribing authorisation"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PS01",
+        "display": "Psychiatry: Psychiatrist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "PS02",
+        "display": "Psychiatry: Psychological Medicine Specialist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "ON01",
+        "display": "Radiation Oncology: Oncologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "ON02",
+        "display": "Radiation Oncology: Radiation Oncologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+        "code": "SMEA",
+        "display": "Smear Taker"
+      }
+    ]
+  },
+  "id": "practitioner-additional-authorisation-code"
+}

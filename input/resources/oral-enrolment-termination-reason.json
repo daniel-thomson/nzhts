@@ -1,0 +1,98 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/oral-enrolment-termination-reason",
+  "publisher": "HISO",
+  "description": "All codes for https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "version": "20230901"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "1f1f1522-3ee1-48cd-bf8e-14381c886f67",
+    "timestamp": "2024-11-11T13:50:46+13:00",
+    "total": 12,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code|20230901"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "1",
+        "display": "Entered in error"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "2",
+        "display": "Left service catchment area"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "3",
+        "display": "Moved overseas"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "4",
+        "display": "Non-responder - assumed overseas"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "5",
+        "display": "Non-responder - contacted"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "6",
+        "display": "Non-responder - uncontactable"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "7",
+        "display": "Not eligible"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "8",
+        "display": "Patient deceased"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "9",
+        "display": "Patient declined"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "13",
+        "display": "Transfer to Special Dental Service Provider"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "10",
+        "display": "Transferred to Combined Dental Agreement"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/oral-enrolment-termination-reason-code",
+        "code": "12",
+        "display": "Transferred to private provider"
+      }
+    ]
+  },
+  "id": "oral-enrolment-termination-reason"
+}

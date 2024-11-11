@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+  "publisher": "HISO",
+  "description": "All codes for https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "version": "2.0.0"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "a0187267-c7ee-45f5-a4af-8c18b5b0c243",
-    "timestamp": "2024-11-01T20:25:02+13:00",
+    "identifier": "fb678cea-36ce-48b0-93c9-e0da7f9f9945",
+    "timestamp": "2024-11-11T13:48:31+13:00",
     "total": 120,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",
@@ -38,8 +49,23 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSCE",
+        "display": "Clinical and Educational"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "DECD",
         "display": "Clinical Dental Technology Practice"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSCL",
+        "display": "Clinical Psychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PSCO",
+        "display": "Counselling Psychologist"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -108,6 +134,11 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PBIN",
+        "display": "Interim Psychotherapist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "PHIN",
         "display": "Intern Pharmacist"
       },
@@ -115,6 +146,16 @@
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "RTMR",
         "display": "Magnetic Resonance Technologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCTR",
+        "display": "Medical Council Temporary Registration"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "LTPA",
+        "display": "Medical Laboratory Pre-Analytical Technician"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -208,8 +249,18 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DESP",
+        "display": "Orthodontic Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "OSTE",
         "display": "Osteopath"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSED",
+        "display": "Osteopath - Educator"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -230,6 +281,11 @@
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "OSPM",
         "display": "Osteopath -Pain Management"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSWA",
+        "display": "Osteopath -Western Medical Acupuncture"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -293,6 +349,11 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OPPO",
+        "display": "Provisional Optometrist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "MCPV",
         "display": "Provisional Vocational Scope of Practice"
       },
@@ -300,6 +361,11 @@
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "PSYC",
         "display": "Psychologist"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "PBPS",
+        "display": "Psychotherapist"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -323,8 +389,23 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DERE",
+        "display": "Restorative Dentistry Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "RTMS",
         "display": "Sonographer"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "DESN",
+        "display": "Special Needs Dentistry Specialists"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCSP",
+        "display": "Special Purpose Scope of Practice"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -353,6 +434,11 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "OSVO",
+        "display": "Visiting Osteopath Presenter"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "POVD",
         "display": "Visiting Podiatrist Educator/Presenter"
       },
@@ -370,6 +456,26 @@
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "MCBM",
         "display": "Vocational Scope of Breast Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCCS",
+        "display": "Vocational Scope of Cardiothoracic Surgery"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCCG",
+        "display": "Vocational Scope of Clinical Genetics"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCDE",
+        "display": "Vocational Scope of Dermatology"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCDI",
+        "display": "Vocational Scope of Diagnostic and Interventional Radiology"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
@@ -400,6 +506,11 @@
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
         "code": "MCIM",
         "display": "Vocational Scope of Internal Medicine"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "code": "MCMA",
+        "display": "Vocational Scope of Medical Administration"
       },
       {
         "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",

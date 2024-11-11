@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[1fa2ff05-052e-46b4-beb3-b0aee67412b5]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved."
+    }
+  ],
+  "id": "allergy-intolerance-uv-ips"
+}

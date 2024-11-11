@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/clinical-code-type-code",
+  "publisher": "HISO",
+  "description": "All codes for https://standards.digital.health.nz/ns/clinical-code-type-code",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/clinical-code-type-code",
+        "version": "20221115"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "3d852410-160c-4094-8fdc-ac22eee3e63c",
-    "timestamp": "2024-11-01T20:23:39+13:00",
+    "identifier": "f6b4559d-fc77-447b-a5a8-2a0caab94e2b",
+    "timestamp": "2024-11-11T13:43:01+13:00",
     "total": 7,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",

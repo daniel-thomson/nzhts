@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[1af817c3-79af-4af6-8816-8ab399d2e7ea]: A usable code system with URL http://terminology.hl7.org/CodeSystem/service-type could not be resolved."
+    }
+  ],
+  "id": "service-type"
+}

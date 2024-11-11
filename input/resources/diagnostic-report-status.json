@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[1585016c-564f-4030-99cc-2f35443cc80e]: A usable code system with URL http://hl7.org/fhir/diagnostic-report-status could not be resolved."
+    }
+  ],
+  "id": "diagnostic-report-status"
+}

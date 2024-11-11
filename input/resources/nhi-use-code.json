@@ -4,7 +4,7 @@
     {
       "severity": "error",
       "code": "not-found",
-      "diagnostics": "[3eeb30e1-23de-4876-b6d6-5a38b67a69f1]: A usable code system with URL http://hl7.org/fhir/identifier-use could not be resolved."
+      "diagnostics": "[8de9d125-08ee-446a-b900-d2d097f55915]: A usable code system with URL http://hl7.org/fhir/identifier-use could not be resolved."
     }
   ],
   "id": "nhi-use-code"

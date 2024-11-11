@@ -4,7 +4,7 @@
     {
       "severity": "error",
       "code": "not-found",
-      "diagnostics": "[bf3dba4f-8878-41d9-bc59-d8636ba08f1a]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved."
+      "diagnostics": "[04eecff6-75cf-432c-bce2-e209033b0169]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved."
     }
   ],
   "id": "procedures-snomed-absent-unknown-uv-ips"

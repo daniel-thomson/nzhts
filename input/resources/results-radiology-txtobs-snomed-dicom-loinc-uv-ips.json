@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "not-found",
+      "diagnostics": "[b7a9b77f-42b4-413e-bac4-5cf904fbfc00]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCM could not be resolved."
+    }
+  ],
+  "id": "results-radiology-txtobs-snomed-dicom-loinc-uv-ips"
+}

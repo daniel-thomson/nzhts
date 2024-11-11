@@ -1,9 +1,20 @@
 {
   "resourceType": "ValueSet",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
+  "publisher": "HISO",
+  "description": "All codes for https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "version": "2.1.0"
+      }
+    ]
+  },
   "expansion": {
-    "identifier": "07545865-ad45-40a6-b317-8ceda3cde214",
-    "timestamp": "2024-11-01T20:24:31+13:00",
+    "identifier": "c53b2bbf-156d-47b1-aa11-f185825e1878",
+    "timestamp": "2024-11-11T13:51:34+13:00",
     "total": 263,
     "offset": 0,
     "parameter": [
@@ -13,7 +24,7 @@
       },
       {
         "name": "count",
-        "valueInteger": 100
+        "valueInteger": 2147483647
       },
       {
         "name": "offset",
@@ -28,8 +39,23 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "531",
+        "display": "African"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "53",
+        "display": "African"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53116",
         "display": "African American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "53199",
+        "display": "African nec"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -38,8 +64,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12949",
+        "display": "Afrikaner"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12911",
         "display": "Albanian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51111",
+        "display": "Algerian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12943",
+        "display": "American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43117",
+        "display": "Anglo Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51112",
+        "display": "Arab"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -53,8 +104,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "4",
+        "display": "Asian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44499",
+        "display": "Asian nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "40000",
         "display": "Asian nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "400",
+        "display": "Asian nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "40",
+        "display": "Asian nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51113",
+        "display": "Assyrian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -88,6 +164,11 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43111",
+        "display": "Bengali"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "44417",
         "display": "Bhutanese"
       },
@@ -98,8 +179,23 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12516",
+        "display": "Bosnian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52113",
         "display": "Brazilian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "121",
+        "display": "British and Irish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12199",
+        "display": "British nec"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -113,6 +209,11 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41411",
+        "display": "Burmese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53123",
         "display": "Burundian"
       },
@@ -123,8 +224,18 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "412",
+        "display": "Cambodian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "42112",
         "display": "Cambodian Chinese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12945",
+        "display": "Canadian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -148,6 +259,31 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41417",
+        "display": "Chin"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "421",
+        "display": "Chinese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "42",
+        "display": "Chinese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "42199",
+        "display": "Chinese nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "42100",
+        "display": "Chinese nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52115",
         "display": "Colombian"
       },
@@ -158,8 +294,28 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "32100",
+        "display": "Cook Islands Maori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "321",
+        "display": "Cook Islands Maori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "32",
+        "display": "Cook Islands Maori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12113",
         "display": "Cornish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12511",
+        "display": "Croatian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -173,13 +329,48 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12512",
+        "display": "Dalmatian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12920",
         "display": "Danish"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "94444",
+        "display": "Don't Know"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "944",
+        "display": "Don't Know"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "94",
+        "display": "Don't Know"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12211",
+        "display": "Dutch"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "122",
+        "display": "Dutch"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52118",
         "display": "Ecuadorian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51114",
+        "display": "Egyptian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -203,8 +394,38 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "Ethnicity",
+        "display": "Ethnicity New Zealand Standard Classification"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "44416",
         "display": "Eurasian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "1",
+        "display": "European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12999",
+        "display": "European nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "10000",
+        "display": "European nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "100",
+        "display": "European nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "10",
+        "display": "European nfd"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -218,7 +439,22 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "36",
+        "display": "Fijian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43112",
+        "display": "Fijian Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "41111",
+        "display": "Filipino"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "411",
         "display": "Filipino"
       },
       {
@@ -238,8 +474,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12711",
+        "display": "German"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "127",
+        "display": "German"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53122",
         "display": "Ghanaian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12311",
+        "display": "Greek"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "123",
+        "display": "Greek"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37122",
+        "display": "Hawaiian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -258,13 +519,63 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "431",
+        "display": "Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43",
+        "display": "Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "43199",
         "display": "Indian nec"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43100",
+        "display": "Indian nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43114",
+        "display": "Indian Tamil"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "61113",
+        "display": "Indigenous American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37112",
+        "display": "Indigenous Australian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41412",
+        "display": "Indonesian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51115",
+        "display": "Iranian/Persian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51116",
+        "display": "Iraqi"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12116",
         "display": "Irish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51117",
+        "display": "Israeli/Jewish"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -283,8 +594,68 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44211",
+        "display": "Japanese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "442",
+        "display": "Japanese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51118",
+        "display": "Jordanian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41416",
+        "display": "Karen"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53114",
         "display": "Kenyan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37124",
+        "display": "Kiribati"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44311",
+        "display": "Korean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "443",
+        "display": "Korean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51119",
+        "display": "Kurd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41413",
+        "display": "Lao"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "521",
+        "display": "Latin American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "52",
+        "display": "Latin American"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "52199",
+        "display": "Latin American nec"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -298,13 +669,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51120",
+        "display": "Lebanese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12929",
         "display": "Lithuanian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12513",
+        "display": "Macedonian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41414",
+        "display": "Malay"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "42113",
         "display": "Malaysian Chinese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43118",
+        "display": "Malaysian Indian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -323,8 +714,38 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "61115",
+        "display": "Mauritian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52123",
         "display": "Mexican"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "511",
+        "display": "Middle Eastern"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51",
+        "display": "Middle Eastern"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51199",
+        "display": "Middle Eastern nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51100",
+        "display": "Middle Eastern nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "5",
+        "display": "Middle Eastern/Latin American/African"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -333,13 +754,88 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51122",
+        "display": "Moroccan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "21111",
+        "display": "Māori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "211",
+        "display": "Māori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "21",
+        "display": "Māori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "2",
+        "display": "Māori"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37130",
+        "display": "Nauruan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "44413",
         "display": "Nepali"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12947",
+        "display": "New Caledonian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "11111",
+        "display": "New Zealand European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "111",
+        "display": "New Zealand European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "11",
+        "display": "New Zealand European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "61118",
+        "display": "New Zealander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37145",
+        "display": "Ni Vanuatu"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53115",
         "display": "Nigerian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "34111",
+        "display": "Niuean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "341",
+        "display": "Niuean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "34",
+        "display": "Niuean"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -363,8 +859,63 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "444",
+        "display": "Other Asian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44",
+        "display": "Other Asian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "611",
+        "display": "Other Ethnicity"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "61",
+        "display": "Other Ethnicity"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "6",
+        "display": "Other Ethnicity"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "61199",
         "display": "Other Ethnicity nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "129",
+        "display": "Other European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12",
+        "display": "Other European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "371",
+        "display": "Other Pacific Peoples"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37",
+        "display": "Other Pacific Peoples"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "61117",
+        "display": "Other South African"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "414",
+        "display": "Other Southeast Asian"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -373,8 +924,28 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "3",
+        "display": "Pacific Peoples"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "37199",
         "display": "Pacific Peoples nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "30000",
+        "display": "Pacific Peoples nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "300",
+        "display": "Pacific Peoples nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "30",
+        "display": "Pacific Peoples nfd"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -383,8 +954,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51124",
+        "display": "Palestinian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37135",
+        "display": "Papua New Guinean"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52127",
         "display": "Peruvian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37137",
+        "display": "Pitcairn Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12411",
+        "display": "Polish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "124",
+        "display": "Polish"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -395,6 +991,46 @@
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52128",
         "display": "Puerto Rican"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43115",
+        "display": "Punjabi"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "95555",
+        "display": "Refused to Answer"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "955",
+        "display": "Refused to Answer"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "95",
+        "display": "Refused to Answer"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "96666",
+        "display": "Repeated Value"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "966",
+        "display": "Repeated Value"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "96",
+        "display": "Repeated Value"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "9",
+        "display": "Residual Categories"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -418,6 +1054,16 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "977",
+        "display": "Response Unidentifiable"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "97",
+        "display": "Response Unidentifiable"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12934",
         "display": "Romani"
       },
@@ -428,8 +1074,28 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37138",
+        "display": "Rotuman"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "12935",
         "display": "Russian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "31111",
+        "display": "Samoan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "311",
+        "display": "Samoan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "31",
+        "display": "Samoan"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -438,8 +1104,28 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12514",
+        "display": "Serbian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "61116",
+        "display": "Seychellois"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43116",
+        "display": "Sikh"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "42114",
         "display": "Singaporean Chinese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44111",
+        "display": "Sinhalese"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -453,8 +1139,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12515",
+        "display": "Slovenian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37141",
+        "display": "Solomon Islander"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53119",
         "display": "Somali"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12948",
+        "display": "South African European"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "43119",
+        "display": "South African Indian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "125",
+        "display": "South Slav"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -463,7 +1174,27 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12500",
+        "display": "South Slav nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41",
+        "display": "Southeast Asian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41499",
+        "display": "Southeast Asian nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "41000",
+        "display": "Southeast Asian nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "410",
         "display": "Southeast Asian nfd"
       },
       {
@@ -473,8 +1204,23 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "441",
+        "display": "Sri Lankan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "44199",
         "display": "Sri Lankan nec"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44100",
+        "display": "Sri Lankan nfd"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "44112",
+        "display": "Sri Lankan Tamil"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -483,8 +1229,33 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12940",
+        "display": "Swedish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12941",
+        "display": "Swiss"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51125",
+        "display": "Syrian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37140",
+        "display": "Tahitian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "42116",
         "display": "Taiwanese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41415",
+        "display": "Thai"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -498,6 +1269,46 @@
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "351",
+        "display": "Tokelauan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "35",
+        "display": "Tokelauan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "33111",
+        "display": "Tongan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "331",
+        "display": "Tongan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "33",
+        "display": "Tongan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "51127",
+        "display": "Turkish"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "37144",
+        "display": "Tuvaluan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12942",
+        "display": "Ukrainian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52129",
         "display": "Uruguayan"
       },
@@ -505,6 +1316,16 @@
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "52130",
         "display": "Venezuelan"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "41311",
+        "display": "Vietnamese"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "413",
+        "display": "Vietnamese"
       },
       {
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
@@ -520,6 +1341,11 @@
         "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
         "code": "53126",
         "display": "Zambian"
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "code": "12950",
+        "display": "Zimbabwean European"
       }
     ]
   },
